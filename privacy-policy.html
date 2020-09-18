@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Sep 18 2020 12:55:19 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Sep 18 2020 13:42:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5dd7c80c4e896aa3c349fef6" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -62,10 +62,6 @@ a {
 /* hide CookieHub... does not work quite yet */
 .ch2-settings-content .ch2-settings-tab-container > p:last-child {
   display: none !important;
-}
-/* avoid font flash on load */
-@font-face {
-  font-display: swap !important;
 }
 /* Google maps queries */
 @media screen and (max-width: 600px) {
@@ -427,6 +423,8 @@ a {
  * build date: 18.09.2020 | anthonysalamin.ch
 */
 function onSubmit(token) {
+  const submitBtn = document.getElementsByClassName("g-recaptcha")[0];
+  submitBtn.textContent = "sending...";
   document.getElementById("wf-form-contact").submit();
 }
 </script>
