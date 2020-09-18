@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<!--  Last Published: Thu Sep 17 2020 16:22:56 GMT+0000 (Coordinated Universal Time)  -->
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Fri Sep 18 2020 12:55:19 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f3a800bde1569848c3133fb" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -8,6 +9,7 @@
   <meta content="Not Found" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="-DHA9rWW7NxGrI6oM-zmwx3ljhGZn5ikfkYAMJuNggM" name="google-site-verification">
+  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/anthonysalamin.webflow.css" rel="stylesheet" type="text/css">
@@ -22,46 +24,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54QXS3J');</script>
   <!--  end gtag  -->
+  <!--  Stripe.js  -->
+  <script src="https://js.stripe.com/v3"></script>
+  <!--  Google recaptcha  -->
+  <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
   <style>
-  /*
-   * hack badge + focus + highlights 🎃
-  */
-  .w-webflow-badge {
-    display: none !important;
+/* hide recaptcha badge */
+.grecaptcha-badge {
+  display: none;
+}
+/* hack badge + focus + highlights 🎃 */
+.w-webflow-badge {
+  display: none !important;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 0 !important;
+  outline-style: none !important;
+  box-shadow: none !important;
+}
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+/* hide CookieHub... does not work quite yet */
+.ch2-settings-content .ch2-settings-tab-container > p:last-child {
+  display: none !important;
+}
+/* avoid font flash on load */
+@font-face {
+  font-display: swap !important;
+}
+/* Google maps queries */
+@media screen and (max-width: 600px) {
+  #map {
+    height: 100vh;
   }
-  a:focus,
-  button:focus,
-  input:focus,
-  textarea:focus {
-    outline: 0 !important;
-    outline-style: none !important;
-    box-shadow: none !important;
-  }
-  a {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
-  /* hide CookieHub... does not work quite yet */
-  .ch2-settings-content .ch2-settings-tab-container>p:last-child {
-    display: none !important;
-  }
-  /* avoid font flash on load */
-  @font-face {
-    font-display: swap !important;
-  }
-  /* Google maps queries */
-  @media screen and (max-width: 600px) {
-      #map {
-      height: 100vh;
-    }
-  }
-  /* forces loading div animation to display */
-  .loading{display:block;opacity:1}
-  /* scrollbar style */ 
-  ::-webkit-scrollbar{width:12px;height:12px}::-webkit-scrollbar-track{background:#f5f5f5;border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc}::-webkit-scrollbar-thumb:hover{background:#999}
+}
+/* forces loading div animation to display */
+.loading {
+  display: block;
+  opacity: 1;
+}
+/* scrollbar style */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
 </style>
 </head>
 <body class="body">
@@ -73,6 +98,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <!--  Google Tag Manager (noscript)  -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54QXS3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>
+/*
+ * usebasin hide recaptcha
+ * build date: 18.09.2020 | anthonysalamin.ch
+*/
+function onSubmit(token) {
+  document.getElementById("wf-form-contact").submit();
+}
+</script>
   <script>
 /*
  * Isotope + imagesLoaded

@@ -1442,6 +1442,14 @@ p {
   width: 24px;
 }
 
+.usebasin-bot {
+  display: none;
+}
+
+.html-embed {
+  color: #fff;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
