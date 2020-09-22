@@ -39,8 +39,8 @@
 
   <script>
     /*
-     * Anthony | Checkout Subscription (PRODUCTION)
-     * build date: 21.09.2020 | anthonysalamin.ch
+     * Checkout Subscription (PRODUCTION)
+     * build date: 22.09.2020
      */
     document.addEventListener("DOMContentLoaded", () => {
       "use strict";
@@ -48,11 +48,11 @@
       const pk_live =
         "pk_live_51HH3cWCkDrSTQU1mNIyW3dQlXy393wVUvXYCLu665YSydnegOJS8IT3Ub9fJs0pbXpXKRFSyAjFPYTOHFxRZYPHe00CVuYrdWW",
         priceID = "price_1HTxQoCkDrSTQU1mT5ukZfEz",
-        language = "en", // auto
+        language = "de", // auto
         mode = "subscription",
         domain = "https://www.anthonysalamin.ch/stripe",
-        checkoutEmail = "leeloo@dallas.com",
-        forceEmail = false;
+        checkoutEmail = "alffers@wventures.de",
+        forceEmail = true;
       const stripe = Stripe(pk_live, { locale: language }),
         checkoutButton = document.getElementById(priceID);
       let stripeObject = {
