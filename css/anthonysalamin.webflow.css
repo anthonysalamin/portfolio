@@ -1451,6 +1451,27 @@ p {
   color: #fff;
 }
 
+.heading-4 {
+  font-weight: 600;
+}
+
+.icon-success {
+  width: 40px;
+  height: 40px;
+}
+
+.button {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #32ba7c;
+}
+
+.paragraph {
+  max-width: 400px;
+  color: #9b9b9b;
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
