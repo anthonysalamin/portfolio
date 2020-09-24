@@ -29,6 +29,10 @@ p {
   text-decoration: none;
 }
 
+.body.hosting {
+  background-color: #f5fafd;
+}
+
 .wrapper-text-avatar {
   margin-left: 20px;
   -webkit-box-flex: 1;
