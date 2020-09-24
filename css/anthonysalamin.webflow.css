@@ -2357,6 +2357,9 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
     -ms-flex-align: center;
     align-items: center;
   }
+  .stripe.lock {
+    display: none;
+  }
 }
 
 @font-face {
