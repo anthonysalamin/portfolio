@@ -103,7 +103,7 @@ p {
   background-color: rgba(212, 217, 229, 0.15);
   -webkit-transition: all 300ms cubic-bezier(.39, .575, .565, 1);
   transition: all 300ms cubic-bezier(.39, .575, .565, 1);
-  color: #393e40;
+  color: #101010;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -1436,7 +1436,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 40px;
+  padding: 55px 40px 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1459,6 +1459,7 @@ p {
 }
 
 .wrap-plan.highlight {
+  position: relative;
   border-color: #38d18e;
 }
 
@@ -1691,6 +1692,24 @@ p {
 
 .wventures-logomark {
   margin-bottom: 10px;
+}
+
+.wrap-plan-name {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 10px;
+  background-color: #38d18e;
+  color: #fff;
+}
+
+.text-block-4 {
+  padding-right: 20px;
+  padding-left: 15px;
 }
 
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
