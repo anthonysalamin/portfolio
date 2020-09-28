@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Sep 28 2020 13:58:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Sep 28 2020 17:36:43 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5d7a244bfedbb6a116876dde" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -31,16 +31,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54QXS3J');</script>
   <!--  end gtag  -->
-  <!--  Stripe.js  -->
-  <script src="https://js.stripe.com/v3"></script>
   <!--  Google recaptcha  -->
   <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+  <!--  Stripe.js  -->
+  <script src="https://js.stripe.com/v3"></script>
   <style>
-/* hide recaptcha badge */
-.grecaptcha-badge {
-  display: none;
-}
-/* hack badge + focus + highlights 🎃 */
+/* hack badge + focus + highlights */
 .w-webflow-badge {
   display: none !important;
 }
@@ -58,10 +54,6 @@ a {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-}
-/* hide CookieHub... does not work quite yet */
-.ch2-settings-content .ch2-settings-tab-container > p:last-child {
-  display: none !important;
 }
 /* Google maps queries */
 @media screen and (max-width: 600px) {
@@ -218,7 +210,7 @@ a {
               <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
             </div>
             <div class="wrap-form">
-              <div class="wrapper-send"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-cta-desktop-docs w-button">
+              <div class="wrapper-send"><input type="submit" value="Send" data-wait="Please wait..." class="submit-cta-desktop-docs w-button">
                 <div class="wrapper-privacy-legend"><img src="../images/shield.svg" alt="icone of a shield" class="icon-shield">
                   <div class="extra-small-copy">Get a free quote within 24 hours</div>
                 </div>
@@ -226,11 +218,10 @@ a {
             </div>
           </form>
           <div class="success-message w-form-done">
-            <div class="embed-success-checkmark w-embed"><svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"></circle><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path></svg></div>
-            <div class="form-text-states">Thanks a lot 🥳 Your message has been delivered. I will get back to you as soon as possible. Have a great day !<br></div>
+            <div id="text-done" class="text-success">Thank you !<br></div>
           </div>
           <div class="error-message-block w-form-fail">
-            <div class="text-error-message"> 😰 Hoppla! Beim Senden des Formulars ist leider ein Fehler aufgetreten.</div>
+            <div id="text-fail" class="text-error">Oops, something went wrong.</div>
           </div>
         </div>
       </div>
@@ -267,11 +258,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
     endpoint = "https://usebasin.com/f/0e0547fc9de3",
     form = document.getElementById("wf-form-contact"),
+    nameField = document.querySelector("input[name=name]"),
     emailField = document.querySelector("input[type=email]"),
     submitBtn = document.querySelector("input[type=submit]"),
     gotcha = document.querySelector("input[name=honeypot]"),
     formFail = document.querySelector(".w-form-fail"),
-    formDone = document.querySelector(".w-form-done");
+    formDone = document.querySelector(".w-form-done"),
+    textFail = document.getElementById("text-fail"),
+    textSuccess = document.getElementById("text-done");
   // 🤖 known email being spam
   const knownSpamEmail = [
     "s.pronin@info.avalins.com",
@@ -279,14 +273,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "no-replyEsons@gmail.com",
     "facheeva@mail.ru",
     "doompetrody@gmail.com",
-    "southlife_00@bk.ru",
+    "southlife_00@bk.ru"
   ];
   // 🥝 on submit, execute custom action
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     // 🦠 bot management
     if (gotcha.value != "" || knownSpamEmail.includes(emailField.value)) {
-      alert("bot alert, form aborted");
+      log("bot alert, form aborted");
+      formFail.style.display = "block";
+      textFail.textContent = `Oops, looks like you're a bot.`;
       return;
     } else {
       log("human detected, crafting request");
@@ -318,7 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
       formData = new FormData(form);
     let xhr = createCORSRequest(method, action);
     if (!xhr) {
-      alert("Sorry, CORS not supported.");
+      alert("Sorry, CORS not supported. Please update your browser.");
       return;
     }
     // 🍠 on ready state response ready
@@ -355,13 +351,13 @@ document.addEventListener("DOMContentLoaded", () => {
         log(`error, ${response.error}`);
         submitBtn.value = "Submit again";
         formFail.style.display = "block";
-        formFail.textContent = `Oops, ${response.error}`;
+        textFail.textContent = `Oops, ${response.error}`;
       } else if (response.hasOwnProperty("success")) {
         log("form sent successfully");
         submitBtn.value = "Submit";
         form.style.display = "none";
         formDone.style.display = "block";
-        formDone.textContent = "Thank you, your message has been sent.";
+        textSuccess.textContent = `Thank you ${nameField}, your message has been sent.`;
         formFail.style.display = "none";
       } else {
         log("Oops, no server response from usebasin");
@@ -453,7 +449,7 @@ document.addEventListener(
 ); // end DOMContentLoaded
 </script>
   <script>
-/**
+/*
  * hamburger animation toggle
  */
 (function() {

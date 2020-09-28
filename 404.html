@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Sep 28 2020 13:58:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Sep 28 2020 17:36:43 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f3a800bde1569848c3133fb" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -24,16 +24,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54QXS3J');</script>
   <!--  end gtag  -->
-  <!--  Stripe.js  -->
-  <script src="https://js.stripe.com/v3"></script>
   <!--  Google recaptcha  -->
   <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+  <!--  Stripe.js  -->
+  <script src="https://js.stripe.com/v3"></script>
   <style>
-/* hide recaptcha badge */
-.grecaptcha-badge {
-  display: none;
-}
-/* hack badge + focus + highlights 🎃 */
+/* hack badge + focus + highlights */
 .w-webflow-badge {
   display: none !important;
 }
@@ -51,10 +47,6 @@ a {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-}
-/* hide CookieHub... does not work quite yet */
-.ch2-settings-content .ch2-settings-tab-container > p:last-child {
-  display: none !important;
 }
 /* Google maps queries */
 @media screen and (max-width: 600px) {
@@ -104,11 +96,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
     endpoint = "https://usebasin.com/f/0e0547fc9de3",
     form = document.getElementById("wf-form-contact"),
+    nameField = document.querySelector("input[name=name]"),
     emailField = document.querySelector("input[type=email]"),
     submitBtn = document.querySelector("input[type=submit]"),
     gotcha = document.querySelector("input[name=honeypot]"),
     formFail = document.querySelector(".w-form-fail"),
-    formDone = document.querySelector(".w-form-done");
+    formDone = document.querySelector(".w-form-done"),
+    textFail = document.getElementById("text-fail"),
+    textSuccess = document.getElementById("text-done");
   // 🤖 known email being spam
   const knownSpamEmail = [
     "s.pronin@info.avalins.com",
@@ -116,14 +111,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "no-replyEsons@gmail.com",
     "facheeva@mail.ru",
     "doompetrody@gmail.com",
-    "southlife_00@bk.ru",
+    "southlife_00@bk.ru"
   ];
   // 🥝 on submit, execute custom action
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     // 🦠 bot management
     if (gotcha.value != "" || knownSpamEmail.includes(emailField.value)) {
-      alert("bot alert, form aborted");
+      log("bot alert, form aborted");
+      formFail.style.display = "block";
+      textFail.textContent = `Oops, looks like you're a bot.`;
       return;
     } else {
       log("human detected, crafting request");
@@ -155,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
       formData = new FormData(form);
     let xhr = createCORSRequest(method, action);
     if (!xhr) {
-      alert("Sorry, CORS not supported.");
+      alert("Sorry, CORS not supported. Please update your browser.");
       return;
     }
     // 🍠 on ready state response ready
@@ -192,13 +189,13 @@ document.addEventListener("DOMContentLoaded", () => {
         log(`error, ${response.error}`);
         submitBtn.value = "Submit again";
         formFail.style.display = "block";
-        formFail.textContent = `Oops, ${response.error}`;
+        textFail.textContent = `Oops, ${response.error}`;
       } else if (response.hasOwnProperty("success")) {
         log("form sent successfully");
         submitBtn.value = "Submit";
         form.style.display = "none";
         formDone.style.display = "block";
-        formDone.textContent = "Thank you, your message has been sent.";
+        textSuccess.textContent = `Thank you ${nameField}, your message has been sent.`;
         formFail.style.display = "none";
       } else {
         log("Oops, no server response from usebasin");
@@ -290,7 +287,7 @@ document.addEventListener(
 ); // end DOMContentLoaded
 </script>
   <script>
-/**
+/*
  * hamburger animation toggle
  */
 (function() {
