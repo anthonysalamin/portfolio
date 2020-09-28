@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Sep 28 2020 18:27:40 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Sep 28 2020 18:53:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5d79383b251450878e3907e5" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -194,7 +194,7 @@ a {
             <div class="usebasin-bot w-embed"><input type="hidden" name="_gotcha"></div>
             <div class="usebasin-recaptcha w-embed">
               <!--  honeypot  -->
-              <input type="text" name="honeypot" style="display: none;" placeholder="honeypot">
+              <input type="hidden" name="_gotcha">
               <!--  recaptcha  -->
               <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
             </div>
@@ -245,12 +245,12 @@ a {
 document.addEventListener("DOMContentLoaded", () => {
   // globals
   const log = console.log,
-    endpoint = "https://usebasin.com/f/0e0547fc9de3",
+    endpoint = "https://usebasin.com/f/0e0547fc9de3", // anthonysalamin.ch
     form = document.getElementById("wf-form-contact"),
     nameField = document.querySelector("input[name=name]"),
     emailField = document.querySelector("input[type=email]"),
     submitBtn = document.querySelector("input[type=submit]"),
-    gotcha = document.querySelector("input[name=honeypot]"),
+    gotcha = document.querySelector("input[name=_gotcha]"),
     formFail = document.querySelector(".w-form-fail"),
     formDone = document.querySelector(".w-form-done"),
     textFail = document.getElementById("text-fail"),
@@ -262,7 +262,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "no-replyEsons@gmail.com",
     "facheeva@mail.ru",
     "doompetrody@gmail.com",
-    "southlife_00@bk.ru"
+    "southlife_00@bk.ru",
+    "anbreitenberg@gmail.com"
   ];
   // 🥝 on submit, execute custom action
   form.addEventListener("submit", (e) => {
