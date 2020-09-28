@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Sep 20 2020 10:56:52 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Sep 28 2020 13:58:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5dd7cb2fb9c85c529a7eab24" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -210,6 +210,9 @@ a {
             <div class="wrapper-wrap-form"><input type="text" class="input-field w-input" maxlength="256" name="Name" data-name="Name" aria-label="name" placeholder="Name *" id="name" required=""><input type="email" class="input-field w-input" maxlength="256" name="Email" data-name="Email" aria-label="email" placeholder="Email *" id="email" required=""></div><textarea id="message" name="Message" placeholder="How can I help you ?" maxlength="5000" data-name="Message" required="" aria-label="message" class="input-field text-area w-input"></textarea>
             <div class="usebasin-bot w-embed"><input type="hidden" name="_gotcha"></div>
             <div class="usebasin-recaptcha w-embed">
+              <!--  honeypot  -->
+              <input type="text" name="honeypot" style="display: none;" placeholder="honeypot">
+              <!--  recaptcha  -->
               <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
             </div>
             <div class="wrap-form">
@@ -254,14 +257,124 @@ a {
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54QXS3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script>
 /*
- * usebasin hide recaptcha
- * build date: 18.09.2020 | anthonysalamin.ch
-*/
-function onSubmit(token) {
-  const submitBtn = document.getElementsByClassName("g-recaptcha")[0];
-  submitBtn.textContent = "sending...";
-  document.getElementById("wf-form-contact").submit();
-}
+ * Usebasin + XHR request + bot handling
+ * Build date: 28/09/2020
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  // globals
+  const log = console.log,
+    endpoint = "https://usebasin.com/f/0e0547fc9de3",
+    form = document.getElementById("wf-form-contact"),
+    emailField = document.querySelector("input[type=email]"),
+    submitBtn = document.querySelector("input[type=submit]"),
+    gotcha = document.querySelector("input[name=honeypot]"),
+    formFail = document.querySelector(".w-form-fail"),
+    formDone = document.querySelector(".w-form-done");
+  // 🤖 known email being spam
+  const knownSpamEmail = [
+    "s.pronin@info.avalins.com",
+    "info@domainworld.com",
+    "no-replyEsons@gmail.com",
+    "facheeva@mail.ru",
+    "doompetrody@gmail.com",
+    "southlife_00@bk.ru",
+  ];
+  // 🥝 on submit, execute custom action
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    // 🦠 bot management
+    if (gotcha.value != "" || knownSpamEmail.includes(emailField.value)) {
+      alert("bot alert, form aborted");
+      return;
+    } else {
+      log("human detected, crafting request");
+      submitBtn.value = "sending...";
+      createCORSRequest();
+      makeCORSRequest();
+    }
+  });
+  // 🥬 Create the XHR object
+  function createCORSRequest(method, action) {
+    let xhr = new XMLHttpRequest();
+    if ("withCredentials" in xhr) {
+      // XHR for Chrome/Firefox/Opera/Safari
+      xhr.open(method, action, true);
+    } else if (typeof XDomainRequest != "undefined") {
+      // XDomainRequest for IE
+      xhr = new XDomainRequest();
+      xhr.open(method, action);
+    } else {
+      // CORS not supported
+      xhr = null;
+    }
+    return xhr;
+  } // end createCORSRequest()
+  // 🥭 Make the actual CORS request
+  function makeCORSRequest() {
+    const method = "POST",
+      action = `${endpoint}.json`,
+      formData = new FormData(form);
+    let xhr = createCORSRequest(method, action);
+    if (!xhr) {
+      alert("Sorry, CORS not supported.");
+      return;
+    }
+    // 🍠 on ready state response ready
+    xhr.onreadystatechange = () => {
+      let state = xhr.readyState;
+      const response = xhr.responseText;
+      switch (state) {
+        case 0:
+          log("ready state: 0, UNSENT");
+          break;
+        case 1:
+          log("ready state: 1, OPENED");
+          break;
+        case 2:
+          log("ready state: 2, HEADERS RECEIVED");
+          break;
+        case 3:
+          log("ready state 3, LOADING");
+          submitBtn.value = "loading...";
+          break;
+        case 4:
+          log("ready state 4, DONE");
+          // reset submit value on success request
+          break;
+        default:
+          log("ready state: UNKNOWN");
+      } // end switch()
+    }; // end onreadystatechange
+    // 🍭 XMLHttpRequest transaction completed successfully
+    xhr.onload = () => {
+      const response = JSON.parse(xhr.responseText);
+      // recaptcha handling
+      if (response.hasOwnProperty("error")) {
+        log(`error, ${response.error}`);
+        submitBtn.value = "Submit again";
+        formFail.style.display = "block";
+        formFail.textContent = `Oops, ${response.error}`;
+      } else if (response.hasOwnProperty("success")) {
+        log("form sent successfully");
+        submitBtn.value = "Submit";
+        form.style.display = "none";
+        formDone.style.display = "block";
+        formDone.textContent = "Thank you, your message has been sent.";
+        formFail.style.display = "none";
+      } else {
+        log("Oops, no server response from usebasin");
+      }
+      log("XMLHttpRequest is finished");
+    };
+    // 🥒 error response handler
+    xhr.onerror = () => {
+      log("Oops, something went really wrong.");
+      formFail.style.display = "block";
+    };
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.send(formData);
+  } // end makeCORSRequest ()
+}); // end DOM listener
 </script>
   <script>
 /*
@@ -375,182 +488,7 @@ function initMap() {
     mapTypeControl: false,
     gestureHandling: "cooperative",
     fullscreenControl: false,
-    styles: [
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#e9e9e9"
-            },
-            {
-                "lightness": 17
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#f5f5f5"
-            },
-            {
-                "lightness": 20
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            },
-            {
-                "lightness": 17
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            },
-            {
-                "lightness": 29
-            },
-            {
-                "weight": 0.2
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            },
-            {
-                "lightness": 18
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            },
-            {
-                "lightness": 16
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#f5f5f5"
-            },
-            {
-                "lightness": 21
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#dedede"
-            },
-            {
-                "lightness": 21
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#ffffff"
-            },
-            {
-                "lightness": 16
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "saturation": 36
-            },
-            {
-                "color": "#333333"
-            },
-            {
-                "lightness": 40
-            }
-        ]
-    },
-    {
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#f2f2f2"
-            },
-            {
-                "lightness": 19
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#fefefe"
-            },
-            {
-                "lightness": 20
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#fefefe"
-            },
-            {
-                "lightness": 17
-            },
-            {
-                "weight": 1.2
-            }
-        ]
-    }
-]
+    styles: [{featureType:"water",elementType:"geometry",stylers:[{color:"#e9e9e9"},{lightness:17}]},{featureType:"landscape",elementType:"geometry",stylers:[{color:"#f5f5f5"},{lightness:20}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#ffffff"},{lightness:17}]},{featureType:"road.highway",elementType:"geometry.stroke",stylers:[{color:"#ffffff"},{lightness:29},{weight:.2}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{color:"#ffffff"},{lightness:18}]},{featureType:"road.local",elementType:"geometry",stylers:[{color:"#ffffff"},{lightness:16}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#f5f5f5"},{lightness:21}]},{featureType:"poi.park",elementType:"geometry",stylers:[{color:"#dedede"},{lightness:21}]},{elementType:"labels.text.stroke",stylers:[{visibility:"on"},{color:"#ffffff"},{lightness:16}]},{elementType:"labels.text.fill",stylers:[{saturation:36},{color:"#333333"},{lightness:40}]},{elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"transit",elementType:"geometry",stylers:[{color:"#f2f2f2"},{lightness:19}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#fefefe"},{lightness:20}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{color:"#fefefe"},{lightness:17},{weight:1.2}]}]
   });
   // marker incon definition
   const markerIcon = {
