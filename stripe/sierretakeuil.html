@@ -172,8 +172,8 @@
         stripe = Stripe(pk_live, { locale: language }),
         mode = "subscription",
         domain = "anthonysalamin.ch/stripe",
-        checkoutEmail = "Sandrine.Rudaz@sierre.ch", // client's email
-        forceEmail = false,
+        checkoutEmail = "sandrine.rudaz@sierre.ch", // client's email
+        forceEmail = true,
         billingAddress = true, // collects billing address
         buttons = document.getElementsByClassName("stripe-checkout-btn");
       // 🍋 for each button get price id
