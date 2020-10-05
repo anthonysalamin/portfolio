@@ -523,7 +523,7 @@
         button.addEventListener("click", () => {
           const priceID = button.id;
           log(`Product ID: ${priceID} selected`);
-          button.textContent = "un moment...";
+          button.textContent = "one sec...";
           // setup stripe object
           let stripeObject = {
             lineItems: [{ price: priceID, quantity: 1 }],
