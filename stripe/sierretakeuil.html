@@ -505,7 +505,7 @@
   <script>
     /*
      * Checkout Subscription (PRODUCTION)
-     * Build date: 08/10/2020 | anthonysalamin.ch
+     * Build date: 01/10/2020 | anthonysalamin.ch
      */
     document.addEventListener("DOMContentLoaded", () => {
       "use strict";
@@ -531,8 +531,8 @@
           let stripeObject = {
             lineItems: [{ price: priceID, quantity: 1 }],
             mode: mode,
-            successUrl: `https://www.${domain}/success`,
-            cancelUrl: `https://www.${domain}/canceled`,
+            successUrl: `https://www.${domain}/fr/success`,
+            cancelUrl: `https://www.${domain}/fr/canceled`,
             billingAddressCollection: billingAddress ? "required" : "auto"
           }; // end stripe object
           // 🥬 force email management
