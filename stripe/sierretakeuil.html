@@ -505,7 +505,7 @@
   <script>
     /*
      * Checkout Subscription (PRODUCTION)
-     * Build date: 01/10/2020 | anthonysalamin.ch
+     * Build date: 08/10/2020 | anthonysalamin.ch
      */
     document.addEventListener("DOMContentLoaded", () => {
       "use strict";
@@ -513,11 +513,11 @@
       const log = console.log,
         pk_live =
           "pk_live_51HH3cWCkDrSTQU1mNIyW3dQlXy393wVUvXYCLu665YSydnegOJS8IT3Ub9fJs0pbXpXKRFSyAjFPYTOHFxRZYPHe00CVuYrdWW",
-        language = "de", // auto
+        language = "fr", // auto
         stripe = Stripe(pk_live, { locale: language }),
         mode = "subscription",
         domain = "anthonysalamin.ch/stripe",
-        checkoutEmail = "Sandrine.Rudaz@sierre.ch", // client's email
+        checkoutEmail = "sandrine.rudaz@sierre.ch", // client's email
         forceEmail = false,
         billingAddress = true, // collects billing address
         buttons = document.getElementsByClassName("stripe-checkout-btn");
