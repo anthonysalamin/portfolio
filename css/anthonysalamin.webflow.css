@@ -1488,6 +1488,7 @@ p {
 }
 
 .stripe-checkout-btn {
+  width: 250px;
   margin-top: 40px;
   margin-bottom: 11px;
   padding-right: 20px;
@@ -1525,7 +1526,6 @@ p {
 .text {
   color: #acacac;
   line-height: 20px;
-  text-transform: capitalize;
 }
 
 .text.strike {
