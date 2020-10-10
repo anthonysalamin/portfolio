@@ -165,11 +165,6 @@ p {
   flex: 0 auto;
 }
 
-.map {
-  height: 65vh;
-  background-color: #fff;
-}
-
 .text-field {
   height: 60px;
   margin-bottom: 20px;
@@ -1418,12 +1413,6 @@ p {
   height: 40px;
 }
 
-.button {
-  margin-top: 20px;
-  border-radius: 10px;
-  background-color: #32ba7c;
-}
-
 .paragraph {
   max-width: 400px;
   color: #9b9b9b;
@@ -1740,11 +1729,6 @@ p {
   align-items: center;
 }
 
-.map-copy {
-  height: 65vh;
-  background-color: #fff;
-}
-
 .map-container {
   position: relative;
   display: -webkit-box;
@@ -1761,6 +1745,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #f9f9f9;
 }
 
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
@@ -2152,9 +2137,6 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-  .map-copy {
-    height: 60vh;
   }
 }
 

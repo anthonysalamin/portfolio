@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Oct 10 2020 18:08:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Oct 10 2020 18:19:41 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e21fac6023b6f4577cbb3d3" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -193,17 +193,15 @@ a {
     <div id="grid" class="grid w-clearfix"><a href="../design/eagle-cup.html" class="item w-inline-block"><img src="../images/thumb_eaglecup.svg" alt="eagle cup" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">Logotype Design &amp; UX / UI Design</h4><p class="p_info">Matterhorn Eagle Cup CI relaunch</p></div></a><a href="../design/perversion.html" class="item w-inline-block"><img src="../images/thumb_perversion.jpg" alt="packaging" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">Print Design</h4><p class="p_info">Editorial Design &amp; Packaging<br></p></div></a><a href="../design/maison-noee.html" class="item w-inline-block"><img src="../images/thumb_maisonnoee.jpg" alt="maison noée" sizes="(max-width: 479px) 92vw, (max-width: 767px) 45vw, 30vw" srcset="../images/thumb_maisonnoee-p-500.jpeg 500w, ../images/thumb_maisonnoee.jpg 750w" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">Corporate Identity</h4><p class="p_info">Maisonnoée Berlin CI launch</p></div></a><a href="../design/experimental.html" class="item w-inline-block"><img src="../images/thumb_experimental.jpg" alt="experimental" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">Experimental Typography</h4><p class="p_info">Fusion ice Poster Design</p></div></a><a href="../design/infographic.html" class="item w-inline-block"><img src="../images/thumb_infographic.jpg" alt="intifada" sizes="(max-width: 479px) 92vw, (max-width: 767px) 45vw, 30vw" srcset="../images/thumb_infographic-p-500.jpeg 500w, ../images/thumb_infographic.jpg 750w" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">Infographic</h4><p class="p_info">Intifada Al-Aqsa Poster Design</p></div></a><a href="../design/mindsquare.html" class="item w-inline-block"><img src="../images/thumb_mindsquare.gif" alt="mindsquare" class="image"><div class="wrap_info_thumb"><h4 class="h3_info">CI Design &amp; UX / UI Design</h4><p class="p_info">Mindsquare CI Launch</p></div></a></div>
   </div>
   <div class="section_footer">
-    <div class="map-copy">
-      <div class="map-container w-embed">
-        <!--  map  -->
-        <div class="map lazy-map" id="map"></div>
-        <!--  mask  -->
-        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
+    <div class="map-container w-embed">
+      <!--  map  -->
+      <div class="lazy-map" id="map"></div>
+      <!--  mask  -->
+      <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
     <clippath id="map-mask">
       <path d="M510.292,26.946c225.63-7.269,182.13,173.868,97.971,392.827S361.474,691.52,175.492,673.456s-331.9-123.215-292.722-332.438S284.662,34.215,510.292,26.946Z" transform="translate(123.633 -26.734)" fill="red"></path>
     </clippath>
   </svg></div>
-    </div>
     <div id="contact" class="subsection-contact">
       <div class="container">
         <p class="p-selling align-left">I design and develop modern websites as well as corporate identities for small to medium-sized businesses. As a Web Designer, Web Developer, Graphic Designer and Photographer, I offer complete solutions to help your business shine and sell online.<br></p>
@@ -560,7 +558,7 @@ function initMap() {
 document.addEventListener("DOMContentLoaded", () => {
   function loadGoolgeMapsAPI() {
     // scoped
-    const productionReady = false, // true for production !
+    const productionReady = true, // true for production !
       script = document.createElement("script"),
       domain = "https://maps.googleapis.com/maps/api/",
       token = `AIzaSyDWiFnddUt0UCoZZ0vSLoKkNGSSKjIj7ek`, // 😈 URL based restricted
