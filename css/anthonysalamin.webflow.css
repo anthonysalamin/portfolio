@@ -1740,6 +1740,29 @@ p {
   align-items: center;
 }
 
+.map-copy {
+  height: 65vh;
+  background-color: #fff;
+}
+
+.map-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 650px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
@@ -2129,6 +2152,9 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .map-copy {
+    height: 60vh;
   }
 }
 
