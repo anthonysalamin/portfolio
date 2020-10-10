@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Oct 10 2020 18:19:41 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Oct 10 2020 18:52:08 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5dd7c80c4e896aa3c349fef6" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -55,12 +55,7 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
 }
-/* Google maps queries */
-@media screen and (max-width: 600px) {
-  #map {
-    height: 100vh;
-  }
-}
+/* Google maps */
 #map {
   width: 800px;
   height: 670px;
@@ -69,6 +64,17 @@ a {
   -moz-clip-path: url(#map-mask);
   -ms-clip-path: url(#map-mask);
   clip-path: url(#map-mask);
+}
+/* Google maps media queries */
+@media screen and (max-width: 800px) {
+  #map {
+    width: 100%;
+    height: 80vh;
+    -webkit-clip-path: none;
+    -moz-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+  }
 }
 /* forces loading div animation to display */
 .loading {
@@ -640,23 +646,15 @@ document.addEventListener(
 </script>
   <script>
 /*
- * lazy load Google Maps
+ * lazy load Google Maps + custom marker
  */
 function initMap() {
-  // Options
-  const lattitude = 52.491746,
-    longitude = 13.3931296,
-    zoom = 13;
-  // location of the marker
-  const markerLocation = { lat: lattitude, lng: longitude };
-  // definition of the map and its options
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: zoom,
-    center: markerLocation,
-    mapTypeControl: false,
-    gestureHandling: "cooperative",
-    fullscreenControl: false,
-    styles: [
+  // options
+  const position = { lat: 52.491746, lng: 13.3931296 },
+    iconUrl =
+      "https://uploads-ssl.webflow.com/5b05ed948ee27f736bbe9315/5bd8be2551cc3d4596ee6e3c_marker-office-animated.svg",
+    zoom = 13,
+    style = [
       {
         featureType: "water",
         elementType: "geometry",
@@ -721,14 +719,34 @@ function initMap() {
         elementType: "geometry.stroke",
         stylers: [{ color: "#fefefe" }, { lightness: 17 }, { weight: 1.2 }]
       }
-    ]
+    ];
+  // create map
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: zoom,
+    center: position,
+    mapTypeControl: false,
+    gestureHandling: "cooperative",
+    fullscreenControl: false,
+    styles: style
+  });
+  // define icon for marker
+  const icon = {
+    url: iconUrl,
+    anchor: new google.maps.Point(60, 100),
+    scaledSize: new google.maps.Size(120, 120)
+  };
+  // create marker
+  const marker = new google.maps.Marker({
+    map: map,
+    position: position,
+    icon: icon
   });
 } // end initMap()
 // Create Google Maps script
 document.addEventListener("DOMContentLoaded", () => {
   function loadGoolgeMapsAPI() {
     // scoped
-    const productionReady = true, // true for production !
+    const productionReady = false, // true for production !
       script = document.createElement("script"),
       domain = "https://maps.googleapis.com/maps/api/",
       token = `AIzaSyDWiFnddUt0UCoZZ0vSLoKkNGSSKjIj7ek`, // 😈 URL based restricted
