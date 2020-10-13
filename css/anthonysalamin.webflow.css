@@ -1680,7 +1680,6 @@ p {
 }
 
 .icon {
-  margin-top: 3px;
   margin-right: 9px;
 }
 
@@ -1919,6 +1918,11 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.auratorio-logotype {
+  height: 20px;
+  margin-bottom: 10px;
 }
 
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {

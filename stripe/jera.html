@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Oct 12 2020 16:27:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Oct 13 2020 13:14:42 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f7ae1dd9e93b47536fdbf4f" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -154,7 +154,7 @@ a {
   // globals
   const button = document.getElementById("whatsapp"),
     domain = "https://api.whatsapp.com/",
-    phone = 00491751138245,
+    phone = Number("00491751138245"),
     text = "Hi Anthony, I have a question!",
     url = `${domain}send?phone=${phone}&text=${text}`;
   button.addEventListener("click", () => {
@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", () => {
     stripe = Stripe(pk_live, { locale: language }),
     mode = "subscription",
     domain = "anthonysalamin.ch/stripe",
-    checkoutEmail = "info@jera-institut.ch", // client's email
+    checkoutEmail = "mail@jera-institut.ch", // client's email
     forceEmail = true,
     billingAddress = true, // collects billing address
     buttons = document.getElementsByClassName("stripe-checkout-btn");
