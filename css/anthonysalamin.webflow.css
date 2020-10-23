@@ -1769,9 +1769,15 @@ p {
 }
 
 .here-for-you {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
   color: #6772e5;
   font-weight: 600;
   text-decoration: none;
+}
+
+.here-for-you:hover {
+  color: #2328a8;
 }
 
 .wventures-logomark {
