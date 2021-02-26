@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Feb 26 2021 08:43:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Feb 26 2021 09:08:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6038acfa0be25849226c778d" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -110,10 +110,10 @@ a {
               <div class="text">English + German</div>
             </div>
             <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
-              <div class="text">In context editor</div>
+              <div class="text">Auto-detect user language</div>
             </div>
             <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
-              <div class="text">Setup ready</div>
+              <div class="text">In context editor</div>
             </div>
           </div>
           <a id="price_1IP1NjCkDrSTQU1mQ8G5gdbN" href="#" class="stripe-checkout-btn highlight w-button">checkout</a>
@@ -403,8 +403,8 @@ document.addEventListener("DOMContentLoaded", () => {
     stripe = Stripe(pk_live, { locale: language }),
     mode = "subscription",
     domain = "anthonysalamin.ch/stripe",
-    checkoutEmail = "alffers@wventures.de", // client's email
-    forceEmail = true,
+    checkoutEmail = "", // client's email
+    forceEmail = false,
     billingAddress = true, // collects billing address
     buttons = document.getElementsByClassName("stripe-checkout-btn");
   // 🍋 for each button get price id
