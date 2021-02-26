@@ -1518,7 +1518,13 @@ p {
 .paragraph {
   max-width: 400px;
   color: #9b9b9b;
+  line-height: 25px;
   text-align: center;
+}
+
+.paragraph.alert-stripe {
+  max-width: 370px;
+  line-height: 25px;
 }
 
 .wrap-plan {
@@ -1965,6 +1971,11 @@ p {
 
 .text-span-2 {
   font-size: 13px;
+}
+
+.heading-stripe-alert {
+  font-size: 28px;
+  line-height: 30px;
 }
 
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
@@ -2430,6 +2441,10 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
     padding-left: 20px;
   }
 
+  .paragraph.alert-stripe {
+    max-width: 288px;
+  }
+
   .container-plans {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2771,6 +2786,13 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
   .about-wrapper {
     -webkit-column-count: 1;
     column-count: 1;
+  }
+
+  .paragraph.alert-stripe {
+    width: 100%;
+    max-width: none;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .container-plan {
