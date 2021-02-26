@@ -1541,12 +1541,9 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #f7f7f7;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.05);
 }
 
 .wrap-plan.highlight {
@@ -1792,6 +1789,10 @@ p {
   margin-bottom: 10px;
 }
 
+.wventures-logomark.nokera {
+  width: 150px;
+}
+
 .wrap-plan-name {
   position: absolute;
   left: 0%;
@@ -1956,6 +1957,14 @@ p {
 .text-block-5 {
   color: #0067e0;
   font-weight: 400;
+}
+
+.text-span {
+  font-size: 13px;
+}
+
+.text-span-2 {
+  font-size: 13px;
 }
 
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
