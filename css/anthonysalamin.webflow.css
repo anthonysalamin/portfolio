@@ -1978,6 +1978,29 @@ p {
   line-height: 30px;
 }
 
+.heading-stripe {
+  margin-top: 20px;
+  color: #acacac;
+  line-height: 20px;
+}
+
+.heading-stripe.strike {
+  color: #d8d8d8;
+  text-decoration: line-through;
+}
+
+.heading-stripe.info {
+  margin-top: -3px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.heading-stripe.info.question {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
