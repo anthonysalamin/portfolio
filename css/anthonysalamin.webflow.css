@@ -1709,6 +1709,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  min-height: 70px;
   padding-top: 30px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
