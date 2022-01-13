@@ -1704,6 +1704,10 @@ p {
   margin: 20px;
 }
 
+.container-plan.old {
+  display: none;
+}
+
 .wrap-info {
   display: -webkit-box;
   display: -webkit-flex;
