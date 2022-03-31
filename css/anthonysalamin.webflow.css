@@ -2565,6 +2565,18 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
     max-width: 288px;
   }
 
+  .text {
+    font-size: 16px;
+  }
+
+  .text-block-2 {
+    font-size: 30px;
+  }
+
+  .price-info {
+    font-size: 20px;
+  }
+
   .container-plans {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
