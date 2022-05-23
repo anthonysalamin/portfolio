@@ -1,11 +1,11 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Mon May 23 2022 14:48:51 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5f7ae1dd9e93b47536fdbf4f" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
+<html data-wf-page="628b99a340d13126f49adeca" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jera</title>
-  <meta content="jera" property="og:title">
-  <meta content="jera" property="twitter:title">
+  <title>Really Ready</title>
+  <meta content="Really Ready" property="og:title">
+  <meta content="Really Ready" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="-DHA9rWW7NxGrI6oM-zmwx3ljhGZn5ikfkYAMJuNggM" name="google-site-verification">
   <meta content="Webflow" name="generator">
@@ -123,46 +123,42 @@ a {
       <div data-w-id="5bef417e-3bdb-3c84-6ca1-75fd3ab07d1a" style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="container-plan">
         <div class="wrap-plan highlight">
           <div class="wrap-plan-name">
-            <div class="text-block-4">Hosting</div>
-          </div><img src="../images/logomark.svg" loading="lazy" alt="" class="wventures-logomark">
-          <h1 class="heading-hosting">jera-institut.ch</h1>
-          <div class="text">Hébergement Web</div>
+            <div class="text-block-4">Hosting annuel</div>
+          </div>
+          <h1 class="heading-hosting">really-ready.com</h1>
+          <div class="text">Hébergement web</div>
           <div class="wrap-price">
-            <div class="price-info black">CHF</div>
-            <div class="text-block-2">59.95</div>
-            <div class="price-info">/mo</div>
+            <div class="price-info black">EUR</div>
+            <div class="text-block-2">79.00</div>
+            <div class="price-info">/mois</div>
           </div>
           <div class="wrap-list">
             <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
-              <div class="text">Cloud hosting Sécurisé</div>
-            </div>
-            <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
-              <div class="text">Gestion de domaine + DNS</div>
-            </div>
-            <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
-              <div class="text">Renouvellement SSL (HTTPS)</div>
+              <div class="text">Cloud hosting sécurisé</div>
             </div>
             <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
               <div class="text">Content Management System</div>
             </div>
             <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
+              <div class="text">Renouvellement SSL (HTTPS)</div>
+            </div>
+            <div class="wrap-point"><img src="../images/button-radio-checked.svg" loading="lazy" alt="" class="icon">
               <div class="text">Support technique</div>
             </div>
           </div>
-          <a id="price_1HYpndCkDrSTQU1m6mPDwqfH" href="#" class="stripe-checkout-btn highlight w-button">checkout</a>
+          <a id="price_1L2cR5CkDrSTQU1mBTojuOpg" href="#" class="stripe-checkout-btn highlight w-button">checkout</a>
         </div>
       </div>
     </div>
     <div class="wrap-footer-hosting">
       <div class="wrap-secure-checkout"><img src="../images/lock.svg" loading="lazy" alt="" class="stripe lock">
-        <div class="text-block-3">Checkout sécurisé via</div><img src="../images/stripe.svg" loading="lazy" alt="stripe logotype
-" class="stripe">
+        <div class="text-block-3">Checkout sécurisé via</div><img src="../images/stripe.svg" loading="lazy" alt="" class="stripe">
       </div>
       <div class="embed-stripe w-embed">
         <!--  Stripe error handling  -->
         <div id="error-message"></div>
       </div>
-      <div class="text info question">Une question ? Je suis <a href="mailto:hello@anthonysalamin.ch?subject=Question%20regarding%20hosting%20plan" class="here-for-you">là </a>pour vous.</div>
+      <div class="text info question">Une question ? Je suis <a href="mailto:hello@anthonysalamin.ch?subject=Question" class="here-for-you">là </a>pour vous.</div>
       <div class="wrap-methods">
         <div class="embed-method w-embed">
           <!--  icon visa  -->
@@ -431,11 +427,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const log = console.log,
     pk_live =
       "pk_live_51HH3cWCkDrSTQU1mNIyW3dQlXy393wVUvXYCLu665YSydnegOJS8IT3Ub9fJs0pbXpXKRFSyAjFPYTOHFxRZYPHe00CVuYrdWW",
-    language = "fr", // auto
+    language = "de", // auto
     stripe = Stripe(pk_live, { locale: language }),
     mode = "subscription",
     domain = "anthonysalamin.ch/stripe",
-    checkoutEmail = "mail@jera-institut.ch", // client's email
+    checkoutEmail = "camil@quatreaplus.ch", // client's email
     forceEmail = true,
     billingAddress = true, // collects billing address
     buttons = document.getElementsByClassName("stripe-checkout-btn");
