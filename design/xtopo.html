@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 23 2022 15:25:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed May 25 2022 13:43:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e21fac6023b6f4577cbb3d3" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -48,6 +48,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
   <!--  Stripe.js  -->
   <script src="https://js.stripe.com/v3"></script>
+  <style>
+/* custom cursor */
+#cursor-custom {
+  --width: 25px;
+  position: fixed;
+  width: var(--width);
+  height: var(--width);
+  pointer-events: none;
+  opacity: 0;
+  /*background: lightblue;*/
+}
+</style>
   <style>
 /* hack badge + focus + highlights */
 .w-webflow-badge {
@@ -365,6 +377,8 @@ a {
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <!--  Google Tag Manager (noscript)  -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54QXS3J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!--  GSAP API  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
   document.addEventListener("DOMContentLoaded", () => {
   // globals
@@ -592,6 +606,88 @@ document.addEventListener(
   };
   hamburgerElement.addEventListener("click", toggleFunction);
 })();
+</script>
+  <script>
+console.log(
+  `%c🟢 deployed:`,
+  `color: green`,
+  `ANTHONY | cursor GSAP | V.2.0.0 | 25.05.22 @15:09`
+);
+document.addEventListener("DOMContentLoaded", () => {
+  createEmoji();
+}); // end DOM loaded
+// 🥬 helper | create and inject emoji
+function createEmoji() {
+  const svg = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25"><defs><style>.cls-1,.cls-2{fill:#1da149}.cls-2{opacity:0}.cls-3{fill:#f6884b}.cls-4{fill:#e63c26}</style></defs><g id=Layer_1-2><g><rect class=cls-2 height=25 width=25 /><g><path d=M11.85,5.79s-.35-2.64,2.83-3.68h5.29s-.04,2.86-2.8,3.68h-5.31Z class=cls-1 /><path d=M22.42,8.36c-2.12-6.44-9.92-3.69-9.92-3.69,0,0-7.8-2.75-9.92,3.69-.93,2.83-.21,5.99,1.58,8.25,2.45,3.1,5.41,5.02,7.06,5.94,.81,.45,1.75,.45,2.56,0,1.65-.92,4.61-2.84,7.06-5.94,1.79-2.27,2.51-5.42,1.58-8.25Z class=cls-3 /><path d=M14.65,16.35c-.09,0-.18-.02-.27-.05-.42-.15-.63-.61-.48-1.03,.87-2.42,.87-4.44-.01-6.01-1.35-2.4-4.35-3.04-4.38-3.05-.43-.09-.72-.51-.63-.95,.09-.43,.51-.71,.94-.63,.15,.03,3.74,.78,5.46,3.82,1.13,2,1.17,4.48,.13,7.36-.12,.33-.43,.53-.76,.53Z class=cls-4 /><path d=M13.2,6.96s.46-3.49-3.73-4.86H2.5s.05,3.78,3.69,4.86h7.01Z class=cls-1 /><path d=M19.96,2.11s-.02,1.37-.94,2.48c1.42,.56,2.71,1.68,3.4,3.77,.93,2.83,.21,5.99-1.58,8.25-2.45,3.1-5.41,5.02-7.06,5.94-.4,.22-.84,.34-1.28,.34s-.87-.11-1.28-.34c-1.65-.92-4.61-2.84-7.06-5.94-1.79-2.27-2.51-5.42-1.58-8.25,.37-1.11,.9-1.95,1.54-2.57-1.59-1.52-1.62-3.68-1.62-3.68h6.98c1.37,.45,2.23,1.12,2.79,1.82,.38-.68,1.09-1.39,2.41-1.82h5.29m1.63-1.61h-7.17l-.24,.08c-.78,.25-1.46,.61-2.02,1.06-.63-.44-1.35-.8-2.18-1.06l-.24-.08H.87l.02,1.63c0,.23,.07,1.98,1.16,3.66-.41,.62-.74,1.31-1,2.07C0,11.09,.7,14.83,2.9,17.61c2.65,3.35,5.86,5.42,7.54,6.35,.63,.35,1.35,.54,2.06,.54s1.42-.19,2.06-.54c1.68-.93,4.89-3,7.54-6.35,2.2-2.78,2.91-6.52,1.84-9.75-.55-1.66-1.48-2.98-2.75-3.9,.34-.93,.37-1.7,.37-1.83l.02-1.63h0Z /></g></g></g></svg>`;
+  const div = document.createElement("div");
+  div.setAttribute("id", "cursor-custom");
+  div.setAttribute("class", "cursor-custom");
+  div.innerHTML = svg;
+  document.body.append(div);
+  setDefaultState();
+}
+// 🥬 helper | hide emoji cursor
+function setDefaultState() {
+  const cursor = document.querySelector("#cursor-custom");
+  cursor.style.opacity = 0;
+  handleCursor();
+}
+// 🥬 helper | show emoji cursor
+function showCherryCursor() {
+  const cursor = document.querySelector("#cursor-custom");
+  cursor.style.opacity = 1;
+}
+// 🍑 handle cursor behaviour
+function handleCursor() {
+  class Cursor {
+    constructor() {
+      this.initCursor();
+    }
+    initCursor() {
+      this.outerCursor = document.querySelector("#cursor-custom");
+      // this.outerCursorBox = this.outerCursor.getBoundingClientRect();
+      const offset = 25;
+      this.outerCursorSpeed = 0.5;
+      document.addEventListener("mousemove", (e) => {
+        showCherryCursor();
+        this.clientX = e.clientX;
+        this.clientY = e.clientY;
+      });
+      const render = () => {
+        if (!this.isStuck) {
+          // const offset = this.outerCursorBox.width / 2;
+          gsap.to(this.outerCursor, this.outerCursorSpeed, {
+            x: this.clientX + offset,
+            y: this.clientY + offset
+          });
+        }
+        requestAnimationFrame(render);
+      };
+      render();
+    } // end initCursor
+  } // end Cursor class
+  const cursor = new Cursor();
+}
+// go get an 🍦
+/*.#&&(                   
+       #&&&&&&&&&&&&&&&&&&&&%           
+   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&        
+   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&      
+     &&&&&&&            &&&&&&&&&&&&    
+                           &&&&&&&&&&   
+                            ,&&&&&&&&&  
+           .&&&&&&&&&&%      &&&&&&&&&  
+      &&&&&&&&&&&&&&&&&&&&&&& &&&&&&&&& 
+    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
+ &&&&&&&&&&             %&&&&&&&&&&&&&& 
+ &&&&&&&&                  &&&&&&&&&&&  
+#&&&&&&&&                   &&&&&&&&&&  
+ &&&&&&&&&                &&&&&&&&&&&&& 
+ (&&&&&&&&&&          &&&&&&&&&&&&&&&&&&
+   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    ,&&&&&&&&&&&&&&&&&&&&&&&&&, &&&&&&&&
+       anthonysalamin.ch,     &&&&&&&*/
 </script>
 </body>
 </html>

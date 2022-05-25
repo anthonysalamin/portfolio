@@ -2089,6 +2089,18 @@ p {
   text-decoration: underline;
 }
 
+.cursor-custom {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 9;
+  width: 25px;
+  height: 25px;
+  opacity: 0;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
@@ -2259,6 +2271,10 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
 
   .link-wrap-thunderbird {
     max-width: 300px;
+  }
+
+  .cursor-custom {
+    display: none;
   }
 }
 
@@ -2974,6 +2990,10 @@ html.w-mod-js *[data-ix="reveal-left-delayd"] {
   .link-wrap-thunderbird {
     max-width: 100%;
     margin-bottom: 0px;
+  }
+
+  .cursor-custom {
+    display: none;
   }
 }
 
