@@ -1804,6 +1804,11 @@ p {
   width: 150px;
 }
 
+.wventures-logomark.velasdex {
+  width: 150px;
+  border-radius: 5px;
+}
+
 .wrap-plan-name {
   position: absolute;
   left: 0%;
