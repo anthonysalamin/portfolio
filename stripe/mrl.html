@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jun 07 2022 14:00:43 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Jun 07 2022 14:13:49 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6193e59ac55119530abc3f8a" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -26,7 +26,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54QXS3J');</script>
   <!--  Matomo  -->
-  <script>
+  <!-- 
+<script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
@@ -39,6 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     g.async=true; g.src='//cdn.matomo.cloud/anthonysalamin.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+ -->
   <style>
 /* temporarily hide badge */
 .w-webflow-badge{display:none!important}
@@ -191,6 +193,7 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
     phone = Number("00491751138245"),
     text = "Hi Anthony, I have a question!",
     url = `${domain}send?phone=${phone}&text=${text}`;
+    if (!button) return;
   button.addEventListener("click", () => {
     button.href = url;
     button.target = "_blank";
@@ -215,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     formDone = document.querySelector(".w-form-done"),
     textFail = document.getElementById("text-fail"),
     textSuccess = document.getElementById("text-done");
+  if (!form) return;
   // 🤖 known email being spam
   const knownSpamEmail = [
     "s.pronin@info.avalins.com",
@@ -335,6 +339,7 @@ document.addEventListener(
     "use strict";
     // globals
     const grid = document.getElementById("grid");
+    if (!grid) return;
     // init Isotope
     function initIsotope() {
       const log = console.log;
@@ -405,6 +410,7 @@ document.addEventListener(
 (function() {
   const wrapperElement = document.querySelector(".wrapper-hamburger");
   const hamburgerElement = document.getElementById("hamburgerSvg");
+  if (!wrapperElement) return;
   const toggleFunction = () => {
     wrapperElement.classList.toggle("cross");
   };
