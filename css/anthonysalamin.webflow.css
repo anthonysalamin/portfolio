@@ -1640,6 +1640,13 @@ p {
   text-align: center;
 }
 
+.text.tax {
+  margin-bottom: 24px;
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+}
+
 .wrap-price {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1651,6 +1658,10 @@ p {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.wrap-price.tax {
+  padding-bottom: 16px;
 }
 
 .text-block-2 {
