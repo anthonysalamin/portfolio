@@ -2368,6 +2368,13 @@ p {
   color: #3a4554;
 }
 
+.embed-instagram {
+  width: 80%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 html.w-mod-js *[data-ix="thumbnails-fade-into-view"] {
   opacity: 0;
 }
