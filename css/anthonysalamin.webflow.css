@@ -124,6 +124,10 @@ p {
   color: #14ce58;
 }
 
+.link-nav.coffee {
+  display: none;
+}
+
 .container {
   position: relative;
   display: block;
@@ -1335,7 +1339,7 @@ p {
 }
 
 .link_website {
-  display: inline-block;
+  display: none;
   margin-top: 30px;
   padding: 10px 15px;
   border-style: none;
