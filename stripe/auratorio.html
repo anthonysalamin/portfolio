@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Oct 17 2022 21:21:18 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Oct 30 2022 21:59:07 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f85832fc11b769e0c5e2281" data-wf-site="5b05ed948ee27f736bbe9315" lang="en">
 <head>
   <meta charset="utf-8">
@@ -25,29 +25,15 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54QXS3J');</script>
-  <!--  Matomo  -->
-  <!-- 
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://anthonysalamin.matomo.cloud/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src='//cdn.matomo.cloud/anthonysalamin.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
- -->
   <style>
 /* temporarily hide badge */
 .w-webflow-badge{display:none!important}
 /* temporarily whitelabel login */
 .w-reset.w-editor-bem-EditorLogo{display:none!important;}
-/* scrollbar style */ 
+/* scrollbar style */
+/*
 ::-webkit-scrollbar{width:12px;height:12px}::-webkit-scrollbar-track{background:#f5f5f5;border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc}::-webkit-scrollbar-thumb:hover{background:#999}
+*/
 /* hack remove ugly highlight on click */
 a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-touch-callout:none!important;-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important}
 </style>
@@ -165,6 +151,61 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  Tidio  -->
   <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
+  <!--  lenis API  -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+  <script>
+/*
+ * smooth scroll lenis
+ * last update 30.10.22 @18:04
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  handleScrolling();
+});
+function handleScrolling() {
+  // helper easing functions || refference easings.net
+  const easeInOutQuint = (x) =>
+    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
+  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: easeOutQuart,
+    direction: "vertical", // vertical, horizontal
+    gestureDirection: "vertical", // vertical, horizontal, both
+    smooth: true,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false
+  });
+  // debug
+  /*
+  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
+    console.log({ scroll, limit, velocity, direction, progress });
+  });
+  */
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+  // Use lenis.scrollTo() to scroll the page to the right element
+  const scrollButtons = document.querySelectorAll("[data-anchor]");
+  // clause guard
+  if (!scrollButtons[0]) return;
+  scrollButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = button.dataset.anchor,
+        element = document.querySelector(`#${target}`);
+      lenis.scrollTo(element, {
+        offset: 0,
+        immediate: false,
+        duration: 3,
+        easing: easeInOutQuint
+      });
+    });
+  });
+} // end handleScrolling()
+</script>
   <script>
   document.addEventListener("DOMContentLoaded", () => {
   // globals
@@ -427,7 +468,14 @@ function injectCSS(SVGcursor) {
     pointer-events: none;
     z-index: 999;
     opacity: 0; /* inital state */
-  }`;
+  }
+/* hide custom cursor on mobile */
+@media screen and (max-width: 480px) {
+  #cursor-custom {
+    display: none !important;
+  }
+}
+`;
   const style = document.createElement("style");
   style.innerHTML = css;
   document.head.appendChild(style);
