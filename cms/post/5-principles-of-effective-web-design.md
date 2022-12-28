@@ -21,7 +21,7 @@ f_thumbnail-image:
   alt: null
 updated-on: '2022-11-25T13:58:44.293Z'
 created-on: '2022-11-25T13:58:44.293Z'
-published-on: null
+published-on: '2022-11-30T12:59:41.336Z'
 layout: '[post].html'
 tags: post
 ---

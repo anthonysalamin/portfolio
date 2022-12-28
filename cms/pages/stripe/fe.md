@@ -6,7 +6,7 @@ slug: fe
 tags: pages
 seo:
   noindex: false
-  title: Portfolio
+  title: Anthony Salamin
 ---
 
 

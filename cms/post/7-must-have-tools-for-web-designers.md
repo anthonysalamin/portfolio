@@ -20,7 +20,7 @@ f_main-image:
 slug: 7-must-have-tools-for-web-designers
 updated-on: '2022-11-25T13:58:44.295Z'
 created-on: '2022-11-25T13:58:44.295Z'
-published-on: null
+published-on: '2022-11-30T12:59:41.336Z'
 layout: '[post].html'
 tags: post
 ---

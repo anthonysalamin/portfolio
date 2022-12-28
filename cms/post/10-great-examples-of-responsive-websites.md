@@ -20,7 +20,7 @@ f_thumbnail-image:
 slug: 10-great-examples-of-responsive-websites
 updated-on: '2022-11-25T13:58:44.234Z'
 created-on: '2022-11-25T13:58:44.234Z'
-published-on: null
+published-on: '2022-11-30T12:59:41.336Z'
 layout: '[post].html'
 tags: post
 ---

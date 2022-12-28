@@ -28,35 +28,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .w-webflow-badge{display:none!important}
 /* temporarily whitelabel login */
 .w-reset.w-editor-bem-EditorLogo{display:none!important;}
-/* scrollbar style */
-/*
-::-webkit-scrollbar{width:12px;height:12px}::-webkit-scrollbar-track{background:#f5f5f5;border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc}::-webkit-scrollbar-thumb:hover{background:#999}
-*/
 /* hack remove ugly highlight on click */
 a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-touch-callout:none!important;-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important}
 </style>
   <style>
-/* Google maps */
-#map {
-  width: 800px;
-  height: 670px;
-  cursor: default !important;
-  -webkit-clip-path: url(#map-mask);
-  -moz-clip-path: url(#map-mask);
-  -ms-clip-path: url(#map-mask);
-  clip-path: url(#map-mask);
-}
-/* Google maps media queries */
-@media screen and (max-width: 800px) {
-  #map {
-    width: 100%;
-    height: 80vh;
-    -webkit-clip-path: none;
-    -moz-clip-path: none;
-    -ms-clip-path: none;
-    clip-path: none;
-  }
-}
 /* forces loading div animation to display */
 .loading {
   display: block;
@@ -141,15 +116,12 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
  * last build: 24/11/2022 19:34
 */
 document.addEventListener("DOMContentLoaded", () => {
-  // 👻 getting shadow root
   const udeslyBanner = document.getElementsByTagName("udesly-banner")[0];
   if (!udeslyBanner) return;
   const udeslyShadowRoot = udeslyBanner.shadowRoot;
-  // 👻 hacking shadow root styles
   const style = document.createElement("style");
   style.innerText = `:host { left: -100% !important; }`;
   udeslyShadowRoot.appendChild(style);
-  // console.log(udeslyShadowRoot);
 });
 </script>
   <!--  GSAP API  -->
@@ -577,4 +549,4 @@ document.addEventListener("DOMContentLoaded", () => {
 }); // end DOMContentLoaded()
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
