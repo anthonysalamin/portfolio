@@ -33,14 +33,7 @@
 /* hack remove ugly highlight on click */
 a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-touch-callout:none!important;-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important}
 </style>
-  <style>
-/* forces loading div animation to display */
-.loading {
-  display: block;
-  opacity: 1;
-}
-</style>
-{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}{%- include "partials/_snipcart" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
 <body>
@@ -71,80 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const style = document.createElement("style");
   style.innerText = `:host { left: -100% !important; }`;
   udeslyShadowRoot.appendChild(style);
-});
-</script>
-  <!--  GSAP API  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--  Tidio  -->
-  <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
-  <!--  lenis API  -->
-  <script defer="" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-  <script>
-/*
- * smooth scroll lenis
- * last update 30.10.22 @18:04
- */
-document.addEventListener("DOMContentLoaded", () => {
-  handleScrolling();
-});
-function handleScrolling() {
-  // helper easing functions || refference easings.net
-  const easeInOutQuint = (x) =>
-    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
-  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
-  const lenis = new Lenis({
-    duration: 1.2,
-    easing: easeOutQuart,
-    direction: "vertical", // vertical, horizontal
-    gestureDirection: "vertical", // vertical, horizontal, both
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false
-  });
-  // debug
-  /*
-  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
-    console.log({ scroll, limit, velocity, direction, progress });
-  });
-  */
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
-  // Use lenis.scrollTo() to scroll the page to the right element
-  const scrollButtons = document.querySelectorAll("[data-anchor]");
-  // clause guard
-  if (!scrollButtons[0]) return;
-  scrollButtons.forEach((button) => {
-    button.addEventListener("click", (event) => {
-      event.preventDefault();
-      const target = button.dataset.anchor,
-        element = document.querySelector(`#${target}`);
-      lenis.scrollTo(element, {
-        offset: 0,
-        immediate: false,
-        duration: 3,
-        easing: easeInOutQuint
-      });
-    });
-  });
-} // end handleScrolling()
-</script>
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-  // globals
-  const button = document.getElementById("whatsapp"),
-    domain = "https://api.whatsapp.com/",
-    phone = Number("00491751138245"),
-    text = "Hi Anthony, I have a question!",
-    url = `${domain}send?phone=${phone}&text=${text}`;
-    if (!button) return;
-  button.addEventListener("click", () => {
-    button.href = url;
-    button.target = "_blank";
-  });
 });
 </script>
   <script>
@@ -274,6 +193,65 @@ document.addEventListener("DOMContentLoaded", () => {
     xhr.send(formData);
   } // end makeCORSRequest ()
 }); // end DOM listener
+</script>
+  <!--  GSAP API  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--  Tidio  -->
+  <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
+  <!--  lenis API  -->
+  <script defer="" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+  <script>
+/*
+ * smooth scroll lenis
+ * last update 30.10.22 @18:04
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  handleScrolling();
+});
+function handleScrolling() {
+  // helper easing functions || refference easings.net
+  const easeInOutQuint = (x) =>
+    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
+  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: easeOutQuart,
+    direction: "vertical", // vertical, horizontal
+    gestureDirection: "vertical", // vertical, horizontal, both
+    smooth: true,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false
+  });
+  // debug
+  /*
+  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
+    console.log({ scroll, limit, velocity, direction, progress });
+  });
+  */
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+  // Use lenis.scrollTo() to scroll the page to the right element
+  const scrollButtons = document.querySelectorAll("[data-anchor]");
+  // clause guard
+  if (!scrollButtons[0]) return;
+  scrollButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = button.dataset.anchor,
+        element = document.querySelector(`#${target}`);
+      lenis.scrollTo(element, {
+        offset: 0,
+        immediate: false,
+        duration: 3,
+        easing: easeInOutQuint
+      });
+    });
+  });
+} // end handleScrolling()
 </script>
   <script>
 /*
@@ -443,7 +421,6 @@ function handleCursor(SVGcursor) {
   } // end Cursor class
   const cursor = new Cursor();
 }
-// go get an 🍦
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}{%- include "partials/_snipcart-footer" -%}</body></html>

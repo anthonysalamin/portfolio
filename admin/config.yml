@@ -80,6 +80,273 @@ collections:
             name: additional_tags
             widget: text
             required: false
+  - name: product
+    label: Products
+    folder: cms/product
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: variation-properties
+        label: Variation Properties
+        widget: list
+        required: false
+        summary: '{{name}}'
+        fields:
+          - hint: ''
+            name: slug
+            label: Slug
+            widget: hidden
+            required: true
+          - hint: ''
+            name: name
+            label: Name
+            widget: string
+            required: true
+          - hint: ''
+            name: values
+            label: Values
+            widget: list
+            required: true
+            summary: '{{name}}'
+            fields:
+              - hint: ''
+                name: slug
+                label: Slug
+                widget: hidden
+                required: true
+              - hint: ''
+                name: name
+                label: Name
+                widget: string
+                required: true
+      - hint: ''
+        name: variations
+        label: Variations
+        widget: list
+        required: true
+        summary: '{{title}}'
+        min: 1
+        fields:
+          - hint: Slug of the variation
+            name: slug
+            label: Slug
+            widget: string
+            required: true
+          - hint: Default variation?
+            name: default
+            label: Default
+            widget: boolean
+            required: true
+          - hint: ''
+            name: variation-properties
+            label: SKU Values
+            widget: prop-values
+            required: false
+          - hint: ''
+            name: title
+            label: Name
+            widget: string
+            required: true
+          - hint: ''
+            name: f_main-image
+            label: Main Image
+            widget: object
+            required: false
+            fields:
+              - hint: ''
+                name: url
+                label: Image
+                widget: image
+                required: false
+                allow_multiple: false
+              - hint: Image Alt
+                name: alt
+                label: alt
+                widget: string
+                required: false
+          - hint: ''
+            name: f_more-images
+            label: More Images
+            widget: list
+            required: false
+            fields:
+              - hint: ''
+                name: url
+                label: Image
+                widget: image
+                required: false
+                allow_multiple: false
+              - hint: Image Alt
+                name: alt
+                label: alt
+                widget: string
+                required: false
+          - hint: ''
+            name: f_price
+            label: Price
+            widget: price
+            required: true
+          - hint: Compare at Price must be higher than price
+            name: f_compare-at-price
+            label: Compare at price
+            widget: price
+            required: false
+          - hint: ''
+            name: f_download-files
+            label: Downloads
+            widget: list
+            required: false
+            fields:
+              - hint: ''
+                name: url
+                label: Image
+                widget: image
+                required: false
+                allow_multiple: false
+              - hint: Image Alt
+                name: alt
+                label: alt
+                widget: string
+                required: false
+          - hint: ''
+            name: f_width
+            label: Width
+            widget: number
+            required: false
+          - hint: ''
+            name: f_length
+            label: Length
+            widget: number
+            required: false
+          - hint: ''
+            name: f_height
+            label: Height
+            widget: number
+            required: false
+          - hint: ''
+            name: f_weight
+            label: Weight
+            widget: number
+            required: false
+          - hint: ''
+            name: f_sku
+            label: SKU
+            widget: string
+            required: false
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: Add this product to one or more categories.
+        name: f_category
+        label: Categories
+        widget: relation
+        required: false
+        collection: category
+        value_field: cms/category/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: true
+      - hint: ''
+        name: f_description
+        label: Description
+        widget: string
+        required: false
+      - hint: ''
+        name: f_shippable
+        label: Requires Shipping
+        widget: boolean
+        required: false
+      - hint: ''
+        name: f_ec-product-type
+        label: Product type
+        widget: select
+        required: false
+        options:
+          - label: Physical
+            value: Physical
+          - label: Digital
+            value: Digital
+          - label: Service
+            value: Service
+          - label: Membership
+            value: Membership
+          - label: Advanced
+            value: Advanced
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: product
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[product].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: category
+    label: Categories
+    folder: cms/category
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: category
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[category].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
   - name: post
     label: Blog Posts
     folder: cms/post
@@ -537,184 +804,6 @@ collections:
           - hint: 'Original text: Privacy, key: 5079bb68'
             label: Text
             name: 5079bb68
-            widget: string
-          - hint: 'Original text: Client, key: 7877dfeb'
-            label: Text
-            name: 7877dfeb
-            widget: string
-          - hint: >-
-              Original text: Design Hotels AG provides hospitality services to a
-              network of over 300 independent small boutique and luxury hotels
-              in over 50 countries worldwide., key: 1188f3d8
-            label: Text
-            name: 1188f3d8
-            widget: text
-          - hint: 'Original text: My role, key: -464d59b6'
-            label: Text
-            name: '-464d59b6'
-            widget: string
-          - hint: >-
-              Original text: web development, UI/UX design, prototyping,
-              micro-interractions, key: -4923af9e
-            label: Text
-            name: '-4923af9e'
-            widget: string
-          - hint: 'Original text: Read process, key: -669c8dfb'
-            label: Text
-            name: '-669c8dfb'
-            widget: string
-          - hint: 'Original text: Brief, key: 3d7785a'
-            label: Text
-            name: 3d7785a
-            widget: string
-          - hint: >-
-              Original text: The Berlin based creative team from Design Hotels
-              trusted me with the development of their satellite platform which
-              aims to share stories about experiential hospitality as well as
-              facilitate online event registration. The initial brief was to
-              launch an infinite scroll-like website with full width assets on a
-              semi-random grid system., key: -755a926c
-            label: Text
-            name: '-755a926c'
-            widget: text
-          - hint: 'Original text: Solution, key: 5cc7b199'
-            label: Text
-            name: 5cc7b199
-            widget: string
-          - hint: >-
-              Original text: Elegant mockups were soon followed by technical
-              challenges namely usability and loading concerns. Several paths
-              were explored like progressive content injection and intersection
-              observer methods to exclusively load critical assets., key:
-              449d8048
-            label: Text
-            name: 449d8048
-            widget: text
-          - hint: >-
-              Original text: After several prototypes, suggestions and internal
-              discussions, it was finally decided to drop the infinite scroll
-              layout and adopt an editorial design approach to better reflect
-              the amount of content we were actually getting from ongoing
-              events., key: 1f404b2a
-            label: Text
-            name: 1f404b2a
-            widget: text
-          - hint: 'Original text: See website 🍓, key: 48e2a249'
-            label: Text
-            name: 48e2a249
-            widget: string
-          - hint: >-
-              Original text: The Berlin based creative team from Design Hotels
-              trusted me with the development of their satellite platform which
-              shares stories about experiential hospitality and facilitate
-              online event registrations. , key: 5226280a
-            label: Text
-            name: 5226280a
-            widget: text
-          - hint: >-
-              Original text: Elegant mockups were soon followed by technical
-              challenges namely usability and loading matters. Several paths
-              were explored like progressive content injection and modern
-              intersection observer methods to exclusively load critical assets
-              first., key: -72241b00
-            label: Text
-            name: '-72241b00'
-            widget: text
-          - hint: >-
-              Original text: After several prototypes, suggestions and internal
-              discussions, it was decided to adopt an editorial design to better
-              reflect the amount of content the marketing team was getting from
-              ongoing events., key: a1e2444
-            label: Text
-            name: a1e2444
-            widget: text
-          - hint: >-
-              Original text: Le Thêatre les Halles is a swiss theater based in
-              the heart of the magnificent Valais Switzerland, offering
-              theatrical performances from September to June., key: 7d4cfb02
-            label: Text
-            name: 7d4cfb02
-            widget: text
-          - hint: >-
-              Original text: UX/UI design, web development, dynamic reservation,
-              archive system, CMS setup, micro-interractions, Analytics & SEO,
-              key: 30c863a2
-            label: Text
-            name: 30c863a2
-            widget: text
-          - hint: >-
-              Original text: The Swiss Theater TLH commissioned me to design and
-              develop a new online platform that includes a complex event
-              management system, an online reservation module, a search
-              component and an archive section., key: -33f65c51
-            label: Text
-            name: '-33f65c51'
-            widget: text
-          - hint: >-
-              Original text: From the first wireframes to the final website, the
-              entire UI was designed and developed with a mobile first approach
-              to allow users to access the most meaningful information and book
-              multiple events at once in just a few clicks., key: -6ec0ae8a
-            label: Text
-            name: '-6ec0ae8a'
-            widget: text
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
-            widget: string
-          - hint: >-
-              Original text: Details about specific events can now also be
-              acquired through a very intuitive auto-complete search module
-              which gracefully filters the entire flow of events. The CMS
-              structure was redesigned to allow dynamic event reservation which
-              now allows the team to easily manage their yearly events program,
-              all by themselves., key: -69618eae
-            label: Text
-            name: '-69618eae'
-            widget: text
-          - hint: 'Original text: See website 🍋, key: 48e2a241'
-            label: Text
-            name: 48e2a241
-            widget: string
-          - hint: >-
-              Original text: Auratorio is a fashion brand based in Switzerland,
-              producing high quality limited edition apparel in Portugal., key:
-              -7e3ea259
-            label: Text
-            name: '-7e3ea259'
-            widget: text
-          - hint: >-
-              Original text: e-commerce, web development, web design, CMS setup,
-              Analytics & SEO, key: 7269d99
-            label: Text
-            name: 7269d99
-            widget: string
-          - hint: >-
-              Original text: For its first collection, the swiss based apparel
-              label auratorio commissioned me to develop its very own e-commerce
-              and online presence., key: -3c108ceb
-            label: Text
-            name: '-3c108ceb'
-            widget: text
-          - hint: >-
-              Original text: From responsive design to custom e-commerce
-              checkout, everything had to be done. Every product being sold are
-              pulled from a CMS based structure allowing the founder to upload
-              and modify at will any information in regards to pricing or
-              images., key: 2e9f1f34
-            label: Text
-            name: 2e9f1f34
-            widget: text
-          - hint: >-
-              Original text: In addition, I prepared and linked the Stripe
-              gateway payment through which each and every sell can be followed
-              and managed by the client himself., key: 26d282fc
-            label: Text
-            name: 26d282fc
-            widget: text
-          - hint: 'Original text: See website 🍉, key: 48e2a23f'
-            label: Text
-            name: 48e2a23f
             widget: string
           - hint: 'Original text: Logotype Design & UX / UI Design, key: -6f1eaa23'
             label: Text
@@ -1588,6 +1677,10 @@ collections:
           - hint: 'Original text: § 1 Warnhinweis zu Inhalten, key: -28a1e235'
             label: Text
             name: '-28a1e235'
+            widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
             widget: string
           - hint: >-
               Original text: Die kostenlosen und frei zugänglichen Inhalte
@@ -3867,6 +3960,183 @@ collections:
             label: Text
             name: 3d503d2b
             widget: string
+          - hint: 'Original text: Client, key: 7877dfeb'
+            label: Text
+            name: 7877dfeb
+            widget: string
+          - hint: >-
+              Original text: Design Hotels AG provides hospitality services to a
+              network of over 300 independent small boutique and luxury hotels
+              in over 50 countries worldwide., key: 1188f3d8
+            label: Text
+            name: 1188f3d8
+            widget: text
+          - hint: 'Original text: My role, key: -464d59b6'
+            label: Text
+            name: '-464d59b6'
+            widget: string
+          - hint: >-
+              Original text: web development, UI/UX design, prototyping,
+              micro-interractions, key: -4923af9e
+            label: Text
+            name: '-4923af9e'
+            widget: string
+          - hint: 'Original text: Read process, key: -669c8dfb'
+            label: Text
+            name: '-669c8dfb'
+            widget: string
+          - hint: 'Original text: Brief, key: 3d7785a'
+            label: Text
+            name: 3d7785a
+            widget: string
+          - hint: >-
+              Original text: The Berlin based creative team from Design Hotels
+              trusted me with the development of their satellite platform which
+              aims to share stories about experiential hospitality as well as
+              facilitate online event registration. The initial brief was to
+              launch an infinite scroll-like website with full width assets on a
+              semi-random grid system., key: -755a926c
+            label: Text
+            name: '-755a926c'
+            widget: text
+          - hint: 'Original text: Solution, key: 5cc7b199'
+            label: Text
+            name: 5cc7b199
+            widget: string
+          - hint: >-
+              Original text: Elegant mockups were soon followed by technical
+              challenges namely usability and loading concerns. Several paths
+              were explored like progressive content injection and intersection
+              observer methods to exclusively load critical assets., key:
+              449d8048
+            label: Text
+            name: 449d8048
+            widget: text
+          - hint: >-
+              Original text: After several prototypes, suggestions and internal
+              discussions, it was finally decided to drop the infinite scroll
+              layout and adopt an editorial design approach to better reflect
+              the amount of content we were actually getting from ongoing
+              events., key: 1f404b2a
+            label: Text
+            name: 1f404b2a
+            widget: text
+          - hint: 'Original text: See website 🍓, key: 48e2a249'
+            label: Text
+            name: 48e2a249
+            widget: string
+          - hint: >-
+              Original text: The Berlin based creative team from Design Hotels
+              trusted me with the development of their satellite platform aiming
+              to share stories about experiential hospitality., key: -4d30d5c0
+            label: Text
+            name: '-4d30d5c0'
+            widget: text
+          - hint: >-
+              Original text: Elegant mockups were soon followed by technical
+              challenges namely usability and loading matters. Several paths
+              were explored like progressive content injection and modern
+              intersection observer methods to exclusively load critical assets
+              first., key: -72241b00
+            label: Text
+            name: '-72241b00'
+            widget: text
+          - hint: >-
+              Original text: After several prototypes, suggestions and internal
+              discussions, it was decided to adopt an editorial design to better
+              reflect the amount of content the marketing team was getting from
+              ongoing events., key: a1e2444
+            label: Text
+            name: a1e2444
+            widget: text
+          - hint: >-
+              Original text: The "Thêatre les Halles" is a swiss theater based
+              in the heart of the magnificent Valais Switzerland, offering
+              theatrical performances all year long., key: 6573aa52
+            label: Text
+            name: 6573aa52
+            widget: text
+          - hint: >-
+              Original text: UX/UI design, web development, dynamic reservation,
+              archive system, CMS setup, micro-interractions, Analytics & SEO,
+              key: 30c863a2
+            label: Text
+            name: 30c863a2
+            widget: text
+          - hint: >-
+              Original text: The Swiss Theater TLH commissioned me to design and
+              develop a new online platform that includes a complex event
+              management system, an online reservation module, a search
+              component and an archive section., key: -33f65c51
+            label: Text
+            name: '-33f65c51'
+            widget: text
+          - hint: >-
+              Original text: From the first wireframes to the final website, the
+              entire UI was designed and developed with a mobile first approach
+              to allow users to access the most meaningful information and book
+              multiple events at once in just a few clicks., key: -6ec0ae8a
+            label: Text
+            name: '-6ec0ae8a'
+            widget: text
+          - hint: >-
+              Original text: Details about specific events can now also be
+              acquired through a very intuitive auto-complete search module
+              which gracefully filters the entire flow of events. The CMS
+              structure was redesigned to allow dynamic event reservation which
+              now allows the team to easily manage their yearly events program,
+              all by themselves., key: -69618eae
+            label: Text
+            name: '-69618eae'
+            widget: text
+          - hint: 'Original text: See website 🍋, key: 48e2a241'
+            label: Text
+            name: 48e2a241
+            widget: string
+          - hint: >-
+              Original text: Auratorio is a fashion brand based in Switzerland,
+              producing high quality limited edition apparel in Portugal., key:
+              -7e3ea259
+            label: Text
+            name: '-7e3ea259'
+            widget: text
+          - hint: >-
+              Original text: e-commerce, web development, web design, CMS setup,
+              Analytics & SEO, key: 7269d99
+            label: Text
+            name: 7269d99
+            widget: string
+          - hint: >-
+              Original text: For its first collection, the swiss based apparel
+              label auratorio commissioned me to develop its very own e-commerce
+              and online presence., key: -3c108ceb
+            label: Text
+            name: '-3c108ceb'
+            widget: text
+          - hint: >-
+              Original text: From responsive design to custom e-commerce
+              checkout, everything had to be done. Every product being sold are
+              pulled from a CMS based structure allowing the founder to upload
+              and modify at will any information in regards to pricing or
+              images., key: 2e9f1f34
+            label: Text
+            name: 2e9f1f34
+            widget: text
+          - hint: >-
+              Original text: In addition, I prepared and linked the Stripe
+              gateway payment through which each and every sell can be followed
+              and managed by the client himself., key: 26d282fc
+            label: Text
+            name: 26d282fc
+            widget: text
+          - hint: 'Original text: See website 🍉, key: 48e2a23f'
+            label: Text
+            name: 48e2a23f
+            widget: string
+          - hint: 'Original text: © copyright 2023 Anthony Salamin, key: 30639537'
+            label: Text
+            name: '30639537'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3875,9 +4145,9 @@ collections:
             name: title
             widget: hidden
             default: Links
-          - hint: 'Original link: /, key: 2f'
+          - hint: 'Original link: #webdesign, key: 3e3d354f'
             label: Link
-            name: 2f
+            name: 3e3d354f
             widget: string
           - hint: 'Original link: /design, key: 66aea2ad'
             label: Link
@@ -3894,6 +4164,10 @@ collections:
           - hint: 'Original link: #contact, key: 6c80469d'
             label: Link
             name: 6c80469d
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
           - hint: 'Original link: /about, key: 55b8e8be'
             label: Link
@@ -3912,38 +4186,6 @@ collections:
               663eed27
             label: Link
             name: 663eed27
-            widget: string
-          - hint: 'Original link: https://further.designhotels.com/, key: 48714c66'
-            label: Link
-            name: 48714c66
-            widget: string
-          - hint: 'Original link: #designhotels, key: 26e95420'
-            label: Link
-            name: '26e95420'
-            widget: string
-          - hint: 'Original link: https://designhotels.com/, key: -33145550'
-            label: Link
-            name: '-33145550'
-            widget: string
-          - hint: 'Original link: https://www.tlh-sierre.ch, key: -53943146'
-            label: Link
-            name: '-53943146'
-            widget: string
-          - hint: 'Original link: #tlh, key: 11a9ed'
-            label: Link
-            name: 11a9ed
-            widget: string
-          - hint: 'Original link: https://www.auratorio.com, key: 51697bc7'
-            label: Link
-            name: 51697bc7
-            widget: string
-          - hint: 'Original link: #auratorio, key: 48855477'
-            label: Link
-            name: '48855477'
-            widget: string
-          - hint: 'Original link: https://www.auratorio.com/, key: -243a02b8'
-            label: Link
-            name: '-243a02b8'
             widget: string
           - hint: 'Original link: /design/eagle-cup, key: 7838f613'
             label: Link
@@ -4041,10 +4283,6 @@ collections:
             label: Link
             name: '-69f7b3dd'
             widget: string
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
-            widget: string
           - hint: >-
               Original link: https://www.linkedin.com/in/anthony-salamin/, key:
               -f090b5a
@@ -4120,6 +4358,38 @@ collections:
               -1d3fae22
             label: Link
             name: '-1d3fae22'
+            widget: string
+          - hint: 'Original link: https://further.designhotels.com/, key: 48714c66'
+            label: Link
+            name: 48714c66
+            widget: string
+          - hint: 'Original link: #designhotels, key: 26e95420'
+            label: Link
+            name: '26e95420'
+            widget: string
+          - hint: 'Original link: https://designhotels.com/, key: -33145550'
+            label: Link
+            name: '-33145550'
+            widget: string
+          - hint: 'Original link: https://www.tlh-sierre.ch, key: -53943146'
+            label: Link
+            name: '-53943146'
+            widget: string
+          - hint: 'Original link: #tlh, key: 11a9ed'
+            label: Link
+            name: 11a9ed
+            widget: string
+          - hint: 'Original link: https://www.auratorio.com, key: 51697bc7'
+            label: Link
+            name: 51697bc7
+            widget: string
+          - hint: 'Original link: #auratorio, key: 48855477'
+            label: Link
+            name: '48855477'
+            widget: string
+          - hint: 'Original link: https://www.auratorio.com/, key: -243a02b8'
+            label: Link
+            name: '-243a02b8'
             widget: string
       - label: Images
         name: images
@@ -4274,110 +4544,6 @@ collections:
                 required: false
           - label: Image
             name: 523fda84
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 325a105e
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-7536bf17'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7da7812f
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-c27bd94'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6baba12
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-35f1f3c8'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7ccb6a88
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '24072802'
             widget: object
             fields:
               - name: url
@@ -6742,4 +6908,841 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
+          - label: Image
+            name: 325a105e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2546c344'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6baba12
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-61575178'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7ccb6a88
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-296d31ae'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+      - label: eCommerce
+        name: ecommerce
+        file: cms/_data/settings/ecommerce.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: eCommerce
+          - label: Currencies and Formats
+            name: currencies_and_formats
+            widget: object
+            fields:
+              - hint: >-
+                  Template used to format the price, you can use following
+                  placeholders: {amount}, {currencyCode}, {symbol}
+                name: template
+                label: Price Template
+                widget: string
+                required: true
+              - hint: Character to divide decimals
+                name: decimal
+                label: Decimal
+                widget: string
+                required: true
+              - hint: Character to group amount
+                name: group
+                label: Group
+                widget: string
+                required: true
+              - hint: Number of fraction digits
+                name: fractionDigits
+                label: Fraction Digits
+                widget: number
+                required: true
+                value_type: int
+              - hint: Hide decimals for whole prices
+                name: hideDecimalForWholeNumbers
+                label: Hide decimals
+                widget: boolean
+                required: false
+              - hint: ''
+                name: currencies
+                label: Currencies
+                widget: list
+                required: true
+                min: 1
+                fields:
+                  - hint: Currency Code (3 char) all lowercase
+                    name: currencyCode
+                    label: Currency Code
+                    widget: string
+                    required: true
+                  - hint: ''
+                    name: symbol
+                    label: Symbol
+                    widget: string
+                    required: true
+          - label: Snipcart
+            name: snipcart
+            widget: object
+            fields:
+              - hint: Public Api Key
+                name: apiKey
+                label: Api Key
+                widget: string
+                required: true
+          - label: Snipcart Style
+            name: css
+            widget: object
+            fields:
+              - hint: 'Original Font Family: Open Sans,sans-serif'
+                name: main-font
+                label: Main font
+                widget: string
+                required: true
+              - hint: 'Original Font Family: Montserrat,sans-serif'
+                name: heading-font
+                label: Heading font
+                widget: string
+                required: true
+              - hint: 'Original color: #f7f7f8'
+                name: bgColor-alt
+                label: BgColor alt
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: bgColor-badge
+                label: BgColor badge
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fceae8'
+                name: bgColor-buttonDanger-active
+                label: BgColor buttonDanger active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fceae8'
+                name: bgColor-buttonDanger-focus
+                label: BgColor buttonDanger focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fdefed'
+                name: bgColor-buttonDanger-hover
+                label: BgColor buttonDanger hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: bgColor-buttonPrimary
+                label: BgColor buttonPrimary
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: bgColor-buttonPrimary-active
+                label: BgColor buttonPrimary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: bgColor-buttonPrimary-focus
+                label: BgColor buttonPrimary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0d59f2'
+                name: bgColor-buttonPrimary-hover
+                label: BgColor buttonPrimary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e7f6fe'
+                name: bgColor-buttonSecondary-active
+                label: BgColor buttonSecondary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #ecf8fe'
+                name: bgColor-buttonSecondary-focus
+                label: BgColor buttonSecondary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #ecf8fe'
+                name: bgColor-buttonSecondary-hover
+                label: BgColor buttonSecondary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: bgColor-default
+                label: BgColor default
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: bgColor-input
+                label: BgColor input
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0aa7f5'
+                name: bgColor-input-checked
+                label: BgColor input checked
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #f1f2f4'
+                name: bgColor-input-disabled
+                label: BgColor input disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: bgColor-input-focus
+                label: BgColor input focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: bgColor-input-hover
+                label: BgColor input hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: bgColor-link
+                label: BgColor link
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #d9f0fc'
+                name: bgColor-link-focus
+                label: BgColor link focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #f1f2f4'
+                name: bgColor-modal
+                label: BgColor modal
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-badge
+                label: BorderColor badge
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-badge-active
+                label: BorderColor badge active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e3e6e8'
+                name: borderColor-badge-disabled
+                label: BorderColor badge disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger
+                label: BorderColor buttonDanger
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-buttonDanger-active
+                label: BorderColor buttonDanger active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger-disabled
+                label: BorderColor buttonDanger disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger-error
+                label: BorderColor buttonDanger error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger-focus
+                label: BorderColor buttonDanger focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger-hover
+                label: BorderColor buttonDanger hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonDanger-success
+                label: BorderColor buttonDanger success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonPrimary
+                label: BorderColor buttonPrimary
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-buttonPrimary-active
+                label: BorderColor buttonPrimary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonPrimary-disabled
+                label: BorderColor buttonPrimary disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-buttonPrimary-error
+                label: BorderColor buttonPrimary error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonPrimary-focus
+                label: BorderColor buttonPrimary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonPrimary-hover
+                label: BorderColor buttonPrimary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-buttonPrimary-success
+                label: BorderColor buttonPrimary success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary
+                label: BorderColor buttonSecondary
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-buttonSecondary-active
+                label: BorderColor buttonSecondary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary-disabled
+                label: BorderColor buttonSecondary disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary-error
+                label: BorderColor buttonSecondary error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary-focus
+                label: BorderColor buttonSecondary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary-hover
+                label: BorderColor buttonSecondary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: transparent'
+                name: borderColor-buttonSecondary-success
+                label: BorderColor buttonSecondary success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e3e6e8'
+                name: borderColor-default
+                label: BorderColor default
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e3e6e8'
+                name: borderColor-input
+                label: BorderColor input
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0aa7f5'
+                name: borderColor-input-checked
+                label: BorderColor input checked
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e3e6e8'
+                name: borderColor-input-disabled
+                label: BorderColor input disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e85a4a'
+                name: borderColor-input-error
+                label: BorderColor input error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0aa7f5'
+                name: borderColor-input-focus
+                label: BorderColor input focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0aa7f5'
+                name: borderColor-input-hover
+                label: BorderColor input hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-link
+                label: BorderColor link
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-link-active
+                label: BorderColor link active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-link-focus
+                label: BorderColor link focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-link-hover
+                label: BorderColor link hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: currentColor'
+                name: borderColor-success
+                label: BorderColor success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #8f99a3'
+                name: color-alt
+                label: Color alt
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0d59f2'
+                name: color-badge
+                label: Color badge
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0d59f2'
+                name: color-badge-active
+                label: Color badge active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-badge-disabled
+                label: Color badge disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #9e2215'
+                name: color-buttonDanger
+                label: Color buttonDanger
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #9e2215'
+                name: color-buttonDanger-active
+                label: Color buttonDanger active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #8f99a3'
+                name: color-buttonDanger-disabled
+                label: Color buttonDanger disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e85a4a'
+                name: color-buttonDanger-error
+                label: Color buttonDanger error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #9e2215'
+                name: color-buttonDanger-focus
+                label: Color buttonDanger focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e85a4a'
+                name: color-buttonDanger-hover
+                label: Color buttonDanger hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #29c768'
+                name: color-buttonDanger-success
+                label: Color buttonDanger success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary
+                label: Color buttonPrimary
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary-active
+                label: Color buttonPrimary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e3e6e8'
+                name: color-buttonPrimary-disabled
+                label: Color buttonPrimary disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary-error
+                label: Color buttonPrimary error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary-focus
+                label: Color buttonPrimary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary-hover
+                label: Color buttonPrimary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-buttonPrimary-success
+                label: Color buttonPrimary success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #133986'
+                name: color-buttonSecondary
+                label: Color buttonSecondary
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #133986'
+                name: color-buttonSecondary-active
+                label: Color buttonSecondary active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #8f99a3'
+                name: color-buttonSecondary-disabled
+                label: Color buttonSecondary disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e85a4a'
+                name: color-buttonSecondary-error
+                label: Color buttonSecondary error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #133986'
+                name: color-buttonSecondary-focus
+                label: Color buttonSecondary focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: color-buttonSecondary-hover
+                label: Color buttonSecondary hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #29c768'
+                name: color-buttonSecondary-success
+                label: Color buttonSecondary success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-default
+                label: Color default
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #e85a4a'
+                name: color-error
+                label: Color error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-input
+                label: Color input
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #fff'
+                name: color-input-checked
+                label: Color input checked
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #8f99a3'
+                name: color-input-disabled
+                label: Color input disabled
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #9e2215'
+                name: color-input-error
+                label: Color input error
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-input-focus
+                label: Color input focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-input-hover
+                label: Color input hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #8f99a3'
+                name: color-inputIcon
+                label: Color inputIcon
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #2e3338'
+                name: color-inputLabel
+                label: Color inputLabel
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: color-link
+                label: Color link
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: color-link-active
+                label: Color link active
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #1a4db3'
+                name: color-link-focus
+                label: Color link focus
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #0d59f2'
+                name: color-link-hover
+                label: Color link hover
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
+              - hint: 'Original color: #29c768'
+                name: color-success
+                label: Color success
+                widget: color
+                required: true
+                enableAlpha: true
+                allowInput: true
 publish_mode: editorial_workflow

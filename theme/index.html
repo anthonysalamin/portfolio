@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="5d6fbb9d1698648117fddb2f" data-wf-site="5b05ed948ee27f736bbe9315" lang="en"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="63e7bcb368bea5a677fedbb4" data-wf-site="5b05ed948ee27f736bbe9315" lang="en"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -41,13 +41,6 @@
 a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-touch-callout:none!important;-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important}
 </style>
   <style>
-/* forces loading div animation to display */
-.loading {
-  display: block;
-  opacity: 1;
-}
-</style>
-  <style>
   /* lazyload fade image in after load */
   .lazyload,
   .lazyloading {
@@ -59,7 +52,7 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
     transition: opacity 2000ms;
   }
 </style>
-{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>{%- include "partials/_snipcart" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
 <body class="body">
@@ -69,18 +62,27 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
     {%- include "partials/hero" -%}
     <div id="webdesign" class="content wf-section"><img src="{{ images.325a105e.url }}" alt="{{ images.325a105e.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" class="img ui_mobile">
       <div class="container_videos">
-        <div class="wrapper_videos_desktop">
-          <div data-w-id="144f6e8a-8b5c-437f-d5e6-fa810409ebf0" style="opacity:0" class="wrap_video">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/further_a_v6.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+        <div class="wrapper_videos_desktop-copy">
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/further_a_v6.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591882019/films/further_a_v6.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div data-w-id="1dba4fbc-883f-3f3c-8e96-259ab975c87c" style="opacity:0" class="wrap_video">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/further_b_v3.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/further_b_v3.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1592155616/films/further_b_v3.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div data-w-id="885f48bb-d65b-f7dc-96b6-0531d9c57db8" style="opacity:0" class="wrap_video">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:1000/films/further_c_v2.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/further_c_v2.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591880380/films/further_c_v2.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
         </div>
         <div class="wrapper_infos">
@@ -117,7 +119,7 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
         <div class="wrap_hidden_left">
           <div class="wrap_info_process">
             <h4 class="h3_info">{{ texts.3d7785a }}</h4>
-            <p class="p_info">{{ texts.5226280a }}</p>
+            <p class="p_info">{{ texts.-4d30d5c0 }}</p>
           </div>
           <div class="wrap_info_process">
             <h4 class="h3_info">{{ texts.5cc7b199 }}</h4>
@@ -125,31 +127,38 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
             <a rel="noopener" href="{{ links.-33145550 }}" target="_blank" class="link_website">{{ texts.48e2a249 }}</a>
           </div>
         </div>
-        <div class="wrap_hidden_right">
-          <div class="img-desktop-scroll w-embed"><img class="lazyload img" src="{{ images.-c27bd94.url }}" data-sizes="auto" alt="{{ images.-c27bd94.alt | trim | escape }}"></div>
-        </div>
+        <div class="wrap_hidden_right"><img class="auratorio_a_v2_1" src="{{ images.-2546c344.url }}" alt="{{ images.-2546c344.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;652.1187744140625px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:1841,&quot;size&quot;:&quot;60vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1105px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.1187744140625px, (max-width: 991px) 85vw, (max-width: 1841px) 60vw, 1105px" loading="lazy"></div>
       </div>
     </div>
     <div class="content section_colored wf-section"><img src="{{ images.6baba12.url }}" alt="{{ images.6baba12.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" class="img ui_mobile">
       <div class="container_videos">
-        <div class="wrapper_videos_desktop">
-          <div class="wrap_video a">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/tlh_a.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+        <div class="wrapper_videos_desktop-copy">
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/tlh_a.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1568298738/films/tlh_a.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div class="wrap_video b">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/tlh_b.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/tlh_b.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1568298728/films/tlh_b.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div class="wrap_video c">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/tlh_c_v3.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/tlh_c_v3.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591883026/films/tlh_c_v3.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
         </div>
         <div class="wrapper_infos">
           <div class="wrap_info half">
             <h4 class="h3_info">{{ texts.7877dfeb }}</h4>
-            <p class="p_info">{{ texts.7d4cfb02 }}</p>
+            <p class="p_info">{{ texts.6573aa52 }}</p>
           </div>
           <div class="wrap_info half">
             <h4 class="h3_info">{{ texts.-464d59b6 }}</h4>
@@ -188,25 +197,32 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
             <a rel="noopener" href="{{ links.-53943146 }}" target="_blank" class="link_website">{{ texts.48e2a241 }}</a>
           </div>
         </div>
-        <div class="wrap_hidden_right">
-          <div style="-webkit-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="img-desktop-scroll w-embed"><img class="lazyload img" src="{{ images.-35f1f3c8.url }}" data-sizes="auto" alt="{{ images.-35f1f3c8.alt | trim | escape }}"></div>
-        </div>
+        <div class="wrap_hidden_right"><img class="auratorio_a_v2_1" src="{{ images.-61575178.url }}" alt="{{ images.-61575178.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;652.1187744140625px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:1841,&quot;size&quot;:&quot;60vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1105px&quot;}]" style="-webkit-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.1187744140625px, (max-width: 991px) 85vw, (max-width: 1841px) 60vw, 1105px" loading="lazy"></div>
       </div>
     </div>
     <div class="content wf-section"><img class="img ui_mobile" src="{{ images.7ccb6a88.url }}" alt="{{ images.7ccb6a88.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw">
       <div class="container_videos">
-        <div class="wrapper_videos_desktop">
-          <div class="wrap_video a">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/auratorio_a_v2.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+        <div class="wrapper_videos_desktop-copy">
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/auratorio_a_v2.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591893368/films/auratorio_a_v2.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div class="wrap_video b">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/auratorio_a_v2_1.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/auratorio_a_v2_1.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591897706/films/auratorio_a_v2_1.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
-          <div class="wrap_video c">
-            <div class="embed-cloudinary w-embed"><video class="videos lazy" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_100,e_blur:1000/films/auratorio_c_v2.jpg">
-              </video></div>{%- include "partials/iphone-x-frame" -%}{%- include "partials/placeholder" -%}
+          <div class="embed-cloudinary-copy w-embed">
+            <!--  cloudinary embed  -->
+            <video autoplay="" loop="" muted="" playsinline="" width="100%" height="100%" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_250,e_blur:2000/films/auratorio_c_v2.jpg">
+              <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1591897414/films/auratorio_c_v2.mp4" type="video/mp4">
+              Your browser does not support modern video tag, please update your browser.
+            </video>
           </div>
         </div>
         <div class="wrapper_infos">
@@ -251,9 +267,7 @@ a:focus,button:focus,input:focus,textarea:focus{outline:0!important}a{-webkit-to
             <a rel="noopener" href="{{ links.-243a02b8 }}" target="_blank" class="link_website">{{ texts.48e2a23f }}</a>
           </div>
         </div>
-        <div class="wrap_hidden_right">
-          <div style="-webkit-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="img-desktop-scroll w-embed"><img class="lazyload img" src="{{ images.24072802.url }}" data-sizes="auto" alt="{{ images.24072802.alt | trim | escape }}"></div>
-        </div>
+        <div class="wrap_hidden_right"><img class="auratorio_a_v2_1" src="{{ images.-296d31ae.url }}" alt="{{ images.-296d31ae.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;652.1187744140625px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:1841,&quot;size&quot;:&quot;60vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1105px&quot;}]" style="-webkit-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 300PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, (max-width: 767px) 652.1187744140625px, (max-width: 991px) 85vw, (max-width: 1841px) 60vw, 1105px" loading="lazy"></div>
       </div>
     </div>
   </main>
@@ -273,80 +287,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const style = document.createElement("style");
   style.innerText = `:host { left: -100% !important; }`;
   udeslyShadowRoot.appendChild(style);
-});
-</script>
-  <!--  GSAP API  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--  Tidio  -->
-  <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
-  <!--  lenis API  -->
-  <script defer="" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-  <script>
-/*
- * smooth scroll lenis
- * last update 30.10.22 @18:04
- */
-document.addEventListener("DOMContentLoaded", () => {
-  handleScrolling();
-});
-function handleScrolling() {
-  // helper easing functions || refference easings.net
-  const easeInOutQuint = (x) =>
-    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
-  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
-  const lenis = new Lenis({
-    duration: 1.2,
-    easing: easeOutQuart,
-    direction: "vertical", // vertical, horizontal
-    gestureDirection: "vertical", // vertical, horizontal, both
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false
-  });
-  // debug
-  /*
-  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
-    console.log({ scroll, limit, velocity, direction, progress });
-  });
-  */
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
-  // Use lenis.scrollTo() to scroll the page to the right element
-  const scrollButtons = document.querySelectorAll("[data-anchor]");
-  // clause guard
-  if (!scrollButtons[0]) return;
-  scrollButtons.forEach((button) => {
-    button.addEventListener("click", (event) => {
-      event.preventDefault();
-      const target = button.dataset.anchor,
-        element = document.querySelector(`#${target}`);
-      lenis.scrollTo(element, {
-        offset: 0,
-        immediate: false,
-        duration: 3,
-        easing: easeInOutQuint
-      });
-    });
-  });
-} // end handleScrolling()
-</script>
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-  // globals
-  const button = document.getElementById("whatsapp"),
-    domain = "https://api.whatsapp.com/",
-    phone = Number("00491751138245"),
-    text = "Hi Anthony, I have a question!",
-    url = `${domain}send?phone=${phone}&text=${text}`;
-    if (!button) return;
-  button.addEventListener("click", () => {
-    button.href = url;
-    button.target = "_blank";
-  });
 });
 </script>
   <script>
@@ -476,6 +416,65 @@ document.addEventListener("DOMContentLoaded", () => {
     xhr.send(formData);
   } // end makeCORSRequest ()
 }); // end DOM listener
+</script>
+  <!--  GSAP API  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--  Tidio  -->
+  <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
+  <!--  lenis API  -->
+  <script defer="" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+  <script>
+/*
+ * smooth scroll lenis
+ * last update 30.10.22 @18:04
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  handleScrolling();
+});
+function handleScrolling() {
+  // helper easing functions || refference easings.net
+  const easeInOutQuint = (x) =>
+    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
+  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: easeOutQuart,
+    direction: "vertical", // vertical, horizontal
+    gestureDirection: "vertical", // vertical, horizontal, both
+    smooth: true,
+    smoothTouch: false,
+    touchMultiplier: 2,
+    infinite: false
+  });
+  // debug
+  /*
+  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
+    console.log({ scroll, limit, velocity, direction, progress });
+  });
+  */
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+  // Use lenis.scrollTo() to scroll the page to the right element
+  const scrollButtons = document.querySelectorAll("[data-anchor]");
+  // clause guard
+  if (!scrollButtons[0]) return;
+  scrollButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = button.dataset.anchor,
+        element = document.querySelector(`#${target}`);
+      lenis.scrollTo(element, {
+        offset: 0,
+        immediate: false,
+        duration: 3,
+        easing: easeInOutQuint
+      });
+    });
+  });
+} // end handleScrolling()
 </script>
   <script>
 /*
@@ -645,191 +644,7 @@ function handleCursor(SVGcursor) {
   } // end Cursor class
   const cursor = new Cursor();
 }
-// go get an 🍦
-</script><!--  Lazysizes Responsive Image as Service plugin (RIaS)  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/plugins/rias/ls.rias.min.js" async=""></script>
-  <!--  Lazysizes  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async=""></script>
-  <script>
-/*
- * lazysizes Responsive Image as Service (RIaS) 5.2.2
- * https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/rias
- */
-document.addEventListener("DOMContentLoaded", () => {
-  imageInjection();
-});
-function imageInjection() {
-  const user = `anthonysalamin`,
-    onFlyTransformations = `dpr_auto,f_auto,q_auto:best`,
-        margin = 300; // similar to intersection observer 
-  window.lazySizesConfig = window.lazySizesConfig || {};
-  window.lazySizesConfig.rias = window.lazySizesConfig.rias || {};
-  // specifies the data-src path for Cloudinary responsive image
-  window.lazySizesConfig.rias = {
-    prefix: `https://res.cloudinary.com/${user}/image/upload/w_{width},${onFlyTransformations}/`
-  };
-  // configure available widths to replace with the {width} placeholder
-  window.lazySizesConfig.rias.widths = [640, 800, 960, 1280, 1600, 1920];
-  window.lazySizesConfig.expand = margin; 
-  // create an array containing all lazy Cloudinary images in the DOM
-  let images = document.getElementsByClassName("lazyload");
-  Array.from(images).forEach((image) => {
-    let splitted_url = image.src.split("/"),
-      folder_name = splitted_url[7],
-      image_name = splitted_url[8],
-      data_src = document.createAttribute("data-src");
-    // dynamically inject the image folder and image name into the data-src
-    data_src.value = `${folder_name}/${image_name}`;
-    image.setAttributeNode(data_src);
-  }); // end forEach
-} // end of cloudinaryInit definition
-</script>
-  <script>
-/*
- * lazy load video via intersectino observer method
- */
-document.addEventListener("DOMContentLoaded", () => {
-  initVideoInjection();
-  initLazyLoadVideo();
-});
-/*
- * conditional data-src video injection based on user's device width
- */
-function initVideoInjection() {
-  // cloudinary options
-  const user = `anthonysalamin`,
-    folder = `films`,
-    quality = `q_50:qmax_20`,
-    width = `w_375`,
-    codec = `vc_auto`,
-    path = `https://res.cloudinary.com/${user}/video/upload/`,
-    videos = document.getElementsByClassName("videos"),
-    errorMessage = document.createTextNode(
-      `Your browser does not support modern video tag, please update your browser ❤️`
-    );
-  // define device's width
-  let WindowWidth =
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth;
-  Array.from(videos).forEach((video) => {
-    const posterName = video.poster.split("/")[8].split(".")[0];
-    // check if user is on mobile or desktop
-    if (WindowWidth > 767) {
-      // create optimized res webm source dynamically
-      let webmSource = document.createElement("source");
-      webmSource.setAttribute(
-        "data-src",
-        `${path}${width},${codec},${quality}/${folder}/${posterName}.webm`
-      );
-      webmSource.setAttribute("type", "video/webm");
-      video.appendChild(webmSource);
-      video.appendChild(errorMessage);
-      // create optimized res mp4 source dynamically
-      let mp4Source = document.createElement("source");
-      mp4Source.setAttribute(
-        "data-src",
-        `${path}${width},${codec},${quality}/${folder}/${posterName}.mp4`
-      );
-      mp4Source.setAttribute("type", "video/mp4");
-      video.appendChild(mp4Source);
-      video.appendChild(errorMessage);
-    } else {
-      video.style.display = `none`;
-    } // end of if statement
-  }); // end for each video
-} // end initVideoInjection()
-/*
- * lazy load videos + expanded intersection observer margin
- */
-function initLazyLoadVideo() {
-  const delay = 0; // ⚠️ for production change to 0
-  const rootMargin = {
-    rootMargin: "0px 0px 300px 0px"
-  };
-  let videoSource;
-  let lazyVideos = [...document.querySelectorAll("video.lazy")];
-  if ("IntersectionObserver" in window) {
-    let lazyVideoObserver = new IntersectionObserver(function (
-      entries,
-      observer
-    ) {
-      entries.forEach((video) => {
-        if (video.isIntersecting) {
-          for (let source in video.target.children) {
-            videoSource = video.target.children[source];
-            if (
-              typeof videoSource.tagName === "string" &&
-              videoSource.tagName === "SOURCE"
-            ) {
-              videoSource.src = videoSource.dataset.src;
-            }
-          }
-          setTimeout(function () {
-            video.target.load();
-            console.log(
-              `Yay 🍉 ${
-                video.target.poster.split("/")[8].split(".")[0]
-              } video has been lazy loaded.`
-            );
-          }, delay * 1000);
-          video.target.classList.remove("lazy");
-          lazyVideoObserver.unobserve(video.target);
-        }
-      });
-    },
-    rootMargin);
-    lazyVideos.forEach((lazyVideo) => {
-      lazyVideoObserver.observe(lazyVideo);
-    });
-  }
-} // end of function declaration
-</script>
-  <script>
-/*
- * Anthony | Checkout Subscription (TEST)
- * https://stripe.com/docs/api/checkout/sessions/retrieve
- * https://stripe.com/docs/payments/checkout/client-subscription
- */
-document.addEventListener("DOMContentLoaded", () => {
-  "use strict";
-  // globals
-  const log = console.log,
-    pk_test =
-      "pk_live_51HH3cWCkDrSTQU1mNIyW3dQlXy393wVUvXYCLu665YSydnegOJS8IT3Ub9fJs0pbXpXKRFSyAjFPYTOHFxRZYPHe00CVuYrdWW",
-    priceID = "price_1HHzEjCkDrSTQU1mLM1qUZI8",
-    language = "en", // "auto" | "en"
-    mode = "subscription",
-    protocol = "https",
-    domain = "www.anthonysalamin.ch/stripe",
-    checkoutEmail = "leeloo@dallas.com",
-    forceEmail = false;
-  const stripe = Stripe(pk_test, { locale: language }),
-    checkoutButton = document.getElementById(priceID);
-  let stripeObject = {
-    lineItems: [{ price: priceID, quantity: 1 }],
-    mode: mode,
-    successUrl: `${protocol}://${domain}/success`,
-    cancelUrl: `${protocol}://${domain}/canceled`,
-    // billingAddressCollection: "required"
-  };
-  // force email management
-  if (forceEmail) {
-    stripeObject.customerEmail = checkoutEmail;
-  } else {
-    delete stripeObject.customerEmail;
-  }
-  checkoutButton.addEventListener("click", () => {
-    stripe.redirectToCheckout(stripeObject).then((result) => {
-      if (result.error) {
-        const displayError = document.getElementById("stripe-error-message");
-        displayError.textContent = result.error.message;
-      }
-    }); // end redirectToCheckout()
-  }); // end click listener
-}); // end DOMContentLoaded()
-</script>
-  <!--  ?X00xxxxX$[00+0,0+2X]!  -->
+</script><!--  ?X00xxxxX$[00+0,0+2X]!  -->
   <!--  fuckspotify1234!  -->
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script>{%- include "partials/_snipcart-footer" -%}</body></html>
