@@ -182,63 +182,6 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
   <!--  GSAP API  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--  Tidio  -->
-  <script src="https://code.tidio.co/ls1g9znkzgn26mjvuvicdfbtgvun6nho.js" async=""></script>
-  <!--  lenis API  -->
-  <script defer="" src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-  <script>
-/*
- * smooth scroll lenis
- * last update 30.10.22 @18:04
- */
-document.addEventListener("DOMContentLoaded", () => {
-  handleScrolling();
-});
-function handleScrolling() {
-  // helper easing functions || refference easings.net
-  const easeInOutQuint = (x) =>
-    x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
-  const easeOutQuart = (x) => 1 - Math.pow(1 - x, 4);
-  const lenis = new Lenis({
-    duration: 1.2,
-    easing: easeOutQuart,
-    direction: "vertical", // vertical, horizontal
-    gestureDirection: "vertical", // vertical, horizontal, both
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false
-  });
-  // debug
-  /*
-  lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
-    console.log({ scroll, limit, velocity, direction, progress });
-  });
-  */
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  requestAnimationFrame(raf);
-  // Use lenis.scrollTo() to scroll the page to the right element
-  const scrollButtons = document.querySelectorAll("[data-anchor]");
-  // clause guard
-  if (!scrollButtons[0]) return;
-  scrollButtons.forEach((button) => {
-    button.addEventListener("click", (event) => {
-      event.preventDefault();
-      const target = button.dataset.anchor,
-        element = document.querySelector(`#${target}`);
-      lenis.scrollTo(element, {
-        offset: 0,
-        immediate: false,
-        duration: 3,
-        easing: easeInOutQuint
-      });
-    });
-  });
-} // end handleScrolling()
-</script>
   <script>
 /*
  * Isotope + imagesLoaded
