@@ -1597,9 +1597,9 @@ collections:
             label: Text
             name: '-2d45961'
             widget: string
-          - hint: 'Original text: Telefon: 0049 175 11 38 245, key: 27191e6d'
+          - hint: 'Original text: ‍, key: 200d'
             label: Text
-            name: 27191e6d
+            name: 200d
             widget: string
           - hint: 'Original text: E-Mail: , key: -2ae9163b'
             label: Text
@@ -1635,41 +1635,6 @@ collections:
             label: Text
             name: 3550af03
             widget: string
-          - hint: >-
-              Original text: Hinweis gemäß Online-Streitbeilegungs-Verordnung,
-              key: -6f849f6a
-            label: Text
-            name: '-6f849f6a'
-            widget: string
-          - hint: >-
-              Original text: Nach geltendem Recht sind wir verpflichtet,
-              Verbraucher auf die Existenz der Europäischen
-              Online-Streitbeilegungs-Plattform hinzuweisen, die für die
-              Beilegung von Streitigkeiten genutzt werden kann, ohne dass ein
-              Gericht eingeschaltet werden muss. Für die Einrichtung der
-              Plattform ist die Europäische Kommission zuständig. Die
-              Europäische Online-Streitbeilegungs-Plattform ist hier zu finden:
-              , key: 380bb08b
-            label: Text
-            name: 380bb08b
-            widget: text
-          - hint: 'Original text: http://ec.europa.eu/odr, key: 3dc36270'
-            label: Text
-            name: 3dc36270
-            widget: string
-          - hint: 'Original text: . Unsere E-Mail lautet: , key: 4c6273da'
-            label: Text
-            name: 4c6273da
-            widget: string
-          - hint: >-
-              Original text: Wir weisen aber darauf hin, dass wir nicht bereit
-              sind, uns am Streitbeilegungsverfahren im Rahmen der Europäischen
-              Online-Streitbeilegungs-Plattform zu beteiligen. Nutzen Sie zur
-              Kontaktaufnahme bitte unsere obige E-Mail und Telefonnummer., key:
-              382a8564
-            label: Text
-            name: 382a8564
-            widget: text
           - hint: 'Original text: Disclaimer – rechtliche Hinweise, key: -7a80e679'
             label: Text
             name: '-7a80e679'
@@ -1677,10 +1642,6 @@ collections:
           - hint: 'Original text: § 1 Warnhinweis zu Inhalten, key: -28a1e235'
             label: Text
             name: '-28a1e235'
-            widget: string
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
             widget: string
           - hint: >-
               Original text: Die kostenlosen und frei zugänglichen Inhalte
@@ -4304,10 +4265,6 @@ collections:
           - hint: 'Original link: mailto:hello@anthonysalamin.ch, key: 4e7eb6c7'
             label: Link
             name: 4e7eb6c7
-            widget: string
-          - hint: 'Original link: http://ec.europa.eu/odr, key: 3dc36270'
-            label: Link
-            name: 3dc36270
             widget: string
           - hint: >-
               Original link:

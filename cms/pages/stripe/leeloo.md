@@ -6,7 +6,7 @@ slug: leeloo
 tags: pages
 seo:
   noindex: false
-  title: Anthony Salamin
+  title: 🟢 anthonysalamin.ch
 ---
 
 
