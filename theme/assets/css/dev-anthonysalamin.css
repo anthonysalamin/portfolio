@@ -2782,7 +2782,9 @@ body {
 }
 
 .pitch__form-block {
+  z-index: 1;
   margin-bottom: 0;
+  position: relative;
 }
 
 .timeline__centre {
@@ -2816,6 +2818,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  position: relative;
+}
+
+.pitch__error {
+  z-index: 1;
+  border-radius: var(--4px);
+  background-color: #b8ff92;
+  padding: 33px;
   position: relative;
 }
 

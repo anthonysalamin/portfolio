@@ -1841,10 +1841,10 @@ collections:
             name: 5a0ea5a1
             widget: string
           - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form., key: -7c112e99
+              Original text: Thank you, your request has been submitted
+              successfully. I will get back to you ASAP., key: -66b3b8f6
             label: Text
-            name: '-7c112e99'
+            name: '-66b3b8f6'
             widget: string
           - hint: >-
               Original text: Thank you, your form has been sent, I will review
