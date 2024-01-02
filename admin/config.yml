@@ -874,9 +874,13 @@ collections:
             label: Text
             name: b44d909
             widget: string
-          - hint: "Original text: Multi-language\_\_(NEW!), key: 25b2500c"
+          - hint: 'Original text: Multi-language, key: -75dc2274'
             label: Text
-            name: 25b2500c
+            name: '-75dc2274'
+            widget: string
+          - hint: 'Original text: NEW, key: 12d80'
+            label: Text
+            name: 12d80
             widget: string
           - hint: 'Original text: Full Corporate Identity (CI), key: 427abe51'
             label: Text
@@ -1311,6 +1315,126 @@ collections:
           - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
             label: Text
             name: '-3fbde6f6'
+            widget: string
+          - hint: 'Original text: By clicking , key: 6ffc699d'
+            label: Text
+            name: 6ffc699d
+            widget: string
+          - hint: 'Original text: "Accept", key: -17108668'
+            label: Text
+            name: '-17108668'
+            widget: string
+          - hint: >-
+              Original text: , you agree to all cookies being stored on your
+              device in order to improve site navigation and analyze site usage.
+              See our , key: -38e95a7
+            label: Text
+            name: '-38e95a7'
+            widget: text
+          - hint: 'Original text:  for more information., key: -466d844a'
+            label: Text
+            name: '-466d844a'
+            widget: string
+          - hint: 'Original text: Preferences, key: -25fb7928'
+            label: Text
+            name: '-25fb7928'
+            widget: string
+          - hint: 'Original text: Decline, key: -40d9052a'
+            label: Text
+            name: '-40d9052a'
+            widget: string
+          - hint: 'Original text: Accept, key: 748ca128'
+            label: Text
+            name: 748ca128
+            widget: string
+          - hint: 'Original text: Privacy Policy Preference Center, key: -10118a5c'
+            label: Text
+            name: '-10118a5c'
+            widget: string
+          - hint: >-
+              Original text: When you visit websites, they may store or retrieve
+              data from your browser. This storage is often necessary for the
+              basic functionality of the website. It may be used for marketing,
+              analysis and site personalization purposes, for example to record
+              your preferences. Protecting your privacy is important to us,
+              which is why you have the option of disabling certain types of
+              storage that are not necessary for the basic operation of the
+              website. Blocking certain categories may have an impact on your
+              experience of the website., key: -4fff6191
+            label: Text
+            name: '-4fff6191'
+            widget: text
+          - hint: 'Original text: Reject all cookies, key: 41778c2f'
+            label: Text
+            name: 41778c2f
+            widget: string
+          - hint: 'Original text: Accept all cookies, key: -204607e8'
+            label: Text
+            name: '-204607e8'
+            widget: string
+          - hint: >-
+              Original text: Manage consent preferences by category, key:
+              b6cf8de
+            label: Text
+            name: b6cf8de
+            widget: string
+          - hint: 'Original text: Essential, key: 16a3932e'
+            label: Text
+            name: 16a3932e
+            widget: string
+          - hint: 'Original text: Always active, key: -653019e9'
+            label: Text
+            name: '-653019e9'
+            widget: string
+          - hint: >-
+              Original text: These elements are necessary for the basic
+              operation of the website., key: 19288811
+            label: Text
+            name: '19288811'
+            widget: string
+          - hint: 'Original text: Marketing, key: 3fc9ea06'
+            label: Text
+            name: 3fc9ea06
+            widget: string
+          - hint: >-
+              Original text: These elements are used to deliver ads that are
+              more relevant to you and your interests. They may also be used to
+              limit the number of times you see an ad and to measure the
+              effectiveness of advertising campaigns. Advertising networks
+              generally place them with the authorization of the website
+              operator., key: 406db949
+            label: Text
+            name: 406db949
+            widget: text
+          - hint: 'Original text: Personalization, key: -13f831fc'
+            label: Text
+            name: '-13f831fc'
+            widget: string
+          - hint: >-
+              Original text: These elements enable the website to remember the
+              choices you make (such as your username, language or location) and
+              provide enhanced, more personal features. For example, a website
+              may provide you with local weather reports or traffic information
+              by storing data about your current location., key: 6bd3544f
+            label: Text
+            name: 6bd3544f
+            widget: text
+          - hint: 'Original text: Analysis, key: -39356904'
+            label: Text
+            name: '-39356904'
+            widget: string
+          - hint: >-
+              Original text: These elements help the website operator to
+              understand how the site works, how visitors interact with the site
+              and whether there are any technical problems. This type of storage
+              generally does not collect information that could identify a
+              visitor., key: 58b3ae3a
+            label: Text
+            name: 58b3ae3a
+            widget: text
+          - hint: 'Original text: Confirm my preferences and close, key: -717776ad'
+            label: Text
+            name: '-717776ad'
             widget: string
           - hint: 'Original text: I worked with, key: 18c47a1f'
             label: Text
@@ -1967,19 +2091,6 @@ collections:
                 required: false
           - label: Image
             name: c8a5c77
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: i3aa60452
             widget: object
             fields:
               - name: url
