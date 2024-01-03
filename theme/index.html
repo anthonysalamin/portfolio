@@ -389,21 +389,15 @@ p {
         <div class="container">
           <div class="mixitup">
             <div id="mixitup-controls" class="mixitup__controls w-clearfix">
-              <div class="search"><input type="text" class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search something" id="mixitup-search"></div>
-              <div data-filter="all" class="filter checked">
+              <div class="search"><input type="text" class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search" id="mixitup-search"></div>
+              <div data-filter="all" class="filter">
                 <div class="filter__wrap">
                   <div class="filter__text center">{{ texts.41af2ef }}</div>
                 </div>
               </div>
-              <div data-filter=".mixitup__featuring" class="filter">
+              <div data-filter=".mixitup__featuring" class="filter temporary-hiden">
                 <div class="filter__wrap">
                   <div class="filter__text">{{ texts.4ed7ac94 }}</div>
-                  <div class="embed-icon-xs extra-margin-left w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g fill="currentColor">
-                        <path d="M7.45284 2.71266C7.8276 1.76244 9.1724 1.76245 9.54716 2.71267L10.7085 5.65732C10.8229 5.94743 11.0526 6.17707 11.3427 6.29148L14.2873 7.45284C15.2376 7.8276 15.2376 9.1724 14.2873 9.54716L11.3427 10.7085C11.0526 10.8229 10.8229 11.0526 10.7085 11.3427L9.54716 14.2873C9.1724 15.2376 7.8276 15.2376 7.45284 14.2873L6.29148 11.3427C6.17707 11.0526 5.94743 10.8229 5.65732 10.7085L2.71266 9.54716C1.76244 9.1724 1.76245 7.8276 2.71267 7.45284L5.65732 6.29148C5.94743 6.17707 6.17707 5.94743 6.29148 5.65732L7.45284 2.71266Z"></path>
-                        <path d="M16.9245 13.3916C17.1305 12.8695 17.8695 12.8695 18.0755 13.3916L18.9761 15.6753C19.039 15.8348 19.1652 15.961 19.3247 16.0239L21.6084 16.9245C22.1305 17.1305 22.1305 17.8695 21.6084 18.0755L19.3247 18.9761C19.1652 19.039 19.039 19.1652 18.9761 19.3247L18.0755 21.6084C17.8695 22.1305 17.1305 22.1305 16.9245 21.6084L16.0239 19.3247C15.961 19.1652 15.8348 19.039 15.6753 18.9761L13.3916 18.0755C12.8695 17.8695 12.8695 17.1305 13.3916 16.9245L15.6753 16.0239C15.8348 15.961 15.961 15.8348 16.0239 15.6753L16.9245 13.3916Z"></path>
-                      </g>
-                    </svg></div>
                 </div>
               </div>
               {%- assign collection = collections.categories | sort: "f_order" -%}<div class="filter__collection-list-wrapper w-dyn-list">
@@ -1509,7 +1503,7 @@ p {
               <div class="clients__infos">
                 <h1 class="punchline short">{{ texts.40f0d5cd }}</h1>
                 <div class="card-wrap-info">
-                  <p class="subline">{{ texts.78a7eb58 }}<br></p>
+                  <p class="subline">{{ texts.42fd376e }}</p>
                 </div>
               </div>
             </div>
@@ -2112,6 +2106,7 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 document.addEventListener("DOMContentLoaded", () => {
   const production = false;
+  addCheckedOnLoad();
   setDataAttribute();
   filterChecked();
   featToClass();
@@ -2119,6 +2114,10 @@ document.addEventListener("DOMContentLoaded", () => {
   titleToClass();
   mixItUp(production);
 });
+function addCheckedOnLoad() {
+  const parentElement = document.querySelector(".filter__collection-list");
+  parentElement.querySelector(".filter").classList.add("checked");
+}
 function cleanAndTransformString(str) {
   const accentMap = {
     ä: "a",
@@ -2239,7 +2238,7 @@ function mixItUp(production) {
   // mixer options
   const mixer = mixitup(container, {
     load: {
-      filter: ".development" // "*" or ".mixitup__featuring"
+      filter: ".uxui" // "*" or ".mixitup__featuring"
     },
     selectors: {
       target: ".mixitup__collection-item"

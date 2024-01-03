@@ -1226,9 +1226,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Every new project is a chance to learn something
-              new and grow 💕, key: 78a7eb58
+              new and grow., key: 42fd376e
             label: Text
-            name: 78a7eb58
+            name: 42fd376e
             widget: string
           - hint: 'Original text: GERMANY, key: 26405793'
             label: Text
@@ -1892,20 +1892,6 @@ collections:
             label: Text
             name: 608faf2d
             widget: string
-          - hint: >-
-              Original text: I value your identity and how you wish to be
-              addressed. When you share your full name with me, please also
-              include the pronoun you prefer., key: 4acdde46
-            label: Text
-            name: 4acdde46
-            widget: text
-          - hint: >-
-              Original text: Prior to sending your message, take a moment to
-              double-check and confirm the accuracy of your email address., key:
-              5928cf17
-            label: Text
-            name: 5928cf17
-            widget: text
           - hint: 'Original text: How did you hear about me ?, key: -3fb1d936'
             label: Text
             name: '-3fb1d936'
