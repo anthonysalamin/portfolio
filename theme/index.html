@@ -2110,7 +2110,252 @@ document.addEventListener("DOMContentLoaded", () => {
  * Behaviour: filter multi-categories (one dimension) + sort + search + hash URL function
  * Build: 12.10.2023 @16:01
  */
-document.addEventListener("DOMContentLoaded",()=>{const production=false;setDataAttribute();filterChecked();featToClass();categToClass();titleToClass();mixItUp(production)});function cleanAndTransformString(str){const accentMap={ä:"a",Ä:"a",à:"a",À:"a",é:"e",É:"e",è:"e",È:"e",ö:"o",Ö:"o",ü:"u",Ü:"u"};let cleanedString=str;for(const accentChar in accentMap){const normalChar=accentMap[accentChar];const accentRegex=new RegExp(accentChar,"g");cleanedString=cleanedString.replace(accentRegex,normalChar)}const removedSpecialCharacters=cleanedString.replace(/[^a-zA-Z0-9-]/g,"");const lowercaseString=removedSpecialCharacters.toLowerCase();return lowercaseString}function setDataAttribute(){const controls=document.getElementById("mixitup-controls");const buttons=controls.querySelectorAll('[data-filter=""]');Array.from(buttons).forEach((button)=>{const content=button.textContent;const contentCleaned=cleanAndTransformString(content);button.setAttribute("data-filter",`.${ contentCleaned }`)})}function filterChecked(){const controls=document.getElementById("mixitup-controls"),buttons=document.getElementsByClassName("filter");Array.from(buttons).forEach((button)=>{button.addEventListener("click",(event)=>{let target=event.currentTarget;if(target.classList!="filter checked"){controls.querySelector(".filter.checked").classList.remove("checked");target.classList.add("checked")}else{return}});})}function featToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{const featured=mix.querySelector(".mixitup__featuring");if(!featured){return}const stringFeat=featured.textContent,classNameFeat=stringFeat.split(" ").join("");const feat=mix.querySelector(".mixitup__featuring");if(mix.querySelector(".mixitup__featuring").classList!="mixitup__featuring w-condition-invisible"){mix.classList.add(classNameFeat.toLowerCase().trim())}})}function categToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{const categories=mix.querySelectorAll(".mixitup__category");categories.forEach((category)=>{const stringCateg=category.textContent;const classNameCateg=cleanAndTransformString(stringCateg);mix.classList.add(classNameCateg)})})}function titleToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{let stringTitle=mix.querySelector(".mixitup__title").textContent,classNameTitle=stringTitle.split(" ").join("");mix.classList.add(classNameTitle.toLowerCase().trim())})}function mixItUp(production){const container=document.getElementById("mixitup-container"),inputSearch=document.getElementById("mixitup-search");let keyupTimeout,searchValue,status=document.getElementById("status");if(!production){status.innerHTML="Portfolio"}function mixFailBtn(){const controls=document.getElementById("controlsMixItUp"),buttons=document.getElementsByClassName("filter"),feat=document.querySelector("button[data-filter='.mixitup__featuring']");Array.from(buttons).forEach((button)=>{if(feat.classList!="filter checked"){controls.querySelector(".filter.checked").classList.remove("checked");feat.classList.add("checked")}})}const mixer=mixitup(container,{load:{filter:".webdevelopment"},selectors:{target:".mixitup__collection-item"},animation:{duration:450,nudge:true,reverseOut:true,effects:"fade scale(0.77) translateZ(-68px) stagger(6ms)"},callbacks:{onMixStart:handleMixStart,onMixEnd:handleMixEnd,onMixFail:handleMixFail}});function handleMixStart(){document.querySelector(`#status`).textContent=`Searching...`}function handleMixFail(){document.querySelector(`#status`).textContent=`No matching item to display.`;console.log("error");setTimeout(function(){setTimeout(function(){mixer.filter("*");},150)},250)}function handleMixEnd(){const totalItems=document.querySelectorAll(`.mixitup__collection-item`).length;const filteredItems=mixer.getState().totalShow;const displayElement=document.querySelector(`#status`);if(displayElement){displayElement.textContent=` ${ filteredItems } result${filteredItems>1?`s`:``}`}}function getControls(){const dataFilters=document.querySelectorAll(`[data-filter]`);return[...dataFilters]}(function setHashFromFilter(){let filterValue,filterValueCleaned,filterFromHash,filters=document.getElementsByClassName("filter");Array.from(filters).forEach((filter)=>{filter.addEventListener("click",(event)=>{if(event.currentTarget.hasAttribute("data-filter")){filterValue=event.currentTarget.getAttribute("data-filter")}if(!filterValue.includes(".")){filterValue=`.${ filterValue }`}filterValueCleaned=filterValue.split(".")[1];location.hash="filter="+encodeURIComponent(filterValueCleaned)});if(location.hash){if(location.hash=="#filter=all"){filterFromHash="all"}else{filterFromHash=location.hash.replace("#filter=",".")}mixer.filter(filterFromHash);let oldFilter=document.querySelector(".filter.checked").classList.remove("checked");let newFilter=document.querySelector(`[data-filter="${ filterFromHash }"]`).classList.add("checked")}})})();inputSearch.addEventListener("keyup",(event)=>{if(inputSearch.value.length<1){searchValue=""}else{searchValue=inputSearch.value.toLowerCase().trim()}clearTimeout(keyupTimeout);keyupTimeout=setTimeout(function(){filterByString(searchValue)},350)});function filterByString(searchValue){if(searchValue){mixer.filter(`[class*="${ searchValue }"]`)}else{document.querySelector(".filter.checked").classList.remove("checked");document.querySelector("[data-filter='.mixitup__featuring']").classList.add("checked");mixer.filter(".mixitup__featuring")}}}
+document.addEventListener("DOMContentLoaded", () => {
+  const production = false;
+  setDataAttribute();
+  filterChecked();
+  featToClass();
+  categToClass();
+  titleToClass();
+  mixItUp(production);
+});
+function cleanAndTransformString(str) {
+  const accentMap = {
+    ä: "a",
+    Ä: "a",
+    à: "a",
+    À: "a",
+    é: "e",
+    É: "e",
+    è: "e",
+    È: "e",
+    ö: "o",
+    Ö: "o",
+    ü: "u",
+    Ü: "u"
+  };
+  let cleanedString = str;
+  for (const accentChar in accentMap) {
+    const normalChar = accentMap[accentChar];
+    const accentRegex = new RegExp(accentChar, "g");
+    cleanedString = cleanedString.replace(accentRegex, normalChar);
+  }
+  const removedSpecialCharacters = cleanedString.replace(/[^a-zA-Z0-9-]/g, "");
+  const lowercaseString = removedSpecialCharacters.toLowerCase();
+  return lowercaseString;
+}
+function setDataAttribute() {
+  const controls = document.getElementById("mixitup-controls");
+  const buttons = controls.querySelectorAll('[data-filter=""]');
+  Array.from(buttons).forEach((button) => {
+    // get button content
+    const content = button.textContent;
+    const contentCleaned = cleanAndTransformString(content);
+    // set data attribute
+    button.setAttribute("data-filter", `.${contentCleaned}`);
+  });
+}
+// 🥑 manage button state
+function filterChecked() {
+  const controls = document.getElementById("mixitup-controls"),
+    buttons = document.getElementsByClassName("filter");
+  Array.from(buttons).forEach((button) => {
+    button.addEventListener("click", (event) => {
+      // use "currentTarget" to select parent trigger not its children...
+      let target = event.currentTarget;
+      if (target.classList != "filter checked") {
+        // button not yet checked, remove "old" class + add new one
+        controls.querySelector(".filter.checked").classList.remove("checked");
+        target.classList.add("checked");
+      } else {
+        // button already checked
+        return;
+      } // end if
+    }); // end eventlistener
+  });
+} // end checked()
+// 🍅 convert wf switch "featuring" into CSS comboclass v.2
+function featToClass() {
+  const mixes = document.getElementsByClassName("mixitup__collection-item");
+  Array.from(mixes).forEach((mix) => {
+    const featured = mix.querySelector(".mixitup__featuring");
+    if (!featured) return;
+    const stringFeat = featured.textContent,
+      classNameFeat = stringFeat.split(" ").join("");
+    // if wf switch is on, then add classNameFeat as combo class
+    const feat = mix.querySelector(".mixitup__featuring");
+    if (
+      mix.querySelector(".mixitup__featuring").classList !=
+      "mixitup__featuring w-condition-invisible"
+    ) {
+      mix.classList.add(classNameFeat.toLowerCase().trim());
+    }
+  });
+}
+// 🌽 convert wf text field "category" into CSS comboclass
+function categToClass() {
+  const mixes = document.getElementsByClassName("mixitup__collection-item");
+  Array.from(mixes).forEach((mix) => {
+    const categories = mix.querySelectorAll(".mixitup__category");
+    categories.forEach((category) => {
+      const stringCateg = category.textContent;
+      const classNameCateg = cleanAndTransformString(stringCateg);
+      mix.classList.add(classNameCateg);
+    });
+  });
+}
+// 🍆 convert wf text field "title" into CSS comboclass
+function titleToClass() {
+  const mixes = document.getElementsByClassName("mixitup__collection-item");
+  Array.from(mixes).forEach((mix) => {
+    let stringTitle = mix.querySelector(".mixitup__title").textContent,
+      classNameTitle = stringTitle.split(" ").join("");
+    mix.classList.add(classNameTitle.toLowerCase().trim());
+  });
+}
+// 🍋 initialize MixItUp 3 (with search module)
+function mixItUp(production) {
+  const container = document.getElementById("mixitup-container"),
+    inputSearch = document.getElementById("mixitup-search");
+  let keyupTimeout,
+    searchValue,
+    status = document.getElementById("status");
+  if (!production) status.innerHTML = "Portfolio";
+  // 🥕 handle button state onMixFail callback
+  function mixFailBtn() {
+    const controls = document.getElementById("controlsMixItUp"),
+      buttons = document.getElementsByClassName("filter"),
+      feat = document.querySelector(
+        "button[data-filter='.mixitup__featuring']"
+      );
+    Array.from(buttons).forEach((button) => {
+      if (feat.classList != "filter checked") {
+        // button not yet checked, remove "old" class + add new one
+        controls.querySelector(".filter.checked").classList.remove("checked");
+        feat.classList.add("checked");
+      } // end if
+    });
+  } // end mixFail()
+  // mixer options
+  const mixer = mixitup(container, {
+    load: {
+      filter: ".development" // "*" or ".mixitup__featuring"
+    },
+    selectors: {
+      target: ".mixitup__collection-item"
+    },
+    animation: {
+      duration: 450,
+      nudge: true,
+      reverseOut: true,
+      effects: "fade scale(0.77) translateZ(-68px) stagger(6ms)"
+    },
+    callbacks: {
+      // onMixClick: handleMixClick,
+      onMixStart: handleMixStart,
+      onMixEnd: handleMixEnd,
+      onMixFail: handleMixFail
+    }
+  });
+  // 🥬 helper
+  function handleMixStart() {
+    document.querySelector(`#status`).textContent = `Searching...`;
+  } // end handleMixFail()
+  // 🥬 helper
+  function handleMixFail() {
+    document.querySelector(
+      `#status`
+    ).textContent = `No matching item to display.`;
+    console.log("error");
+    setTimeout(function () {
+      setTimeout(function () {
+        mixer.filter("*"); // .featuring
+      }, 150);
+    }, 250);
+  } // end handleMixFail()
+  // 🥬 helper
+  function handleMixEnd() {
+    const totalItems = document.querySelectorAll(`.mixitup__collection-item`)
+      .length; // mixer.getTotalShow();
+    const filteredItems = mixer.getState().totalShow;
+    const displayElement = document.querySelector(`#status`);
+    if (displayElement) {
+      displayElement.textContent = ` ${filteredItems} result${filteredItems > 1 ? `s` : ``}`;
+    }
+  } // end handleMixEnd()
+  // 🥬 helper
+  function getControls() {
+    const dataFilters = document.querySelectorAll(`[data-filter]`);
+    return [...dataFilters];
+  }
+  // 🍧 handle hash URL filtering
+  (function setHashFromFilter() {
+    let filterValue,
+      filterValueCleaned,
+      filterFromHash,
+      filters = document.getElementsByClassName("filter");
+    Array.from(filters).forEach((filter) => {
+      filter.addEventListener("click", (event) => {
+        // get the "data-filter" attribute
+        if (event.currentTarget.hasAttribute("data-filter")) {
+          filterValue = event.currentTarget.getAttribute("data-filter");
+        }
+        // handle the "all" data-filter edge case
+        if (!filterValue.includes(".")) {
+          filterValue = `.${filterValue}`;
+        }
+        filterValueCleaned = filterValue.split(".")[1];
+        location.hash = "filter=" + encodeURIComponent(filterValueCleaned);
+      }); // end listener
+      // 🍪 if hash exists
+      if (location.hash) {
+        // handling of the data-filter="all" misssing the "."
+        if (location.hash == "#filter=all") {
+          filterFromHash = "all";
+        } else {
+          filterFromHash = location.hash.replace("#filter=", ".");
+        } // end if
+        // update mixer on hash exists
+        mixer.filter(filterFromHash);
+        // handle button state on hash exists
+        let oldFilter = document
+          .querySelector(".filter.checked")
+          .classList.remove("checked");
+        let newFilter = document
+          .querySelector(`[data-filter="${filterFromHash}"]`)
+          .classList.add("checked");
+      }
+    });
+  })(); // end setHashFromFilter IIFE
+  // 🥤 set up a handler to listen for "keyup" events
+  inputSearch.addEventListener("keyup", (event) => {
+    if (inputSearch.value.length < 1) {
+      searchValue = "";
+    } else {
+      searchValue = inputSearch.value.toLowerCase().trim();
+    }
+    // basic throttling to prevent mixer thrashing
+    clearTimeout(keyupTimeout);
+    keyupTimeout = setTimeout(function () {
+      filterByString(searchValue);
+    }, 350);
+  });
+  // 🍸 update mixitup mixer.filter method
+  function filterByString(searchValue) {
+    if (searchValue) {
+      // use an attribute wildcard selector to check for matches
+      mixer.filter(`[class*="${searchValue}"]`);
+    } else {
+      // update current category button state
+      document.querySelector(".filter.checked").classList.remove("checked");
+      document
+        .querySelector("[data-filter='.mixitup__featuring']")
+        .classList.add("checked");
+      // update mixer's filter
+      mixer.filter(".mixitup__featuring");
+    }
+  }
+}
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></body></html>
