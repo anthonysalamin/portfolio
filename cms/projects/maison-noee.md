@@ -53,7 +53,7 @@ f_gallery:
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd391e45d0bbae1e613_img_maisonnoee_11.jpg
     alt: null
 f_category-ies:
-  - cms/categories/graphic-design.md
+  - cms/categories/design.md
 f_similar-projects:
   - cms/projects/eagle-cup.md
   - cms/projects/perversion.md

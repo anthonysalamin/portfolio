@@ -20,7 +20,7 @@ f_similar-projects:
   - cms/projects/quatreaplus.md
   - cms/projects/wventures.md
 f_category-ies:
-  - cms/categories/web-development.md
+  - cms/categories/development.md
 updated-on: '2023-12-30T04:52:58.009Z'
 created-on: '2023-12-14T07:20:00.472Z'
 published-on: '2023-12-30T04:56:08.890Z'

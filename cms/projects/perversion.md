@@ -52,7 +52,7 @@ f_gallery:
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d83d6fa664b7de215d1_img_perversion_08.jpg
     alt: null
 f_category-ies:
-  - cms/categories/graphic-design.md
+  - cms/categories/design.md
 f_similar-projects:
   - cms/projects/eagle-cup.md
 updated-on: '2023-12-19T11:47:10.956Z'

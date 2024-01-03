@@ -18,8 +18,8 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6582bfa702e1d4067ddbc1ed_highlight.jpg
   alt: null
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6582bfa25cd5dbefa8d482b0_helge-02.jpg

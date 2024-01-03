@@ -12,8 +12,8 @@ f_introduction: >-
   UX/UI overhaul and assured web development.
 slug: urbain
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
   - cms/categories/photography.md
 f_similar-projects:
   - cms/projects/wventures.md

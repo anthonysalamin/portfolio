@@ -81,8 +81,8 @@ f_similar-projects:
   - cms/projects/urbain.md
 f_testimony-2: cms/testimonies/jochen-m-wilms.md
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
 f_tag-1: Web Design
 f_tag-2: Web Development
 f_highlight: true

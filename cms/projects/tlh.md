@@ -21,8 +21,8 @@ f_big-image:
   alt: null
 slug: tlh
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
 f_similar-projects:
   - cms/projects/urbain.md
   - cms/projects/quatreaplus.md

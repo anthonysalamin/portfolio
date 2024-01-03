@@ -623,9 +623,9 @@ collections:
             name: title
             widget: hidden
             default: Texts
-          - hint: 'Original text: Portfolio, key: -45b0dad8'
+          - hint: 'Original text: Work, key: 293b31'
             label: Text
-            name: '-45b0dad8'
+            name: 293b31
             widget: string
           - hint: 'Original text: Pricing, key: 507137a6'
             label: Text
@@ -712,9 +712,9 @@ collections:
             label: Text
             name: 41af2ef
             widget: string
-          - hint: 'Original text: Show Highlight, key: -7b8160af'
+          - hint: 'Original text: Highlight, key: 4ed7ac94'
             label: Text
-            name: '-7b8160af'
+            name: 4ed7ac94
             widget: string
           - hint: 'Original text: No items found., key: 3d503d2b'
             label: Text
@@ -1048,11 +1048,9 @@ collections:
             label: Text
             name: 21e91b01
             widget: string
-          - hint: >-
-              Original text: Answers to frequently asked questions., key:
-              -4ae7858c
+          - hint: 'Original text: FAQ, key: 10ef6'
             label: Text
-            name: '-4ae7858c'
+            name: 10ef6
             widget: string
           - hint: 'Original text: What services do you offer ?, key: e1e572b'
             label: Text
@@ -1063,39 +1061,39 @@ collections:
             name: 486cb402
             widget: string
           - hint: >-
-              Original text:  — everything you need to shine online., key:
-              -108d67d7
+              Original text:  — Web Design, Web Development, Graphic Design,
+              Logo Design, Corporate Identity Creation, Photography retouching,
+              Advanced Web Analytics, SEO., key: 37a83224
             label: Text
-            name: '-108d67d7'
-            widget: string
+            name: 37a83224
+            widget: text
           - hint: >-
-              Original text: I specialize in both web development and web design
-              as well as in Graphic Design. I create visually appealing and
-              functional websites tailored to meet the unique needs of each
-              client. My services include but are not limited to corporate
-              identity design, logo design, responsive web design, front-end and
-              back-end development, website hosting and maintenance, photo and
-              film shooting, photo editing and retouching., key: 5aabb441
+              Original text: I design and develop websites from scratch. I
+              specialize in both Web Design and Web Development as well as in
+              Graphic Design. My services include but are not limited to
+              Corporate Identity creation including logo design, UX/UI Design
+              for website or LP, complete Frontend and Backend Development to
+              launch your website., key: -3667214f
             label: Text
-            name: 5aabb441
+            name: '-3667214f'
             widget: text
           - hint: 'Original text: What is your pricing ?, key: c632e32'
             label: Text
             name: c632e32
             widget: string
           - hint: >-
-              Original text:  — my pricing pacakges are tailor-made., key:
-              76b18ef0
+              Original text:  — My pricing pacakges are tailor-made., key:
+              -11357cf0
             label: Text
-            name: 76b18ef0
+            name: '-11357cf0'
             widget: string
           - hint: >-
               Original text: Typically, the pricing for my services is
-              influenced by the project's scope and specifications, typically
-              falling within a specified range outlined in my pricing packages,
-              namely ", key: 5572e633
+              influenced by the project's scope and specifications, falling
+              within a specified range outlined in my pricing packages, namely
+              ", key: -682ab5f0
             label: Text
-            name: '5572e633'
+            name: '-682ab5f0'
             widget: text
           - hint: 'Original text: ," ", key: 1483f8'
             label: Text
@@ -1108,32 +1106,30 @@ collections:
           - hint: >-
               Original text: ." Following our initial conversation, I will
               furnish you with a comprehensive proposal detailing the discussed
-              services and their associated costs including hosting. My goal is
-              to provide a transparent and easily understandable pricing
-              structure in writing prior to commencing any projects. Terms and
-              conditions are applicable., key: -32d18275
+              services and their associated costs including hosting., key:
+              46808f7d
             label: Text
-            name: '-32d18275'
+            name: 46808f7d
             widget: text
           - hint: 'Original text: What is your process ?, key: 4992a69b'
             label: Text
             name: 4992a69b
             widget: string
           - hint: >-
-              Original text:  — collaboration & clear communication., key:
-              4b7f01ec
+              Original text:  — Collaboration & clear communication., key:
+              -3c6809f4
             label: Text
-            name: 4b7f01ec
+            name: '-3c6809f4'
             widget: string
           - hint: >-
-              Original text: My process typically begins with a thorough
-              discussion to understand your goals and requirements. I then
-              create wireframes and design mockups for your approval before
-              proceeding to development. Throughout the process, I maintain open
-              communication to ensure the final product aligns with your
-              vision., key: -37b8d6d7
+              Original text: My process begins with a thorough discussion to
+              understand your goals and requirements. I then create wireframes
+              and design mockups for your approval before proceeding to
+              development. Throughout the process, I maintain open communication
+              to ensure the final product aligns with your vision., key:
+              7b7118ac
             label: Text
-            name: '-37b8d6d7'
+            name: 7b7118ac
             widget: text
           - hint: >-
               Original text: How long does it take from start to finish ?, key:
@@ -1142,10 +1138,10 @@ collections:
             name: '-186e6ea6'
             widget: string
           - hint: >-
-              Original text:  — have your MVP online within 1 day., key:
-              4ca1ade3
+              Original text:  — Have your MVP online within 1 day., key:
+              -5756d5fd
             label: Text
-            name: 4ca1ade3
+            name: '-5756d5fd'
             widget: string
           - hint: >-
               Original text: The final timeline varies depending on the
@@ -1169,10 +1165,10 @@ collections:
             name: '-4383a987'
             widget: string
           - hint: >-
-              Original text:  — absolutely, I'll assist you in every step., key:
-              -7a2726e4
+              Original text:  — Absolutely, I'll assist you in every step., key:
+              -66cdcac4
             label: Text
-            name: '-7a2726e4'
+            name: '-66cdcac4'
             widget: string
           - hint: >-
               Original text: I can guide you through the process of domain
@@ -1188,9 +1184,11 @@ collections:
             label: Text
             name: 45f051e
             widget: string
-          - hint: 'Original text:  — yes I do offer priority support., key: 191ee75e'
+          - hint: >-
+              Original text:  — Yes I do offer priority support if needed., key:
+              7249ca86
             label: Text
-            name: 191ee75e
+            name: 7249ca86
             widget: string
           - hint: >-
               Original text: I provide ongoing maintenance and support services
@@ -1206,9 +1204,9 @@ collections:
             label: Text
             name: d1d5b22
             widget: string
-          - hint: 'Original text:  — yes, I offer SEO and Analytics., key: 464ba49e'
+          - hint: 'Original text:  — Yes, I offer SEO and Analytics., key: -56cd6382'
             label: Text
-            name: 464ba49e
+            name: '-56cd6382'
             widget: string
           - hint: >-
               Original text: I integrate SEO best practices into the development
@@ -1303,10 +1301,6 @@ collections:
           - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
             label: Text
             name: 29ff8bcf
-            widget: string
-          - hint: 'Original text: Free Audit, key: -185fced9'
-            label: Text
-            name: '-185fced9'
             widget: string
           - hint: 'Original text: Imprint, key: -29f92c17'
             label: Text

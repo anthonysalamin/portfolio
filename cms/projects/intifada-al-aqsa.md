@@ -42,7 +42,7 @@ f_gallery:
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d83ec93457d0b240e1_img_intifada_04.jpg
     alt: null
 f_category-ies:
-  - cms/categories/graphic-design.md
+  - cms/categories/design.md
 f_similar-projects:
   - cms/projects/maison-noee.md
   - cms/projects/perversion.md

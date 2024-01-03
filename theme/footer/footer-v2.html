@@ -270,6 +270,62 @@ p {
   <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/utility@v1.0.7/drawsvg.js"></script>
   <script>
 /*
+ * PORTFOLIO | navigation v3
+ * build 20.12.23 @00:27
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  handleNavigation();
+});
+function handleNavigation() {
+  let isOpen = false;
+  const burger = document.querySelector(`[data-id="burger"]`);
+  const menu = document.querySelector(`[data-id="menu"]`);
+  const links = document.querySelectorAll(`[data-id="navbar-link"]`);
+  const svgElement = document.querySelector(".burger-rotate");
+  // helper open menu
+  function openMenu() {
+    gsap.to(menu, { x: "0%", duration: 0.5 }); // open
+  }
+  // helper close menu
+  function closeMenu() {
+    gsap.to(menu, { x: "100%", duration: 0.5 }); // close
+  }
+  // helper handle menu state
+  function handleMenuState() {
+    // toggle menu show/hide
+    burger.addEventListener("click", () => {
+      // toggle burger close/open
+      svgElement.classList.toggle("active");
+      if (!isOpen) {
+        openMenu();
+      } else {
+        closeMenu();
+      }
+      isOpen = !isOpen;
+    });
+  } // end handleMenuState
+  // handle links clicked to close menu
+  function handleLinksClicked() {
+    links.forEach((navLink) => {
+      navLink.addEventListener("click", () => {
+        closeMenu();
+        // toggle burger close/open
+        burger.click();
+      });
+    });
+  } // end handleLinksClicked
+  if (window.innerWidth < 991) {
+    console.log("mobile - animation burger ready");
+    handleMenuState();
+    handleLinksClicked();
+  } else {
+    console.log("desktop - no need for animation burger");
+    return;
+  } // end if
+} // end handleNavigation
+</script>
+  <script>
+/*
  * PORTFOLIO | FAQ expand/collapse v2
  * dependency: gsap/3.12.4/gsap.min.js
  * build 30.12.2023 @14:11
@@ -342,64 +398,6 @@ function drawCheck() {
     onComplete: pauseBeforeYoyo
   });
 }
-</script>
-  <script>
-/*
- * PORTFOLIO | blink
- * build 20.12.23 @00:27
-*/
-document.addEventListener("DOMContentLoaded", () => {
-  handleNavigation();
-});
-function handleNavigation() {
-  let isOpen = false;
-  const burger = document.querySelector(`[data-id="burger"]`);
-  const menu = document.querySelector(`[data-id="menu"]`);
-  const navLinks = document.querySelectorAll(`[data-id="navbar-link"]`);
-  const hamburgerSVG = document.getElementById(`[data-id="burger-svg"]`);
-  // custom click event for SVG
-  const clickEvent = new Event("click", {
-    bubbles: true,
-    cancelable: true
-  });
-  // helper open menu
-  function openMenu() {
-    gsap.to(menu, { x: "0%", duration: 0.5 }); // open
-  }
-  // helper close menu
-  function closeMenu() {
-    gsap.to(menu, { x: "100%", duration: 0.5 }); // close
-  }
-  // helper handle menu state
-  function handleMenuState() {
-    burger.addEventListener("click", () => {
-      if (!isOpen) {
-        openMenu();
-      } else {
-        closeMenu();
-      }
-      isOpen = !isOpen;
-    });
-  } // end handleMenuState
-  // handle links clicked to close menu
-  function handleLinksClicked() {
-    navLinks.forEach((navLink) => {
-      navLink.addEventListener("click", () => {
-        closeMenu();
-        // dispatch click event on SVG
-        hamburgerSVG.dispatchEvent(clickEvent);
-      });
-    });
-  } // end handleLinksClicked
-  if (window.innerWidth < 991) {
-    console.log("Viewport is less than 991 pixels wide");
-    handleMenuState();
-    handleLinksClicked();
-  } else {
-    console.log("Viewport is 991 pixels or wider");
-    return;
-  } // end if
-} // end handleNavigation
 </script>
   <script>
 document.addEventListener("DOMContentLoaded", () => {

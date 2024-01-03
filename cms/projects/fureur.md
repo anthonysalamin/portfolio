@@ -18,8 +18,8 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.jpg
   alt: null
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65829d623c2687b35a6a2013_fureur-02.jpg

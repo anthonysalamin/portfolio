@@ -54,9 +54,9 @@ f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589fa5113138f3362029_img_south-africa_04.jpg
     alt: null
-updated-on: '2023-12-19T09:33:52.160Z'
+updated-on: '2024-01-03T03:14:17.873Z'
 created-on: '2023-12-19T08:47:37.528Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-01-03T03:33:23.939Z'
 f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581576b11e4fef2ecfff978_higlight.jpg
@@ -86,7 +86,7 @@ Back in the 80’s, two main important training tools emerged for climbers addic
 
 ‍
 
-**Photos:** © Anthony Salamin**  
-Role:** Adventure Photography  
+**Photos:** © Anthony Salamin  
+**Role:** Adventure Photography  
 **Client:** SA Magazine, TMMS Verlag  
 **Location:** Cederberg, South Africa

@@ -5,9 +5,9 @@ f_hero-video: false
 f_order: 8
 title: MoTo GmbH - Web launch
 slug: moto
-updated-on: '2023-12-30T04:55:47.780Z'
+updated-on: '2024-01-03T04:55:59.662Z'
 created-on: '2023-12-18T07:44:20.302Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-03T04:57:40.912Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -18,8 +18,8 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6583beacefe94c745761133b_moto-03.jpg
   alt: null
 f_category-ies:
-  - cms/categories/web-design.md
-  - cms/categories/web-development.md
+  - cms/categories/ux-ui.md
+  - cms/categories/development.md
 f_client: cherrycherry UG
 f_gallery:
   - url: >-
@@ -68,9 +68,9 @@ layout: '[projects].html'
 tags: projects
 ---
 
-In collaboration with the cherrycherry UG agency team, I played a pivotal role in the creation of a sophisticated website for MoTo Projektmanagement GmbH. This dynamic platform seamlessly integrates a content management system (CMS) and boasts a cutting-edge UX/UI design, carefully crafted with a mobile-first approach to enhance user experience across devices. Drawing inspiration from the MoTo logo, we centered the design around the distinctive blue pentagon, which not only adds visual cohesion but also pays homage to the initial Campeon project in Neubiberg, establishing a meaningful connection between the company's visual identity and its historical roots. This website not only serves as a powerful representation of MoTo Projektmanagement's capabilities but also aligns seamlessly with the company's modern and forward-thinking ethos, making it a central asset in their digital presence and marketing strategy.  
+In collaboration with the [cherrycherry UG](https://cherrycherry.de/) agency, I played a pivotal role in the creation of a sophisticated website for MoTo Projektmanagement GmbH. This dynamic platform seamlessly integrates a content management system (CMS) and boasts a cutting-edge UX/UI design, carefully crafted with a mobile-first approach to enhance user experience across devices. Drawing inspiration from the MoTo logo, we centered the design around the distinctive blue pentagon, which not only adds visual cohesion but also pays homage to the initial Campeon project in Neubiberg, establishing a meaningful connection between the company's visual identity and its historical roots.  
 ‍
 
-**Client:** cherrycherry UG  
+**Client & Project Management:** cherrycherry UG  
 **My role:** UX/UI Design + Web Development  
 **Location:** Münich, Germany
