@@ -18,7 +18,7 @@ f_introduction: >-
 slug: mindsquare-ci-launch
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/659532771d646507b4ba1059_thumbnail_animated.svg
   alt: null
 f_big-image:
   url: >-
@@ -55,9 +55,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/maison-noee.md
   - cms/projects/eagle-cup.md
-updated-on: '2023-12-19T12:10:56.089Z'
+updated-on: '2024-01-03T10:10:10.355Z'
 created-on: '2023-12-19T12:06:02.996Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-01-03T10:10:23.332Z'
 layout: '[projects].html'
 tags: projects
 ---

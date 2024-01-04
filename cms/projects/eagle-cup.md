@@ -16,7 +16,7 @@ f_introduction: >-
 slug: eagle-cup
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd0e13f32fb4f7e6bf_img_eaglecup_03.svg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6595313f0e8cfa09950ff2d9_thumbnail_animated.svg
   alt: null
 f_big-image:
   url: >-
@@ -41,9 +41,9 @@ f_gallery:
     alt: null
 f_category-ies:
   - cms/categories/design.md
-updated-on: '2023-12-19T11:50:00.443Z'
+updated-on: '2024-01-03T10:04:53.442Z'
 created-on: '2023-12-19T11:11:22.780Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-01-03T10:10:23.332Z'
 f_similar-projects:
   - cms/projects/perversion.md
   - cms/projects/maison-noee.md

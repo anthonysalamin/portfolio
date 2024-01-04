@@ -792,9 +792,9 @@ collections:
             label: Text
             name: '-d7a6f84'
             widget: string
-          - hint: 'Original text: Advanced Analytics, key: -77203ef8'
+          - hint: 'Original text: Advanced Analytics & Heatmap, key: 6a2bba3a'
             label: Text
-            name: '-77203ef8'
+            name: 6a2bba3a
             widget: string
           - hint: 'Original text: Customer Support, key: -47e04673'
             label: Text

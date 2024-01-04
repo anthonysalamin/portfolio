@@ -2156,7 +2156,7 @@ body {
 }
 
 .lottie-stars {
-  width: 100%;
+  width: 150px;
   height: 32px;
 }
 
@@ -2187,6 +2187,7 @@ body {
 }
 
 .lottie-arrow-right {
+  width: 24px;
   height: 24px;
   transform: rotate(-90deg);
 }
@@ -2912,6 +2913,33 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #ffb2b2;
+}
+
+.rewiews-wrap-2 {
+  background-color: #f3b0b0;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: center;
+  margin-top: 16px;
+  display: flex;
+}
+
+.wrap-stars-2 {
+  grid-column-gap: 8px;
+  background-color: #bef1ff;
+  flex-direction: row;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 16px;
+  display: flex;
+}
+
+.lottie-stars-2 {
+  width: 150px;
+  height: 32px;
+  max-width: 100%;
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
@@ -3724,10 +3752,6 @@ body {
 
   .card {
     padding: 32px 24px 24px;
-  }
-
-  .card__side-right {
-    aspect-ratio: 2 / 3;
   }
 
   .marquee-horizontal-large {
