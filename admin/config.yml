@@ -1934,16 +1934,16 @@ collections:
             name: e83b7c3
             widget: text
           - hint: >-
-              Original text: Thank you! Your submission has been received!, key:
-              5a0ea5a1
+              Original text: Thank you ! I'll get back to you ASAP., key:
+              4a66c8ca
             label: Text
-            name: 5a0ea5a1
+            name: 4a66c8ca
             widget: string
           - hint: >-
-              Original text: Thank you, your request has been submitted
-              successfully. I will get back to you ASAP., key: -66b3b8f6
+              Original text: Ooops, something went wrong. Please write me an
+              email to , key: 605db99e
             label: Text
-            name: '-66b3b8f6'
+            name: 605db99e
             widget: string
           - hint: >-
               Original text: Thank you, your form has been sent, I will review
@@ -2029,6 +2029,13 @@ collections:
           - hint: 'Original link: #film, key: 21d2c27'
             label: Link
             name: 21d2c27
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:hello@anthonysalamin.ch?subject=Contact%20alternative, key:
+              332ecf61
+            label: Link
+            name: 332ecf61
             widget: string
       - label: Images
         name: images
