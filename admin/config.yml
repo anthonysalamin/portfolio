@@ -886,9 +886,9 @@ collections:
             label: Text
             name: 427abe51
             widget: string
-          - hint: 'Original text: API integrations, key: -1423e27b'
+          - hint: 'Original text: Custom API integrations, key: 643a5a34'
             label: Text
-            name: '-1423e27b'
+            name: 643a5a34
             widget: string
           - hint: 'Original text: Design requests (Add-on), key: 664e70d0'
             label: Text
@@ -1843,9 +1843,9 @@ collections:
             label: Text
             name: 4072162f
             widget: string
-          - hint: 'Original text: Pro Email, key: -3de933d7'
+          - hint: 'Original text: Custom Domain & Email, key: -db3efcb'
             label: Text
-            name: '-3de933d7'
+            name: '-db3efcb'
             widget: string
           - hint: 'Original text: Logo Design, key: -1781ae2d'
             label: Text

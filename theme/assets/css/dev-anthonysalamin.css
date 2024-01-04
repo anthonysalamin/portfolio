@@ -441,7 +441,6 @@ body {
   height: 360px;
   max-width: 390px;
   border: 1px solid var(--grey-light);
-  background-color: var(--grey-light);
   border-radius: 1.5vw 1.5vw 0 0;
   position: relative;
   overflow: hidden;
@@ -3052,6 +3051,10 @@ body {
     grid-column-gap: 32px;
   }
 
+  .teaser__cloudinary {
+    height: 300px;
+  }
+
   .xl-scroll__wrapper {
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -3307,6 +3310,10 @@ body {
 
   .teaser__cloudinary {
     height: 250px;
+  }
+
+  .teaser__cloudinary.hide {
+    display: none;
   }
 
   .teaser__info-wrap {
@@ -3709,6 +3716,10 @@ body {
   .header__hero-video {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
+  }
+
+  .teaser__cloudinary {
+    height: 300px;
   }
 
   .teaser__cloudinary.last {
