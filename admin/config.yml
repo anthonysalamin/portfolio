@@ -1801,9 +1801,9 @@ collections:
             label: Text
             name: 80cd5a3
             widget: string
-          - hint: 'Original text: I provide a , key: -25885a0b'
+          - hint: 'Original text: I can provide a , key: 3d9488c5'
             label: Text
-            name: '-25885a0b'
+            name: 3d9488c5
             widget: string
           - hint: 'Original text: free, key: 30166c'
             label: Text
@@ -1811,11 +1811,10 @@ collections:
             widget: string
           - hint: >-
               Original text:  audit, if you so desire - of your entire existing
-              website, accompanied by a detailed report highlighting potential
-              areas for improvement., key: 7b1560da
+              website., key: -769a9c49
             label: Text
-            name: 7b1560da
-            widget: text
+            name: '-769a9c49'
+            widget: string
           - hint: 'Original text: FREE, key: 210e6c'
             label: Text
             name: 210e6c
@@ -1844,9 +1843,9 @@ collections:
             label: Text
             name: 4072162f
             widget: string
-          - hint: 'Original text: Emails, key: 7bec1477'
+          - hint: 'Original text: Pro Email, key: -3de933d7'
             label: Text
-            name: 7bec1477
+            name: '-3de933d7'
             widget: string
           - hint: 'Original text: Logo Design, key: -1781ae2d'
             label: Text
@@ -1888,13 +1887,13 @@ collections:
             label: Text
             name: '-3f58a0d6'
             widget: string
-          - hint: 'Original text: How shall we start a conversation ?, key: 608faf2d'
+          - hint: 'Original text: How shall we start a conversation?, key: 2c67bb71'
             label: Text
-            name: 608faf2d
+            name: 2c67bb71
             widget: string
-          - hint: 'Original text: How did you hear about me ?, key: -3fb1d936'
+          - hint: 'Original text: How did you hear about me?, key: -54a2a3cc'
             label: Text
-            name: '-3fb1d936'
+            name: '-54a2a3cc'
             widget: string
           - hint: 'Original text: Referral, key: -27372043'
             label: Text
@@ -1909,16 +1908,16 @@ collections:
             name: 48f8ef0
             widget: string
           - hint: >-
-              Original text: Ready to submit the form and kick off a new project
-              with me!, key: 7eee56a
+              Original text: Ready to submit your request and kick off a new
+              project with me!, key: -4a750587
             label: Text
-            name: 7eee56a
+            name: '-4a750587'
             widget: string
           - hint: >-
-              Original text: I acknowledge that I have read and wholeheartedly
-              consent to the , key: -d7f29c7
+              Original text: I acknowledge that I have read and consent to the ,
+              key: -581715e2
             label: Text
-            name: '-d7f29c7'
+            name: '-581715e2'
             widget: string
           - hint: 'Original text:  on anthonysalamin.ch, key: -73535c24'
             label: Text
@@ -1930,13 +1929,9 @@ collections:
               delineating both fixed and recurring expenses. By using my email
               form, you acknowledge and agree that the information you submit
               will be used solely for the purpose of addressing your inquiry or
-              request. I do not share, sell, or disclose your personal
-              information to any third parties without your explicit consent,
-              except as required by law. I reserve the right to update or modify
-              my privacy policy at any time, and any changes will be reflected
-              on my website., key: 29d0ac79
+              request., key: e83b7c3
             label: Text
-            name: 29d0ac79
+            name: e83b7c3
             widget: text
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
