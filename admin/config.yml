@@ -631,6 +631,10 @@ collections:
             label: Text
             name: 507137a6
             widget: string
+          - hint: 'Original text: new, key: 1a9a0'
+            label: Text
+            name: 1a9a0
+            widget: string
           - hint: 'Original text: Book a call, key: 47d6ebb4'
             label: Text
             name: 47d6ebb4
@@ -842,9 +846,9 @@ collections:
             label: Text
             name: 3d02e963
             widget: string
-          - hint: 'Original text: Advanced web interactions, key: 113dc20b'
+          - hint: 'Original text: Advanced filtering system, key: -49d96a3d'
             label: Text
-            name: 113dc20b
+            name: '-49d96a3d'
             widget: string
           - hint: 'Original text: most popular, key: -598868c4'
             label: Text
@@ -894,9 +898,9 @@ collections:
             label: Text
             name: 664e70d0
             widget: string
-          - hint: 'Original text: Prority Support, key: 497e3198'
+          - hint: 'Original text: Advanced Web animation, key: -5ac579c6'
             label: Text
-            name: '497e3198'
+            name: '-5ac579c6'
             widget: string
           - hint: 'Original text: Still have a question ?, key: 7ae25ac4'
             label: Text

@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 slug: privacy-policy
-updated-on: '2023-12-12T11:39:10.340Z'
+updated-on: '2024-01-10T07:06:07.473Z'
 created-on: '2023-12-12T11:15:46.421Z'
 published-on: '2023-12-12T11:48:19.991Z'
 layout: '[legal-text].html'
@@ -21,29 +21,20 @@ _Last updated: June 4, 2023_
 
 ‍
 
-**Contact details:  
-  
-**Provider and responsible person:  
-Anthony Salamin
-
-Gneisenaustrasse 89
-
-10961 Berlin
-
+**Contact details:**  
+Anthony Salamin  
+Gneisenaustrasse 89  
+10961 Berlin  
 GERMANY
 
   
-E-mail address of the provider:
-
-hello@anthonysalamin.ch
-
-‍
-
-**Information We Collect:**
+**E-mail address of the provider:  
+‍**hello@anthonysalamin.ch
 
 ‍
 
-When you visit our website, we may collect certain information, including:
+**Information We Collect:  
+‍**When you visit our website, we may collect certain information, including:
 
 ‍
 
@@ -52,11 +43,8 @@ When you visit our website, we may collect certain information, including:
 
 ‍
 
-**Use of Information:**
-
-‍
-
-We may use the collected information for the following purposes:
+**Use of Information:  
+‍**We may use the collected information for the following purposes:
 
 ‍
 

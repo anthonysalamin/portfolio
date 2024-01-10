@@ -5,9 +5,9 @@ f_hero-video: false
 f_order: 8
 title: MoTo GmbH - Web launch
 slug: moto
-updated-on: '2024-01-03T09:58:36.353Z'
+updated-on: '2024-01-10T07:02:30.514Z'
 created-on: '2023-12-18T07:44:20.302Z'
-published-on: '2024-01-03T10:02:03.320Z'
+published-on: '2024-01-10T07:02:38.087Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true

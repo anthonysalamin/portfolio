@@ -1,7 +1,7 @@
 ---
 title: Imprint
 slug: imprint
-updated-on: '2023-12-29T04:02:09.803Z'
+updated-on: '2024-01-10T07:04:35.975Z'
 created-on: '2023-12-12T11:14:58.287Z'
 published-on: '2023-12-29T07:18:13.977Z'
 layout: '[legal-text].html'
@@ -69,9 +69,3 @@ Disclaimer – Legal Notices
 > **§ 5 Pricing Information and Terms of Service disclaimer  
 > ‍**  
 > The prices indicated on this platform or in any communication are provided for informational purposes only and are subject to change. The information serves as a general guide and is not a definitive offer. A comprehensive cost calculation tailored to your specific requirements must be conducted to validate any contractual agreement between anthonysalamin.ch and the client. The final contract will outline all fixed costs, recurring charges, and any other relevant financial details. It is essential for clients to carefully review and agree to these terms before entering into any formal agreement. anthonysalamin.ch reserves the right to modify the pricing policy and terms of service at its discretion and without prior notice. Such changes may be implemented to reflect market conditions, operational requirements, or any other factors deemed relevant by anthonysalamin.ch. Clients will be informed of any modifications, and continued use of our services implies acceptance of the updated terms.
-
-‍
-
-‍
-
-‍
