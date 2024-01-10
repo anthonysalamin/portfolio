@@ -1805,19 +1805,11 @@ collections:
             label: Text
             name: 80cd5a3
             widget: string
-          - hint: 'Original text: I can provide a , key: 3d9488c5'
-            label: Text
-            name: 3d9488c5
-            widget: string
-          - hint: 'Original text: free, key: 30166c'
-            label: Text
-            name: 30166c
-            widget: string
           - hint: >-
-              Original text:  audit, if you so desire - of your entire existing
-              website., key: -769a9c49
+              Original text: I provide audit, if you so desire - of your entire
+              existing website, key: e96e8a1
             label: Text
-            name: '-769a9c49'
+            name: e96e8a1
             widget: string
           - hint: 'Original text: FREE, key: 210e6c'
             label: Text
@@ -1858,6 +1850,10 @@ collections:
           - hint: 'Original text: Corporate Identity, key: -6478f5a7'
             label: Text
             name: '-6478f5a7'
+            widget: string
+          - hint: 'Original text: Generative AI visuals, key: -767065ad'
+            label: Text
+            name: '-767065ad'
             widget: string
           - hint: 'Original text: Web Analytics, key: -4d1f3e86'
             label: Text

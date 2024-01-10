@@ -255,7 +255,7 @@ p {
               <a href="{{ links.6ec07556 }}" data-id="navbar-link" class="nav__link">{{ texts.293b31 }}</a>
               <div class="div-block-8">
                 <a href="{{ links.2101c243 }}" data-id="navbar-link" class="nav__link no-padding-right">{{ texts.507137a6 }}</a>
-                <div class="text-block-7">{{ texts.1a9a0 }}</div>
+                <div class="new-pill">{{ texts.1a9a0 }}</div>
               </div>
             </div>
             <div class="nav__link-group right">
@@ -351,7 +351,7 @@ p {
                     </div>
                     <div class="timeline__right">
                       <div class="margin-bottom-medium">
-                        <div class="timeline_text">{{ texts.3d9488c5 }}<strong>{{ texts.30166c }}</strong>{{ texts.-769a9c49 }}<br></div>
+                        <div class="timeline_text">{{ texts.e96e8a1 }}<br></div>
                         <div class="pitch__input-wrap light">
                           <div class="selection-wrap"><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle w--redirected-checked"></div><input id="FREE-Website-audit" type="checkbox" name="FREE-Website-Audit" data-name="FREE Website Audit" style="opacity:0;position:absolute;z-index:-1" checked=""><span class="selection__text w-form-label" for="FREE-Website-Audit"><strong>{{ texts.210e6c }}</strong>{{ texts.-22a65c0a }}</span>
@@ -366,13 +366,16 @@ p {
                             </label><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Web-Development" type="checkbox" name="Web-Development" data-name="Web Development" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Web-Development">{{ texts.4072162f }}</span>
                             </label><label class="w-checkbox selection__field">
-                              <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Custom-Domain-Email" type="checkbox" name="Custom-Domain-Email" data-name="Custom Domain &amp; Email" style="opacity:0;position:absolute;z-index:-1"><span id="Custom-Domain-Email" class="selection__text w-form-label" for="Custom-Domain-Email">{{ texts.-db3efcb }}</span>
+                              <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Custom-Domain-Email" type="checkbox" name="Custom-Domain-Email" data-name="Custom Domain &amp; Email" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Custom-Domain-Email">{{ texts.-db3efcb }}</span>
                             </label><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Logo-Design" type="checkbox" name="Logo-Design" data-name="Logo Design" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Logo-Design">{{ texts.-1781ae2d }}</span>
                             </label><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Corporate-Identity" type="checkbox" name="Corporate-Identity" data-name="Corporate Identity" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Corporate-Identity">{{ texts.-6478f5a7 }}</span>
                             </label><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Graphic-Design" type="checkbox" name="Graphic-Design" data-name="Graphic Design" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Graphic-Design">{{ texts.39cb9a36 }}</span>
+                            </label><label class="w-checkbox selection__field">
+                              <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Generative-AI-visuals" type="checkbox" name="Generative-AI-visuals" data-name="Generative AI visuals" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Generative-AI-visuals">{{ texts.-767065ad }}</span>
+                              <div class="new-pill">{{ texts.1a9a0 }}</div>
                             </label><label class="w-checkbox selection__field">
                               <div class="w-checkbox-input w-checkbox-input--inputType-custom selection__circle"></div><input id="Web-Analytics" type="checkbox" name="Web-Analytics" data-name="Web Analytics" style="opacity:0;position:absolute;z-index:-1"><span class="selection__text w-form-label" for="Web-Analytics">{{ texts.-4d1f3e86 }}</span>
                             </label><label class="w-checkbox selection__field">
@@ -2117,6 +2120,27 @@ document.addEventListener("DOMContentLoaded", () => {
   <script src="https://js.usebasin.com/v2.0.1.min.js" async=""></script>
   <!--  gsap 3.12.4 ScrollToPlugin  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+/*
+ * PORTFOLIO | udesly redirect v1
+ * built 10.01.204 @16:23
+*/
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector('[data-basin-form="true"]');
+  const successURL = `https://anthonysalamin.ch/success/`;
+  observeFormDisplay(form, successURL);
+});
+function observeFormDisplay(form, successURL) {
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName === "style" && form.style.display === "none") {
+        window.open(successURL, "_self");
+      }
+    });
+  });
+  observer.observe(form, { attributes: true });
+} // end observeFormDisplay(form)
+</script>
   <script>
 /*
  * PORTFOLIO | scroll to onload

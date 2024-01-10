@@ -3,7 +3,7 @@ title: Imprint
 slug: imprint
 updated-on: '2024-01-10T07:04:35.975Z'
 created-on: '2023-12-12T11:14:58.287Z'
-published-on: '2023-12-29T07:18:13.977Z'
+published-on: '2024-01-10T08:28:19.692Z'
 layout: '[legal-text].html'
 tags: legal-text
 ---
