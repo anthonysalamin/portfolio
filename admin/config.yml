@@ -940,11 +940,11 @@ collections:
             name: 277cda5a
             widget: string
           - hint: >-
-              Original text: “ Really happy with the outcome of the LP and its
+              Original text: “ Pleased with the outcome of the LP and its
               presentation. The typography layout is top notch and the images
-              chosen adds a very dynamic touch to the website. ”, key: -392e7757
+              chosen adds the dynamic touch I was looking for. ”, key: 4d350cf7
             label: Text
-            name: '-392e7757'
+            name: 4d350cf7
             widget: text
           - hint: 'Original text: Camil Amos, key: -3b5d6682'
             label: Text
@@ -1740,6 +1740,10 @@ collections:
           - hint: 'Original text: Free UX Audit, key: 33ff7712'
             label: Text
             name: 33ff7712
+            widget: string
+          - hint: 'Original text: Random, key: -6e882f1d'
+            label: Text
+            name: '-6e882f1d'
             widget: string
           - hint: 'Original text: See images, key: 4c81705'
             label: Text

@@ -243,7 +243,7 @@ p {
     </div>
     <nav data-id="target" class="nav">
       <div class="container">
-        <div class="nav__container">
+        <div data-w-id="867ad541-ff21-b057-8dbc-05cc1ca5d2eb" class="nav__container">
           <a href="{{ links.2f }}" aria-label="logo" class="nav__logomark-link w-nav-brand">
             <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 400 400">
                 <g>
@@ -255,13 +255,47 @@ p {
           <div data-id="menu" class="nav__menu-container">
             <div class="nav__link-group first">
               <a href="{{ links.6ec07556 }}" data-id="navbar-link" class="nav__link">{{ texts.293b31 }}</a>
-              <div class="div-block-8">
-                <a href="{{ links.2101c243 }}" data-id="navbar-link" class="nav__link no-padding-right">{{ texts.507137a6 }}</a>
+              <a href="{{ links.2101c243 }}" class="nav__link w-inline-block">
+                <div>{{ texts.507137a6 }}</div>
                 <div class="new-pill">{{ texts.1a9a0 }}</div>
-              </div>
+              </a>
             </div>
             <div class="nav__link-group right">
-              <a href="{{ links.3e633501 }}" data-id="navbar-link" target="_blank" class="nav__link">{{ texts.47d6ebb4 }}</a>
+              <a href="{{ links.3e633501 }}" target="_blank" class="nav__link w-inline-block">
+                <div id="blinky" class="blinky w-embed">
+                  <style>
+  #blinky:before {
+    content: "";
+    width: inherit;
+    height: inherit;
+    border: 5px solid #635df6;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(0.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+  }
+  @keyframes expand {
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      width: 250%;
+      height: 250%;
+      opacity: 0;
+      border-color: #fff;
+      background-color: none;
+      border-width: 2px;
+    }
+  }
+</style>
+                </div>
+                <div>{{ texts.47d6ebb4 }}</div>
+              </a>
               <a href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
                 <div class="div-block">
                   <div class="embed-approve w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 603.28 597.32">
@@ -294,7 +328,7 @@ p {
     <header class="section">
       <div class="container">
         <div class="header">
-          <div class="header__punchline">
+          <div data-w-id="c9853879-1d62-eaaa-67fe-59951d6ca757" class="header__punchline">
             <p class="punchline">{{ texts.-5827d70d }}<br>{{ texts.2dece1ef }}<span data-id="punchline">{{ texts.72a307aa }}</span><br>{{ texts.6323c48e }}</p>
             <div class="avatar">
               <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
@@ -875,7 +909,7 @@ p {
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97575 4.00556C5.5371 4.00555 5.15861 4.00554 4.84535 4.02691C4.51553 4.04941 4.18562 4.09892 3.85969 4.23392C3.1246 4.5384 2.54058 5.12243 2.2361 5.85751C2.10109 6.18344 2.05159 6.51335 2.02909 6.84318C1.98012 7.56087 2.00774 8.28654 2.00774 9.00556C2.00774 10.6624 3.35088 12.0056 5.00774 12.0056H6.00774V12.2524C6.00774 13.7903 7.86707 14.5604 8.95449 13.473C9.18347 13.244 9.4122 13.0148 9.64153 12.7862C10.1223 12.3069 10.5489 11.8816 10.7794 11.3252C11.0098 10.7688 11.0089 10.1663 11.0079 9.48753C11.0065 8.58163 11.0522 7.66333 10.9605 6.76128C10.9103 6.26804 10.7988 5.78277 10.5021 5.33885C10.2833 5.01128 10.002 4.73003 9.67445 4.51115C9.23053 4.21453 8.74526 4.103 8.25202 4.05283C7.49772 3.97609 6.73317 4.00556 5.97575 4.00556Z"></path>
                       </g>
                     </svg></div>
-                  <p class="subline quote">{{ texts.-392e7757 }}</p>
+                  <p class="subline quote">{{ texts.4d350cf7 }}</p>
                   <div class="testimonial-author-wrap">
                     <div class="avatar__bg"><img src="{{ images.13484f20.url }}" loading="lazy" alt="{{ images.13484f20.alt | trim | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">

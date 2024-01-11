@@ -139,8 +139,11 @@ body {
 
 .nav__link {
   cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
   padding: .8rem 1rem;
   font-size: 1rem;
+  display: flex;
   position: relative;
 }
 
@@ -2010,6 +2013,11 @@ body {
   display: none;
 }
 
+.filter.checked {
+  background-color: var(--accent);
+  color: var(--white);
+}
+
 .mixitup__featuring {
   display: block;
 }
@@ -2915,12 +2923,6 @@ body {
   background-color: #ffb2b2;
 }
 
-.div-block-8 {
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-}
-
 .new-pill {
   color: var(--accent);
   background-color: rgba(99, 93, 246, .1);
@@ -2928,6 +2930,18 @@ body {
   margin-left: 6px;
   padding: 2px 4px;
   font-size: 10px;
+}
+
+.blinky {
+  width: 10px;
+  height: 10px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  display: flex;
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {

@@ -241,7 +241,7 @@ p {
     </div>
     <nav data-id="target" class="nav">
       <div class="container">
-        <div class="nav__container">
+        <div data-w-id="867ad541-ff21-b057-8dbc-05cc1ca5d2eb" class="nav__container">
           <a href="{{ links.2f }}" aria-label="logo" class="nav__logomark-link w-nav-brand">
             <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 400 400">
                 <g>
@@ -253,13 +253,47 @@ p {
           <div data-id="menu" class="nav__menu-container">
             <div class="nav__link-group first">
               <a href="{{ links.6ec07556 }}" data-id="navbar-link" aria-current="page" class="nav__link w--current">{{ texts.293b31 }}</a>
-              <div class="div-block-8">
-                <a href="{{ links.2101c243 }}" data-id="navbar-link" class="nav__link no-padding-right">{{ texts.507137a6 }}</a>
+              <a href="{{ links.2101c243 }}" class="nav__link w-inline-block">
+                <div>{{ texts.507137a6 }}</div>
                 <div class="new-pill">{{ texts.1a9a0 }}</div>
-              </div>
+              </a>
             </div>
             <div class="nav__link-group right">
-              <a href="{{ links.3e633501 }}" data-id="navbar-link" target="_blank" class="nav__link">{{ texts.47d6ebb4 }}</a>
+              <a href="{{ links.3e633501 }}" target="_blank" class="nav__link w-inline-block">
+                <div id="blinky" class="blinky w-embed">
+                  <style>
+  #blinky:before {
+    content: "";
+    width: inherit;
+    height: inherit;
+    border: 5px solid #635df6;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(0.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+  }
+  @keyframes expand {
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      width: 250%;
+      height: 250%;
+      opacity: 0;
+      border-color: #fff;
+      background-color: none;
+      border-width: 2px;
+    }
+  }
+</style>
+                </div>
+                <div>{{ texts.47d6ebb4 }}</div>
+              </a>
               <a href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
                 <div class="div-block">
                   <div class="embed-approve w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 603.28 597.32">
@@ -292,7 +326,7 @@ p {
     <header class="section remove-bottom-padding">
       <div class="container">
         <div class="header">
-          <div class="header__punchline">
+          <div data-w-id="c9853879-1d62-eaaa-67fe-59951d6ca757" class="header__punchline">
             <p class="punchline">{{ texts.-5827d70d }}<br>{{ texts.2dece1ef }}<span data-id="punchline">{{ texts.72a307aa }}</span><br>{{ texts.6323c48e }}</p>
             <div class="avatar">
               <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
@@ -310,10 +344,10 @@ p {
         <div class="container">
           <div class="mixitup">
             <div id="mixitup-controls" class="mixitup__controls w-clearfix">
-              <div class="search"><input class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search a project" type="text" id="mixitup-search"></div>
+              <div class="search"><input class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search something" type="text" id="mixitup-search"></div>
               <div data-filter="all" class="filter">
                 <div class="filter__wrap">
-                  <div class="filter__text center">{{ texts.41af2ef }}</div>
+                  <div class="filter__text center">{{ texts.-6e882f1d }}</div>
                 </div>
               </div>
               <div data-filter=".mixitup__featuring" class="filter temporary-hiden">
@@ -734,7 +768,7 @@ p {
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97575 4.00556C5.5371 4.00555 5.15861 4.00554 4.84535 4.02691C4.51553 4.04941 4.18562 4.09892 3.85969 4.23392C3.1246 4.5384 2.54058 5.12243 2.2361 5.85751C2.10109 6.18344 2.05159 6.51335 2.02909 6.84318C1.98012 7.56087 2.00774 8.28654 2.00774 9.00556C2.00774 10.6624 3.35088 12.0056 5.00774 12.0056H6.00774V12.2524C6.00774 13.7903 7.86707 14.5604 8.95449 13.473C9.18347 13.244 9.4122 13.0148 9.64153 12.7862C10.1223 12.3069 10.5489 11.8816 10.7794 11.3252C11.0098 10.7688 11.0089 10.1663 11.0079 9.48753C11.0065 8.58163 11.0522 7.66333 10.9605 6.76128C10.9103 6.26804 10.7988 5.78277 10.5021 5.33885C10.2833 5.01128 10.002 4.73003 9.67445 4.51115C9.23053 4.21453 8.74526 4.103 8.25202 4.05283C7.49772 3.97609 6.73317 4.00556 5.97575 4.00556Z"></path>
                       </g>
                     </svg></div>
-                  <p class="subline quote">{{ texts.-392e7757 }}</p>
+                  <p class="subline quote">{{ texts.4d350cf7 }}</p>
                   <div class="testimonial-author-wrap">
                     <div class="avatar__bg"><img src="{{ images.13484f20.url }}" loading="lazy" alt="{{ images.13484f20.alt | trim | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
@@ -2016,35 +2050,16 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!copyrightYear) return;
   copyrightYear.textContent = new Date().getFullYear();
 });
-</script><!--  gsap 3.12.4 ScrollToPlugin  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-/*
- * PORTFOLIO | scroll to onload
- * dependency: gsap/3.12.4/ScrollToPlugin.min.js
- * buld 20.12.2023 @16:36
- */
-document.addEventListener("DOMContentLoaded", () => {
-  scrollToAnchor();
-});
-function scrollToAnchor() {
-  console.log("scrolling to anchor");
-  const targetAnchor = document.getElementById("targetAnchor");
-  const targetPosition = targetAnchor.getBoundingClientRect().top + window.scrollY - 100;
-  gsap.to(window, {
-    duration: 1,
-    scrollTo: { y: targetPosition },
-    ease: "power2.out"
-  }); // end GSAP
-}
-</script>
-  <!--  MixItUp 3 library v3.3.1  -->
+</script><!--  MixItUp 3 library v3.3.1  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <script>
 /*
- * QUATREAPLUS | MixItUp
- * Behaviour: filter multi-categories (one dimension) + sort + search + hash URL function
- * Build: 12.10.2023 @16:01
+ * PORTFOLIO | MixItUp v.1
+ * Build: 11.01.2024 @13:57
+ */
+/*
+ * PORTFOLIO | MixItUp v.1
+ * Build: 11.01.2024 @13:57
  */
 document.addEventListener("DOMContentLoaded", () => {
   const production = false;
@@ -2059,6 +2074,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function addCheckedOnLoad() {
   const parentElement = document.querySelector(".filter__collection-list");
   parentElement.querySelector(".filter").classList.add("checked");
+  console.log(parentElement.querySelector(".filter"));
 }
 function cleanAndTransformString(str) {
   const accentMap = {
@@ -2199,9 +2215,25 @@ function mixItUp(production) {
     }
   });
   // 🥬 helper
-  function handleMixStart() {
+  function handleMixStart(hasRandomized) {
     document.querySelector(`#status`).textContent = `Searching...`;
-  } // end handleMixFail()
+  } // end handleMixStart()
+  // 🥬 helper
+  let randomSortApplied = false;
+  function handleMixEnd() {
+    randomSortApplied
+      ? (randomSortApplied = false)
+      : (mixer.sort("random"), (randomSortApplied = true));
+    const totalItems = document.querySelectorAll(`.mixitup__collection-item`)
+      .length;
+    const filteredItems = mixer.getState().totalShow;
+    const displayElement = document.querySelector(`#status`);
+    if (displayElement) {
+      displayElement.textContent = ` ${filteredItems} result${
+        filteredItems > 1 ? `s` : ``
+      }`;
+    }
+  }
   // 🥬 helper
   function handleMixFail() {
     document.querySelector(
@@ -2214,16 +2246,6 @@ function mixItUp(production) {
       }, 150);
     }, 250);
   } // end handleMixFail()
-  // 🥬 helper
-  function handleMixEnd() {
-    const totalItems = document.querySelectorAll(`.mixitup__collection-item`)
-      .length; // mixer.getTotalShow();
-    const filteredItems = mixer.getState().totalShow;
-    const displayElement = document.querySelector(`#status`);
-    if (displayElement) {
-      displayElement.textContent = ` ${filteredItems} result${filteredItems > 1 ? `s` : ``}`;
-    }
-  } // end handleMixEnd()
   // 🥬 helper
   function getControls() {
     const dataFilters = document.querySelectorAll(`[data-filter]`);
@@ -2258,6 +2280,13 @@ function mixItUp(production) {
         } // end if
         // update mixer on hash exists
         mixer.filter(filterFromHash);
+        if (!randomOrder) {
+          mixer.sort("mixitup__title:asc");
+          console("asc");
+        } else {
+          mixer.sort("random");
+          console("random");
+        }
         // handle button state on hash exists
         let oldFilter = document
           .querySelector(".filter.checked")
