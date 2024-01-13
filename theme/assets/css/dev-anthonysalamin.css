@@ -851,6 +851,7 @@ body {
   aspect-ratio: 1 / 1;
   background-color: rgba(255, 255, 255, .14);
   border-radius: 20px;
+  flex: none;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
@@ -1392,7 +1393,8 @@ body {
 }
 
 .icon-star {
-  height: 18px;
+  width: 14px;
+  height: 14px;
   color: var(--star);
 }
 
@@ -2927,6 +2929,7 @@ body {
   color: var(--accent);
   background-color: rgba(99, 93, 246, .1);
   border-radius: 4px;
+  flex: none;
   margin-left: 6px;
   padding: 2px 4px;
   font-size: 10px;
@@ -2937,6 +2940,7 @@ body {
   height: 10px;
   background-color: var(--accent);
   border-radius: 50%;
+  flex: none;
   justify-content: center;
   align-items: center;
   margin-right: 8px;

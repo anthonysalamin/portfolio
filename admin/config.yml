@@ -672,11 +672,11 @@ collections:
             name: 1c03b01a
             widget: string
           - hint: >-
-              Original text: Empowering online businesses with modern UX/UI
+              Original text: Empowering online businesses with modern Web
               Design, all-inclusive Web Development and unique Brand Identity
-              creation., key: 5bf79be2
+              creation., key: -fc4212a
             label: Text
-            name: 5bf79be2
+            name: '-fc4212a'
             widget: text
           - hint: 'Original text: See portfolio, key: -1828f665'
             label: Text
@@ -999,27 +999,6 @@ collections:
           - hint: "Original text: W Ventures\_\_GmbH, key: 296e7cf5"
             label: Text
             name: 296e7cf5
-            widget: string
-          - hint: >-
-              Original text: “ The seamless integration of the new navigation
-              system has truly transformed our online coffee shopping
-              experience. Navigating through our coffee blends, exploring
-              diverse origins, and discovering the perfect brewing accessories
-              has never been easier. ”, key: 249a6cc5
-            label: Text
-            name: 249a6cc5
-            widget: text
-          - hint: 'Original text: Kristina Ay-ay, key: -2956a1ba'
-            label: Text
-            name: '-2956a1ba'
-            widget: string
-          - hint: 'Original text: Business Strategist, key: 8ca4964'
-            label: Text
-            name: 8ca4964
-            widget: string
-          - hint: 'Original text: Coffee Tonya PH, key: -3690d8f'
-            label: Text
-            name: '-3690d8f'
             widget: string
           - hint: >-
               Original text: “ Excellent work, thank you for your responsiveness
@@ -1741,10 +1720,6 @@ collections:
             label: Text
             name: 33ff7712
             widget: string
-          - hint: 'Original text: Random, key: -6e882f1d'
-            label: Text
-            name: '-6e882f1d'
-            widget: string
           - hint: 'Original text: See images, key: 4c81705'
             label: Text
             name: 4c81705
@@ -1787,9 +1762,9 @@ collections:
             label: Text
             name: 5925f717
             widget: string
-          - hint: 'Original text: What is the age of your business?, key: -620094cf'
+          - hint: 'Original text: What is the age of your business ?, key: 21edf76d'
             label: Text
-            name: '-620094cf'
+            name: 21edf76d
             widget: string
           - hint: 'Original text: Pre-launch, key: 63950a3d'
             label: Text
@@ -1804,28 +1779,28 @@ collections:
             name: '-6eeb6c7a'
             widget: string
           - hint: >-
-              Original text: Which services are you keen on working with me
-              for?, key: 80cd5a3
+              Original text: Which services are you keen on working with me for
+              ?, key: -67224c5
             label: Text
-            name: 80cd5a3
+            name: '-67224c5'
             widget: string
           - hint: >-
-              Original text: I provide audit, if you so desire - of your entire
-              existing website, key: e96e8a1
+              Original text: I provide audit, if you so desire, of your entire
+              existing website — for free., key: 100888d9
             label: Text
-            name: e96e8a1
+            name: 100888d9
             widget: string
           - hint: 'Original text: FREE, key: 210e6c'
             label: Text
             name: 210e6c
             widget: string
-          - hint: 'Original text:  website audit, key: -22a65c0a'
+          - hint: 'Original text:  audit, key: 3c28afbb'
             label: Text
-            name: '-22a65c0a'
+            name: 3c28afbb
             widget: string
-          - hint: 'Original text: Brand NEW Website, key: -4559195e'
+          - hint: 'Original text: NEW Website 🔥, key: 1a47b0ed'
             label: Text
-            name: '-4559195e'
+            name: 1a47b0ed
             widget: string
           - hint: 'Original text: LP, key: 984'
             label: Text
@@ -1846,6 +1821,10 @@ collections:
           - hint: 'Original text: Custom Domain & Email, key: -db3efcb'
             label: Text
             name: '-db3efcb'
+            widget: string
+          - hint: 'Original text: Content Creation, key: -3278451a'
+            label: Text
+            name: '-3278451a'
             widget: string
           - hint: 'Original text: Logo Design, key: -1781ae2d'
             label: Text
@@ -1871,13 +1850,13 @@ collections:
             label: Text
             name: 3e5b85cc
             widget: string
-          - hint: 'Original text: What is your estimated timeline?, key: 383504c7'
+          - hint: 'Original text: What is your estimated timeline ?, key: -31946f69'
             label: Text
-            name: 383504c7
+            name: '-31946f69'
             widget: string
-          - hint: 'Original text: ASAP, key: 1ecbe1'
+          - hint: 'Original text: ASAP 😏, key: -14ddef'
             label: Text
-            name: 1ecbe1
+            name: '-14ddef'
             widget: string
           - hint: 'Original text: 1 — 2 months, key: -76e81084'
             label: Text
@@ -1891,13 +1870,13 @@ collections:
             label: Text
             name: '-3f58a0d6'
             widget: string
-          - hint: 'Original text: How shall we start a conversation?, key: 2c67bb71'
+          - hint: 'Original text: How shall we start a conversation ?, key: 608faf2d'
             label: Text
-            name: 2c67bb71
+            name: 608faf2d
             widget: string
-          - hint: 'Original text: How did you hear about me?, key: -54a2a3cc'
+          - hint: 'Original text: How did you hear about me ?, key: -3fb1d936'
             label: Text
-            name: '-54a2a3cc'
+            name: '-3fb1d936'
             widget: string
           - hint: 'Original text: Referral, key: -27372043'
             label: Text
@@ -1913,9 +1892,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Ready to submit your request and kick off a new
-              project with me!, key: -4a750587
+              project with me !, key: -42bab57
             label: Text
-            name: '-4a750587'
+            name: '-42bab57'
             widget: string
           - hint: >-
               Original text: I acknowledge that I have read and consent to the ,
@@ -1928,14 +1907,14 @@ collections:
             name: '-73535c24'
             widget: string
           - hint: >-
-              Original text: Each inquiry will undergo evaluation, and a
+              Original text: Each request will undergo evaluation, and a
               comprehensive cost estimate will be provided to the client,
               delineating both fixed and recurring expenses. By using my email
               form, you acknowledge and agree that the information you submit
-              will be used solely for the purpose of addressing your inquiry or
-              request., key: e83b7c3
+              will be used solely for the purpose of addressing your request.,
+              key: 7fb5a8c7
             label: Text
-            name: e83b7c3
+            name: 7fb5a8c7
             widget: text
           - hint: >-
               Original text: Thank you ! I'll get back to you ASAP., key:
@@ -2233,19 +2212,6 @@ collections:
                 required: false
           - label: Image
             name: 5fc3bff6
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 2412ab0e
             widget: object
             fields:
               - name: url
