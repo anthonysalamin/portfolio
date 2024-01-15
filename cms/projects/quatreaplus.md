@@ -16,14 +16,14 @@ f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.jpg
   alt: null
-updated-on: '2023-12-30T04:52:23.087Z'
+updated-on: '2024-01-15T08:40:33.079Z'
 created-on: '2023-12-13T09:13:34.184Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-15T08:45:43.517Z'
 f_video-thumbnail-2: service
 f_video-thumbnail-3: service_2
 f_video-thumnail-1: quatreaplus
 f_website: https://quatreaplus.ch/
-f_hero-video: true
+f_hero-video: false
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a6f1b0fa6087968b83_quatreaplus-01.jpg
@@ -61,9 +61,6 @@ f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a4f3bf5bf2b73ddfe2_quatreaplus-12.jpg
     alt: null
-  - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a4349ba0abff191a51_quatreaplus-13.jpg
-    alt: null
 f_testimony-2: cms/testimonies/camil-amos.md
 f_similar-projects:
   - cms/projects/wventures.md
@@ -86,6 +83,10 @@ f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_client: Atelier d'architecture alpine actuelle Sàrl
+f_hero-image-static:
+  url: >-
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65a4ed15d2017a84ea4c20c8_hero.jpg
+  alt: null
 layout: '[projects].html'
 tags: projects
 ---

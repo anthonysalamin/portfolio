@@ -1,8 +1,6 @@
 ---
-f_hero-video: true
+f_hero-video: false
 f_website: https://urbainsalamin.ch/
-f_video-1: >-
-  https://res.cloudinary.com/anthonysalamin/video/upload/v1701163598/PORTFOLIO/urbain.mp4
 f_horizontal-line-1: '#UX/UI design #frontend #development #photoshoot #film'
 f_horizontal-line-2: '#swiss #sculpture #artist #culture #local'
 title: Urbain Salamin - Web launch
@@ -18,9 +16,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/wventures.md
   - cms/projects/quatreaplus.md
-updated-on: '2023-12-30T04:52:39.503Z'
+updated-on: '2024-01-15T08:45:05.254Z'
 created-on: '2023-12-14T03:45:51.938Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-15T08:45:43.517Z'
 f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7cf3bffc0c253268e629_urbain-05.jpg
@@ -57,6 +55,10 @@ f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_client: Harry Lionel Salamin
+f_hero-image-static:
+  url: >-
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65a4f0883e0041d205be3dc3_hero.jpg
+  alt: null
 layout: '[projects].html'
 tags: projects
 ---
