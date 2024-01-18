@@ -1010,7 +1010,7 @@ body {
   justify-content: space-between;
 }
 
-.one-content-wrapper {
+.faq__items {
   width: 100%;
 }
 
@@ -2803,12 +2803,8 @@ body {
 
 .fs-cc-manager_component {
   z-index: 999;
-  display: none;
-  position: fixed;
-  top: auto;
-  bottom: 1.25rem;
-  left: 1.25rem;
-  right: auto;
+  cursor: pointer;
+  display: flex;
 }
 
 .fs-cc-prefs_button {

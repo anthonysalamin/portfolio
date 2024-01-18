@@ -59,22 +59,6 @@
   }
 </style>
   <style>
-  /* custom cursor */
-  .cursor {
-    pointer-events: none;
-  }
-  .cursor.link-hover {
-    mix-blend-mode: difference;
-    font-size: 4.5em;
-  }
-  .cursor.link-hover .cursor__dot {
-    background-color: white;
-  }
-  body:hover .cursor {
-    opacity: 1.0;
-  }
-</style>
-  <style>
   /* temporarily hide badge */
   .w-webflow-badge {
     display: none !important;
@@ -234,8 +218,9 @@ input[type="checkbox"]:active {
 main:focus-visible {
 	outline: -webkit-focus-ring-color auto 0px; /* TO TEST ! */ 
 }
-p {
-	margin-bottom: 0px;
+/* remove line from last FAQ answer */
+.faq__items .faq__item:last-child {
+  border: none;
 }
 </style>
     </div>
@@ -251,19 +236,20 @@ p {
           <div data-id="menu" class="nav__menu-container">
             <div class="nav__link-group first">
               <a href="{{ links.6ec07556 }}" data-id="navbar-link" aria-current="page" class="nav__link w--current">{{ texts.293b31 }}</a>
-              <a href="{{ links.2101c243 }}" class="nav__link w-inline-block">
+              <a href="{{ links.2101c243 }}" data-id="navbar-link" class="nav__link w-inline-block">
                 <div>{{ texts.507137a6 }}</div>
                 <div class="new-pill">{{ texts.1a9a0 }}</div>
               </a>
+              <a href="{{ links.117413 }}" data-id="navbar-link" class="nav__link">{{ texts.10ef6 }}</a>
             </div>
             <div class="nav__link-group right">
-              <a href="{{ links.3e633501 }}" target="_blank" class="nav__link w-inline-block">
-                <div id="blinky" class="blinky w-embed">
-                  <style>#blinky:before{content:"";position:absolute;z-index:0;width:inherit;height:inherit;border:5px solid #635df6;border-radius:inherit;opacity:0;animation:2s cubic-bezier(.29,0,0,1) infinite expand;animation-delay:1s}@keyframes expand{1%{width:0;height:0;opacity:1}100%{width:250%;height:250%;opacity:0;border-color:#fff;background-color:transparent;border-width:2px}}</style>
+              <a data-id="navbar-link" href="{{ links.3e633501 }}" target="_blank" class="nav__link w-inline-block">
+                <div id="blinky" data-id="blinky" class="blinky w-embed">
+                  <style>[data-id="blinky"]:before{content:"";position:absolute;z-index:0;width:inherit;height:inherit;border:5px solid #635df6;border-radius:inherit;opacity:0;animation:2s cubic-bezier(.29,0,0,1) infinite expand;animation-delay:1s;}@keyframes expand{0%{transform:scale(0);opacity:1;}100%{transform:scale(2.5);opacity:0;border-color:white;background-color:transparent;border-width:2px;}}</style>
                 </div>
                 <div>{{ texts.47d6ebb4 }}</div>
               </a>
-              <a href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
+              <a data-id="navbar-link" href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
                 <div class="div-block">
                   <div class="embed-approve w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 603.28 597.32">
                       <style>.svg-check{fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:114px}</style>
@@ -880,7 +866,7 @@ p {
           </div>
         </div>
       </section>
-      <section class="section">
+      <section id="faq" class="section">
         <div class="container">
           <div class="faq">
             <div class="faq__category">
@@ -888,7 +874,7 @@ p {
                 <p class="punchline faq">{{ texts.10ef6 }}</p>
               </div>
               <div id="w-node-_70c81719-4f76-1ff5-123f-055cb85adf98-b85adf91" class="faq__grid-item">
-                <div class="one-content-wrapper">
+                <div class="faq__items">
                   <div data-w-id="70c81719-4f76-1ff5-123f-055cb85adf9a" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
@@ -905,11 +891,10 @@ p {
                     <div class="faq__answer">
                       <div class="one-item-list-wrap">
                         <div class="one-item-list-image">
-                          <p class="short-anser"><span class="text-span-2">{{ texts.486cb402 }}</span>{{ texts.37a83224 }}</p>
-                          <p class="faq__paragraph">{{ texts.-3667214f }}</p>
+                          <p class="short-anser"><span class="text-span-2">{{ texts.486cb402 }}</span>{{ texts.-1b01a754 }}</p>
+                          <p class="faq__paragraph">{{ texts.-53ccb7fa }}</p>
                         </div>
                       </div>
-                      <div class="one-item-list-wrap-two"></div>
                     </div>
                   </div>
                   <div class="faq__item">
@@ -954,9 +939,6 @@ p {
                           <p class="faq__paragraph">{{ texts.7b7118ac }}<br></p>
                         </div>
                       </div>
-                      <div class="one-item-list-wrap-two">
-                        <a href="{{ links.1c4eb2cf }}" target="_blank" class="one-item-link hover-x w-inline-block"></a>
-                      </div>
                     </div>
                   </div>
                   <div class="faq__item">
@@ -989,7 +971,7 @@ p {
                 <p class="punchline faq">{{ texts.-5367aa4f }}</p>
               </div>
               <div id="w-node-_70c81719-4f76-1ff5-123f-055cb85adfd3-b85adf91" class="faq__grid-item">
-                <div class="one-content-wrapper">
+                <div class="faq__items">
                   <div class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
@@ -1189,6 +1171,9 @@ p {
                     </g>
                   </svg></div>
               </a>
+              <div fs-cc="manager" class="fs-cc-manager_component">
+                <div fs-cc="open-preferences">{{ texts.-64062591 }}</div>
+              </div>
             </div>
             <div class="wrap-btn-audit"></div>
             <div class="footer__links-wrap">
@@ -1230,14 +1215,6 @@ p {
             </div>
           </div>
         </div>
-      </div>
-      <div fs-cc="manager" class="fs-cc-manager_component">
-        <div fs-cc="open-preferences" class="fs-cc-manager_button">
-          <div class="fs-cc-manager_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 513.59 555.87">
-              <path d="M314.39 15.29c-35.69-20.39-79.51-20.39-115.2 0l-70.66 40.24-.33.22-70.11 41.01C22.59 117.48.67 155.41.44 196.52L0 277.76v.33l.44 81.24c.22 41.12 22.16 79.04 57.65 99.76l70.11 41.01.33.22 70.66 40.24a116.123 116.123 0 0 0 115.2 0l70.66-40.24.33-.22 70.11-41.01c35.5-20.72 57.43-58.65 57.65-99.76l.44-81.24v-.33l-.44-81.24c-.22-41.12-22.16-79.04-57.65-99.76l-70.11-41.01-.33-.22-70.66-40.24Zm-86.43 50.6a58.43 58.43 0 0 1 57.65 0l70.44 40.13 70 41.01a58.086 58.086 0 0 1 28.77 49.94l.44 81.13-.44 81.13c-.11 20.5-11.02 39.57-28.77 49.94l-70 41.01-70.44 40.13a58.43 58.43 0 0 1-57.65 0l-70.44-40.13-70-41.01a58.086 58.086 0 0 1-28.77-49.94l-.44-81.13.44-81.13c.11-20.5 11.02-39.57 28.77-49.94l70-41.01 70.44-40.13Zm-.33 212.09c0-16.09 13.01-29.1 29.1-29.1s29.1 13.01 29.1 29.1-13.01 29.1-29.1 29.1-29.1-13.01-29.1-29.1Zm29.1-87.31c-48.28 0-87.31 39.13-87.31 87.31s39.13 87.31 87.31 87.31 87.31-39.13 87.31-87.31-39.13-87.31-87.31-87.31Z" style="fill:#fff;fill-rule:evenodd"></path>
-            </svg></div>
-        </div>
-        <div fs-cc="interaction" class="fs-cc-manager_trigger"></div>
       </div>
       <div fs-cc="preferences" fs-cc-scroll="disable" class="fs-cc-prefs_component w-form">
         <form id="cookie-preferences" name="wf-form-Cookie-Preferences" data-name="cookie_preferences" method="get" class="fs-cc-prefs_form" data-wf-page-id="65796b2d3b93084d434f4a6d" data-wf-element-id="07c7b89e-805a-10f8-9cfb-7f6e073f84ba" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
@@ -1321,8 +1298,8 @@ p {
   <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/utility@v1.0.7/drawsvg.js"></script>
   <script>
 /*
- * PORTFOLIO | navigation v3
- * build 20.12.23 @00:27
+ * PORTFOLIO | navigation v4
+ * build 18.01.24 @11:18
  */
 document.addEventListener("DOMContentLoaded", () => {
   handleNavigation();
@@ -1335,17 +1312,16 @@ function handleNavigation() {
   const svgElement = document.querySelector(".burger-rotate");
   // helper open menu
   function openMenu() {
-    gsap.to(menu, { x: "0%", duration: 0.5 }); // open
+    gsap.to(menu, { x: "0%", duration: 0.5 });
   }
   // helper close menu
   function closeMenu() {
-    gsap.to(menu, { x: "100%", duration: 0.5 }); // close
+    gsap.to(menu, { x: "100%", duration: 0.5 });
   }
-  // helper handle menu state
-  function handleMenuState() {
-    // toggle menu show/hide
+  function handleMenuAndLinks() {
+    // Toggle menu show/hide and handle burger click
     burger.addEventListener("click", () => {
-      // toggle burger close/open
+      // Toggle burger close/open
       svgElement.classList.toggle("active");
       if (!isOpen) {
         openMenu();
@@ -1354,23 +1330,18 @@ function handleNavigation() {
       }
       isOpen = !isOpen;
     });
-  } // end handleMenuState
-  // handle links clicked to close menu
-  function handleLinksClicked() {
+    // Handle links clicked to close menu
     links.forEach((navLink) => {
       navLink.addEventListener("click", () => {
         closeMenu();
-        // toggle burger close/open
+        // Toggle burger close/open
         burger.click();
       });
     });
-  } // end handleLinksClicked
+  }
   if (window.innerWidth < 991) {
-    console.log("mobile - animation burger ready");
-    handleMenuState();
-    handleLinksClicked();
+    handleMenuAndLinks();
   } else {
-    console.log("desktop - no need for animation burger");
     return;
   } // end if
 } // end handleNavigation
@@ -1454,7 +1425,7 @@ function drawCheck() {
 document.addEventListener("DOMContentLoaded", () => {
   const shouldBlink = false;
   initTyping("[data-id='punchline']", shouldBlink, ["Developer", "Partner"]);
-  initTyping("[data-id='subline']", shouldBlink, ["push pixels around", "leverage AI technologies", "design & develop websites", "create corporate identities", "am a problem solver"]);
+  initTyping("[data-id='subline']", shouldBlink, ["push pixels around", "get your MVP live in 24hrs", "leverage AI technologies", "design & develop websites", "create corporate identities", "am a problem solver"]);
 });
 function addBlink(shouldBlink, selector) {
   if (!shouldBlink) return;
@@ -1510,24 +1481,24 @@ function initTyping(selector, shouldBlink, words) {
 </script>
   <script>
 /*
- * scroll progress v1
- * TO DO: INJECT CSS + ADD SVG ARROW ICON INSTEAD OF SYMBOL CONTENT
- * build 26.06.23 @18:35
- */
+ * PORTFOLIOI | scroll progress v2
+ * build 29.06.23 @18:32
+*/ 
 document.addEventListener("DOMContentLoaded", () => {
-  injectHTML();
-  injectCSS();
+  const position = "right";
+  progressInjectCSS(position);
+  progressInjectHTML();
   showScrollProgress();
 });
 // 🥬 helper | inject wrapper emoji css
-function injectCSS() {
-  const css = ``;
+function progressInjectCSS(position) {
+  const css = `.progress-wrap{--indicator-progress-color:rgba(255, 255, 255, 1);--indicator-slide-color:rgba(255, 255, 255, .1);--indicator-font:"Unicons";--indicator-content:"\\e84b";--indicator-hover:white --indicator-position:1.25rem}@font-face{font-family:"Unicons";src:url("https://uploads-ssl.webflow.com/61a0f086f2b1f289503a4957/6329d8e0a1790e3283ae2504_unicons.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}.progress-wrap{position:fixed;mix-blend-mode:difference;${position}:1.5rem;bottom:1.5rem;height:46px;width:46px;cursor:pointer;display:none;border-radius:50px;box-shadow:inset 0 0 0 2px var(--indicator-slide-color);z-index:10000;opacity:0;visibility:hidden;transform:translateY(15px);transition:all 200ms linear}.progress-wrap.active-progress{display:block;opacity:1;visibility:visible;transform:translateY(0)}.progress-wrap::after,.progress-wrap::before{position:absolute;font-family:var(--indicator-font);content:var(--indicator-content);text-align:center;line-height:46px;font-size:24px;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;transition:all 200ms linear}.progress-wrap::after{color:var(--indicator-progress-color);z-index:1}.progress-wrap:hover::before{color:var(--indicator-hover);transform:scale(1.0);transform-origin:center}.progress-wrap:hover::after{transform:scale(1.15);transform-origin:center}.progress-wrap svg path{fill:none}.progress-wrap svg.progress-circle path{stroke:var(--indicator-progress-color);stroke-width:4;box-sizing:border-box;transition:all 200ms linear}`;
   const style = document.createElement("style");
   style.innerHTML = css;
   document.head.appendChild(style);
 }
 // 🥬 helper | create and inject emoji
-function injectHTML() {
+function progressInjectHTML() {
   const scrollProgressHTML = `<div class="progress-wrap"><svg class="progress-circle svg-content"height="100%"viewBox="-1 -1 102 102"width="100%"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div>`;
   const div = document.createElement("div");
   div.innerHTML = scrollProgressHTML;

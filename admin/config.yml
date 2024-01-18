@@ -635,6 +635,10 @@ collections:
             label: Text
             name: 1a9a0
             widget: string
+          - hint: 'Original text: FAQ, key: 10ef6'
+            label: Text
+            name: 10ef6
+            widget: string
           - hint: 'Original text: Book a call, key: 47d6ebb4'
             label: Text
             name: 47d6ebb4
@@ -1031,10 +1035,6 @@ collections:
             label: Text
             name: 21e91b01
             widget: string
-          - hint: 'Original text: FAQ, key: 10ef6'
-            label: Text
-            name: 10ef6
-            widget: string
           - hint: 'Original text: What services do you offer ?, key: e1e572b'
             label: Text
             name: e1e572b
@@ -1044,21 +1044,22 @@ collections:
             name: 486cb402
             widget: string
           - hint: >-
-              Original text:  — Web Design, Web Development, Graphic Design,
-              Logo Design, Corporate Identity Creation, Photography retouching,
-              Advanced Web Analytics, SEO., key: 37a83224
+              Original text:  — Web Design, Web Development, Logo Design,
+              Corporate Identity Creation, Graphic Design, Generative AI
+              visuals, Content Creation, Advanced Web Analytics, SEO., key:
+              -1b01a754
             label: Text
-            name: 37a83224
+            name: '-1b01a754'
             widget: text
           - hint: >-
               Original text: I design and develop websites from scratch. I
               specialize in both Web Design and Web Development as well as in
               Graphic Design. My services include but are not limited to
               Corporate Identity creation including logo design, UX/UI Design
-              for website or LP, complete Frontend and Backend Development to
-              launch your website., key: -3667214f
+              for website or LP, complete Web Development to launch your
+              website., key: -53ccb7fa
             label: Text
-            name: '-3667214f'
+            name: '-53ccb7fa'
             widget: text
           - hint: 'Original text: What is your pricing ?, key: c632e32'
             label: Text
@@ -1284,6 +1285,10 @@ collections:
           - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
             label: Text
             name: 29ff8bcf
+            widget: string
+          - hint: 'Original text: Cookies, key: -64062591'
+            label: Text
+            name: '-64062591'
             widget: string
           - hint: 'Original text: Imprint, key: -29f92c17'
             label: Text
@@ -1708,13 +1713,11 @@ collections:
             label: Text
             name: 31a57058
             widget: string
-          - hint: 'Original text: Let''s find a solution that, key: -4baa4bdf'
+          - hint: >-
+              Original text: Let's find a solution that fits your need, let's
+              talk., key: -4a6ad96f
             label: Text
-            name: '-4baa4bdf'
-            widget: string
-          - hint: 'Original text: fits your need, let''s talk., key: -7757edf0'
-            label: Text
-            name: '-7757edf0'
+            name: '-4a6ad96f'
             widget: string
           - hint: 'Original text: Free UX Audit, key: 33ff7712'
             label: Text
@@ -1960,6 +1963,10 @@ collections:
             label: Link
             name: 2101c243
             widget: string
+          - hint: 'Original link: #faq, key: 117413'
+            label: Link
+            name: '117413'
+            widget: string
           - hint: >-
               Original link:
               https://calendly.com/anthonysalamin/quick-discovery-call, key:
@@ -1974,12 +1981,6 @@ collections:
           - hint: 'Original link: #targetAnchor, key: 5c9ed349'
             label: Link
             name: 5c9ed349
-            widget: string
-          - hint: >-
-              Original link: https://calendly.com/anthonysalamin/30min, key:
-              1c4eb2cf
-            label: Link
-            name: 1c4eb2cf
             widget: string
           - hint: >-
               Original link: mailto:hello@anthonysalamin.ch?subject=Contact,
