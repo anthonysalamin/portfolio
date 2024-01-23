@@ -1,6 +1,7 @@
 :root {
   --background: #fafafa;
   --dark: #17143b;
+  --16px: 16px;
   --white: white;
   --grey-light: #eee;
   --accent: #635df6;
@@ -9,7 +10,6 @@
   --dark-light: #a9a9b4;
   --pricing-lines: #ebebeb;
   --star: #ffe435;
-  --16px: 16px;
   --8px: 8px;
   --dark-transparent: rgba(23, 20, 59, .15);
   --color: #d7d7d7;
@@ -107,7 +107,6 @@ body {
 .nav__container {
   width: 100%;
   height: 100%;
-  background-color: var(--white);
   border-radius: 28px;
   grid-template-rows: auto;
   grid-template-columns: 40% 60%;
@@ -116,14 +115,25 @@ body {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
-  padding: 9px 5px 9px 17px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   display: flex;
   position: relative;
 }
 
 .nav__logomark-link {
-  height: 100%;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
   padding-left: 0;
+  display: flex;
+}
+
+.nav__logomark-link.w--current {
+  border-radius: var(--16px);
+  background-color: var(--white);
+  padding: 8px;
 }
 
 .nav__menu-container {
@@ -140,10 +150,12 @@ body {
 }
 
 .nav__link {
+  height: 48px;
   cursor: pointer;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding: .8rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 1rem;
   display: flex;
   position: relative;
@@ -154,15 +166,14 @@ body {
 }
 
 .nav__link.accent {
+  border-radius: var(--16px);
   background-color: var(--accent);
   color: var(--white);
-  border-radius: 50px;
   justify-content: center;
   align-items: center;
   margin-left: 1rem;
   padding-left: .8rem;
   padding-right: 1.4rem;
-  display: inline-block;
 }
 
 .nav__link.no-padding-right {
@@ -174,8 +185,8 @@ body {
 }
 
 .nav__burger {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   display: none;
 }
 
@@ -199,6 +210,9 @@ body {
 }
 
 .nav__link-group.right {
+  border-radius: var(--16px);
+  background-color: var(--white);
+  padding-left: 4px;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -285,10 +299,6 @@ body {
 
 .section.remove-bottom-padding {
   padding-bottom: 0;
-}
-
-.section.remove-top-padding {
-  padding-top: 0;
 }
 
 .section.hero-video {
@@ -837,10 +847,6 @@ body {
   height: 100vh;
 }
 
-.text-block-2 {
-  display: inline-block;
-}
-
 .div-block {
   flex-direction: row;
   justify-content: center;
@@ -849,7 +855,7 @@ body {
 }
 
 .embed-approve {
-  width: 26px;
+  width: 25px;
   aspect-ratio: 1 / 1;
   background-color: rgba(255, 255, 255, .14);
   border-radius: 20px;
@@ -2918,8 +2924,8 @@ body {
 }
 
 .html-embed {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .fake {
@@ -2928,7 +2934,7 @@ body {
   background-color: #ffb2b2;
 }
 
-.new-pill {
+.pill-mini {
   color: var(--accent);
   letter-spacing: .4px;
   text-transform: uppercase;
@@ -2938,9 +2944,10 @@ body {
   margin-left: 6px;
   padding: 2px 4px;
   font-size: 9px;
+  font-weight: 600;
 }
 
-.new-pill.dark {
+.pill-mini.dark {
   background-color: rgba(239, 238, 253, .1);
 }
 
@@ -2957,35 +2964,21 @@ body {
   position: relative;
 }
 
-.pill {
-  border-radius: var(--4px);
-  color: #92cc5a;
-  text-transform: uppercase;
-  background-color: rgba(176, 229, 124, .2);
-  padding: 4px 8px;
-  display: inline-block;
-}
-
-.pill.photo {
-  color: #71c3dd;
-  background-color: rgba(139, 209, 231, .2);
-}
-
-.pill.film {
-  color: #ea9db0;
-  background-color: rgba(255, 209, 220, .2);
-}
-
-.pill.design {
-  color: #b596ea;
-  background-color: rgba(209, 182, 255, .2);
+.div-block-8 {
+  border-radius: var(--16px);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
   .nav__container {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    padding-right: 17px;
     display: flex;
   }
 
@@ -3031,7 +3024,9 @@ body {
 
   .nav__burger {
     z-index: 99;
-    margin-right: -10px;
+    border-radius: var(--16px);
+    background-color: var(--white);
+    padding: 4px;
     display: block;
     position: relative;
   }
@@ -3053,6 +3048,7 @@ body {
   }
 
   .nav__link-group.right {
+    padding-left: 0;
     position: relative;
   }
 
@@ -3276,7 +3272,7 @@ body {
     margin-top: 1rem;
   }
 
-  .fs-cc-banner_container {
+  .fs-cc-banner_container, .div-block-8 {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -3703,10 +3699,6 @@ body {
   .fs-cc-banner_container {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .pill {
-    font-size: 10px;
   }
 }
 
