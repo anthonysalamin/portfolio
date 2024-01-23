@@ -49,6 +49,7 @@ f_similar-projects:
 updated-on: '2023-12-19T11:59:16.512Z'
 created-on: '2023-12-19T11:59:16.512Z'
 published-on: '2023-12-19T12:12:14.455Z'
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

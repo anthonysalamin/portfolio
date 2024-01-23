@@ -51,6 +51,7 @@ published-on: '2023-12-19T10:18:25.953Z'
 f_is-photography: true
 f_order: 22
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

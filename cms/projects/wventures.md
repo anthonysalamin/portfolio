@@ -3,7 +3,7 @@ f_hero-video: false
 f_website: https://relaunch-wventures.webflow.io/
 f_horizontal-line-1: '#UX/UI design #frontend #development #DNS management'
 f_horizontal-line-2: '#berlin #finance #equity #capital #ventures #startup'
-title: W Ventures GmbH - Web launch
+title: W Ventures GmbH
 f_video-thumnail-1: wventures
 f_introduction: >-
   Breathing new life into Wventures' online identity through a comprehensive
@@ -13,9 +13,9 @@ f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6825050b7a84f02cd176_wventures-07.jpg
   alt: null
-updated-on: '2024-01-15T08:38:48.238Z'
+updated-on: '2024-01-23T09:12:21.384Z'
 created-on: '2023-12-14T02:29:43.810Z'
-published-on: '2024-01-15T08:45:43.517Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d060de9a423b67e6350_wventures-01.jpg
@@ -100,6 +100,7 @@ f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65a4ef1123a76722fd6336f4_hero.jpg
   alt: null
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

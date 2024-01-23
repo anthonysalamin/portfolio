@@ -62,6 +62,7 @@ created-on: '2023-12-19T11:37:10.890Z'
 published-on: '2023-12-30T04:56:08.890Z'
 f_is-graphic-design: true
 f_client: SCHMITZ&WIESNER GmbH
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

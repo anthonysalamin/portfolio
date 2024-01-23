@@ -33,6 +33,7 @@ published-on: '2023-12-18T14:36:30.636Z'
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

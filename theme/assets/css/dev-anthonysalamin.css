@@ -13,6 +13,8 @@
   --8px: 8px;
   --dark-transparent: rgba(23, 20, 59, .15);
   --color: #d7d7d7;
+  --white-2: white;
+  --black: black;
 }
 
 .w-checkbox {
@@ -1343,7 +1345,8 @@ body {
 }
 
 .rewiews-wrap.quote {
-  margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .testimonial-cards-wrap-left {
@@ -1388,7 +1391,7 @@ body {
   height: 40px;
   aspect-ratio: 1 / 1;
   margin-bottom: 30px;
-  display: none;
+  display: block;
   position: relative;
 }
 
@@ -1975,7 +1978,11 @@ body {
 }
 
 .thumb__wrap-mobile {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 16px;
+  display: flex;
 }
 
 .mixitup__wrap {
@@ -2923,12 +2930,18 @@ body {
 
 .new-pill {
   color: var(--accent);
-  background-color: rgba(99, 93, 246, .1);
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  background-color: #efeefd;
   border-radius: 4px;
   flex: none;
   margin-left: 6px;
   padding: 2px 4px;
-  font-size: 10px;
+  font-size: 9px;
+}
+
+.new-pill.dark {
+  background-color: rgba(239, 238, 253, .1);
 }
 
 .blinky {
@@ -2942,6 +2955,30 @@ body {
   margin-right: 8px;
   display: flex;
   position: relative;
+}
+
+.pill {
+  border-radius: var(--4px);
+  color: #92cc5a;
+  text-transform: uppercase;
+  background-color: rgba(176, 229, 124, .2);
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.pill.photo {
+  color: #71c3dd;
+  background-color: rgba(139, 209, 231, .2);
+}
+
+.pill.film {
+  color: #ea9db0;
+  background-color: rgba(255, 209, 220, .2);
+}
+
+.pill.design {
+  color: #b596ea;
+  background-color: rgba(209, 182, 255, .2);
 }
 
 @media screen and (max-width: 991px) {
@@ -3667,6 +3704,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .pill {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4067,7 +4108,7 @@ body {
   justify-self: start;
 }
 
-#w-node-_72c2e4ec-bba5-85d8-dcd6-8a384055cf9b-4055cf3d, #w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4, #w-node-_1c11dfba-1106-a792-db9b-952e39230961-4f10e4db, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-b08f4164 {
+#w-node-_72c2e4ec-bba5-85d8-dcd6-8a384055cf5a-4055cf3d, #w-node-_72c2e4ec-bba5-85d8-dcd6-8a384055cf9b-4055cf3d, #w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4, #w-node-_1c11dfba-1106-a792-db9b-952e39230961-4f10e4db, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-b08f4164 {
   align-self: start;
 }
 

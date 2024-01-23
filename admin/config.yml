@@ -115,10 +115,6 @@ collections:
         label: Published On
         widget: datetime
         required: false
-      - label: Testimony
-        name: body
-        widget: markdown
-        required: false
       - hint: ''
         name: f_portrait
         label: Portrait
@@ -136,6 +132,11 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_testimony-text
+        label: Testimony
+        widget: string
+        required: false
       - hint: ''
         name: f_occupation
         label: Occupation
@@ -255,6 +256,12 @@ collections:
       - hint: Is the project displayed in the filtering system ?
         name: f_on-display
         label: Is on display
+        widget: boolean
+        required: false
+        default: false
+      - hint: ''
+        name: f_is-web
+        label: is Web
         widget: boolean
         required: false
         default: false
@@ -736,6 +743,22 @@ collections:
             label: Text
             name: '-19af644f'
             widget: string
+          - hint: 'Original text: Design, key: 79ceadde'
+            label: Text
+            name: 79ceadde
+            widget: string
+          - hint: 'Original text: FILM, key: 20ed84'
+            label: Text
+            name: 20ed84
+            widget: string
+          - hint: 'Original text: Photo, key: 4984e12'
+            label: Text
+            name: '4984e12'
+            widget: string
+          - hint: 'Original text: web, key: 1cb54'
+            label: Text
+            name: 1cb54
+            widget: string
           - hint: 'Original text: Go Live, key: 6b2b7124'
             label: Text
             name: 6b2b7124
@@ -784,9 +807,9 @@ collections:
             label: Text
             name: '-5cdbf7f8'
             widget: string
-          - hint: 'Original text: Responsive UX/UI Design, key: 197a434a'
+          - hint: 'Original text: Responsive MVP UX/UI Design, key: -3fa8c2fd'
             label: Text
-            name: 197a434a
+            name: '-3fa8c2fd'
             widget: string
           - hint: 'Original text: 1 pager — unlimited sections, key: 40f6f3a5'
             label: Text
@@ -813,10 +836,10 @@ collections:
             name: '-4080dc20'
             widget: string
           - hint: >-
-              Original text: Suited for small businesses websites., key:
-              18573008
+              Original text: For small to medium businesses websites., key:
+              -3f279a46
             label: Text
-            name: '18573008'
+            name: '-3f279a46'
             widget: string
           - hint: 'Original text:  from , key: 3c6df196'
             label: Text
@@ -830,9 +853,9 @@ collections:
             label: Text
             name: '-4d44ff4c'
             widget: string
-          - hint: 'Original text: Everything from Starter, key: 57ae5a26'
+          - hint: 'Original text: All from Starter + custom UI, key: 68d50206'
             label: Text
-            name: 57ae5a26
+            name: 68d50206
             widget: string
           - hint: 'Original text: CMS Dashboard, key: -3af56bc3'
             label: Text
@@ -885,10 +908,6 @@ collections:
           - hint: 'Original text: Multi-language, key: -75dc2274'
             label: Text
             name: '-75dc2274'
-            widget: string
-          - hint: 'Original text: NEW, key: 12d80'
-            label: Text
-            name: 12d80
             widget: string
           - hint: 'Original text: Full Corporate Identity (CI), key: 427abe51'
             label: Text

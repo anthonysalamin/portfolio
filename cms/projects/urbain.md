@@ -3,7 +3,7 @@ f_hero-video: false
 f_website: https://urbainsalamin.ch/
 f_horizontal-line-1: '#UX/UI design #frontend #development #photoshoot #film'
 f_horizontal-line-2: '#swiss #sculpture #artist #culture #local'
-title: Urbain Salamin - Web launch
+title: Urbain Salamin
 f_video-thumnail-1: urbain
 f_introduction: >-
   urbainsalamin.ch is the portfolio of a swiss artist. I did a comprehensive
@@ -16,9 +16,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/wventures.md
   - cms/projects/quatreaplus.md
-updated-on: '2024-01-15T08:45:05.254Z'
+updated-on: '2024-01-23T09:13:11.889Z'
 created-on: '2023-12-14T03:45:51.938Z'
-published-on: '2024-01-15T08:45:43.517Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7cf3bffc0c253268e629_urbain-05.jpg
@@ -59,6 +59,7 @@ f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65a4f0883e0041d205be3dc3_hero.jpg
   alt: null
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

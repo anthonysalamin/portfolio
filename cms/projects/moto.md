@@ -3,11 +3,11 @@ f_highlight: true
 f_on-display: true
 f_hero-video: false
 f_order: 8
-title: MoTo GmbH - Web launch
+title: MoTo GmbH
 slug: moto
-updated-on: '2024-01-10T07:02:30.514Z'
+updated-on: '2024-01-23T09:15:21.136Z'
 created-on: '2023-12-18T07:44:20.302Z'
-published-on: '2024-01-10T07:02:38.087Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -64,6 +64,7 @@ f_thumbnail:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6583bf6541a163a020dbe0ec_thumbnail-v2.jpg
   alt: null
 f_website: https://www.moto-pm.de/
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

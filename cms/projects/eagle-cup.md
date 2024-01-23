@@ -48,6 +48,7 @@ f_similar-projects:
   - cms/projects/perversion.md
   - cms/projects/maison-noee.md
 f_is-graphic-design: true
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

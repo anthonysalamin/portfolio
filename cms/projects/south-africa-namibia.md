@@ -72,6 +72,7 @@ f_horizontal-line-2: '#southafrica #rocklands #cedeberg #sport #bouldering'
 f_is-photography: true
 f_order: 23
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

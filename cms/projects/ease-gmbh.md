@@ -53,9 +53,10 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/fureur.md
   - cms/projects/further.md
-updated-on: '2023-12-30T04:55:09.357Z'
+updated-on: '2024-01-23T09:15:05.430Z'
 created-on: '2023-12-29T09:20:37.498Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-23T09:24:44.225Z'
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

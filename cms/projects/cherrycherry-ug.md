@@ -15,6 +15,7 @@ f_thumbnail-title: Web Design & Development
 f_is-photography: false
 f_is-graphic-design: false
 f_client: cherrycherry UG
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

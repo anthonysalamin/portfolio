@@ -33,6 +33,7 @@ f_thumbnail:
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

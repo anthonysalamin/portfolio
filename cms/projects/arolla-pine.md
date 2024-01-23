@@ -61,6 +61,7 @@ updated-on: '2023-12-19T10:17:38.585Z'
 created-on: '2023-12-19T10:06:52.637Z'
 published-on: '2023-12-19T10:18:25.953Z'
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

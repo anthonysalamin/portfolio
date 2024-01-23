@@ -8,7 +8,7 @@ f_website: https://www.designhotels.com/
 f_video-1: >-
   https://res.cloudinary.com/anthonysalamin/video/upload/v1702538220/PORTFOLIO/further-01.mp4
 f_video-thumbnail-3: further-03
-title: Further - Web launch
+title: Further
 f_video-thumnail-1: further-01
 f_introduction: >-
   The Berlin based creative team from Design Hotels trusted me with the
@@ -21,9 +21,9 @@ f_similar-projects:
   - cms/projects/wventures.md
 f_category-ies:
   - cms/categories/development.md
-updated-on: '2023-12-30T04:52:58.009Z'
+updated-on: '2024-01-23T09:13:24.581Z'
 created-on: '2023-12-14T07:20:00.472Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_horizontal-line-1: '#frontend #backend #development #DNS setup #SEO #analytics setup'
 f_horizontal-line-2: '#berlin #hospitality #designhotel #experimental'
 f_big-image:
@@ -76,6 +76,7 @@ f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_client: Design Hotels GmbH
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

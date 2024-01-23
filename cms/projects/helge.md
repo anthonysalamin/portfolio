@@ -3,11 +3,11 @@ f_highlight: true
 f_on-display: true
 f_hero-video: false
 f_order: 6
-title: Helge von Giese - Web launch
+title: Helge von Giese
 slug: helge
-updated-on: '2023-12-30T04:54:35.545Z'
+updated-on: '2024-01-23T09:13:54.219Z'
 created-on: '2023-12-18T07:40:11.106Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -55,6 +55,7 @@ f_similar-projects:
   - cms/projects/fureur.md
   - cms/projects/further.md
 f_client: Helge von Giese
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

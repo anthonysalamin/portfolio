@@ -7,7 +7,7 @@ f_video-1: >-
   https://res.cloudinary.com/anthonysalamin/video/upload/v1701163839/PORTFOLIO/quatreaplus.mp4
 f_horizontal-line-1: '#UX/UI design #development #logotype #branding'
 f_horizontal-line-2: '#swiss #vallais #architecture #atelier #coworking'
-title: 4a+  - Web launch
+title: 4a+ Sàrl
 f_introduction: >-
   4a+ is a Swiss architectural buro. I crafted the Brand Identity, along with
   the complete UI/UX Design & Development.
@@ -16,9 +16,9 @@ f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.jpg
   alt: null
-updated-on: '2024-01-15T08:40:33.079Z'
+updated-on: '2024-01-23T09:12:38.134Z'
 created-on: '2023-12-13T09:13:34.184Z'
-published-on: '2024-01-15T08:45:43.517Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_video-thumbnail-2: service
 f_video-thumbnail-3: service_2
 f_video-thumnail-1: quatreaplus
@@ -87,6 +87,7 @@ f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65a4ed15d2017a84ea4c20c8_hero.jpg
   alt: null
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

@@ -73,6 +73,7 @@ f_similar-projects:
 f_is-photography: true
 f_order: 21
 f_is-graphic-design: false
+f_is-web: false
 layout: '[projects].html'
 tags: projects
 ---

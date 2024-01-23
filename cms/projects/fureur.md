@@ -2,11 +2,11 @@
 f_on-display: true
 f_highlight: true
 f_hero-video: false
-title: Fureur de Lire - Web launch
+title: Fureur de Lire
 slug: fureur
-updated-on: '2023-12-30T04:54:55.100Z'
+updated-on: '2024-01-23T09:14:56.835Z'
 created-on: '2023-12-18T07:39:42.205Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_order: 7
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
@@ -56,6 +56,7 @@ f_thumbnail:
 f_testimony-2: cms/testimonies/dr-donatella-bernardi.md
 f_website: https://fureurdelire-dev.webflow.io/
 f_client: MRL Maison Rousseau et Littérature
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---

@@ -8,7 +8,7 @@ f_website: https://www.theatre-leshalles.ch/
 f_video-1: >-
   https://res.cloudinary.com/anthonysalamin/video/upload/v1702531627/PORTFOLIO/tlh-01.mp4
 f_video-thumbnail-3: tlh-03
-title: Théâtre Les Halles - Web relaunch
+title: Théâtre Les Halles
 f_video-thumnail-1: tlh-01
 f_introduction: >-
   The Swiss Theater TLH commissioned me to design and develop a new online
@@ -26,9 +26,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/urbain.md
   - cms/projects/quatreaplus.md
-updated-on: '2023-12-30T04:54:08.862Z'
+updated-on: '2024-01-23T09:13:39.919Z'
 created-on: '2023-12-14T05:31:50.649Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-01-23T09:24:44.225Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.jpg
@@ -66,6 +66,7 @@ f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_client: Ville de Sierre, Chancellerie
+f_is-web: true
 layout: '[projects].html'
 tags: projects
 ---
