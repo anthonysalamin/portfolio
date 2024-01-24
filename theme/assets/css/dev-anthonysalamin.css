@@ -124,6 +124,8 @@ body {
 .nav__logomark-link {
   width: 48px;
   height: 48px;
+  border-radius: var(--16px);
+  background-color: var(--white);
   justify-content: center;
   align-items: center;
   padding-left: 0;
@@ -131,8 +133,6 @@ body {
 }
 
 .nav__logomark-link.w--current {
-  border-radius: var(--16px);
-  background-color: var(--white);
   padding: 8px;
 }
 
@@ -333,7 +333,10 @@ body {
 
 .subline {
   max-width: 400px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.3em;
+  font-weight: 400;
   line-height: 1.4;
   position: relative;
 }
@@ -351,7 +354,7 @@ body {
   font-weight: 600;
 }
 
-.punchline {
+.h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 3.2em;
@@ -359,30 +362,30 @@ body {
   line-height: 1.18;
 }
 
-.punchline.short.footer {
+.h1.short.footer {
   margin-top: -40px;
 }
 
-.punchline.centered {
+.h1.centered {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.punchline.faq {
+.h1.faq {
   margin-top: 24px;
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
 }
 
-.punchline.sticky {
+.h1.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 50vh;
 }
 
-.punchline.normal {
+.h1.normal {
   font-weight: 400;
 }
 
@@ -2146,7 +2149,7 @@ body {
   margin-right: auto;
 }
 
-.text-block-5 {
+.body {
   line-height: 1.4;
 }
 
@@ -2959,7 +2962,7 @@ body {
   flex: none;
   justify-content: center;
   align-items: center;
-  margin-right: 8px;
+  margin-right: 12px;
   display: flex;
   position: relative;
 }
@@ -3066,7 +3069,7 @@ body {
     padding-right: 0%;
   }
 
-  .punchline.service {
+  .h1.service {
     font-size: 2.4em;
   }
 
@@ -3308,15 +3311,15 @@ body {
     font-size: 1.2em;
   }
 
-  .punchline {
+  .h1 {
     font-size: 2.6em;
   }
 
-  .punchline.short {
+  .h1.short {
     max-width: 400px;
   }
 
-  .punchline.service {
+  .h1.service {
     font-size: 2em;
   }
 
@@ -3725,11 +3728,11 @@ body {
     font-size: 1.1em;
   }
 
-  .punchline {
+  .h1 {
     font-size: 2em;
   }
 
-  .punchline.short.footer {
+  .h1.short.footer {
     margin-top: 0;
   }
 
