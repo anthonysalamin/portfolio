@@ -14,10 +14,10 @@ collections:
     create: false
     delete: false
     slug: '{{slug}}'
-    editor:
+    editor: &ref_0
       preview: false
     folder: cms/pages
-    fields:
+    fields: &ref_1
       - label: Title
         name: title
         widget: string
@@ -28,7 +28,7 @@ collections:
         widget: hidden
         name: layout
         default: '{{slug}}.html'
-      - &ref_0
+      - &ref_2
         label: Seo
         name: seo
         widget: object
@@ -87,6 +87,66 @@ collections:
             name: additional_tags
             widget: text
             required: false
+  - name: pages-clients
+    label: Pages clients
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/clients
+    fields: *ref_1
+  - name: pages-pricing
+    label: Pages pricing
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/pricing
+    fields: *ref_1
+  - name: pages-legal
+    label: Pages legal
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/legal
+    fields: *ref_1
+  - name: pages-footer
+    label: Pages footer
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/footer
+    fields: *ref_1
+  - name: pages-modules
+    label: Pages modules
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/modules
+    fields: *ref_1
+  - name: pages-stripe
+    label: Pages stripe
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor: *ref_0
+    folder: cms/pages/stripe
+    fields: *ref_1
   - name: testimonies
     label: Testimonies
     folder: cms/testimonies
@@ -158,7 +218,7 @@ collections:
       - label: Publish Date
         name: date
         widget: datetime
-      - *ref_0
+      - *ref_2
   - name: categories
     label: Categories
     folder: cms/categories
@@ -210,7 +270,7 @@ collections:
       - label: Publish Date
         name: date
         widget: datetime
-      - *ref_0
+      - *ref_2
   - name: projects
     label: Projects
     folder: cms/projects
@@ -495,7 +555,7 @@ collections:
       - label: Publish Date
         name: date
         widget: datetime
-      - *ref_0
+      - *ref_2
   - name: legal_text
     label: Legal Texts
     folder: cms/legal-text
@@ -539,7 +599,7 @@ collections:
       - label: Publish Date
         name: date
         widget: datetime
-      - *ref_0
+      - *ref_2
   - label: Theme Settings
     name: settings
     identifier_field: title

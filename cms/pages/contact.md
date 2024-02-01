@@ -30,7 +30,11 @@ seo:
     Design to GO LIVE, I am the Digital Designer you didn't know you needed. I
     leverage AI technologies and cutting edge tools to streamline my processes.
     Additionally, I provide you with priority support along every step."
-    property="twitter:description"><meta property="og:type" content="website">
+    property="twitter:description"><meta
+    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65bb1eedb2697d670226ae0e_opengraph.jpg"
+    property="twitter:image"><meta property="og:type" content="website">
+  og:image: >-
+    https://uploads-ssl.webflow.com/6565594186e587567235d089/65bb1eedb2697d670226ae0e_opengraph.jpg
   twitter:title: Anthony Salamin | Digital Designer, Web Developer | Contact
 ---
 

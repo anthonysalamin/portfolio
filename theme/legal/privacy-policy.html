@@ -4,6 +4,13 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/assets/css/components.css" rel="stylesheet" type="text/css">
@@ -281,7 +288,7 @@ main:focus-visible {
               {%- assign collection = collections.legal-text | filter: "title,eq,Privacy Policy", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
                 {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
                   {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
-                    <div class="legal-text w-richtext">{{ item.content | markdown }}</div>
+                    <div class="legal-text w-richtext">{{ item.templateContent | markdown }}</div>
                   </div>{%- endfor -%}
                 </div>{%- endunless -%}
                 {%- if collection.length == 0 -%}<div class="w-dyn-empty">
