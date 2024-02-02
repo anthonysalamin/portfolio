@@ -224,6 +224,50 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  DrawSVGPlugin3 👻  -->
   <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/utility@v1.0.7/drawsvg.js"></script>
+  <!--  tippy.js/2.5.4/themes/light.css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/light.css" integrity="sha512-pHZ4Ml9vZuOvQQVXvt3xeLLfF5E+axs3BUAjoh7SuEvE45y92pxBIn7e3LYeOC9nyKXjY/NsOl2DscqRk6q/dA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!--  tippy.js/2.5.4/tippy.all.min.js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/tippy.all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+/*
+ * PORTFOLIO | Webflow Tooltip v2
+ * doc: https://atomiks.github.io/tippyjs/
+ * build: 02.02.2024 @16:51
+ */
+document.addEventListener("DOMContentLoaded", async () => {
+  await injectTooltip();
+  instanciateTippy();
+});
+function injectTooltip() {
+  console.log("injectTooltip start");
+  return new Promise((resolve, reject) => {
+    const pricingFeatures = document.querySelectorAll(".pricing__feature");
+    if (!pricingFeatures.length) return;
+    Array.from(pricingFeatures).forEach((pricingFeature, index, array) => {
+      const tooltipHelper = pricingFeature.querySelector(".tooltip-helper");
+      const tooltipInfo = tooltipHelper.textContent;
+      const infoSVG = pricingFeature.querySelector('[data-id="tippy"]');
+      infoSVG.setAttribute("title", tooltipInfo);
+      console.log(tooltipInfo);
+      console.log(infoSVG);
+      if (index === array.length - 1) {
+        console.log("injectTooltip end");
+        resolve(); // Resolve when all features are processed
+      }
+    });
+  });
+} // injectTooltip()
+function instanciateTippy() {
+  console.log("instanciateTippy");
+  tippy(`[data-id="tippy"]`, {
+    animation: "scale",
+    arrow: false,
+    inertia: true,
+    placement: "top",
+    theme: "light"
+  });
+} // instanciateTippy()
+</script>
   <script>
 /*
  * PORTFOLIO | navigation v4
@@ -235,9 +279,10 @@ document.addEventListener("DOMContentLoaded", () => {
 function handleNavigation() {
   let isOpen = false;
   const burger = document.querySelector(`[data-id="burger"]`);
+  if (!burger) return;
   const menu = document.querySelector(`[data-id="menu"]`);
   const links = document.querySelectorAll(`[data-id="navbar-link"]`);
-  const svgElement = document.querySelector(".burger-rotate");
+  const svgElement = document.querySelector(".burger-rotate");  
   // helper open menu
   function openMenu() {
     gsap.to(menu, { x: "0%", duration: 0.5 });
@@ -320,34 +365,38 @@ function collapseAnswer(answer, icon) {
   <script>
 /*
  * PORTFOLIO | draw check icon
- * build 20.12.203 @02:31
-*/
+ * build 02.02.2024 @17:12 Hong Kong
+ */
 document.addEventListener("DOMContentLoaded", () => {
-  drawCheck();
+  if (!document.querySelector(`.svg-check`)) return;
+  drawSomeSVG()
 });
-const options = {
-  repeat: -1,
-  repeatDelay: 0,
-  yoyo: true
-};
-const timeline = gsap.timeline(options);
-gsap.set(".svg-check", {
-  drawSVG: "0%"
-});
-function pauseBeforeYoyo() {
-  timeline.pause();
-  setTimeout(() => {
-    timeline.play();
-  }, 2500);
-}
-function drawCheck() {
-  timeline.to(".svg-check", {
-    duration: 1,
-    drawSVG: "100%",
-    ease: "power3.out",
-    onComplete: pauseBeforeYoyo
+function drawSomeSVG() {
+  const options = {
+    repeat: -1,
+    repeatDelay: 0,
+    yoyo: true
+  };
+  const timeline = gsap.timeline(options);
+  gsap.set(".svg-check", {
+    drawSVG: "0%"
   });
-}
+  function pauseBeforeYoyo() {
+    timeline.pause();
+    setTimeout(() => {
+      timeline.play();
+    }, 2500);
+  }
+  function drawCheck() {
+    timeline.to(".svg-check", {
+      duration: 1,
+      drawSVG: "100%",
+      ease: "power3.out",
+      onComplete: pauseBeforeYoyo
+    });
+  }
+  drawCheck();
+} // end drawSomeSVG()
 </script>
   <script>
 document.addEventListener("DOMContentLoaded", () => {
@@ -503,7 +552,7 @@ function showScrollProgress() {
 document.addEventListener("DOMContentLoaded", () => {
   const words = document.getElementsByClassName("headline_text");
   if (words.length === 0) {
-    console.log("no headline to animate");
+    // console.log("no headline to animate");
     return;
   };
   injectCSS(customCSS);

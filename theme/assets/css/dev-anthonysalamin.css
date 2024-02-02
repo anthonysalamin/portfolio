@@ -1442,7 +1442,8 @@ body {
   font-size: 11px;
 }
 
-.pricing25_feature {
+.pricing__feature {
+  justify-content: space-between;
   align-items: center;
   display: flex;
 }
@@ -1459,10 +1460,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 6px;
   display: flex;
 }
 
-.pricing25_feature-list {
+.pricing__list {
   grid-column-gap: 1.25rem;
   grid-row-gap: 1.25rem;
   grid-template-rows: auto;
@@ -1473,10 +1475,13 @@ body {
   display: grid;
 }
 
-.pricing25_feature-icon-wrapper {
+.pricing__info-wrap {
   flex: none;
+  justify-content: flex-start;
   align-self: flex-start;
+  align-items: center;
   margin-right: 1rem;
+  display: flex;
 }
 
 .pricing25_plan {
@@ -2778,7 +2783,7 @@ body {
 
 .fs-cc-banner_button {
   min-width: 8.75rem;
-  background-color: var(--dark);
+  background-color: var(--accent);
   color: #fff;
   text-align: center;
   border-radius: 4px;
@@ -2977,6 +2982,22 @@ body {
   padding-left: 4px;
   padding-right: 4px;
   display: flex;
+}
+
+.icon-info {
+  width: 12px;
+  height: 12px;
+  aspect-ratio: 1 / 1;
+}
+
+.wrap-text-pill {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.tooltip-helper {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
