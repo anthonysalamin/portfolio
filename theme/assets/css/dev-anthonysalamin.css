@@ -169,6 +169,7 @@ body {
   border-radius: var(--16px);
   background-color: var(--accent);
   color: var(--white);
+  flex: none;
   justify-content: center;
   align-items: center;
   margin-left: 1rem;
@@ -1561,6 +1562,11 @@ body {
   display: flex;
 }
 
+.btn-cta.filled {
+  color: var(--accent);
+  background-color: #fff;
+}
+
 .footer__link {
   font-size: 1rem;
   display: block;
@@ -2285,7 +2291,7 @@ body {
   width: 126px;
   height: 24px;
   background-color: var(--white);
-  border-radius: 100px;
+  border-radius: 8px;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -2944,13 +2950,13 @@ body {
 }
 
 .pill-mini {
+  border: 1px solid var(--accent);
   color: var(--accent);
   letter-spacing: .4px;
   text-transform: uppercase;
-  background-color: #efeefd;
   border-radius: 4px;
   flex: none;
-  margin-left: 6px;
+  margin-left: 8px;
   padding: 2px 4px;
   font-size: 9px;
   font-weight: 600;
@@ -2982,6 +2988,10 @@ body {
   padding-left: 4px;
   padding-right: 4px;
   display: flex;
+}
+
+.nav__link-text {
+  flex: none;
 }
 
 .icon-info {

@@ -1,13 +1,13 @@
 ---
 f_highlight: true
-f_on-display: true
+f_on-display: false
 f_hero-video: false
 f_order: 8
 title: MoTo GmbH
 slug: moto
-updated-on: '2024-01-23T09:15:21.136Z'
+updated-on: '2024-02-05T02:18:19.609Z'
 created-on: '2023-12-18T07:44:20.302Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-05T02:18:26.249Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -53,7 +53,7 @@ f_hero-image-static:
 f_horizontal-line-1: '#UX/UI #design #frontend #backend #development #DNS #setup'
 f_horizontal-line-2: '#germany #münich #architecture #construction #corporate'
 f_introduction: >-
-  In partnership with cherrycherry UG Design Agentur, I crafted a mobile-centric
+  Together with cherrycherry UG Design Agentur, we crafted a mobile-centric
   website for MoTo Projektmanagement GmbH, integrating a CMS and modern UX/UI
   design along with an advanced filtering system.
 f_similar-projects:
