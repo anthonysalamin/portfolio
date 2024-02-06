@@ -3110,6 +3110,10 @@ body {
     max-width: 460px;
   }
 
+  .header__punchline.fr {
+    max-width: 490px;
+  }
+
   .header__hero-video {
     grid-column-gap: 32px;
   }
@@ -3786,6 +3790,10 @@ body {
     max-width: 290px;
   }
 
+  .header__punchline.fr {
+    max-width: 310px;
+  }
+
   .header__hero-video {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
@@ -4149,12 +4157,62 @@ body {
   align-self: start;
 }
 
+#w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-6b9c8db8 {
+  justify-self: end;
+}
+
+#w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e82-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e83-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e84-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e85-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e86-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e87-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e88-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e89-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8a-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8b-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8c-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8d-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8e-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8f-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e91-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e92-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e93-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e94-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e95-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e96-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e97-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e98-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e99-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9a-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9b-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9c-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9d-6b9c8db8, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9e-6b9c8db8 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_30ba6480-2bbb-c38e-e889-3195a24999da-a24999d7 {
+  align-self: start;
+  justify-self: start;
+}
+
+#w-node-a442e7e9-3f50-8dee-caf3-649432e4965a-32e49637, #w-node-a442e7e9-3f50-8dee-caf3-649432e4969f-32e49637 {
+  align-self: start;
+}
+
+#w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-d0a09b35 {
+  justify-self: end;
+}
+
+#w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e82-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e83-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e84-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e85-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e86-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e87-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e88-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e89-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8a-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8b-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8c-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8d-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8e-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8f-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e91-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e92-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e93-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e94-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e95-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e96-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e97-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e98-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e99-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9a-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9b-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9c-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9d-d0a09b35, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9e-d0a09b35 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-f832fcff-4147-ca64-7e5b-c695b5d6c654-b5d6c651 {
+  align-self: start;
+  justify-self: start;
+}
+
+#w-node-_1d883ea0-52a2-2a68-0429-e14e31266e5b-31266e3a, #w-node-_1d883ea0-52a2-2a68-0429-e14e31266ea0-31266e3a {
+  align-self: start;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-7235d08c {
     justify-self: start;
   }
 
   #w-node-_2f57fa19-685c-5288-7069-92812e2e6bad-2e2e6baa, #w-node-_1c11dfba-1106-a792-db9b-952e39230961-4f10e4db, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-b08f4164 {
+    justify-self: center;
+  }
+
+  #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-6b9c8db8 {
+    justify-self: start;
+  }
+
+  #w-node-_30ba6480-2bbb-c38e-e889-3195a24999da-a24999d7 {
+    justify-self: center;
+  }
+
+  #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-d0a09b35 {
+    justify-self: start;
+  }
+
+  #w-node-f832fcff-4147-ca64-7e5b-c695b5d6c654-b5d6c651 {
     justify-self: center;
   }
 }
@@ -4225,6 +4283,134 @@ body {
   }
 
   #w-node-d23025c5-11ef-105f-3401-0a040a35efd2-f4ee0c65 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-_5af833b9-2228-7710-d33d-76e2d36c7547-d36c7543 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #w-node-_5af833b9-2228-7710-d33d-76e2d36c754a-d36c7543 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #w-node-_5af833b9-2228-7710-d33d-76e2d36c7583-d36c7543 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #w-node-_5af833b9-2228-7710-d33d-76e2d36c7586-d36c7543 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #w-node-d0e2f561-5357-6a16-dac3-054aac0bad1c-ac0bad18 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #w-node-d0e2f561-5357-6a16-dac3-054aac0bad1f-ac0bad18 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #w-node-d0e2f561-5357-6a16-dac3-054aac0bad58-ac0bad18 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #w-node-d0e2f561-5357-6a16-dac3-054aac0bad5b-ac0bad18 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef19-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef1c-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef2d-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef30-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef74-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef77-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efaa-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efad-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efb9-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efbc-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efcf-651ccbae {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efd2-651ccbae {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef19-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef1c-11a7b9ee {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef2d-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef30-11a7b9ee {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef74-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35ef77-11a7b9ee {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efaa-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efad-11a7b9ee {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efb9-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efbc-11a7b9ee {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efcf-11a7b9ee {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #w-node-d23025c5-11ef-105f-3401-0a040a35efd2-11a7b9ee {
     grid-area: 1 / 1 / 3 / 2;
   }
 }

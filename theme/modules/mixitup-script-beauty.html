@@ -202,6 +202,69 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/tippy.all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
 /*
+ * PORTFOLIO | language redirect v1
+ * build: 05.02.2024 @11:17
+*/
+document.addEventListener("DOMContentLoaded", () => {
+  const production = true;
+  if (production) {
+    console.log("production");
+    performCheck(urls); // Pass the urls parameter here
+  } else {
+    console.log("development");
+    redirectBasedOnLanguage(urls);
+  }
+});
+function performCheck(urls) { // Accept urls parameter
+  const currentUrl = window.location.href;
+  const targetUrls = [
+    "https://dev-anthonysalamin.webflow.io/",
+    "https://anthonysalamin.ch/"
+  ];
+  if (targetUrls.includes(currentUrl)) {
+    console.log("Current URL is equal to one of the target URLs.");
+    redirectBasedOnLanguage(urls);
+  } else {
+    console.log("Current URL is not equal to any of the target URLs.");
+    return;
+  }
+}
+// Function to get the browser language preference
+function getBrowserLanguage() {
+  return navigator.language || navigator.userLanguage;
+}
+function log(userLanguage, languageStatus) {
+  // languageStatus.textContent = userLanguage;
+  console.log(`language is ${userLanguage}`);
+}
+function getCurrentURL() {
+  return window.location.href;
+}
+const urls = {
+  en: ``,
+  fr: `fr/acceuil`,
+  de: `de/startseite`
+};
+// Function to redirect based on language preference
+function redirectBasedOnLanguage(urls) {
+  const currentURL = getCurrentURL();
+  console.log(currentURL);
+  const languageStatus = document.querySelector(`#language`);
+  const userLanguage = getBrowserLanguage();
+  if (userLanguage.startsWith("fr")) {
+    log(userLanguage, languageStatus);
+    window.location.href = `${currentURL}${urls.fr}`;
+  } else if (userLanguage.startsWith("de")) {
+    log(userLanguage, languageStatus);
+    window.location.href = `${currentURL}${urls.de}`;
+  } else {
+    log(userLanguage, languageStatus);
+    return;
+  }
+}
+</script>
+  <script>
+/*
  * PORTFOLIO | Webflow Tooltip v2
  * doc: https://atomiks.github.io/tippyjs/
  * build: 02.02.2024 @16:51
@@ -211,7 +274,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   instanciateTippy();
 });
 function injectTooltip() {
-  console.log("injectTooltip start");
+  // console.log("injectTooltip start");
   return new Promise((resolve, reject) => {
     const pricingFeatures = document.querySelectorAll(".pricing__feature");
     if (!pricingFeatures.length) return;
@@ -220,17 +283,17 @@ function injectTooltip() {
       const tooltipInfo = tooltipHelper.textContent;
       const infoSVG = pricingFeature.querySelector('[data-id="tippy"]');
       infoSVG.setAttribute("title", tooltipInfo);
-      console.log(tooltipInfo);
-      console.log(infoSVG);
+      // console.log(tooltipInfo);
+      // console.log(infoSVG);
       if (index === array.length - 1) {
-        console.log("injectTooltip end");
+        // console.log("injectTooltip end");
         resolve(); // Resolve when all features are processed
       }
     });
   });
 } // injectTooltip()
 function instanciateTippy() {
-  console.log("instanciateTippy");
+  // console.log("instanciateTippy");
   tippy(`[data-id="tippy"]`, {
     animation: "scale",
     arrow: false,
