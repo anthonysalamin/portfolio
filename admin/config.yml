@@ -1423,22 +1423,6 @@ collections:
             label: Text
             name: '-6ac26c65'
             widget: string
-          - hint: 'Original text: Advanced UX/UI Design, key: -208da464'
-            label: Text
-            name: '-208da464'
-            widget: string
-          - hint: 'Original text: Modern Web Development, key: 309dcb4e'
-            label: Text
-            name: 309dcb4e
-            widget: string
-          - hint: 'Original text: Corporate Identities, key: -2a125749'
-            label: Text
-            name: '-2a125749'
-            widget: string
-          - hint: 'Original text: Modern Web Animations, key: 253c98fc'
-            label: Text
-            name: 253c98fc
-            widget: string
           - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
             label: Text
             name: 29ff8bcf
@@ -2528,10 +2512,6 @@ collections:
             label: Text
             name: '-6915db4'
             widget: text
-          - hint: 'Original text: Voir leportfolio, key: 1faee91'
-            label: Text
-            name: 1faee91
-            widget: string
           - hint: >-
               Original text: Quels sont les services que vous proposez ?, key:
               -285d4b91
@@ -2665,6 +2645,14 @@ collections:
           - hint: 'Original text: SUISSE, key: -6d8d85a2'
             label: Text
             name: '-6d8d85a2'
+            widget: string
+          - hint: 'Original text: Des histoires qui font mouche, key: 6abf9899'
+            label: Text
+            name: 6abf9899
+            widget: string
+          - hint: 'Original text: Un contenu qui connecte, key: 773490a3'
+            label: Text
+            name: 773490a3
             widget: string
           - hint: 'Original text: Mentions légales, key: -68d80214'
             label: Text
@@ -3203,6 +3191,14 @@ collections:
           - hint: 'Original text: PHILIPPINIEN, key: -571290e1'
             label: Text
             name: '-571290e1'
+            widget: string
+          - hint: 'Original text: Geschichten, die begeistern, key: 43fba5f5'
+            label: Text
+            name: 43fba5f5
+            widget: string
+          - hint: 'Original text: Inhalt, der verbindet, key: -52bef6fa'
+            label: Text
+            name: '-52bef6fa'
             widget: string
           - hint: 'Original text: Impessum, key: -15dee94f'
             label: Text
