@@ -3012,20 +3012,20 @@ body {
   display: none;
 }
 
-.languages {
+.language {
   justify-content: flex-start;
   align-items: center;
   padding-left: 1rem;
   display: flex;
 }
 
-.embed-translate {
+.language__trigger {
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
 
-.languages__wrap {
+.language__wrap {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   justify-content: flex-start;
@@ -3034,7 +3034,7 @@ body {
   overflow: hidden;
 }
 
-.language-link {
+.language__link {
   width: 24px;
   height: 24px;
   justify-content: center;
@@ -3046,6 +3046,10 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.language__icon {
+  width: 12px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3354,7 +3358,7 @@ body {
     align-items: flex-start;
   }
 
-  .languages {
+  .language {
     height: 48px;
     padding-left: 0;
   }

@@ -696,14 +696,6 @@ collections:
             label: Text
             name: 560f747e
             widget: string
-          - hint: 'Original text: FR, key: 8cc'
-            label: Text
-            name: 8cc
-            widget: string
-          - hint: 'Original text: DE, key: 881'
-            label: Text
-            name: '881'
-            widget: string
           - hint: 'Original text: Book a call, key: 47d6ebb4'
             label: Text
             name: 47d6ebb4
@@ -2094,10 +2086,6 @@ collections:
           - hint: 'Original text: Prix, key: 2616d1'
             label: Text
             name: 2616d1
-            widget: string
-          - hint: 'Original text: EN, key: 8a9'
-            label: Text
-            name: 8a9
             widget: string
           - hint: 'Original text: Réserver un call, key: -941cdc1'
             label: Text
@@ -3508,6 +3496,14 @@ collections:
             label: Text
             name: '-48240222'
             widget: string
+          - hint: 'Original text: DE, key: 881'
+            label: Text
+            name: '881'
+            widget: string
+          - hint: 'Original text: FR, key: 8cc'
+            label: Text
+            name: 8cc
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3646,6 +3642,32 @@ collections:
                 required: false
           - label: Image
             name: c8a5c77
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 64c32a1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 22b4fd6
             widget: object
             fields:
               - name: url
@@ -3958,6 +3980,19 @@ collections:
                 required: false
           - label: Image
             name: '-53584f5e'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 45efbfe
             widget: object
             fields:
               - name: url
