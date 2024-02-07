@@ -696,21 +696,21 @@ collections:
             label: Text
             name: 560f747e
             widget: string
-          - hint: 'Original text: DE, key: 881'
-            label: Text
-            name: '881'
-            widget: string
           - hint: 'Original text: FR, key: 8cc'
             label: Text
             name: 8cc
+            widget: string
+          - hint: 'Original text: DE, key: 881'
+            label: Text
+            name: '881'
             widget: string
           - hint: 'Original text: Book a call, key: 47d6ebb4'
             label: Text
             name: 47d6ebb4
             widget: string
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
+          - hint: 'Original text: Free Audit, key: -185fced9'
             label: Text
-            name: '-5230a9d2'
+            name: '-185fced9'
             widget: string
           - hint: 'Original text: The only Digital, key: -5827d70d'
             label: Text
@@ -1108,6 +1108,10 @@ collections:
           - hint: 'Original text: Still have a question ?, key: 7ae25ac4'
             label: Text
             name: 7ae25ac4
+            widget: string
+          - hint: 'Original text: Get in touch, key: -5230a9d2'
+            label: Text
+            name: '-5230a9d2'
             widget: string
           - hint: 'Original text: Kind words from satisfied clients., key: -3329c859'
             label: Text
@@ -1929,11 +1933,12 @@ collections:
             name: '-67224c5'
             widget: string
           - hint: >-
-              Original text: I provide audit, if you so desire, of your entire
-              existing website — for free., key: 100888d9
+              Original text: I provide a complimentary audit of your current
+              website and/or brand identity, with no obligation on your part.,
+              key: 6f621d36
             label: Text
-            name: 100888d9
-            widget: string
+            name: 6f621d36
+            widget: text
           - hint: 'Original text: FREE, key: 210e6c'
             label: Text
             name: 210e6c
@@ -2098,9 +2103,9 @@ collections:
             label: Text
             name: '-941cdc1'
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
+          - hint: 'Original text: Audit Gratuit, key: e02a9bd'
             label: Text
-            name: '-64104400'
+            name: e02a9bd
             widget: string
           - hint: 'Original text: Le seul Designer, key: -468bd165'
             label: Text
@@ -2168,9 +2173,9 @@ collections:
             widget: string
           - hint: >-
               Original text: L'intelligence Artificiel et autres outils de
-              développement de pointe sont mes aliés., key: 54c1635
+              développement de pointe sont mes alliés., key: -5bd77513
             label: Text
-            name: 54c1635
+            name: '-5bd77513'
             widget: string
           - hint: >-
               Original text: Pour les projets de startups ambitieux., key:
@@ -2215,11 +2220,9 @@ collections:
             label: Text
             name: '-779bf0db'
             widget: text
-          - hint: >-
-              Original text: 1 landingpage - nombre de sections illimité, key:
-              4e0c171f
+          - hint: 'Original text: 1 LP - nombre de sections illimité, key: 5049223b'
             label: Text
-            name: 4e0c171f
+            name: 5049223b
             widget: string
           - hint: >-
               Original text: Donnez-moi le contenu brut et je m'occuperai de la
@@ -2288,11 +2291,9 @@ collections:
             label: Text
             name: 6dab2c5e
             widget: string
-          - hint: >-
-              Original text: Tout ce qu'offre "Start-up" et plus encore, key:
-              -1f074146
+          - hint: 'Original text: Tout ce qu''offre "Start-up" et plus, key: -dfeee92'
             label: Text
-            name: '-1f074146'
+            name: '-dfeee92'
             widget: string
           - hint: >-
               Original text: Je crée et développe des interfaces utilisateur sur
@@ -2318,19 +2319,11 @@ collections:
             label: Text
             name: 650ffc38
             widget: string
-          - hint: 'Original text: Ecommerce (module complémentaire), key: -6abbc0c8'
-            label: Text
-            name: '-6abbc0c8'
-            widget: string
           - hint: >-
               Original text: Vous souhaitez vendre en ligne, contactez-moi !,
               key: 2da62001
             label: Text
             name: 2da62001
-            widget: string
-          - hint: 'Original text: Logo Design (module complémentaire), key: -4e026e15'
-            label: Text
-            name: '-4e026e15'
             widget: string
           - hint: >-
               Original text: Vous avez besoin de lancer ou de relancer un logo ?
@@ -2352,15 +2345,15 @@ collections:
             label: Text
             name: '-348a8a67'
             widget: string
-          - hint: 'Original text: Discuttons, key: -5efc496c'
+          - hint: 'Original text: Discutons, key: 708c6ee0'
             label: Text
-            name: '-5efc496c'
+            name: 708c6ee0
             widget: string
           - hint: >-
-              Original text: En focntion de votre cahier des charges, key:
-              -33945073
+              Original text: En fonction de votre cahier des charges, key:
+              48408d7
             label: Text
-            name: '-33945073'
+            name: 48408d7
             widget: string
           - hint: >-
               Original text: Discutons de vos besoins et je vous fournirai
@@ -2412,11 +2405,9 @@ collections:
             label: Text
             name: 3c620b4f
             widget: text
-          - hint: >-
-              Original text: Design graphique (module complémentaire) , key:
-              -439201bc
+          - hint: 'Original text: Design graphique (Add-on) , key: 68f1c84e'
             label: Text
-            name: '-439201bc'
+            name: 68f1c84e
             widget: string
           - hint: 'Original text: Animation Web avancée, key: 5dad3235'
             label: Text
@@ -2654,6 +2645,10 @@ collections:
             label: Text
             name: 773490a3
             widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
           - hint: 'Original text: Mentions légales, key: -68d80214'
             label: Text
             name: '-68d80214'
@@ -2674,15 +2669,15 @@ collections:
             label: Text
             name: '-4b455957'
             widget: string
-          - hint: 'Original text: Kontakt, key: 43219700'
+          - hint: 'Original text: Gratis-Audit, key: -21b09a2a'
             label: Text
-            name: '43219700'
+            name: '-21b09a2a'
             widget: string
           - hint: >-
-              Original text: Der Designerdigital & Entwickler, den Sie wircklich
-              brauchen., key: -48240222
+              Original text: Der digitale Designer und Entwickler, den Sie
+              wirklich brauchen., key: -40c48625
             label: Text
-            name: '-48240222'
+            name: '-40c48625'
             widget: string
           - hint: 'Original text: Ich schiebe Pixel herum, key: -507572a8'
             label: Text
@@ -3200,6 +3195,10 @@ collections:
             label: Text
             name: '-52bef6fa'
             widget: string
+          - hint: 'Original text: Kontakt, key: 43219700'
+            label: Text
+            name: '43219700'
+            widget: string
           - hint: 'Original text: Impessum, key: -15dee94f'
             label: Text
             name: '-15dee94f'
@@ -3243,11 +3242,11 @@ collections:
             name: 1115840a
             widget: string
           - hint: >-
-              Original text: Je propose, si vous le souhaitez, un audit de
-              l'ensemble de votre site web existant — gratuitement., key:
-              -59b35d9d
+              Original text: Je propose un audit gratuit de l'ensemble de votre
+              site web existant et/ou identité de marque — sans engagement.,
+              key: -1487c6d8
             label: Text
-            name: '-59b35d9d'
+            name: '-1487c6d8'
             widget: text
           - hint: 'Original text: Audit GRATUIT, key: -2a6a6243'
             label: Text
@@ -3293,11 +3292,9 @@ collections:
             label: Text
             name: '-6fe7dce1'
             widget: string
-          - hint: >-
-              Original text: Quel est votre calendrier prévisionnel ?, key:
-              -2f22d08d
+          - hint: 'Original text: Quel est votre deadline ?, key: 5aef15f8'
             label: Text
-            name: '-2f22d08d'
+            name: 5aef15f8
             widget: string
           - hint: 'Original text: 1 — 2 mois, key: -7e2035eb'
             label: Text
@@ -3311,15 +3308,15 @@ collections:
             label: Text
             name: c99090
             widget: string
-          - hint: 'Original text: Comment engager la conversation ?, key: 5d8fa21d'
+          - hint: 'Original text: Comment amorcer une conversation ?, key: 3aa72bb6'
             label: Text
-            name: 5d8fa21d
+            name: 3aa72bb6
             widget: string
           - hint: >-
-              Original text: Comment avez-vous entendu parler de moi ?, key:
-              -186a35d3
+              Original text: Comment avez-vous été mis(e) au courant de ma
+              présence ?, key: -473384b1
             label: Text
-            name: '-186a35d3'
+            name: '-473384b1'
             widget: string
           - hint: 'Original text: Référence, key: -4e57cbdd'
             label: Text
@@ -3335,9 +3332,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Prêt à soumettre votre demande et à démarrer un
-              nouveau projet avec moi !, key: -324a9a90
+              nouveau projet avec moi ?, key: -324a9a72
             label: Text
-            name: '-324a9a90'
+            name: '-324a9a72'
             widget: string
           - hint: >-
               Original text: Je reconnais avoir lu et accepté la politique de
@@ -3355,6 +3352,12 @@ collections:
             label: Text
             name: '-71e3024c'
             widget: text
+          - hint: >-
+              Original text: Suchen Sie eine neue Website oder eine neue
+              Markenidentität?, key: 58469582
+            label: Text
+            name: '58469582'
+            widget: string
           - hint: >-
               Original text: Das Ausfüllen dieses Formulars dauert 1 Minute,
               versprochen., key: -28638f41
@@ -3380,11 +3383,12 @@ collections:
             name: 1cd11c90
             widget: string
           - hint: >-
-              Original text: Wenn Sie es wünschen, überprüfe ich Ihre gesamte
-              bestehende Website — kostenlos., key: -57290649
+              Original text: Ich biete eine kostenlose Prüfung Ihrer gesamten
+              bestehenden Website und/oder Markenidentität an - unverbindlich.,
+              key: -24c6f6c7
             label: Text
-            name: '-57290649'
-            widget: string
+            name: '-24c6f6c7'
+            widget: text
           - hint: 'Original text: KOSTENLOSES Audit, key: 279d460b'
             label: Text
             name: 279d460b
@@ -3430,10 +3434,10 @@ collections:
             name: '1263e203'
             widget: string
           - hint: >-
-              Original text: Wie sieht Ihr voraussichtlicher Zeitplan aus?, key:
-              -1a9c2dbc
+              Original text: Wie sieht Ihr voraussichtlicher Zeitplan aus ?,
+              key: -38e98d46
             label: Text
-            name: '-1a9c2dbc'
+            name: '-38e98d46'
             widget: string
           - hint: 'Original text: 1 — 2 Monate, key: 527c95af'
             label: Text
@@ -3448,14 +3452,14 @@ collections:
             name: 3789dca3
             widget: string
           - hint: >-
-              Original text: Wie sollen wir ein Gespräch beginnen?, key:
-              -1ca76d9
+              Original text: Wie sollen wir ein Gespräch beginnen ?, key:
+              -378467c9
             label: Text
-            name: '-1ca76d9'
+            name: '-378467c9'
             widget: string
-          - hint: 'Original text: Wie haben Sie von mir erfahren?, key: 2d1a4c23'
+          - hint: 'Original text: Wie haben Sie von mir erfahren ?, key: 762f34bb'
             label: Text
-            name: 2d1a4c23
+            name: 762f34bb
             widget: string
           - hint: 'Original text: Sonstiges, key: -5d6ed7e1'
             label: Text
@@ -3463,9 +3467,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Sind Sie bereit, Ihre Anfrage einzureichen und ein
-              neues Projekt mit mir zu starten?, key: -6ac7713a
+              neues Projekt mit mir zu starten ?, key: 11d94678
             label: Text
-            name: '-6ac7713a'
+            name: 11d94678
             widget: string
           - hint: >-
               Original text: Ich bestätige, dass ich die Datenschutzbestimmungen
@@ -3491,19 +3495,17 @@ collections:
             label: Text
             name: 3fb9dcb7
             widget: string
-          - hint: 'Original text: Dompteur de pixel, key: 78d1906b'
-            label: Text
-            name: 78d1906b
-            widget: string
           - hint: >-
               Original text: Vielen Dank, Ihr Formular wurde abgeschickt., key:
               3c98ae79
             label: Text
             name: 3c98ae79
             widget: string
-          - hint: 'Original text: I push pixels around, key: -2189f6af'
+          - hint: >-
+              Original text: Der Designerdigital & Entwickler, den Sie wircklich
+              brauchen., key: -48240222
             label: Text
-            name: '-2189f6af'
+            name: '-48240222'
             widget: string
       - label: Links
         name: links
@@ -3529,13 +3531,13 @@ collections:
             label: Link
             name: '117413'
             widget: string
-          - hint: 'Original link: /de/startseite/, key: 3c2b46a'
-            label: Link
-            name: 3c2b46a
-            widget: string
           - hint: 'Original link: /fr/acceuil/, key: 3e12132f'
             label: Link
             name: 3e12132f
+            widget: string
+          - hint: 'Original link: /de/startseite/, key: 3c2b46a'
+            label: Link
+            name: 3c2b46a
             widget: string
           - hint: >-
               Original link:
