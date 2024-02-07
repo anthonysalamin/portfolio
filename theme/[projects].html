@@ -296,7 +296,7 @@ main:focus-visible {
               </div>
             </div>
           </div>
-          {%- if f_hero-image-static -%}<div class="hero-static" style="background-image: url('{{f_hero-image-static.url}}');"></div>{%- endif -%}
+          {%- if f_hero-image-static -%}<div class="hero-static"><img alt="{{ title }}" loading="lazy" src="{{ f_hero-image-static.url }}" class="img-hero"></div>{%- endif -%}
           {%- if f_hero-video == true -%}<div class="header__hero-video">
             <div class="teaser__cloudinary w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/{{ f_video-thumnail-1 }}.jpg">
   <source src="{{ f_video-1 }}" type="video/mp4">

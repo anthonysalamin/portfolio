@@ -2122,11 +2122,11 @@ collections:
             name: '-5e9f8298'
             widget: string
           - hint: >-
-              Original text: Je renforce votre entreprises avec un design et
-              développement Web complet et créé une identité de marque modern et
-              unique., key: 679a873
+              Original text: Je renforce votre entreprises avec un design et un
+              développement Web complet, je crée votre identité de marque
+              moderne et unique., key: 15329f0d
             label: Text
-            name: 679a873
+            name: 15329f0d
             widget: text
           - hint: 'Original text: Voir le portfolio, key: -f559701'
             label: Text
@@ -2685,18 +2685,20 @@ collections:
             widget: string
           - hint: >-
               Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
-              Webdesign und -entwicklung und schaffe eine moderne und
-              einzigartige Markenidentität., key: -66d81f5b
+              Webdesign und -entwicklung, ich kreiere Ihre moderne und
+              einzigartige Markenidentität., key: -5f1a6056
             label: Text
-            name: '-66d81f5b'
+            name: '-5f1a6056'
             widget: text
           - hint: 'Original text: Portfolio ansehen, key: -2c595386'
             label: Text
             name: '-2c595386'
             widget: string
-          - hint: 'Original text: Erstellen wir Ihre Online-Präsenz., key: 246a87ba'
+          - hint: >-
+              Original text: Ihre Online-Präsenz zusammen erstellen, key:
+              4fbb981e
             label: Text
-            name: 246a87ba
+            name: 4fbb981e
             widget: string
           - hint: >-
               Original text: Webdesign, Markenidentität, Startup, LP,
@@ -2711,12 +2713,11 @@ collections:
             name: '-41071bdd'
             widget: string
           - hint: >-
-              Original text: Ich helfe Unternehmen online zu glänzen.
-              Konzentrieren Sie sich auf das, was Sie am besten können, und
-              überlassen Sie mir den Rest., key: -635ec448
+              Original text: Konzentrieren Sie sich auf das, was Sie am besten
+              können, und überlassen Sie mir den Rest., key: 5fc554a1
             label: Text
-            name: '-635ec448'
-            widget: text
+            name: 5fc554a1
+            widget: string
           - hint: 'Original text: Mit mir arbeiten, key: 1e4588ba'
             label: Text
             name: 1e4588ba
