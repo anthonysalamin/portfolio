@@ -10,15 +10,13 @@ f_introduction: >-
   UX/UI overhaul and assured web development.
 slug: urbain
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
-  - cms/categories/photography.md
+  - cms/categories/web.md
 f_similar-projects:
   - cms/projects/wventures.md
   - cms/projects/quatreaplus.md
-updated-on: '2024-01-23T09:13:11.889Z'
+updated-on: '2024-02-08T03:47:47.611Z'
 created-on: '2023-12-14T03:45:51.938Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7cf3bffc0c253268e629_urbain-05.jpg

@@ -754,10 +754,10 @@ collections:
             name: 359c97f3
             widget: string
           - hint: >-
-              Original text: A selection of work I am most proud of., key:
-              387507a
+              Original text: Affordable pricing meets impactful design – get
+              your website today., key: -2565d23d
             label: Text
-            name: 387507a
+            name: '-2565d23d'
             widget: string
           - hint: >-
               Original text: I help businesses shine online. Focus on what you
@@ -765,9 +765,9 @@ collections:
             label: Text
             name: '-1faf18af'
             widget: string
-          - hint: 'Original text: Work with me, key: 3ac1ed43'
+          - hint: 'Original text: Get in touch, key: -5230a9d2'
             label: Text
-            name: 3ac1ed43
+            name: '-5230a9d2'
             widget: string
           - hint: 'Original text: See all projects, key: -6675051a'
             label: Text
@@ -1097,13 +1097,9 @@ collections:
             label: Text
             name: 7175f382
             widget: string
-          - hint: 'Original text: Still have a question ?, key: 7ae25ac4'
+          - hint: 'Original text: Any questions ?, key: -36607e28'
             label: Text
-            name: 7ae25ac4
-            widget: string
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
-            label: Text
-            name: '-5230a9d2'
+            name: '-36607e28'
             widget: string
           - hint: 'Original text: Kind words from satisfied clients., key: -3329c859'
             label: Text
@@ -1770,96 +1766,6 @@ collections:
             label: Text
             name: 3bda755e
             widget: string
-          - hint: 'Original text: My clients are in, key: 1414705d'
-            label: Text
-            name: 1414705d
-            widget: string
-          - hint: 'Original text: I am in BGC, key: -42bad180'
-            label: Text
-            name: '-42bad180'
-            widget: string
-          - hint: 'Original text: Berlin, key: 766493c2'
-            label: Text
-            name: 766493c2
-            widget: string
-          - hint: 'Original text: Goodnight, key: -35ab0ea5'
-            label: Text
-            name: '-35ab0ea5'
-            widget: string
-          - hint: 'Original text: 2, key: 32'
-            label: Text
-            name: '32'
-            widget: string
-          - hint: 'Original text: :, key: 3a'
-            label: Text
-            name: 3a
-            widget: string
-          - hint: 'Original text: 54 AM, key: 303014d'
-            label: Text
-            name: 303014d
-            widget: string
-          - hint: 'Original text: Manila, key: -771057dc'
-            label: Text
-            name: '-771057dc'
-            widget: string
-          - hint: 'Original text: It''s Early, key: -56bcc266'
-            label: Text
-            name: '-56bcc266'
-            widget: string
-          - hint: 'Original text: 8, key: 38'
-            label: Text
-            name: '38'
-            widget: string
-          - hint: 'Original text: Geneva, key: 7eeae4a0'
-            label: Text
-            name: 7eeae4a0
-            widget: string
-          - hint: 'Original text: Good day, key: -7dbdb227'
-            label: Text
-            name: '-7dbdb227'
-            widget: string
-          - hint: 'Original text: 11, key: 620'
-            label: Text
-            name: '620'
-            widget: string
-          - hint: 'Original text: HEADQUARTER, key: 46ed0cac'
-            label: Text
-            name: 46ed0cac
-            widget: string
-          - hint: 'Original text: ‍Gneisenaustrasse 89, key: -37bd1f9c'
-            label: Text
-            name: '-37bd1f9c'
-            widget: string
-          - hint: 'Original text: 10961 Berlin, key: 3f1580d'
-            label: Text
-            name: 3f1580d
-            widget: string
-          - hint: 'Original text: SATELITE OFFICE, key: 7be0cbcf'
-            label: Text
-            name: 7be0cbcf
-            widget: string
-          - hint: 'Original text: 1961 St-Luc, key: 3d8b526b'
-            label: Text
-            name: 3d8b526b
-            widget: string
-          - hint: 'Original text: ASIA, key: 1eccca'
-            label: Text
-            name: 1eccca
-            widget: string
-          - hint: 'Original text: 5th Ave, Metro Manila, key: 31a57058'
-            label: Text
-            name: 31a57058
-            widget: string
-          - hint: >-
-              Original text: Let's find a solution that fits your need, let's
-              talk., key: -4a6ad96f
-            label: Text
-            name: '-4a6ad96f'
-            widget: string
-          - hint: 'Original text: Free UX Audit, key: 33ff7712'
-            label: Text
-            name: 33ff7712
-            widget: string
           - hint: 'Original text: See images, key: 4c81705'
             label: Text
             name: 4c81705
@@ -1889,6 +1795,10 @@ collections:
               rest for you., key: -5a9fb6e3
             label: Text
             name: '-5a9fb6e3'
+            widget: string
+          - hint: 'Original text: Work with me, key: 3ac1ed43'
+            label: Text
+            name: 3ac1ed43
             widget: string
           - hint: >-
               Original text: Looking for a new website or a refined brand
@@ -2110,11 +2020,11 @@ collections:
             name: '-5e9f8298'
             widget: string
           - hint: >-
-              Original text: Je renforce votre entreprises avec un design et un
+              Original text: Je renforce votre entreprise avec un design et un
               développement Web complet, je crée votre identité de marque
-              moderne et unique., key: 15329f0d
+              moderne et unique., key: -1b5da4b6
             label: Text
-            name: 15329f0d
+            name: '-1b5da4b6'
             widget: text
           - hint: 'Original text: Voir le portfolio, key: -f559701'
             label: Text
@@ -2133,21 +2043,20 @@ collections:
             name: 45faaa3a
             widget: string
           - hint: >-
-              Original text: Une sélection des travaux dont je suis le plus
-              fier., key: 625932a
+              Original text: Prix compétitifs pour un design percutant - votre
+              site web dès aujourd'hui., key: 201bd77d
             label: Text
-            name: 625932a
+            name: 201bd77d
             widget: string
           - hint: >-
-              Original text: J'aide les entreprises à briller en ligne.
-              Concentrez-vous sur ce que vous faites de mieux, laissez-moi
-              m'occuper du reste., key: -2d2892e
+              Original text: Concentrez-vous sur ce que vous faites de mieux,
+              laissez-moi m'occuper du reste., key: a2aab74
             label: Text
-            name: '-2d2892e'
-            widget: text
-          - hint: 'Original text: Travailler avec moi, key: -6369894e'
+            name: a2aab74
+            widget: string
+          - hint: 'Original text: Prendre contact, key: -48bda494'
             label: Text
-            name: '-6369894e'
+            name: '-48bda494'
             widget: string
           - hint: 'Original text: Mise en ligne, key: -5af3f5a4'
             label: Text
@@ -2183,13 +2092,9 @@ collections:
             label: Text
             name: 60792c31
             widget: string
-          - hint: 'Original text: Prendre contact, key: -48bda494'
+          - hint: 'Original text: MVP sous 24hrs, key: -6eb73086'
             label: Text
-            name: '-48bda494'
-            widget: string
-          - hint: "Original text: Misen en ligne MVP\_sous 24hrs, key: -4f86bbb0"
-            label: Text
-            name: '-4f86bbb0'
+            name: '-6eb73086'
             widget: string
           - hint: >-
               Original text: Lancez la version initiale de votre page d'acceuil
@@ -2208,9 +2113,9 @@ collections:
             label: Text
             name: '-779bf0db'
             widget: text
-          - hint: 'Original text: 1 LP - nombre de sections illimité, key: 5049223b'
+          - hint: 'Original text: 1 page - sections illimitées, key: -7d4c40e4'
             label: Text
-            name: 5049223b
+            name: '-7d4c40e4'
             widget: string
           - hint: >-
               Original text: Donnez-moi le contenu brut et je m'occuperai de la
@@ -2218,9 +2123,9 @@ collections:
             label: Text
             name: '-6b53c191'
             widget: string
-          - hint: 'Original text: Domaine personnalisé + email, key: -37afd81f'
+          - hint: 'Original text: Domaine + email pro, key: -50cf6b2b'
             label: Text
-            name: '-37afd81f'
+            name: '-50cf6b2b'
             widget: string
           - hint: >-
               Original text: Vous souhaitez avoir un impact fort ? Améliorez
@@ -2229,9 +2134,9 @@ collections:
             label: Text
             name: '-790f366b'
             widget: text
-          - hint: 'Original text: Optimisation du site web (SEO), key: 7599d2'
+          - hint: 'Original text: Optimisation web (SEO), key: -1ab05004'
             label: Text
-            name: 7599d2
+            name: '-1ab05004'
             widget: string
           - hint: >-
               Original text: Je configure Google Console pour une indexation
@@ -2239,9 +2144,9 @@ collections:
             label: Text
             name: 1813ce23
             widget: text
-          - hint: 'Original text: Analyses avancées et "heatmap", key: -312b57cf'
+          - hint: 'Original text: Analyses de traffic, key: 2b7c6afe'
             label: Text
-            name: '-312b57cf'
+            name: 2b7c6afe
             widget: string
           - hint: >-
               Original text: Découvrez comment vos utilisateurs interagissent
@@ -2249,9 +2154,9 @@ collections:
             label: Text
             name: 3a21f06e
             widget: string
-          - hint: 'Original text: Support client, key: ec5115c'
+          - hint: 'Original text: Support client prioritaire, key: 7fb8b68c'
             label: Text
-            name: ec5115c
+            name: 7fb8b68c
             widget: string
           - hint: >-
               Original text: J'offre une assistance quasi instantanée,
@@ -2269,9 +2174,13 @@ collections:
             label: Text
             name: 1f3da31
             widget: string
-          - hint: 'Original text: Mise en ligne dans 4 semaines, key: -74933281'
+          - hint: 'Original text: 4.899, key: 2f2889e'
             label: Text
-            name: '-74933281'
+            name: 2f2889e
+            widget: string
+          - hint: 'Original text: Mise en ligne sous 4 semaines, key: -5101c479'
+            label: Text
+            name: '-5101c479'
             widget: string
           - hint: >-
               Original text: Je fournis l'itération initiale de votre site web
@@ -2279,9 +2188,9 @@ collections:
             label: Text
             name: 6dab2c5e
             widget: string
-          - hint: 'Original text: Tout ce qu''offre "Start-up" et plus, key: -dfeee92'
+          - hint: 'Original text: Tout ce qu''offre "Start-up", key: 38234223'
             label: Text
-            name: '-dfeee92'
+            name: '38234223'
             widget: string
           - hint: >-
               Original text: Je crée et développe des interfaces utilisateur sur
@@ -2289,9 +2198,9 @@ collections:
             label: Text
             name: '-1eb64ce4'
             widget: string
-          - hint: 'Original text: Content Management System (CMS), key: -287416f3'
+          - hint: 'Original text: Dashboard CMS, key: 5da417d'
             label: Text
-            name: '-287416f3'
+            name: 5da417d
             widget: string
           - hint: >-
               Original text: Gérez votre contenu sans effort grâce à un tableau
@@ -2329,6 +2238,10 @@ collections:
             label: Text
             name: 53d37644
             widget: text
+          - hint: 'Original text: Populaire, key: 5285ace3'
+            label: Text
+            name: 5285ace3
+            widget: string
           - hint: 'Original text: Pour des solutions sur mesure., key: -348a8a67'
             label: Text
             name: '-348a8a67'
@@ -2337,11 +2250,9 @@ collections:
             label: Text
             name: 708c6ee0
             widget: string
-          - hint: >-
-              Original text: En fonction de votre cahier des charges, key:
-              48408d7
+          - hint: 'Original text: Cahier des charges spécifique, key: -52abf031'
             label: Text
-            name: 48408d7
+            name: '-52abf031'
             widget: string
           - hint: >-
               Original text: Discutons de vos besoins et je vous fournirai
@@ -2349,11 +2260,9 @@ collections:
             label: Text
             name: 5c549b13
             widget: string
-          - hint: >-
-              Original text: Tout ce qu'offre "Business" et + encore, key:
-              33d1fd97
+          - hint: 'Original text: Tout ce qu''offre "Business", key: 70127d89'
             label: Text
-            name: 33d1fd97
+            name: 70127d89
             widget: string
           - hint: >-
               Original text: Vous avez bien lu, et bien plus encore !, key:
@@ -2383,9 +2292,9 @@ collections:
             label: Text
             name: 161af6f0
             widget: text
-          - hint: 'Original text: Intégrations API personnalisées, key: 33b8db2c'
+          - hint: 'Original text: Intégrations API, key: -30f039e3'
             label: Text
-            name: 33b8db2c
+            name: '-30f039e3'
             widget: string
           - hint: >-
               Original text: Si vous avez besoin de quelque chose de spécial de
@@ -2407,9 +2316,9 @@ collections:
             label: Text
             name: '-79118fe8'
             widget: string
-          - hint: 'Original text: Encore une question ?, key: 55c13571'
+          - hint: 'Original text: Des questions ?, key: 4f5382fe'
             label: Text
-            name: 55c13571
+            name: 4f5382fe
             widget: string
           - hint: >-
               Original text: Éloges chaleureux de clients comblés., key:
@@ -2485,12 +2394,11 @@ collections:
             name: '-20093843'
             widget: string
           - hint: >-
-              Original text: J'aide les entreprises à briller en ligne. Je suis
-              le concepteur numérique dont vous ne soupçonniez pas le besoin.,
-              key: -6915db4
+              Original text: Je suis le concepteur numérique dont vous ne
+              soupçonniez pas le besoin., key: 207f4f6a
             label: Text
-            name: '-6915db4'
-            widget: text
+            name: 207f4f6a
+            widget: string
           - hint: >-
               Original text: Quels sont les services que vous proposez ?, key:
               -285d4b91
@@ -2653,9 +2561,9 @@ collections:
             label: Text
             name: 302bdc66
             widget: string
-          - hint: 'Original text: Lass uns reden, key: -4b455957'
+          - hint: 'Original text: Call buchen, key: 322e0e83'
             label: Text
-            name: '-4b455957'
+            name: 322e0e83
             widget: string
           - hint: 'Original text: Gratis-Audit, key: -21b09a2a'
             label: Text
@@ -2695,10 +2603,10 @@ collections:
             name: 9431f6a
             widget: string
           - hint: >-
-              Original text: Eine Auswahl der Arbeiten, auf die ich am
-              stolzesten bin., key: -41071bdd
+              Original text: Effektives Design zum fairen Preis — Website heute
+              erhalten., key: -53cf6063
             label: Text
-            name: '-41071bdd'
+            name: '-53cf6063'
             widget: string
           - hint: >-
               Original text: Konzentrieren Sie sich auf das, was Sie am besten
@@ -2706,9 +2614,9 @@ collections:
             label: Text
             name: 5fc554a1
             widget: string
-          - hint: 'Original text: Mit mir arbeiten, key: 1e4588ba'
+          - hint: 'Original text: Kontakt aufnehmen, key: 79876eb7'
             label: Text
-            name: 1e4588ba
+            name: 79876eb7
             widget: string
           - hint: >-
               Original text: In 24h live gehen, einen Vorsprung gewinnen., key:
@@ -2717,11 +2625,10 @@ collections:
             name: 689e2b12
             widget: string
           - hint: >-
-              Original text: KI-Technologien und modernste
-              Entwicklungswerkzeuge, sind Teil meines Repertoires., key:
-              44cd2202
+              Original text: Ich arbeite mit KI-Technologien und modernsten
+              Entwicklungswerkzeugen. Lass uns reden., key: -6348f708
             label: Text
-            name: 44cd2202
+            name: '-6348f708'
             widget: string
           - hint: 'Original text: Für ehrgeizige MVP-Projekte., key: 271f82a1'
             label: Text
@@ -2764,9 +2671,9 @@ collections:
             label: Text
             name: '-7a5c1903'
             widget: string
-          - hint: 'Original text: Benutzerdefinierte Domäne + E-Mail, key: 62b616d5'
+          - hint: 'Original text: Pro Domäne + E-Mail, key: -64b0d098'
             label: Text
-            name: 62b616d5
+            name: '-64b0d098'
             widget: string
           - hint: >-
               Original text: Sie wollen einen starken Eindruck hinterlassen?
@@ -2785,9 +2692,9 @@ collections:
             label: Text
             name: 12a09c8d
             widget: string
-          - hint: 'Original text: Erweiterte Webanalyse & Heatmap, key: 1afb1a2d'
+          - hint: 'Original text: Erweiterte Webanalyse, key: -2b2a1b45'
             label: Text
-            name: 1afb1a2d
+            name: '-2b2a1b45'
             widget: string
           - hint: >-
               Original text: Gewinnen Sie Erkenntnisse darüber, wie Ihre Nutzer
@@ -2880,6 +2787,10 @@ collections:
             label: Text
             name: '-16d63ca4'
             widget: text
+          - hint: 'Original text: Beliebteste, key: 78cc8e76'
+            label: Text
+            name: 78cc8e76
+            widget: string
           - hint: 'Original text: Für maßgeschneiderte Lösungen., key: -3c7e1bbd'
             label: Text
             name: '-3c7e1bbd'
@@ -2929,9 +2840,9 @@ collections:
             label: Text
             name: 68cdc0a7
             widget: string
-          - hint: 'Original text: Fortgeschrittene Web-Animation, key: -2da6fb5f'
+          - hint: 'Original text: Moderne Web-Animation, key: 67168271'
             label: Text
-            name: '-2da6fb5f'
+            name: '67168271'
             widget: string
           - hint: >-
               Original text: I maIch sorge dafür, dass die Dinge gut aussehen,
@@ -2943,10 +2854,6 @@ collections:
           - hint: 'Original text: Noch eine Frage?, key: -5eeff6a9'
             label: Text
             name: '-5eeff6a9'
-            widget: string
-          - hint: 'Original text: Kontakt aufnehmen, key: 79876eb7'
-            label: Text
-            name: 79876eb7
             widget: string
           - hint: >-
               Original text: Freundliche Worte von zufriedenen Kunden., key:
@@ -3325,12 +3232,18 @@ collections:
             label: Text
             name: '-324a9a72'
             widget: string
-          - hint: >-
-              Original text: Je reconnais avoir lu et accepté la politique de
-              confidentialité du site anthonysalamin.ch., key: 6babe0f8
+          - hint: 'Original text: Je reconnais avoir lu et accepté la , key: -65afee4'
             label: Text
-            name: 6babe0f8
-            widget: text
+            name: '-65afee4'
+            widget: string
+          - hint: 'Original text: politique de confidentialité, key: 6ad7d527'
+            label: Text
+            name: 6ad7d527
+            widget: string
+          - hint: 'Original text:  du site anthonysalamin.ch., key: -5f1638e5'
+            label: Text
+            name: '-5f1638e5'
+            widget: string
           - hint: >-
               Original text: Chaque demande fera l'objet d'une évaluation et une
               estimation complète des coûts sera fournie au client, en précisant
@@ -3460,13 +3373,20 @@ collections:
             label: Text
             name: 11d94678
             widget: string
-          - hint: >-
-              Original text: Ich bestätige, dass ich die Datenschutzbestimmungen
-              auf anthonysalamin.ch gelesen habe und damit einverstanden bin.,
-              key: 4cf4ee28
+          - hint: 'Original text: Ich bestätige, dass ich die , key: 3ce9fda0'
             label: Text
-            name: 4cf4ee28
-            widget: text
+            name: 3ce9fda0
+            widget: string
+          - hint: 'Original text: Datenschutzbestimmungen, key: -25d20dab'
+            label: Text
+            name: '-25d20dab'
+            widget: string
+          - hint: >-
+              Original text:  auf anthonysalamin.ch gelesen habe und damit
+              einverstanden bin., key: -8bb8a8d
+            label: Text
+            name: '-8bb8a8d'
+            widget: string
           - hint: >-
               Original text: Jede Anfrage wird geprüft, und dem Kunden wird ein
               umfassender Kostenvoranschlag vorgelegt, in dem sowohl die festen
@@ -3495,14 +3415,6 @@ collections:
               brauchen., key: -48240222
             label: Text
             name: '-48240222'
-            widget: string
-          - hint: 'Original text: DE, key: 881'
-            label: Text
-            name: '881'
-            widget: string
-          - hint: 'Original text: FR, key: 8cc'
-            label: Text
-            name: 8cc
             widget: string
       - label: Links
         name: links
@@ -3967,19 +3879,6 @@ collections:
                 required: false
           - label: Image
             name: 3f058655
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-53584f5e'
             widget: object
             fields:
               - name: url

@@ -16,9 +16,9 @@ f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.jpg
   alt: null
-updated-on: '2024-01-23T09:12:38.134Z'
+updated-on: '2024-02-08T03:50:53.342Z'
 created-on: '2023-12-13T09:13:34.184Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_video-thumbnail-2: service
 f_video-thumbnail-3: service_2
 f_video-thumnail-1: quatreaplus
@@ -66,8 +66,7 @@ f_similar-projects:
   - cms/projects/wventures.md
   - cms/projects/urbain.md
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_tag-1: Web Design
 f_tag-2: Web Development
 f_highlight: true

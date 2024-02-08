@@ -49,7 +49,7 @@ f_gallery:
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658e8ebbb3102c387dc9b5f3_ease-06.jpg
     alt: null
 f_category-ies:
-  - cms/categories/ux-ui.md
+  - cms/categories/web.md
 f_similar-projects:
   - cms/projects/fureur.md
   - cms/projects/further.md

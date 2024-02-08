@@ -13,9 +13,9 @@ f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6825050b7a84f02cd176_wventures-07.jpg
   alt: null
-updated-on: '2024-01-23T09:12:21.384Z'
+updated-on: '2024-02-08T03:50:36.278Z'
 created-on: '2023-12-14T02:29:43.810Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d060de9a423b67e6350_wventures-01.jpg
@@ -79,8 +79,7 @@ f_similar-projects:
   - cms/projects/urbain.md
 f_testimony-2: cms/testimonies/jochen-m-wilms.md
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_tag-1: Web Design
 f_tag-2: Web Development
 f_highlight: true

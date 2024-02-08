@@ -5,9 +5,9 @@ f_hero-video: false
 f_order: 8
 title: MoTo GmbH
 slug: moto
-updated-on: '2024-02-05T02:18:19.609Z'
+updated-on: '2024-02-08T03:49:22.899Z'
 created-on: '2023-12-18T07:44:20.302Z'
-published-on: '2024-02-05T02:18:26.249Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -18,8 +18,7 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6583beacefe94c745761133b_moto-03.jpg
   alt: null
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_client: cherrycherry UG
 f_gallery:
   - url: >-

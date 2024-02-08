@@ -5,9 +5,9 @@ f_hero-video: false
 f_order: 6
 title: Helge von Giese
 slug: helge
-updated-on: '2024-01-23T09:13:54.219Z'
+updated-on: '2024-02-08T03:49:34.383Z'
 created-on: '2023-12-18T07:40:11.106Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true
@@ -18,8 +18,7 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6582bfa702e1d4067ddbc1ed_highlight.jpg
   alt: null
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6582bfa25cd5dbefa8d482b0_helge-02.jpg

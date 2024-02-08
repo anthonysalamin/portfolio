@@ -4,9 +4,9 @@ f_highlight: true
 f_hero-video: false
 title: Fureur de Lire
 slug: fureur
-updated-on: '2024-01-23T09:14:56.835Z'
+updated-on: '2024-02-08T03:49:45.660Z'
 created-on: '2023-12-18T07:39:42.205Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_order: 7
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
@@ -18,8 +18,7 @@ f_big-image:
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.jpg
   alt: null
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65829d623c2687b35a6a2013_fureur-02.jpg

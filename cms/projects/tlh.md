@@ -21,14 +21,13 @@ f_big-image:
   alt: null
 slug: tlh
 f_category-ies:
-  - cms/categories/ux-ui.md
-  - cms/categories/development.md
+  - cms/categories/web.md
 f_similar-projects:
   - cms/projects/urbain.md
   - cms/projects/quatreaplus.md
-updated-on: '2024-01-23T09:13:39.919Z'
+updated-on: '2024-02-08T03:50:19.633Z'
 created-on: '2023-12-14T05:31:50.649Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.jpg

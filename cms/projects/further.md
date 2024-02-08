@@ -20,10 +20,10 @@ f_similar-projects:
   - cms/projects/quatreaplus.md
   - cms/projects/wventures.md
 f_category-ies:
-  - cms/categories/development.md
-updated-on: '2024-01-23T09:13:24.581Z'
+  - cms/categories/web.md
+updated-on: '2024-02-08T03:50:10.053Z'
 created-on: '2023-12-14T07:20:00.472Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-02-08T03:52:46.528Z'
 f_horizontal-line-1: '#frontend #backend #development #DNS setup #SEO #analytics setup'
 f_horizontal-line-2: '#berlin #hospitality #designhotel #experimental'
 f_big-image:
