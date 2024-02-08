@@ -1,8 +1,8 @@
 ---
-title: Acceuil
+title: Accueil
 permalink: fr/{{ page.fileSlug }}/index.html
-layout: fr/acceuil.html
-slug: acceuil
+layout: fr/accueil.html
+slug: accueil
 tags: pages
 seo:
   noindex: false

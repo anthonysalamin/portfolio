@@ -3440,9 +3440,9 @@ collections:
             label: Link
             name: '117413'
             widget: string
-          - hint: 'Original link: /fr/acceuil/, key: 3e12132f'
+          - hint: 'Original link: /fr/accueil/, key: 3eec454f'
             label: Link
-            name: 3e12132f
+            name: 3eec454f
             widget: string
           - hint: 'Original link: /de/startseite/, key: 3c2b46a'
             label: Link

@@ -1868,13 +1868,13 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   text-decoration: none;
-  transition: background-color .25s cubic-bezier(.165, .84, .44, 1);
+  transition: background-color .6s cubic-bezier(.785, .135, .15, .86);
   display: flex;
   position: relative;
 }
 
 .filter:hover {
-  background-color: #f1f1f1;
+  background-image: linear-gradient(rgba(0, 0, 0, .08), rgba(0, 0, 0, .08));
 }
 
 .filter.temporary-hiden {
