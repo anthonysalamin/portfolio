@@ -1,8 +1,8 @@
 ---
-title: Portfolio
+title: Projets
 permalink: fr/{{ page.fileSlug }}/index.html
-layout: fr/portfolio.html
-slug: portfolio
+layout: fr/projets.html
+slug: projets
 tags: pages
 seo:
   noindex: false

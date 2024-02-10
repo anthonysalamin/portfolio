@@ -1,8 +1,8 @@
 ---
-title: Success
+title: Succès
 permalink: fr/{{ page.fileSlug }}/index.html
-layout: fr/success.html
-slug: success
+layout: fr/succes.html
+slug: succes
 tags: pages
 seo:
   noindex: false

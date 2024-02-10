@@ -680,9 +680,9 @@ collections:
             name: title
             widget: hidden
             default: Texts
-          - hint: 'Original text: Work, key: 293b31'
+          - hint: 'Original text: Portfolio, key: -45b0dad8'
             label: Text
-            name: 293b31
+            name: '-45b0dad8'
             widget: string
           - hint: 'Original text: Pricing, key: 507137a6'
             label: Text
@@ -914,15 +914,15 @@ collections:
             label: Text
             name: '-56fc389'
             widget: string
-          - hint: 'Original text: Customer Support, key: -47e04673'
+          - hint: 'Original text: Email support, key: 47323b2b'
             label: Text
-            name: '-47e04673'
+            name: 47323b2b
             widget: string
           - hint: >-
-              Original text: I offer near instant support, get in touch !, key:
-              1d1e7d16
+              Original text: A question, hit me up. I'll get back to you ASAP.,
+              key: -47ad0d7d
             label: Text
-            name: 1d1e7d16
+            name: '-47ad0d7d'
             widget: string
           - hint: 'Original text: Business, key: -4080dc20'
             label: Text
@@ -998,15 +998,15 @@ collections:
             label: Text
             name: 682bb4f0
             widget: string
-          - hint: 'Original text: Advanced filtering system, key: -49d96a3d'
+          - hint: 'Original text: 24x7x365 Premium support, key: 66aaf781'
             label: Text
-            name: '-49d96a3d'
+            name: 66aaf781
             widget: string
           - hint: >-
-              Original text: Help your user navigate your projects or content
-              using robust filtering system., key: -5456b27
+              Original text: I offer near instant support, get in touch !, key:
+              1d1e7d16
             label: Text
-            name: '-5456b27'
+            name: 1d1e7d16
             widget: string
           - hint: 'Original text: most popular, key: -598868c4'
             label: Text
@@ -1989,6 +1989,14 @@ collections:
             label: Text
             name: 25ef8c30
             widget: string
+          - hint: 'Original text: Customer Support, key: -47e04673'
+            label: Text
+            name: '-47e04673'
+            widget: string
+          - hint: 'Original text: Advanced filtering system, key: -49d96a3d'
+            label: Text
+            name: '-49d96a3d'
+            widget: string
           - hint: 'Original text: Projets, key: 50c8e507'
             label: Text
             name: 50c8e507
@@ -2005,58 +2013,247 @@ collections:
             label: Text
             name: e02a9bd
             widget: string
-          - hint: 'Original text: Le seul Designer, key: -468bd165'
-            label: Text
-            name: '-468bd165'
-            widget: string
           - hint: >-
-              Original text: Digital dont vous aurez réellement besoin., key:
-              -2e26b132
+              Original text: A la recherche d'un nouveau site web ou d'une
+              identité de marque raffinée ?, key: 752d78f7
             label: Text
-            name: '-2e26b132'
+            name: 752d78f7
             widget: string
           - hint: 'Original text: Dompteur de pixels, key: -5e9f8298'
             label: Text
             name: '-5e9f8298'
             widget: string
           - hint: >-
-              Original text: Je renforce votre entreprise avec un design et un
-              développement Web complet, je crée votre identité de marque
-              moderne et unique., key: -1b5da4b6
+              Original text: Ce formulaire ne prend qu'une minute à remplir,
+              promis., key: 47df03aa
             label: Text
-            name: '-1b5da4b6'
+            name: 47df03aa
+            widget: string
+          - hint: 'Original text: Quel est l''âge de votre entreprise ?, key: 6ae95601'
+            label: Text
+            name: 6ae95601
+            widget: string
+          - hint: 'Original text: Prélancement, key: 5f03a872'
+            label: Text
+            name: 5f03a872
+            widget: string
+          - hint: 'Original text: 0 — 5 ans, key: -140adb81'
+            label: Text
+            name: '-140adb81'
+            widget: string
+          - hint: 'Original text: Plus de 5 ans, key: -39a9f13e'
+            label: Text
+            name: '-39a9f13e'
+            widget: string
+          - hint: >-
+              Original text: Quels sont les services pour lesquels vous
+              souhaiteriez travailler avec moi ?, key: 1115840a
+            label: Text
+            name: 1115840a
+            widget: string
+          - hint: >-
+              Original text: Je propose un audit gratuit de l'ensemble de votre
+              site web existant et/ou identité de marque — sans engagement.,
+              key: -1487c6d8
+            label: Text
+            name: '-1487c6d8'
             widget: text
-          - hint: 'Original text: Voir le portfolio, key: -f559701'
+          - hint: 'Original text: Audit GRATUIT, key: -2a6a6243'
             label: Text
-            name: '-f559701'
+            name: '-2a6a6243'
+            widget: string
+          - hint: 'Original text: Nouveau site web 🔥, key: 6a1ea904'
+            label: Text
+            name: 6a1ea904
+            widget: string
+          - hint: 'Original text: Relaunch de Website, key: -65e6738a'
+            label: Text
+            name: '-65e6738a'
+            widget: string
+          - hint: 'Original text: Développement Web, key: -69208ca0'
+            label: Text
+            name: '-69208ca0'
+            widget: string
+          - hint: 'Original text: Domaine et e-mails pro, key: 5e79ecf'
+            label: Text
+            name: 5e79ecf
+            widget: string
+          - hint: 'Original text: Création de contenu, key: 111a4420'
+            label: Text
+            name: 111a4420
+            widget: string
+          - hint: 'Original text: Conception de logo, key: 12202e8a'
+            label: Text
+            name: 12202e8a
+            widget: string
+          - hint: 'Original text: Identité d''entreprise, key: -be76c50'
+            label: Text
+            name: '-be76c50'
+            widget: string
+          - hint: 'Original text: Conception graphique, key: -7d0def5a'
+            label: Text
+            name: '-7d0def5a'
+            widget: string
+          - hint: 'Original text: Images d''IA générative, key: 1c00d70d'
+            label: Text
+            name: 1c00d70d
+            widget: string
+          - hint: 'Original text: Support technique, key: -6fe7dce1'
+            label: Text
+            name: '-6fe7dce1'
+            widget: string
+          - hint: 'Original text: Quel est votre deadline ?, key: 5aef15f8'
+            label: Text
+            name: 5aef15f8
+            widget: string
+          - hint: 'Original text: 1 — 2 mois, key: -7e2035eb'
+            label: Text
+            name: '-7e2035eb'
+            widget: string
+          - hint: 'Original text: 2 — 4 mois, key: 7992ec72'
+            label: Text
+            name: 7992ec72
+            widget: string
+          - hint: 'Original text: Pas encore sûr, key: c99090'
+            label: Text
+            name: c99090
+            widget: string
+          - hint: 'Original text: Comment amorcer une conversation ?, key: 3aa72bb6'
+            label: Text
+            name: 3aa72bb6
             widget: string
           - hint: >-
-              Original text: Construisons votre présence en ligne., key:
-              -6d34c257
+              Original text: Comment avez-vous été mis(e) au courant de ma
+              présence ?, key: -473384b1
             label: Text
-            name: '-6d34c257'
+            name: '-473384b1'
+            widget: string
+          - hint: 'Original text: Référence, key: -4e57cbdd'
+            label: Text
+            name: '-4e57cbdd'
+            widget: string
+          - hint: 'Original text: Recherche organique, key: 70022744'
+            label: Text
+            name: '70022744'
+            widget: string
+          - hint: 'Original text: Autres, key: 75923200'
+            label: Text
+            name: '75923200'
             widget: string
           - hint: >-
-              Original text: Web design, Identité de marque, Startup, LP,
-              ecommerce, MVP, key: 45faaa3a
+              Original text: Prêt à soumettre votre demande et à démarrer un
+              nouveau projet avec moi ?, key: -324a9a72
             label: Text
-            name: 45faaa3a
+            name: '-324a9a72'
+            widget: string
+          - hint: 'Original text: Je reconnais avoir lu et accepté la , key: -65afee4'
+            label: Text
+            name: '-65afee4'
+            widget: string
+          - hint: 'Original text: politique de confidentialité, key: 6ad7d527'
+            label: Text
+            name: 6ad7d527
+            widget: string
+          - hint: 'Original text:  du site anthonysalamin.ch., key: -5f1638e5'
+            label: Text
+            name: '-5f1638e5'
             widget: string
           - hint: >-
-              Original text: Prix compétitifs pour un design percutant - votre
-              site web dès aujourd'hui., key: 201bd77d
+              Original text: Chaque demande fera l'objet d'une évaluation et une
+              estimation complète des coûts sera fournie au client, en précisant
+              les dépenses fixes et récurrentes. En utilisant mon formulaire de
+              courrier électronique, vous reconnaissez et acceptez que les
+              informations que vous soumettez seront utilisées uniquement dans
+              le but de répondre à votre demande., key: -71e3024c
             label: Text
-            name: 201bd77d
+            name: '-71e3024c'
+            widget: text
+          - hint: >-
+              Original text: Éloges chaleureux de clients comblés., key:
+              4ed7b85d
+            label: Text
+            name: 4ed7b85d
             widget: string
           - hint: >-
-              Original text: Concentrez-vous sur ce que vous faites de mieux,
-              laissez-moi m'occuper du reste., key: a2aab74
+              Original text: Fier et reconnaissant de l'opportunité de
+              travailler avec des clients dans un large éventail d'industries.,
+              key: 2ea66487
             label: Text
-            name: a2aab74
+            name: 2ea66487
+            widget: text
+          - hint: "Original text: “ Anthony est un créatif exceptionnellement doué et universel. Dans son exploration des différents moyens, méthodes et outils, il fait preuve d'une intuition admirable.\_\_”, key: 750f8b2c"
+            label: Text
+            name: 750f8b2c
+            widget: text
+          - hint: 'Original text: Journaliste et rédactrice, key: 3acd8061'
+            label: Text
+            name: 3acd8061
+            widget: string
+          - hint: >-
+              Original text: “ J'ai été très satisfait du résultat du LP et de
+              sa présentation. La mise en page typographique est de premier
+              ordre et les images choisies ajoutent la touche dynamique que je
+              recherchais. ”, key: 1e709c04
+            label: Text
+            name: 1e709c04
+            widget: text
+          - hint: >-
+              Original text: “ Tout au long du projet, Anthony s'est montré
+              réactif, collaboratif et soucieux de s'assurer que chaque aspect
+              du site Web répondait aux attentes de l'équipe, voire les
+              dépassait. ”, key: -6aff7abc
+            label: Text
+            name: '-6aff7abc'
+            widget: text
+          - hint: 'Original text: Directeur artistique, key: 7e591ae6'
+            label: Text
+            name: 7e591ae6
+            widget: string
+          - hint: >-
+              Original text: “ À chaque étape de mes projets pour des
+              entreprises internationales de premier plan, Anthony a toujours
+              fait preuve d'un grand niveau de créativité, de professionnalisme
+              et de compétences techniques - en maintenant une approche
+              proactive depuis le concept initial jusqu'à la livraison finale.
+              Travailler avec Anthony a été un grand plaisir, et j'attends avec
+              impatience de futures collaborations. ”, key: 2285c7b7
+            label: Text
+            name: 2285c7b7
+            widget: text
+          - hint: 'Original text: Investisseur technologique/CEO, key: 6bc43cb1'
+            label: Text
+            name: 6bc43cb1
+            widget: string
+          - hint: >-
+              Original text: “ Excellent travail, merci pour votre réactivité -
+              j'ai vraiment hâte de collaborer à notre nouveau site web. Nous
+              resterons en contact. ”, key: 1e749f3c
+            label: Text
+            name: 1e749f3c
+            widget: text
+          - hint: 'Original text: Directrie, key: 3e124865'
+            label: Text
+            name: '3e124865'
+            widget: string
+          - hint: >-
+              Original text: Je résous vos problèmes d'identité de marque en
+              ligne., key: -20093843
+            label: Text
+            name: '-20093843'
+            widget: string
+          - hint: >-
+              Original text: Je suis le concepteur numérique dont vous ne
+              soupçonniez pas le besoin., key: 207f4f6a
+            label: Text
+            name: 207f4f6a
             widget: string
           - hint: 'Original text: Prendre contact, key: -48bda494'
             label: Text
             name: '-48bda494'
+            widget: string
+          - hint: 'Original text: Voir le portfolio, key: -f559701'
+            label: Text
+            name: '-f559701'
             widget: string
           - hint: 'Original text: Mise en ligne, key: -5af3f5a4'
             label: Text
@@ -2154,15 +2351,11 @@ collections:
             label: Text
             name: 3a21f06e
             widget: string
-          - hint: 'Original text: Support client prioritaire, key: 7fb8b68c'
-            label: Text
-            name: 7fb8b68c
-            widget: string
           - hint: >-
-              Original text: J'offre une assistance quasi instantanée,
-              contactez-moi !, key: -1634c0e8
+              Original text: Une question, j'y répondrais le plus tôt possible.,
+              key: -19907cb7
             label: Text
-            name: '-1634c0e8'
+            name: '-19907cb7'
             widget: string
           - hint: >-
               Original text: Pour les petites et moyennes entreprises., key:
@@ -2228,16 +2421,16 @@ collections:
             label: Text
             name: 58fdc7b6
             widget: string
-          - hint: 'Original text: Système de filtrage avancé, key: 6b59af78'
+          - hint: 'Original text: 24x7x365 Premium Support, key: -361c709f'
             label: Text
-            name: 6b59af78
+            name: '-361c709f'
             widget: string
           - hint: >-
-              Original text: Aidez vos utilisateurs à naviguer dans vos projets
-              ou contenus grâce à un système de filtrage robuste., key: 53d37644
+              Original text: J'offre une assistance quasi instantanée,
+              contactez-moi !, key: -1634c0e8
             label: Text
-            name: 53d37644
-            widget: text
+            name: '-1634c0e8'
+            widget: string
           - hint: 'Original text: Populaire, key: 5285ace3'
             label: Text
             name: 5285ace3
@@ -2319,85 +2512,6 @@ collections:
           - hint: 'Original text: Des questions ?, key: 4f5382fe'
             label: Text
             name: 4f5382fe
-            widget: string
-          - hint: >-
-              Original text: Éloges chaleureux de clients comblés., key:
-              4ed7b85d
-            label: Text
-            name: 4ed7b85d
-            widget: string
-          - hint: >-
-              Original text: Fier et reconnaissant de l'opportunité de
-              travailler avec des clients dans un large éventail d'industries.,
-              key: 2ea66487
-            label: Text
-            name: 2ea66487
-            widget: text
-          - hint: "Original text: “ Anthony est un créatif exceptionnellement doué et universel. Dans son exploration des différents moyens, méthodes et outils, il fait preuve d'une intuition admirable.\_\_”, key: 750f8b2c"
-            label: Text
-            name: 750f8b2c
-            widget: text
-          - hint: 'Original text: Journaliste et rédactrice, key: 3acd8061'
-            label: Text
-            name: 3acd8061
-            widget: string
-          - hint: >-
-              Original text: “ J'ai été très satisfait du résultat du LP et de
-              sa présentation. La mise en page typographique est de premier
-              ordre et les images choisies ajoutent la touche dynamique que je
-              recherchais. ”, key: 1e709c04
-            label: Text
-            name: 1e709c04
-            widget: text
-          - hint: >-
-              Original text: “ Tout au long du projet, Anthony s'est montré
-              réactif, collaboratif et soucieux de s'assurer que chaque aspect
-              du site Web répondait aux attentes de l'équipe, voire les
-              dépassait. ”, key: -6aff7abc
-            label: Text
-            name: '-6aff7abc'
-            widget: text
-          - hint: 'Original text: Directeur artistique, key: 7e591ae6'
-            label: Text
-            name: 7e591ae6
-            widget: string
-          - hint: >-
-              Original text: “ À chaque étape de mes projets pour des
-              entreprises internationales de premier plan, Anthony a toujours
-              fait preuve d'un grand niveau de créativité, de professionnalisme
-              et de compétences techniques - en maintenant une approche
-              proactive depuis le concept initial jusqu'à la livraison finale.
-              Travailler avec Anthony a été un grand plaisir, et j'attends avec
-              impatience de futures collaborations. ”, key: 2285c7b7
-            label: Text
-            name: 2285c7b7
-            widget: text
-          - hint: 'Original text: Investisseur technologique/CEO, key: 6bc43cb1'
-            label: Text
-            name: 6bc43cb1
-            widget: string
-          - hint: >-
-              Original text: “ Excellent travail, merci pour votre réactivité -
-              j'ai vraiment hâte de collaborer à notre nouveau site web. Nous
-              resterons en contact. ”, key: 1e749f3c
-            label: Text
-            name: 1e749f3c
-            widget: text
-          - hint: 'Original text: Directrie, key: 3e124865'
-            label: Text
-            name: '3e124865'
-            widget: string
-          - hint: >-
-              Original text: Je résous vos problèmes d'identité de marque en
-              ligne., key: -20093843
-            label: Text
-            name: '-20093843'
-            widget: string
-          - hint: >-
-              Original text: Je suis le concepteur numérique dont vous ne
-              soupçonniez pas le besoin., key: 207f4f6a
-            label: Text
-            name: 207f4f6a
             widget: string
           - hint: >-
               Original text: Quels sont les services que vous proposez ?, key:
@@ -2570,291 +2684,153 @@ collections:
             name: '-21b09a2a'
             widget: string
           - hint: >-
-              Original text: Der digitale Designer und Entwickler, den Sie
-              wirklich brauchen., key: -40c48625
+              Original text: Suchen Sie eine neue Website oder eine neue
+              Markenidentität?, key: 58469582
             label: Text
-            name: '-40c48625'
+            name: '58469582'
             widget: string
           - hint: 'Original text: Ich schiebe Pixel herum, key: -507572a8'
             label: Text
             name: '-507572a8'
             widget: string
           - hint: >-
-              Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
-              Webdesign und -entwicklung, ich kreiere Ihre moderne und
-              einzigartige Markenidentität., key: -5f1a6056
+              Original text: Das Ausfüllen dieses Formulars dauert 1 Minute,
+              versprochen., key: -28638f41
             label: Text
-            name: '-5f1a6056'
+            name: '-28638f41'
+            widget: string
+          - hint: 'Original text: Wie alt ist Ihr Unternehmen?, key: 186e3919'
+            label: Text
+            name: '186e3919'
+            widget: string
+          - hint: 'Original text: 0 — 5 Jahre alt, key: -179080ba'
+            label: Text
+            name: '-179080ba'
+            widget: string
+          - hint: 'Original text: Über 5 Jahre alt, key: 62b886d5'
+            label: Text
+            name: 62b886d5
+            widget: string
+          - hint: >-
+              Original text: Für welche Dienstleistungen würden Sie gerne mit
+              mir arbeiten?, key: 1cd11c90
+            label: Text
+            name: 1cd11c90
+            widget: string
+          - hint: >-
+              Original text: Ich biete eine kostenlose Prüfung Ihrer gesamten
+              bestehenden Website und/oder Markenidentität an - unverbindlich.,
+              key: -24c6f6c7
+            label: Text
+            name: '-24c6f6c7'
             widget: text
-          - hint: 'Original text: Portfolio ansehen, key: -2c595386'
+          - hint: 'Original text: KOSTENLOSES Audit, key: 279d460b'
             label: Text
-            name: '-2c595386'
+            name: 279d460b
+            widget: string
+          - hint: 'Original text: NEUE Website 🔥, key: -17f73e7a'
+            label: Text
+            name: '-17f73e7a'
+            widget: string
+          - hint: 'Original text: Web-Design, key: e6f8297'
+            label: Text
+            name: e6f8297
+            widget: string
+          - hint: 'Original text: Web-Entwicklung, key: 41c9eb6e'
+            label: Text
+            name: 41c9eb6e
+            widget: string
+          - hint: 'Original text: Domäne & pro E-Mail, key: 6b3fd2f3'
+            label: Text
+            name: 6b3fd2f3
+            widget: string
+          - hint: 'Original text: Logo-Design, key: -67d0abe0'
+            label: Text
+            name: '-67d0abe0'
+            widget: string
+          - hint: 'Original text: Unternehmensidentität, key: -29a47f7b'
+            label: Text
+            name: '-29a47f7b'
+            widget: string
+          - hint: 'Original text: Grafik-Design, key: 54d3a079'
+            label: Text
+            name: 54d3a079
+            widget: string
+          - hint: 'Original text: Generative KI-Visualisierungen, key: 6b76ae02'
+            label: Text
+            name: 6b76ae02
+            widget: string
+          - hint: 'Original text: Web-Analytik, key: -4976dad2'
+            label: Text
+            name: '-4976dad2'
+            widget: string
+          - hint: 'Original text: Technischer Support, key: 1263e203'
+            label: Text
+            name: '1263e203'
             widget: string
           - hint: >-
-              Original text: Ihre Online-Präsenz zusammen erstellen, key:
-              4fbb981e
+              Original text: Wie sieht Ihr voraussichtlicher Zeitplan aus ?,
+              key: -38e98d46
             label: Text
-            name: 4fbb981e
+            name: '-38e98d46'
+            widget: string
+          - hint: 'Original text: 1 — 2 Monate, key: 527c95af'
+            label: Text
+            name: 527c95af
+            widget: string
+          - hint: 'Original text: 2 — 4 Monate, key: 29f094cc'
+            label: Text
+            name: 29f094cc
+            widget: string
+          - hint: 'Original text: Ich bin noch nicht sicher, key: 3789dca3'
+            label: Text
+            name: 3789dca3
             widget: string
           - hint: >-
-              Original text: Webdesign, Markenidentität, Startup, LP,
-              E-Commerce, MVP, key: 9431f6a
+              Original text: Wie sollen wir ein Gespräch beginnen ?, key:
+              -378467c9
             label: Text
-            name: 9431f6a
+            name: '-378467c9'
+            widget: string
+          - hint: 'Original text: Wie haben Sie von mir erfahren ?, key: 762f34bb'
+            label: Text
+            name: 762f34bb
+            widget: string
+          - hint: 'Original text: Sonstiges, key: -5d6ed7e1'
+            label: Text
+            name: '-5d6ed7e1'
             widget: string
           - hint: >-
-              Original text: Effektives Design zum fairen Preis — Website heute
-              erhalten., key: -53cf6063
+              Original text: Sind Sie bereit, Ihre Anfrage einzureichen und ein
+              neues Projekt mit mir zu starten ?, key: 11d94678
             label: Text
-            name: '-53cf6063'
+            name: 11d94678
+            widget: string
+          - hint: 'Original text: Ich bestätige, dass ich die , key: 3ce9fda0'
+            label: Text
+            name: 3ce9fda0
+            widget: string
+          - hint: 'Original text: Datenschutzbestimmungen, key: -25d20dab'
+            label: Text
+            name: '-25d20dab'
             widget: string
           - hint: >-
-              Original text: Konzentrieren Sie sich auf das, was Sie am besten
-              können, und überlassen Sie mir den Rest., key: 5fc554a1
+              Original text:  auf anthonysalamin.ch gelesen habe und damit
+              einverstanden bin., key: -8bb8a8d
             label: Text
-            name: 5fc554a1
-            widget: string
-          - hint: 'Original text: Kontakt aufnehmen, key: 79876eb7'
-            label: Text
-            name: 79876eb7
+            name: '-8bb8a8d'
             widget: string
           - hint: >-
-              Original text: In 24h live gehen, einen Vorsprung gewinnen., key:
-              689e2b12
+              Original text: Jede Anfrage wird geprüft, und dem Kunden wird ein
+              umfassender Kostenvoranschlag vorgelegt, in dem sowohl die festen
+              als auch die wiederkehrenden Ausgaben aufgeführt sind. Wenn Sie
+              mein E-Mail-Formular verwenden, erklären Sie sich damit
+              einverstanden, dass die von Ihnen übermittelten Informationen
+              ausschließlich zur Bearbeitung Ihrer Anfrage verwendet werden.,
+              key: -5f93039d
             label: Text
-            name: 689e2b12
-            widget: string
-          - hint: >-
-              Original text: Ich arbeite mit KI-Technologien und modernsten
-              Entwicklungswerkzeugen. Lass uns reden., key: -6348f708
-            label: Text
-            name: '-6348f708'
-            widget: string
-          - hint: 'Original text: Für ehrgeizige MVP-Projekte., key: 271f82a1'
-            label: Text
-            name: 271f82a1
-            widget: string
-          - hint: 'Original text: ab , key: 1781f'
-            label: Text
-            name: 1781f
-            widget: string
-          - hint: 'Original text: exkl. MwSt., key: -3750f683'
-            label: Text
-            name: '-3750f683'
-            widget: string
-          - hint: 'Original text: Loslegen, key: -6ef449f9'
-            label: Text
-            name: '-6ef449f9'
-            widget: string
-          - hint: 'Original text: Live-Schaltung in 24 Std., key: 5746f32'
-            label: Text
-            name: 5746f32
-            widget: string
-          - hint: 'Original text: Responsive UX/UI Design, key: 197a434a'
-            label: Text
-            name: 197a434a
-            widget: string
-          - hint: >-
-              Original text: Stellen Sie sicher, dass Ihre Website für alle
-              Geräte geeignet ist: Desktops, Tablets und Smartphones., key:
-              21e5f992
-            label: Text
-            name: 21e5f992
+            name: '-5f93039d'
             widget: text
-          - hint: 'Original text: 1 Pager - unbegrenzte Abschnitte, key: 469ce5b7'
-            label: Text
-            name: 469ce5b7
-            widget: string
-          - hint: >-
-              Original text: Geben Sie mir den Rohinhalt, und ich kümmere mich
-              um die Umsetzung der Abschnitte., key: -7a5c1903
-            label: Text
-            name: '-7a5c1903'
-            widget: string
-          - hint: 'Original text: Pro Domäne + E-Mail, key: -64b0d098'
-            label: Text
-            name: '-64b0d098'
-            widget: string
-          - hint: >-
-              Original text: Sie wollen einen starken Eindruck hinterlassen?
-              Verleihen Sie Ihrer Präsenz mit einer individuellen Domain und
-              E-Mail-Adresse einen professionellen Touch., key: 2134278b
-            label: Text
-            name: 2134278b
-            widget: text
-          - hint: 'Original text: SEO Website-Optimierung, key: 5306815a'
-            label: Text
-            name: 5306815a
-            widget: string
-          - hint: >-
-              Original text: Ich konfiguriere Google Console für eine optimale
-              Indizierung und andere SEO-Assistenten, key: 12a09c8d
-            label: Text
-            name: 12a09c8d
-            widget: string
-          - hint: 'Original text: Erweiterte Webanalyse, key: -2b2a1b45'
-            label: Text
-            name: '-2b2a1b45'
-            widget: string
-          - hint: >-
-              Original text: Gewinnen Sie Erkenntnisse darüber, wie Ihre Nutzer
-              mit Ihrer Website interagieren., key: 4b52b54e
-            label: Text
-            name: 4b52b54e
-            widget: string
-          - hint: 'Original text: Kundenbetreuung, key: 3fca8994'
-            label: Text
-            name: 3fca8994
-            widget: string
-          - hint: >-
-              Original text: Ich biete nahezu sofortige Unterstützung,
-              kontaktieren Sie mich!, key: 746ce2c5
-            label: Text
-            name: 746ce2c5
-            widget: string
-          - hint: >-
-              Original text: Für kleiner und mittlerer Unternehmen., key:
-              -12e4c5c6
-            label: Text
-            name: '-12e4c5c6'
-            widget: string
-          - hint: 'Original text:  ab , key: 1003ff'
-            label: Text
-            name: 1003ff
-            widget: string
-          - hint: 'Original text: Live-Schaltung in 4 Wochen, key: -49c35837'
-            label: Text
-            name: '-49c35837'
-            widget: string
-          - hint: >-
-              Original text: Ich werde die erste Version Ihrer Website innerhalb
-              eines Monats erstellen., key: 3f4dafd4
-            label: Text
-            name: 3f4dafd4
-            widget: string
-          - hint: 'Original text: Alles von Starter + mehr, key: 632e90c4'
-            label: Text
-            name: 632e90c4
-            widget: string
-          - hint: >-
-              Original text: Ich entwerfe und entwickle maßgeschneiderte
-              UI-Designs, die Ihren Vorstellungen entsprechen., key: 6fc9c741
-            label: Text
-            name: 6fc9c741
-            widget: text
-          - hint: 'Original text: CMS-Dashboard, key: 2cc552d0'
-            label: Text
-            name: 2cc552d0
-            widget: string
-          - hint: >-
-              Original text: Verwalten Sie Ihre Inhalte mühelos mit einem
-              benutzerfreundlichen CMS-Dashboard., key: -15653cea
-            label: Text
-            name: '-15653cea'
-            widget: string
-          - hint: 'Original text: Bis zu 4 verschiedene Seiten, key: -53022ec0'
-            label: Text
-            name: '-53022ec0'
-            widget: string
-          - hint: 'Original text: Lassen Sie uns reden., key: 4c6d1ead'
-            label: Text
-            name: 4c6d1ead
-            widget: string
-          - hint: >-
-              Original text: Möchten Sie online verkaufen, nehmen Sie Kontakt
-              auf!, key: 43cddebf
-            label: Text
-            name: 43cddebf
-            widget: string
-          - hint: 'Original text: Logo-Design (Add-on), key: -4e94d24a'
-            label: Text
-            name: '-4e94d24a'
-            widget: string
-          - hint: >-
-              Original text: Benötigen Sie ein neues Logo oder einen Relaunch?
-              Ich entwerfe eins für Sie., key: -5d5d0294
-            label: Text
-            name: '-5d5d0294'
-            widget: string
-          - hint: 'Original text: Erweitertes Filtersystem, key: -2caf6908'
-            label: Text
-            name: '-2caf6908'
-            widget: string
-          - hint: >-
-              Original text: Helfen Sie Ihren Nutzern bei der Navigation durch
-              Ihre Projekte oder Inhalte mit einem robusten Filtersystem., key:
-              -16d63ca4
-            label: Text
-            name: '-16d63ca4'
-            widget: text
-          - hint: 'Original text: Beliebteste, key: 78cc8e76'
-            label: Text
-            name: 78cc8e76
-            widget: string
-          - hint: 'Original text: Für maßgeschneiderte Lösungen., key: -3c7e1bbd'
-            label: Text
-            name: '-3c7e1bbd'
-            widget: string
-          - hint: 'Original text: Alles von Business, key: 2f78555c'
-            label: Text
-            name: 2f78555c
-            widget: string
-          - hint: >-
-              Original text: Das haben Sie richtig gelesen, und noch viel mehr!,
-              key: -21f9f328
-            label: Text
-            name: '-21f9f328'
-            widget: string
-          - hint: 'Original text: Mehrsprachig, key: -161851af'
-            label: Text
-            name: '-161851af'
-            widget: string
-          - hint: 'Original text: Vollständige Corporate Identity, key: -22059ece'
-            label: Text
-            name: '-22059ece'
-            widget: string
-          - hint: >-
-              Original text: Heben Sie Ihre Online-Identität auf die nächste
-              Stufe! Erforschen Sie Logotype, Logomarken, Farbpaletten und
-              Typografie., key: 4384df78
-            label: Text
-            name: 4384df78
-            widget: text
-          - hint: 'Original text: API-Integrationen, key: 3789feca'
-            label: Text
-            name: 3789feca
-            widget: string
-          - hint: >-
-              Original text: Wenn Sie etwas Besonderes von einem Dritten
-              benötigen, lassen Sie es mich wissen., key: -40fbaf05
-            label: Text
-            name: '-40fbaf05'
-            widget: string
-          - hint: 'Original text: Gestaltungswünsche (Add-on), key: -70b62631'
-            label: Text
-            name: '-70b62631'
-            widget: string
-          - hint: >-
-              Original text: Ich biete fortlaufende Designdienstleistungen an,
-              kontaktieren Sie mich., key: 68cdc0a7
-            label: Text
-            name: 68cdc0a7
-            widget: string
-          - hint: 'Original text: Moderne Web-Animation, key: 67168271'
-            label: Text
-            name: '67168271'
-            widget: string
-          - hint: >-
-              Original text: I maIch sorge dafür, dass die Dinge gut aussehen,
-              ich bringe sie in Bewegung.ke things look good, I make them move.,
-              key: -6fb314a2
-            label: Text
-            name: '-6fb314a2'
-            widget: text
-          - hint: 'Original text: Noch eine Frage?, key: -5eeff6a9'
-            label: Text
-            name: '-5eeff6a9'
-            widget: string
           - hint: >-
               Original text: Freundliche Worte von zufriedenen Kunden., key:
               -12e24f7
@@ -2941,6 +2917,247 @@ collections:
             label: Text
             name: '-3a9d5424'
             widget: text
+          - hint: 'Original text: Kontakt aufnehmen, key: 79876eb7'
+            label: Text
+            name: 79876eb7
+            widget: string
+          - hint: 'Original text: Portfolio ansehen, key: -2c595386'
+            label: Text
+            name: '-2c595386'
+            widget: string
+          - hint: >-
+              Original text: In 24h live gehen, einen Vorsprung gewinnen., key:
+              689e2b12
+            label: Text
+            name: 689e2b12
+            widget: string
+          - hint: >-
+              Original text: Ich arbeite mit KI-Technologien und modernsten
+              Entwicklungswerkzeugen. Lass uns reden., key: -6348f708
+            label: Text
+            name: '-6348f708'
+            widget: string
+          - hint: 'Original text: Für ehrgeizige MVP-Projekte., key: 271f82a1'
+            label: Text
+            name: 271f82a1
+            widget: string
+          - hint: 'Original text: ab , key: 1781f'
+            label: Text
+            name: 1781f
+            widget: string
+          - hint: 'Original text: exkl. MwSt., key: -3750f683'
+            label: Text
+            name: '-3750f683'
+            widget: string
+          - hint: 'Original text: Loslegen, key: -6ef449f9'
+            label: Text
+            name: '-6ef449f9'
+            widget: string
+          - hint: 'Original text: Live-Schaltung in 24 Std., key: 5746f32'
+            label: Text
+            name: 5746f32
+            widget: string
+          - hint: 'Original text: Responsive UX/UI Design, key: 197a434a'
+            label: Text
+            name: 197a434a
+            widget: string
+          - hint: >-
+              Original text: Stellen Sie sicher, dass Ihre Website für alle
+              Geräte geeignet ist: Desktops, Tablets und Smartphones., key:
+              21e5f992
+            label: Text
+            name: 21e5f992
+            widget: text
+          - hint: 'Original text: 1 Pager - unbegrenzte Abschnitte, key: 469ce5b7'
+            label: Text
+            name: 469ce5b7
+            widget: string
+          - hint: >-
+              Original text: Geben Sie mir den Rohinhalt, und ich kümmere mich
+              um die Umsetzung der Abschnitte., key: -7a5c1903
+            label: Text
+            name: '-7a5c1903'
+            widget: string
+          - hint: 'Original text: Pro Domäne + E-Mail, key: -64b0d098'
+            label: Text
+            name: '-64b0d098'
+            widget: string
+          - hint: >-
+              Original text: Sie wollen einen starken Eindruck hinterlassen?
+              Verleihen Sie Ihrer Präsenz mit einer individuellen Domain und
+              E-Mail-Adresse einen professionellen Touch., key: 2134278b
+            label: Text
+            name: 2134278b
+            widget: text
+          - hint: 'Original text: SEO Website-Optimierung, key: 5306815a'
+            label: Text
+            name: 5306815a
+            widget: string
+          - hint: >-
+              Original text: Ich konfiguriere Google Console für eine optimale
+              Indizierung und andere SEO-Assistenten, key: 12a09c8d
+            label: Text
+            name: 12a09c8d
+            widget: string
+          - hint: 'Original text: Erweiterte Webanalyse, key: -2b2a1b45'
+            label: Text
+            name: '-2b2a1b45'
+            widget: string
+          - hint: >-
+              Original text: Gewinnen Sie Erkenntnisse darüber, wie Ihre Nutzer
+              mit Ihrer Website interagieren., key: 4b52b54e
+            label: Text
+            name: 4b52b54e
+            widget: string
+          - hint: 'Original text: E-Mail-Unterstützung, key: 1d36c2a7'
+            label: Text
+            name: 1d36c2a7
+            widget: string
+          - hint: >-
+              Original text: Ich biete nahezu sofortige Unterstützung,
+              kontaktieren Sie mich!, key: 746ce2c5
+            label: Text
+            name: 746ce2c5
+            widget: string
+          - hint: >-
+              Original text: Für kleiner und mittlerer Unternehmen., key:
+              -12e4c5c6
+            label: Text
+            name: '-12e4c5c6'
+            widget: string
+          - hint: 'Original text:  ab , key: 1003ff'
+            label: Text
+            name: 1003ff
+            widget: string
+          - hint: 'Original text: Live-Schaltung in 4 Wochen, key: -49c35837'
+            label: Text
+            name: '-49c35837'
+            widget: string
+          - hint: >-
+              Original text: Ich werde die erste Version Ihrer Website innerhalb
+              eines Monats erstellen., key: 3f4dafd4
+            label: Text
+            name: 3f4dafd4
+            widget: string
+          - hint: 'Original text: Alles von Starter + mehr, key: 632e90c4'
+            label: Text
+            name: 632e90c4
+            widget: string
+          - hint: >-
+              Original text: Ich entwerfe und entwickle maßgeschneiderte
+              UI-Designs, die Ihren Vorstellungen entsprechen., key: 6fc9c741
+            label: Text
+            name: 6fc9c741
+            widget: text
+          - hint: 'Original text: CMS-Dashboard, key: 2cc552d0'
+            label: Text
+            name: 2cc552d0
+            widget: string
+          - hint: >-
+              Original text: Verwalten Sie Ihre Inhalte mühelos mit einem
+              benutzerfreundlichen CMS-Dashboard., key: -15653cea
+            label: Text
+            name: '-15653cea'
+            widget: string
+          - hint: 'Original text: Bis zu 4 verschiedene Seiten, key: -53022ec0'
+            label: Text
+            name: '-53022ec0'
+            widget: string
+          - hint: 'Original text: Lassen Sie uns reden., key: 4c6d1ead'
+            label: Text
+            name: 4c6d1ead
+            widget: string
+          - hint: >-
+              Original text: Möchten Sie online verkaufen, nehmen Sie Kontakt
+              auf!, key: 43cddebf
+            label: Text
+            name: 43cddebf
+            widget: string
+          - hint: 'Original text: Logo-Design (Add-on), key: -4e94d24a'
+            label: Text
+            name: '-4e94d24a'
+            widget: string
+          - hint: >-
+              Original text: Benötigen Sie ein neues Logo oder einen Relaunch?
+              Ich entwerfe eins für Sie., key: -5d5d0294
+            label: Text
+            name: '-5d5d0294'
+            widget: string
+          - hint: >-
+              Original text: Helfen Sie Ihren Nutzern bei der Navigation durch
+              Ihre Projekte oder Inhalte mit einem robusten Filtersystem., key:
+              -16d63ca4
+            label: Text
+            name: '-16d63ca4'
+            widget: text
+          - hint: 'Original text: Beliebteste, key: 78cc8e76'
+            label: Text
+            name: 78cc8e76
+            widget: string
+          - hint: 'Original text: Für maßgeschneiderte Lösungen., key: -3c7e1bbd'
+            label: Text
+            name: '-3c7e1bbd'
+            widget: string
+          - hint: 'Original text: Alles von Business, key: 2f78555c'
+            label: Text
+            name: 2f78555c
+            widget: string
+          - hint: >-
+              Original text: Das haben Sie richtig gelesen, und noch viel mehr!,
+              key: -21f9f328
+            label: Text
+            name: '-21f9f328'
+            widget: string
+          - hint: 'Original text: Mehrsprachig, key: -161851af'
+            label: Text
+            name: '-161851af'
+            widget: string
+          - hint: 'Original text: Vollständige Corporate Identity, key: -22059ece'
+            label: Text
+            name: '-22059ece'
+            widget: string
+          - hint: >-
+              Original text: Heben Sie Ihre Online-Identität auf die nächste
+              Stufe! Erforschen Sie Logotype, Logomarken, Farbpaletten und
+              Typografie., key: 4384df78
+            label: Text
+            name: 4384df78
+            widget: text
+          - hint: 'Original text: API-Integrationen, key: 3789feca'
+            label: Text
+            name: 3789feca
+            widget: string
+          - hint: >-
+              Original text: Wenn Sie etwas Besonderes von einem Dritten
+              benötigen, lassen Sie es mich wissen., key: -40fbaf05
+            label: Text
+            name: '-40fbaf05'
+            widget: string
+          - hint: 'Original text: Gestaltungswünsche (Add-on), key: -70b62631'
+            label: Text
+            name: '-70b62631'
+            widget: string
+          - hint: >-
+              Original text: Ich biete fortlaufende Designdienstleistungen an,
+              kontaktieren Sie mich., key: 68cdc0a7
+            label: Text
+            name: 68cdc0a7
+            widget: string
+          - hint: 'Original text: Moderne Web-Animation, key: 67168271'
+            label: Text
+            name: '67168271'
+            widget: string
+          - hint: >-
+              Original text: I maIch sorge dafür, dass die Dinge gut aussehen,
+              ich bringe sie in Bewegung.ke things look good, I make them move.,
+              key: -6fb314a2
+            label: Text
+            name: '-6fb314a2'
+            widget: text
+          - hint: 'Original text: Noch eine Frage?, key: -5eeff6a9'
+            label: Text
+            name: '-5eeff6a9'
+            widget: string
           - hint: >-
               Original text: Welche Dienstleistungen bieten Sie an?, key:
               24c0dd8d
@@ -3104,301 +3321,6 @@ collections:
             name: '-33c4befd'
             widget: string
           - hint: >-
-              Original text: A la recherche d'un nouveau site web ou d'une
-              identité de marque raffinée ?, key: 752d78f7
-            label: Text
-            name: 752d78f7
-            widget: string
-          - hint: >-
-              Original text: Ce formulaire ne prend qu'une minute à remplir,
-              promis., key: 47df03aa
-            label: Text
-            name: 47df03aa
-            widget: string
-          - hint: 'Original text: Quel est l''âge de votre entreprise ?, key: 6ae95601'
-            label: Text
-            name: 6ae95601
-            widget: string
-          - hint: 'Original text: Prélancement, key: 5f03a872'
-            label: Text
-            name: 5f03a872
-            widget: string
-          - hint: 'Original text: 0 — 5 ans, key: -140adb81'
-            label: Text
-            name: '-140adb81'
-            widget: string
-          - hint: 'Original text: Plus de 5 ans, key: -39a9f13e'
-            label: Text
-            name: '-39a9f13e'
-            widget: string
-          - hint: >-
-              Original text: Quels sont les services pour lesquels vous
-              souhaiteriez travailler avec moi ?, key: 1115840a
-            label: Text
-            name: 1115840a
-            widget: string
-          - hint: >-
-              Original text: Je propose un audit gratuit de l'ensemble de votre
-              site web existant et/ou identité de marque — sans engagement.,
-              key: -1487c6d8
-            label: Text
-            name: '-1487c6d8'
-            widget: text
-          - hint: 'Original text: Audit GRATUIT, key: -2a6a6243'
-            label: Text
-            name: '-2a6a6243'
-            widget: string
-          - hint: 'Original text: Nouveau site web 🔥, key: 6a1ea904'
-            label: Text
-            name: 6a1ea904
-            widget: string
-          - hint: 'Original text: Relaunch de Website, key: -65e6738a'
-            label: Text
-            name: '-65e6738a'
-            widget: string
-          - hint: 'Original text: Développement Web, key: -69208ca0'
-            label: Text
-            name: '-69208ca0'
-            widget: string
-          - hint: 'Original text: Domaine et e-mails pro, key: 5e79ecf'
-            label: Text
-            name: 5e79ecf
-            widget: string
-          - hint: 'Original text: Création de contenu, key: 111a4420'
-            label: Text
-            name: 111a4420
-            widget: string
-          - hint: 'Original text: Conception de logo, key: 12202e8a'
-            label: Text
-            name: 12202e8a
-            widget: string
-          - hint: 'Original text: Identité d''entreprise, key: -be76c50'
-            label: Text
-            name: '-be76c50'
-            widget: string
-          - hint: 'Original text: Conception graphique, key: -7d0def5a'
-            label: Text
-            name: '-7d0def5a'
-            widget: string
-          - hint: 'Original text: Images d''IA générative, key: 1c00d70d'
-            label: Text
-            name: 1c00d70d
-            widget: string
-          - hint: 'Original text: Support technique, key: -6fe7dce1'
-            label: Text
-            name: '-6fe7dce1'
-            widget: string
-          - hint: 'Original text: Quel est votre deadline ?, key: 5aef15f8'
-            label: Text
-            name: 5aef15f8
-            widget: string
-          - hint: 'Original text: 1 — 2 mois, key: -7e2035eb'
-            label: Text
-            name: '-7e2035eb'
-            widget: string
-          - hint: 'Original text: 2 — 4 mois, key: 7992ec72'
-            label: Text
-            name: 7992ec72
-            widget: string
-          - hint: 'Original text: Pas encore sûr, key: c99090'
-            label: Text
-            name: c99090
-            widget: string
-          - hint: 'Original text: Comment amorcer une conversation ?, key: 3aa72bb6'
-            label: Text
-            name: 3aa72bb6
-            widget: string
-          - hint: >-
-              Original text: Comment avez-vous été mis(e) au courant de ma
-              présence ?, key: -473384b1
-            label: Text
-            name: '-473384b1'
-            widget: string
-          - hint: 'Original text: Référence, key: -4e57cbdd'
-            label: Text
-            name: '-4e57cbdd'
-            widget: string
-          - hint: 'Original text: Recherche organique, key: 70022744'
-            label: Text
-            name: '70022744'
-            widget: string
-          - hint: 'Original text: Autres, key: 75923200'
-            label: Text
-            name: '75923200'
-            widget: string
-          - hint: >-
-              Original text: Prêt à soumettre votre demande et à démarrer un
-              nouveau projet avec moi ?, key: -324a9a72
-            label: Text
-            name: '-324a9a72'
-            widget: string
-          - hint: 'Original text: Je reconnais avoir lu et accepté la , key: -65afee4'
-            label: Text
-            name: '-65afee4'
-            widget: string
-          - hint: 'Original text: politique de confidentialité, key: 6ad7d527'
-            label: Text
-            name: 6ad7d527
-            widget: string
-          - hint: 'Original text:  du site anthonysalamin.ch., key: -5f1638e5'
-            label: Text
-            name: '-5f1638e5'
-            widget: string
-          - hint: >-
-              Original text: Chaque demande fera l'objet d'une évaluation et une
-              estimation complète des coûts sera fournie au client, en précisant
-              les dépenses fixes et récurrentes. En utilisant mon formulaire de
-              courrier électronique, vous reconnaissez et acceptez que les
-              informations que vous soumettez seront utilisées uniquement dans
-              le but de répondre à votre demande., key: -71e3024c
-            label: Text
-            name: '-71e3024c'
-            widget: text
-          - hint: >-
-              Original text: Suchen Sie eine neue Website oder eine neue
-              Markenidentität?, key: 58469582
-            label: Text
-            name: '58469582'
-            widget: string
-          - hint: >-
-              Original text: Das Ausfüllen dieses Formulars dauert 1 Minute,
-              versprochen., key: -28638f41
-            label: Text
-            name: '-28638f41'
-            widget: string
-          - hint: 'Original text: Wie alt ist Ihr Unternehmen?, key: 186e3919'
-            label: Text
-            name: '186e3919'
-            widget: string
-          - hint: 'Original text: 0 — 5 Jahre alt, key: -179080ba'
-            label: Text
-            name: '-179080ba'
-            widget: string
-          - hint: 'Original text: Über 5 Jahre alt, key: 62b886d5'
-            label: Text
-            name: 62b886d5
-            widget: string
-          - hint: >-
-              Original text: Für welche Dienstleistungen würden Sie gerne mit
-              mir arbeiten?, key: 1cd11c90
-            label: Text
-            name: 1cd11c90
-            widget: string
-          - hint: >-
-              Original text: Ich biete eine kostenlose Prüfung Ihrer gesamten
-              bestehenden Website und/oder Markenidentität an - unverbindlich.,
-              key: -24c6f6c7
-            label: Text
-            name: '-24c6f6c7'
-            widget: text
-          - hint: 'Original text: KOSTENLOSES Audit, key: 279d460b'
-            label: Text
-            name: 279d460b
-            widget: string
-          - hint: 'Original text: NEUE Website 🔥, key: -17f73e7a'
-            label: Text
-            name: '-17f73e7a'
-            widget: string
-          - hint: 'Original text: Web-Design, key: e6f8297'
-            label: Text
-            name: e6f8297
-            widget: string
-          - hint: 'Original text: Web-Entwicklung, key: 41c9eb6e'
-            label: Text
-            name: 41c9eb6e
-            widget: string
-          - hint: 'Original text: Domäne & pro E-Mail, key: 6b3fd2f3'
-            label: Text
-            name: 6b3fd2f3
-            widget: string
-          - hint: 'Original text: Logo-Design, key: -67d0abe0'
-            label: Text
-            name: '-67d0abe0'
-            widget: string
-          - hint: 'Original text: Unternehmensidentität, key: -29a47f7b'
-            label: Text
-            name: '-29a47f7b'
-            widget: string
-          - hint: 'Original text: Grafik-Design, key: 54d3a079'
-            label: Text
-            name: 54d3a079
-            widget: string
-          - hint: 'Original text: Generative KI-Visualisierungen, key: 6b76ae02'
-            label: Text
-            name: 6b76ae02
-            widget: string
-          - hint: 'Original text: Web-Analytik, key: -4976dad2'
-            label: Text
-            name: '-4976dad2'
-            widget: string
-          - hint: 'Original text: Technischer Support, key: 1263e203'
-            label: Text
-            name: '1263e203'
-            widget: string
-          - hint: >-
-              Original text: Wie sieht Ihr voraussichtlicher Zeitplan aus ?,
-              key: -38e98d46
-            label: Text
-            name: '-38e98d46'
-            widget: string
-          - hint: 'Original text: 1 — 2 Monate, key: 527c95af'
-            label: Text
-            name: 527c95af
-            widget: string
-          - hint: 'Original text: 2 — 4 Monate, key: 29f094cc'
-            label: Text
-            name: 29f094cc
-            widget: string
-          - hint: 'Original text: Ich bin noch nicht sicher, key: 3789dca3'
-            label: Text
-            name: 3789dca3
-            widget: string
-          - hint: >-
-              Original text: Wie sollen wir ein Gespräch beginnen ?, key:
-              -378467c9
-            label: Text
-            name: '-378467c9'
-            widget: string
-          - hint: 'Original text: Wie haben Sie von mir erfahren ?, key: 762f34bb'
-            label: Text
-            name: 762f34bb
-            widget: string
-          - hint: 'Original text: Sonstiges, key: -5d6ed7e1'
-            label: Text
-            name: '-5d6ed7e1'
-            widget: string
-          - hint: >-
-              Original text: Sind Sie bereit, Ihre Anfrage einzureichen und ein
-              neues Projekt mit mir zu starten ?, key: 11d94678
-            label: Text
-            name: 11d94678
-            widget: string
-          - hint: 'Original text: Ich bestätige, dass ich die , key: 3ce9fda0'
-            label: Text
-            name: 3ce9fda0
-            widget: string
-          - hint: 'Original text: Datenschutzbestimmungen, key: -25d20dab'
-            label: Text
-            name: '-25d20dab'
-            widget: string
-          - hint: >-
-              Original text:  auf anthonysalamin.ch gelesen habe und damit
-              einverstanden bin., key: -8bb8a8d
-            label: Text
-            name: '-8bb8a8d'
-            widget: string
-          - hint: >-
-              Original text: Jede Anfrage wird geprüft, und dem Kunden wird ein
-              umfassender Kostenvoranschlag vorgelegt, in dem sowohl die festen
-              als auch die wiederkehrenden Ausgaben aufgeführt sind. Wenn Sie
-              mein E-Mail-Formular verwenden, erklären Sie sich damit
-              einverstanden, dass die von Ihnen übermittelten Informationen
-              ausschließlich zur Bearbeitung Ihrer Anfrage verwendet werden.,
-              key: -5f93039d
-            label: Text
-            name: '-5f93039d'
-            widget: text
-          - hint: >-
               Original text: Merci, votre formulaire a été envoyé., key:
               3fb9dcb7
             label: Text
@@ -3410,11 +3332,89 @@ collections:
             label: Text
             name: 3c98ae79
             widget: string
+          - hint: 'Original text: Le seul Designer, key: -468bd165'
+            label: Text
+            name: '-468bd165'
+            widget: string
+          - hint: >-
+              Original text: Digital dont vous aurez réellement besoin., key:
+              -2e26b132
+            label: Text
+            name: '-2e26b132'
+            widget: string
           - hint: >-
               Original text: Der Designerdigital & Entwickler, den Sie wircklich
               brauchen., key: -48240222
             label: Text
             name: '-48240222'
+            widget: string
+          - hint: >-
+              Original text: Der digitale Designer und Entwickler, den Sie
+              wirklich brauchen., key: -40c48625
+            label: Text
+            name: '-40c48625'
+            widget: string
+          - hint: >-
+              Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
+              Webdesign und -entwicklung, ich kreiere Ihre moderne und
+              einzigartige Markenidentität., key: -5f1a6056
+            label: Text
+            name: '-5f1a6056'
+            widget: text
+          - hint: >-
+              Original text: Ihre Online-Präsenz zusammen erstellen, key:
+              4fbb981e
+            label: Text
+            name: 4fbb981e
+            widget: string
+          - hint: >-
+              Original text: Webdesign, Markenidentität, Startup, LP,
+              E-Commerce, MVP, key: 9431f6a
+            label: Text
+            name: 9431f6a
+            widget: string
+          - hint: >-
+              Original text: Effektives Design zum fairen Preis — Website heute
+              erhalten., key: -53cf6063
+            label: Text
+            name: '-53cf6063'
+            widget: string
+          - hint: >-
+              Original text: Konzentrieren Sie sich auf das, was Sie am besten
+              können, und überlassen Sie mir den Rest., key: 5fc554a1
+            label: Text
+            name: 5fc554a1
+            widget: string
+          - hint: >-
+              Original text: Je renforce votre entreprise avec un design et un
+              développement Web complet, je crée votre identité de marque
+              moderne et unique., key: -1b5da4b6
+            label: Text
+            name: '-1b5da4b6'
+            widget: text
+          - hint: >-
+              Original text: Construisons votre présence en ligne., key:
+              -6d34c257
+            label: Text
+            name: '-6d34c257'
+            widget: string
+          - hint: >-
+              Original text: Web design, Identité de marque, Startup, LP,
+              ecommerce, MVP, key: 45faaa3a
+            label: Text
+            name: 45faaa3a
+            widget: string
+          - hint: >-
+              Original text: Prix compétitifs pour un design percutant - votre
+              site web dès aujourd'hui., key: 201bd77d
+            label: Text
+            name: 201bd77d
+            widget: string
+          - hint: >-
+              Original text: Concentrez-vous sur ce que vous faites de mieux,
+              laissez-moi m'occuper du reste., key: a2aab74
+            label: Text
+            name: a2aab74
             widget: string
       - label: Links
         name: links
@@ -3440,13 +3440,13 @@ collections:
             label: Link
             name: '117413'
             widget: string
-          - hint: 'Original link: /fr/accueil/, key: 3eec454f'
+          - hint: 'Original link: /fr/, key: 16ea54'
             label: Link
-            name: 3eec454f
+            name: 16ea54
             widget: string
-          - hint: 'Original link: /de/startseite/, key: 3c2b46a'
+          - hint: 'Original link: /de/, key: 16e13f'
             label: Link
-            name: 3c2b46a
+            name: 16e13f
             widget: string
           - hint: >-
               Original link:
@@ -3502,17 +3502,33 @@ collections:
             label: Link
             name: 332ecf61
             widget: string
-          - hint: 'Original link: /fr/portfolio/, key: 5bc8b53b'
+          - hint: 'Original link: /fr/projets/, key: -7d8551c4'
             label: Link
-            name: 5bc8b53b
+            name: '-7d8551c4'
+            widget: string
+          - hint: 'Original link: #prix, key: 221d954'
+            label: Link
+            name: 221d954
+            widget: string
+          - hint: 'Original link: #services, key: -686fc27f'
+            label: Link
+            name: '-686fc27f'
             widget: string
           - hint: 'Original link: /fr/contact/, key: -63d1499d'
             label: Link
             name: '-63d1499d'
             widget: string
-          - hint: 'Original link: /de/portfolio/, key: 1abd4266'
+          - hint: 'Original link: /de/projekte/, key: 2dd6addc'
             label: Link
-            name: 1abd4266
+            name: 2dd6addc
+            widget: string
+          - hint: 'Original link: #preise, key: 10ed8db'
+            label: Link
+            name: 10ed8db
+            widget: string
+          - hint: 'Original link: #leistungen, key: 149e70a9'
+            label: Link
+            name: 149e70a9
             widget: string
           - hint: 'Original link: /de/kontakt/, key: 49b4174e'
             label: Link

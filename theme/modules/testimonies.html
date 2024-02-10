@@ -451,8 +451,8 @@ function getCurrentURL() {
 }
 const urls = {
   en: ``,
-  fr: `fr/accueil`,
-  de: `de/startseite`
+  fr: `fr`,
+  de: `de`
 };
 // Function to redirect based on language preference
 function redirectBasedOnLanguage(urls) {
@@ -471,46 +471,6 @@ function redirectBasedOnLanguage(urls) {
     return;
   }
 }
-</script>
-  <script>
-/*
- * PORTFOLIO | Webflow Tooltip v2
- * doc: https://atomiks.github.io/tippyjs/
- * build: 02.02.2024 @16:51
- */
-document.addEventListener("DOMContentLoaded", async () => {
-  await injectTooltip();
-  instanciateTippy();
-});
-function injectTooltip() {
-  // console.log("injectTooltip start");
-  return new Promise((resolve, reject) => {
-    const pricingFeatures = document.querySelectorAll(".pricing__feature");
-    if (!pricingFeatures.length) return;
-    Array.from(pricingFeatures).forEach((pricingFeature, index, array) => {
-      const tooltipHelper = pricingFeature.querySelector(".tooltip-helper");
-      const tooltipInfo = tooltipHelper.textContent;
-      const infoSVG = pricingFeature.querySelector('[data-id="tippy"]');
-      infoSVG.setAttribute("title", tooltipInfo);
-      // console.log(tooltipInfo);
-      // console.log(infoSVG);
-      if (index === array.length - 1) {
-        // console.log("injectTooltip end");
-        resolve(); // Resolve when all features are processed
-      }
-    });
-  });
-} // injectTooltip()
-function instanciateTippy() {
-  // console.log("instanciateTippy");
-  tippy(`[data-id="tippy"]`, {
-    animation: "scale",
-    arrow: false,
-    inertia: true,
-    placement: "top",
-    theme: "light"
-  });
-} // instanciateTippy()
 </script>
   <script>
 /*
@@ -660,7 +620,7 @@ function initTyping(selector, shouldBlink, words) {
   if (!toBeTyped) return;
   addBlink(shouldBlink, selector);
   const LETTER_TYPE_DELAY = 20;
-  const WORD_STAY_DELAY = 2500;
+  const WORD_STAY_DELAY = 1500;
   const DIRECTION_FORWARDS = 0;
   const DIRECTION_BACKWARDS = 1;
   let direction = DIRECTION_FORWARDS;
@@ -879,6 +839,46 @@ function createAnimation() {
     }
   });
 }
+</script>
+  <script>
+/*
+ * PORTFOLIO | Webflow Tooltip v2
+ * doc: https://atomiks.github.io/tippyjs/
+ * build: 02.02.2024 @16:51
+ */
+document.addEventListener("DOMContentLoaded", async () => {
+  await injectTooltip();
+  instanciateTippy();
+});
+function injectTooltip() {
+  // console.log("injectTooltip start");
+  return new Promise((resolve, reject) => {
+    const pricingFeatures = document.querySelectorAll(".pricing__feature");
+    if (!pricingFeatures.length) return;
+    Array.from(pricingFeatures).forEach((pricingFeature, index, array) => {
+      const tooltipHelper = pricingFeature.querySelector(".tooltip-helper");
+      const tooltipInfo = tooltipHelper.textContent;
+      const infoSVG = pricingFeature.querySelector('[data-id="tippy"]');
+      infoSVG.setAttribute("title", tooltipInfo);
+      // console.log(tooltipInfo);
+      // console.log(infoSVG);
+      if (index === array.length - 1) {
+        // console.log("injectTooltip end");
+        resolve(); // Resolve when all features are processed
+      }
+    });
+  });
+} // injectTooltip()
+function instanciateTippy() {
+  // console.log("instanciateTippy");
+  tippy(`[data-id="tippy"]`, {
+    animation: "scale",
+    arrow: false,
+    inertia: true,
+    placement: "top",
+    theme: "light"
+  });
+} // instanciateTippy()
 </script>
   <script>
 /*

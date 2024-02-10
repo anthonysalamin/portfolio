@@ -1,5 +1,5 @@
 ---
-title: Success
+title: Erfolg
 permalink: de/{{ page.fileSlug }}/index.html
 layout: de/success.html
 slug: success

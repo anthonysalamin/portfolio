@@ -1,8 +1,8 @@
 ---
-title: Accueil
-permalink: fr/{{ page.fileSlug }}/index.html
-layout: fr/accueil.html
-slug: accueil
+title: fr
+permalink: '{{ page.fileSlug }}/index.html'
+layout: fr.html
+slug: fr
 tags: pages
 seo:
   noindex: false

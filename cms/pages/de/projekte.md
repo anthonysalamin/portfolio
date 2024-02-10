@@ -1,12 +1,12 @@
 ---
-title: Startseite
+title: Projekte
 permalink: de/{{ page.fileSlug }}/index.html
-layout: de/startseite.html
-slug: startseite
+layout: de/projekte.html
+slug: projekte
 tags: pages
 seo:
   noindex: false
-  title: Anthony Salamin | Digitaler Designer und Webentwickler
+  title: Portfolio
   description: >-
     Innerhalb von 1 TAG online gehen * - Bringen Sie Ihr MVP schnell online und
     beginnen Sie mit der Konvertierung. Als erfahrener Digitaldesigner,
@@ -17,7 +17,7 @@ seo:
     modernste Tools ein, um meine Prozesse zu rationalisieren. Außerdem biete
     ich Ihnen bei jedem Schritt vorrangige Unterstützung. * Für MVP (Minimales
     lebensfähiges Produkt)
-  og:title: Anthony Salamin | Digitaler Designer und Webentwickler
+  og:title: Portfolio
   additional_tags: >-
     <meta content="Innerhalb von 1 TAG online gehen * - Bringen Sie Ihr MVP
     schnell online und beginnen Sie mit der Konvertierung. Als erfahrener
@@ -42,7 +42,7 @@ seo:
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
     https://uploads-ssl.webflow.com/6565594186e587567235d089/65c1bceec287504a11955e0a_opengraph%20DE.jpg
-  twitter:title: Anthony Salamin | Digitaler Designer und Webentwickler
+  twitter:title: Portfolio
 ---
 
 
