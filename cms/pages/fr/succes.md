@@ -6,43 +6,25 @@ slug: succes
 tags: pages
 seo:
   noindex: false
-  title: Success
+  title: Anthony Salamin | Designer Digital et Développeur Web | Succès
   description: >-
-    Mise en ligne en 1 JOUR seulement * - Mettez rapidement la première version
-    de vogre site en ligne et commencez à attirer de nouveaux clients. En tant
-    que designer numérique expérimenté, concepteur web et développeur, je donne
-    vie à votre vision à des prix abordables. Du design de logo à l'identité
-    d'entreprise complète, du design web au lancement en ligne, je suis le
-    designer numérique dont vous ignoriez avoir besoin. J'utilise les
-    technologies de l'IA et des outils de pointe pour rationaliser mes
-    processus. De plus, je vous offre un support prioritaire à chaque étape. *
-    Pour les projets MVP (Minimum Viable Product)
-  og:title: Success
+    Mise en ligne sous 4 semaines 🔥 Du design de logo au site web d'entreprise,
+    je donne vie à votre vision à des prix abordables. Je suis le seul designer
+    digital dont vous aurez réellement besoin.
+  og:title: Anthony Salamin | Designer Digital et Développeur Web | Succès
   additional_tags: >-
-    <meta content="Mise en ligne en 1 JOUR seulement * - Mettez rapidement la
-    première version de vogre site en ligne et commencez à attirer de nouveaux
-    clients. En tant que designer numérique expérimenté, concepteur web et
-    développeur, je donne vie à votre vision à des prix abordables. Du design de
-    logo à l'identité d'entreprise complète, du design web au lancement en
-    ligne, je suis le designer numérique dont vous ignoriez avoir besoin.
-    J'utilise les technologies de l'IA et des outils de pointe pour rationaliser
-    mes processus. De plus, je vous offre un support prioritaire à chaque étape.
-    * Pour les projets MVP (Minimum Viable Product)"
-    property="og:description"><meta content="Mise en ligne en 1 JOUR seulement *
-    - Mettez rapidement la première version de vogre site en ligne et commencez
-    à attirer de nouveaux clients. En tant que designer numérique expérimenté,
-    concepteur web et développeur, je donne vie à votre vision à des prix
-    abordables. Du design de logo à l'identité d'entreprise complète, du design
-    web au lancement en ligne, je suis le designer numérique dont vous ignoriez
-    avoir besoin. J'utilise les technologies de l'IA et des outils de pointe
-    pour rationaliser mes processus. De plus, je vous offre un support
-    prioritaire à chaque étape. * Pour les projets MVP (Minimum Viable Product)"
-    property="twitter:description"><meta
-    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c1bcee2833330bca7b52b6_opengraph%20FR.jpg"
+    <meta content="Mise en ligne sous 4 semaines 🔥 Du design de logo au site
+    web d'entreprise, je donne vie à votre vision à des prix abordables. Je suis
+    le seul designer digital dont vous aurez réellement besoin."
+    property="og:description"><meta content="Mise en ligne sous 4 semaines 🔥 Du
+    design de logo au site web d'entreprise, je donne vie à votre vision à des
+    prix abordables. Je suis le seul designer digital dont vous aurez réellement
+    besoin." property="twitter:description"><meta
+    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9ca812639524f74eff788_opengraph%20fr.jpg"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
-    https://uploads-ssl.webflow.com/6565594186e587567235d089/65c1bcee2833330bca7b52b6_opengraph%20FR.jpg
-  twitter:title: Success
+    https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9ca812639524f74eff788_opengraph%20fr.jpg
+  twitter:title: Anthony Salamin | Designer Digital et Développeur Web | Succès
 ---
 
 

@@ -2786,13 +2786,15 @@ body {
 }
 
 .pill-mini {
-  border: 1px solid var(--accent);
+  border: .5px none var(--accent);
+  background-color: var(--accent);
   color: var(--accent);
   letter-spacing: .4px;
   text-transform: uppercase;
+  background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
   border-radius: 4px;
   flex: none;
-  padding: 2px 4px;
+  padding: 4px 6px;
   font-size: 9px;
   font-weight: 600;
   display: inline-block;

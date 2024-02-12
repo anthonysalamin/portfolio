@@ -8,33 +8,21 @@ seo:
   noindex: false
   title: Anthony Salamin | Digital Designer and Web Developer
   description: >-
-    Go live within 1 DAY — Get your MVP online fast and start converting. As a
-    seasoned Digital Designer, Web Designer, and Developer, I bring your vision
-    to life at affordable prices. From Logo Design to full Corporate Identity,
-    from Web Design to GO LIVE, I am the Digital Designer you didn't know you
-    needed. I leverage AI technologies and cutting edge tools to streamline my
-    processes. Additionally, I provide you with priority support along every
-    step.
+    Online within 4 weeks 🔥 From logo design to the company website, I bring
+    your vision to life at affordable prices. I am the only digital designer you
+    will will ever need.
   og:title: Anthony Salamin | Digital Designer and Web Developer
   additional_tags: >-
-    <meta content="Go live within 1 DAY — Get your MVP online fast and start
-    converting. As a seasoned Digital Designer, Web Designer, and Developer, I
-    bring your vision to life at affordable prices. From Logo Design to full
-    Corporate Identity, from Web Design to GO LIVE, I am the Digital Designer
-    you didn't know you needed. I leverage AI technologies and cutting edge
-    tools to streamline my processes. Additionally, I provide you with priority
-    support along every step." property="og:description"><meta content="Go live
-    within 1 DAY — Get your MVP online fast and start converting. As a seasoned
-    Digital Designer, Web Designer, and Developer, I bring your vision to life
-    at affordable prices. From Logo Design to full Corporate Identity, from Web
-    Design to GO LIVE, I am the Digital Designer you didn't know you needed. I
-    leverage AI technologies and cutting edge tools to streamline my processes.
-    Additionally, I provide you with priority support along every step."
-    property="twitter:description"><meta
-    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65bb1eedb2697d670226ae0e_opengraph.jpg"
+    <meta content="Online within 4 weeks 🔥 From logo design to the company
+    website, I bring your vision to life at affordable prices. I am the only
+    digital designer you will will ever need." property="og:description"><meta
+    content="Online within 4 weeks 🔥 From logo design to the company website, I
+    bring your vision to life at affordable prices. I am the only digital
+    designer you will will ever need." property="twitter:description"><meta
+    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9ca81b42e253a4791a987_opengraph%20en.jpg"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
-    https://uploads-ssl.webflow.com/6565594186e587567235d089/65bb1eedb2697d670226ae0e_opengraph.jpg
+    https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9ca81b42e253a4791a987_opengraph%20en.jpg
   twitter:title: Anthony Salamin | Digital Designer and Web Developer
 ---
 
