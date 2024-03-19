@@ -956,38 +956,12 @@ collections:
             widget: string
           - hint: >-
               Original text: Typically, the pricing for my services is
-              influenced by the project's scope and specifications, falling
-              within a specified range outlined in my pricing packages, namely
-              ", key: -682ab5f0
+              influenced by the project's scope and specifications. Following
+              our initial conversation, I will furnish you with a comprehensive
+              proposal detailing the discussed services and their associated
+              costs., key: 7d89dd8
             label: Text
-            name: '-682ab5f0'
-            widget: text
-          - hint: 'Original text: Start-up, key: 52566406'
-            label: Text
-            name: '52566406'
-            widget: string
-          - hint: 'Original text: ," ", key: 1483f8'
-            label: Text
-            name: 1483f8
-            widget: string
-          - hint: 'Original text: Business, key: -4080dc20'
-            label: Text
-            name: '-4080dc20'
-            widget: string
-          - hint: 'Original text: ," and ", key: 1d6d0cef'
-            label: Text
-            name: 1d6d0cef
-            widget: string
-          - hint: 'Original text: Pro, key: 13a8d'
-            label: Text
-            name: 13a8d
-            widget: string
-          - hint: >-
-              Original text: ." Following our initial conversation, I will
-              furnish you with a comprehensive proposal detailing the discussed
-              services and their associated costs., key: -7fb1b184
-            label: Text
-            name: '-7fb1b184'
+            name: 7d89dd8
             widget: text
           - hint: 'Original text: What is your process ?, key: 4992a69b'
             label: Text
@@ -1330,6 +1304,10 @@ collections:
             label: Text
             name: 4c7d442
             widget: string
+          - hint: 'Original text: Business, key: -4080dc20'
+            label: Text
+            name: '-4080dc20'
+            widget: string
           - hint: 'Original text: Suited for small businesses, key: 5cda0eb2'
             label: Text
             name: 5cda0eb2
@@ -1337,6 +1315,10 @@ collections:
           - hint: 'Original text: 3.989, key: 2e474bf'
             label: Text
             name: 2e474bf
+            widget: string
+          - hint: 'Original text: Pro, key: 13a8d'
+            label: Text
+            name: 13a8d
             widget: string
           - hint: 'Original text: For tailor-made solutions, key: -2875c48e'
             label: Text
@@ -1511,6 +1493,10 @@ collections:
               development tools to streamline my workflow., key: -701b685c
             label: Text
             name: '-701b685c'
+            widget: string
+          - hint: 'Original text: Start-up, key: 52566406'
+            label: Text
+            name: '52566406'
             widget: string
           - hint: 'Original text: For ambitious MVP projects., key: -472fae57'
             label: Text
@@ -2527,14 +2513,12 @@ collections:
             widget: string
           - hint: >-
               Original text: En règle générale, le prix de mes services est
-              influencé par la portée et les spécifications du projet, et se
-              situe dans une fourchette spécifiée dans mes forfaits de prix, à
-              savoir "Start-up", "Business" et "Pro". Après notre première
-              conversation, je vous fournirai une proposition complète
-              détaillant les services discutés et leurs coûts associés., key:
-              3d46e4fe
+              influencé par la portée et les spécifications du projet. Après
+              notre première conversation, je vous fournirai une proposition
+              complète détaillant les services discutés et leurs coûts
+              associés., key: 58ce73c8
             label: Text
-            name: 3d46e4fe
+            name: 58ce73c8
             widget: text
           - hint: 'Original text: Quelle est votre démarche ?, key: -1ba21972'
             label: Text
@@ -2936,14 +2920,12 @@ collections:
             widget: string
           - hint: >-
               Original text: Die Preise für meine Dienstleistungen richten sich
-              in der Regel nach dem Umfang und den Spezifikationen des Projekts
-              und bewegen sich innerhalb einer bestimmten Spanne, die in meinen
-              Preispaketen "Start-up", "Business" und "Pro" angegeben ist. Nach
-              unserem ersten Gespräch erhalten Sie von mir ein umfassendes
+              in der Regel nach dem Umfang und den Spezifikationen des Projekts.
+              Nach unserem ersten Gespräch erhalten Sie von mir ein umfassendes
               Angebot, in dem die besprochenen Dienstleistungen und die damit
-              verbundenen Kosten aufgeführt sind., key: 5369e83a
+              verbundenen Kosten aufgeführt sind., key: 2d82c728
             label: Text
-            name: 5369e83a
+            name: 2d82c728
             widget: text
           - hint: 'Original text: Wie sieht Ihr Prozess aus?, key: 43d41407'
             label: Text

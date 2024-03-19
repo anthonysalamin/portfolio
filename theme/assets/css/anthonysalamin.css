@@ -2872,9 +2872,11 @@ body {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   justify-content: flex-start;
+  align-items: center;
   margin-left: 10px;
   display: flex;
   overflow: hidden;
+  transform: scale(1);
 }
 
 .language__link {
@@ -2916,12 +2918,6 @@ body {
 .glowing-wrapper.glowing-wrapper-active {
   width: 30rem;
   height: 20rem;
-  border-radius: .4rem;
-}
-
-.glowing-wrapper.glowing-wrapper-active.smaller-card {
-  width: 25rem;
-  height: 5rem;
   border-radius: .4rem;
 }
 
@@ -2983,36 +2979,6 @@ body {
   padding-right: 2rem;
 }
 
-.h1-2 {
-  text-align: center;
-  letter-spacing: -.04em;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#e7fffb, rgba(255, 255, 255, 0) 93%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  font-size: 5rem;
-  font-weight: 500;
-  line-height: 1.1;
-  transition: transform .96s cubic-bezier(.3, 1.17, .55, .99);
-  overflow: visible;
-}
-
-.spacer-large {
-  padding-top: 5rem;
-}
-
-.page-wrapper-2 {
-  width: 100vw;
-  height: 100vh;
-  background-image: radial-gradient(circle at 50% 0, #0f0f0f, #000);
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .glowing-wrapper-borders-masker {
   width: 100%;
   opacity: 0;
@@ -3043,27 +3009,6 @@ body {
   left: 0%;
   right: 0%;
   overflow: hidden;
-}
-
-.card-2.left-centered {
-  background-image: none;
-  align-items: flex-start;
-  padding-left: 2rem;
-}
-
-.h2-2 {
-  text-align: center;
-  letter-spacing: -.04em;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#e7fffb 30%, rgba(255, 255, 255, .38));
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin-top: -17px;
-  margin-bottom: 20px;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.1;
-  transition: transform .96s cubic-bezier(.3, 1.17, .55, .99);
 }
 
 .glowing-wrapper-mask-wrapper {
@@ -3415,16 +3360,8 @@ body {
     padding-left: 0;
   }
 
-  .h1-2 {
-    font-size: 4.5rem;
-  }
-
   .card-2 {
     height: 10rem;
-  }
-
-  .h2-2 {
-    font-size: 4.5rem;
   }
 }
 
@@ -3847,10 +3784,6 @@ body {
   .card-text {
     font-size: 1rem;
   }
-
-  .h1-2, .h2-2 {
-    font-size: 3.25rem;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4213,16 +4146,8 @@ body {
     height: 15rem;
   }
 
-  .h1-2 {
-    font-size: 3rem;
-  }
-
   .card-2 {
     height: 100%;
-  }
-
-  .h2-2 {
-    font-size: 3rem;
   }
 }
 
