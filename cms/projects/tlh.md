@@ -25,9 +25,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/urbain.md
   - cms/projects/quatreaplus.md
-updated-on: '2024-02-08T03:50:19.633Z'
+updated-on: '2024-03-12T17:23:32.540Z'
 created-on: '2023-12-14T05:31:50.649Z'
-published-on: '2024-02-08T03:52:46.528Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.jpg
@@ -52,7 +52,7 @@ f_horizontal-line-2: '#swiss #valais #theatre #performance #culture'
 f_testimony-2: cms/testimonies/alexandre-doublet.md
 f_tag-1: Web Design
 f_tag-2: Web Development
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_order: 5
 f_thumbnail-title: Web Design & Development

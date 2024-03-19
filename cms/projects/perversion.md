@@ -1,7 +1,7 @@
 ---
 f_has-gallery-images: true
 f_hero-video: false
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_is-photography: false
 f_has-big-image: true
@@ -55,9 +55,9 @@ f_category-ies:
   - cms/categories/design.md
 f_similar-projects:
   - cms/projects/eagle-cup.md
-updated-on: '2023-12-19T11:47:10.956Z'
+updated-on: '2024-03-12T17:32:54.949Z'
 created-on: '2023-12-19T11:27:47.195Z'
-published-on: '2023-12-19T11:48:32.721Z'
+published-on: '2024-03-12T17:33:38.498Z'
 f_is-graphic-design: true
 f_is-web: false
 layout: '[projects].html'

@@ -2,7 +2,7 @@
 f_has-gallery-images: true
 f_is-graphic-design: false
 f_hero-video: false
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_is-photography: false
 f_website: https://www.ease.berlin/
@@ -53,9 +53,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/fureur.md
   - cms/projects/further.md
-updated-on: '2024-01-23T09:15:05.430Z'
+updated-on: '2024-03-12T17:25:14.361Z'
 created-on: '2023-12-29T09:20:37.498Z'
-published-on: '2024-01-23T09:24:44.225Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_is-web: true
 layout: '[projects].html'
 tags: projects

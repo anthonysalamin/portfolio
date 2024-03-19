@@ -29,7 +29,7 @@ f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.jpg
   alt: null
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_has-big-image: true
 f_horizontal-line-1: '#photography #editing #color #grading #lightroom'
@@ -45,9 +45,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/rocklands-bouldering.md
   - cms/projects/south-africa-namibia.md
-updated-on: '2023-12-19T09:34:00.325Z'
+updated-on: '2024-03-12T17:24:26.965Z'
 created-on: '2023-12-19T09:03:10.477Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_is-photography: true
 f_order: 22
 f_is-graphic-design: false

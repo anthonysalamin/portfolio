@@ -5,9 +5,9 @@ f_hero-video: false
 f_order: 6
 title: Helge von Giese
 slug: helge
-updated-on: '2024-02-08T03:49:34.383Z'
+updated-on: '2024-03-12T17:38:52.772Z'
 created-on: '2023-12-18T07:40:11.106Z'
-published-on: '2024-02-08T03:52:46.528Z'
+published-on: '2024-03-12T17:38:59.022Z'
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_has-big-image: true

@@ -97,99 +97,6 @@
   scrollbar-width: thin;
   scrollbar-color: #ccc #f5f5f5;
 </style>
-  <style>
-  /* scroll progress */ 
-  :root {
-    --indicator-color: rgba(0, 0, 0, 1);
-    --indicator-slide-color: rgba(0, 0, 0, .2);
-    --indicator-font: "Unicons";
-    --indicator-content: "\e84b";
-    --indicator-hover: #027DFB;
-  }
-  @font-face {
-    font-family: "Unicons";
-    src: url("https://uploads-ssl.webflow.com/61a0f086f2b1f289503a4957/6329d8e0a1790e3283ae2504_unicons.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-  @media only screen and (max-width: 767px) {
-    .progress-wrap {
-      display: none !important;
-    }
-  }
-  .progress-wrap {
-    position: fixed;
-    right: 24px;
-    bottom: 24px;
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-    display: block;
-    border-radius: 50px;
-    box-shadow: inset 0 0 0 2px var(--indicator-slide-color);
-    z-index: 10000;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(15px);
-    transition: all 200ms linear;
-  }
-  .progress-wrap.active-progress {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  .progress-wrap::after {
-    position: absolute;
-    font-family: var(--indicator-font);
-    content: var(--indicator-content);
-    text-align: center;
-    line-height: 46px;
-    font-size: 24px;
-    color: #242b37;
-    left: 0;
-    top: 0;
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-    display: block;
-    z-index: 1;
-    transition: all 200ms linear;
-  }
-  .progress-wrap:hover::after {
-    opacity: 0;
-  }
-  .progress-wrap::before {
-    position: absolute;
-    font-family: var(--indicator-font);
-    content: var(--indicator-content);
-    text-align: center;
-    line-height: 46px;
-    font-size: 24px;
-    opacity: 0;
-    color: var(--indicator-hover);
-    left: 0;
-    top: 0;
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-    display: block;
-    z-index: 2;
-    transition: all 200ms linear;
-  }
-  .progress-wrap:hover::before {
-    opacity: 1;
-  }
-  .progress-wrap svg path {
-    fill: none;
-  }
-  .progress-wrap svg.progress-circle path {
-    stroke: #242b37;
-    stroke-width: 4;
-    box-sizing: border-box;
-    transition: all 200ms linear;
-  }
-</style>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -239,9 +146,8 @@ main:focus-visible {
           <div data-id="menu" class="nav__menu-container">
             <div class="nav__link-group first">
               <div class="div-block-8">
-                <a href="{{ links.-7d8551c4 }}" data-id="navbar-link" class="nav__link">{{ texts.50c8e507 }}</a>
-                <a href="{{ links.221d954 }}" data-id="navbar-link" class="nav__link w-inline-block">
-                  <div class="nav__link-text">{{ texts.2616d1 }}</div>
+                <a href="{{ links.-7d8551c4 }}" data-id="navbar-link" class="nav__link w-inline-block">
+                  <div class="nav__link-text">{{ texts.50c8e507 }}</div>
                   <div class="pill-mini margin-left">{{ texts.1a9a0 }}</div>
                 </a>
                 <a href="{{ links.-686fc27f }}" data-id="navbar-link" class="nav__link">{{ texts.560f747e }}</a>
@@ -253,8 +159,8 @@ main:focus-visible {
                     <path d="m20.58 19.37-2.99-8.36c-.21-.55-.68-.89-1.22-.89-.54 0-1 .34-1.23.91l-2.98 8.34a.75.75 0 1 0 1.41.51l.62-1.73h4.35l.62 1.73c.11.31.4.5.71.5.08 0 .17-.01.25-.04a.75.75 0 0 0 .45-.96l.01-.01Zm-5.84-2.73 1.64-4.59 1.64 4.59h-3.28Zm-2.55-8.79c-2.26 3.57-4.3 5.73-6.78 7.17a.746.746 0 0 1-1.02-.27.738.738 0 0 1 .27-1.02c2.1-1.22 3.82-2.97 5.75-5.87H4.12c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.75V4.38c0-.41.34-.75.75-.75s.75.34.75.75v1.98h3.75c.41 0 .75.34.75.75s-.34.75-.75.75h-.94l.01-.01Zm.04 7.27c-.13 0-.26-.03-.38-.1-.65-.38-1.28-.8-1.87-1.24a.75.75 0 0 1 .9-1.2c.54.41 1.13.79 1.73 1.14a.752.752 0 0 1-.38 1.4Z" fill="currentColor"></path>
                   </svg></div>
                 <div class="language__wrap">
-                  <a href="{{ links.16e13f }}" class="language__link w-inline-block"><img src="{{ images.22b4fd6.url }}" loading="lazy" alt="{{ images.22b4fd6.alt | trim | escape }}" class="language__icon first"></a>
-                  <a href="{{ links.2f }}" class="language__link w-inline-block"><img src="{{ images.45efbfe.url }}" loading="lazy" alt="{{ images.45efbfe.alt | trim | escape }}" class="language__icon second"></a>
+                  <a href="{{ links.16e13f }}" class="language__link w-inline-block"><img src="{{ images.22b4fd6.url }}" loading="lazy" alt="{{ images.22b4fd6.alt | escape }}" class="language__icon first"></a>
+                  <a href="{{ links.2f }}" class="language__link w-inline-block"><img src="{{ images.45efbfe.url }}" loading="lazy" alt="{{ images.45efbfe.alt | escape }}" class="language__icon second"></a>
                 </div>
               </div>
               <a data-id="navbar-link" href="{{ links.3e633501 }}" target="_blank" class="nav__link w-inline-block">
@@ -290,7 +196,7 @@ main:focus-visible {
           <div class="header__punchline fr">
             <h1 class="h1">{{ texts.-468bd165 }}<br>{{ texts.-2e26b132 }}</h1>
             <div class="avatar">
-              <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
+              <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
               <div class="flex-vertical-start-start">
                 <div class="subline semibold">{{ texts.7b0de148 }}</div>
                 <div class="subline">{{ texts.-5e9f8298 }}</div>
@@ -328,7 +234,7 @@ main:focus-visible {
     <main class="main">
       <section class="section horizontal-scroll">
         <div data-w-id="4af0b417-bbea-f646-5f3b-7a486fe0b93a" class="xl-scroll">
-          <div data-w-id="4af0b417-bbea-f646-5f3b-7a486fe0b93b" class="xl-scroll__wrapper">
+          <div class="xl-scroll__wrapper">
             <div class="xl-scroll__title a">{{ texts.-6d34c257 }}</div>
           </div>
           <div class="xl-scroll__wrapper">
@@ -345,10 +251,10 @@ main:focus-visible {
                 <h2 class="subline">{{ texts.a2aab74 }}</h2>
                 <div class="cta-wrap">
                   <a href="{{ links.-63d1499d }}" class="cta w-inline-block">
-                    <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
+                    <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
                     <div class="cta__text">{{ texts.-48bda494 }}</div>
                   </a>
-                  <a href="{{ links.5c9ed349 }}" class="cta secondary w-inline-block">
+                  <a href="{{ links.23 }}" class="cta secondary w-inline-block">
                     <div class="cta__text">{{ texts.-f559701 }}</div>
                   </a>
                 </div>
@@ -358,26 +264,26 @@ main:focus-visible {
               <div class="header_images-layout">
                 <div class="header_image-list-left">
                   <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e82-eb387636" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e83-eb387636" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e84-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e85-eb387636" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e86-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e87-eb387636" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e88-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | trim | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e83-eb387636" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e84-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e85-eb387636" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e86-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e87-eb387636" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e88-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | escape }}" class="header_image"></div>
                   </div>
                   <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e89-eb387636" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8a-eb387636" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8b-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8c-eb387636" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8d-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8e-eb387636" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8f-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | trim | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8a-eb387636" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8b-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8c-eb387636" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8d-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8e-eb387636" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8f-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | escape }}" class="header_image"></div>
                   </div>
                 </div>
                 <div class="header_image-list-right">
                   <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e91-eb387636" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e92-eb387636" class="header_image-wrapper"><img src="{{ images.58a8a50a.url }}" loading="eager" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e93-eb387636" alt="{{ images.58a8a50a.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e94-eb387636" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e95-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e96-eb387636" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e97-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | trim | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e92-eb387636" class="header_image-wrapper"><img src="{{ images.58a8a50a.url }}" loading="eager" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e93-eb387636" alt="{{ images.58a8a50a.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e94-eb387636" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e95-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e96-eb387636" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e97-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | escape }}" class="header_image"></div>
                   </div>
                   <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e98-eb387636" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e99-eb387636" class="header_image-wrapper"><img src="{{ images.23abcbe3.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9a-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.23abcbe3.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9b-eb387636" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9c-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9d-eb387636" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9e-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | trim | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e99-eb387636" class="header_image-wrapper"><img src="{{ images.23abcbe3.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9a-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.23abcbe3.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9b-eb387636" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9c-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | escape }}" class="header_image"></div>
+                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9d-eb387636" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9e-eb387636" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | escape }}" class="header_image"></div>
                   </div>
                 </div>
               </div>
@@ -389,10 +295,15 @@ main:focus-visible {
         <div class="container">
           <div class="mixitup">
             <div id="mixitup-controls" class="mixitup__controls w-clearfix">
-              <div class="search"><input class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Rechercher un projet" type="text" id="mixitup-search"></div>
+              <div class="search"><input class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search a project" type="text" id="mixitup-search"></div>
               <div data-filter="all" class="filter">
                 <div class="filter__wrap">
                   <div class="filter__text center">{{ texts.41af2ef }}</div>
+                </div>
+              </div>
+              <div data-filter=".featuring" class="filter checked">
+                <div class="filter__wrap">
+                  <div class="filter__text center">{{ texts.5e61d213 }}</div>
                 </div>
               </div>
               <div data-filter=".mixitup__featuring" class="filter temporary-hiden">
@@ -416,13 +327,13 @@ main:focus-visible {
                 </div>{%- endif -%}
               </div>
             </div>
-            <div id="status" class="status">{{ texts.50c8e507 }}</div>
+            <div id="status" class="status">{{ texts.-37ac8366 }}</div>
             {%- assign collection = collections.projects | filter: "f_on-display,eq,true", "ALL", page.inputPath | sort: "f_order" -%}<div class="mixitup__collection-list-wrapper w-dyn-list">
               {%- unless collection.length == 0 -%}<div id="mixitup-container" role="list" class="mixitup__collection-list w-dyn-items">
                 {%- for item in collection -%}<div role="listitem" class="mixitup__collection-item w-dyn-item">
                   <div class="mixitup__helpers">
                     <div class="mixitup__title hide">{{ item.data.title }}</div>
-                    {%- if item.data.f_highlight == true -%}<div class="mixitup__featuring hide">{{ texts.-19af644f }}</div>{%- endif -%}
+                    {%- if item.data.f_highlight == true -%}<div class="mixitup__featuring hide">{{ texts.-19104dcd }}</div>{%- endif -%}
                     {%- assign categoriesOfProjects = item.data.f_category-ies | resolveMultiReferences -%}<div class="w-dyn-list">
                       {%- unless categoriesOfProjects.length == 0 -%}<div role="list" class="collection-list-5 w-dyn-items">
                         {%- for item in categoriesOfProjects -%}<div role="listitem" class="collection-item-4 w-dyn-item">
@@ -436,7 +347,7 @@ main:focus-visible {
                     <div class="thumb__wrap-no-overflow ratio-a">
                       <div class="thumb__hover-desktop">
                         <div class="thumb__location">{{ item.data.f_thumbnail-title }}</div>
-                      </div><img loading="lazy" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="thumb__project">
+                      </div><img loading="lazy" src="{{ item.data.f_thumbnail.url }}" alt="{{ images.0.alt | escape }}" class="thumb__project">
                     </div>
                     <div class="thumb__wrap-mobile">
                       <div class="body bold">{{ item.data.title }}</div>
@@ -451,408 +362,6 @@ main:focus-visible {
               {%- if collection.length == 0 -%}<div class="empty-state w-dyn-empty">
                 <div class="empty-text">{{ texts.3d503d2b }}</div>
               </div>{%- endif -%}
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="prix" class="section dark">
-        <div class="container">
-          <div class="align-center-v2 light">
-            <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e4963a" class="punchline-subline-wrap">
-              <h1 class="h1"><span class="punchline-striked">{{ texts.-5af3f5a4 }}</span>{{ texts.16bd794 }}</h1>
-              <h2 class="subline">{{ texts.-5bd77513 }}</h2>
-            </div>
-          </div>
-          <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e49641" class="w-layout-grid pricing25_plans">
-            <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e49642" class="pricing25_plan">
-              <div class="pricing25_content">
-                <div class="margin-bottom margin-tiny">
-                  <div class="heading-style-h6"><strong>{{ texts.52566406 }}</strong></div>
-                </div>
-                <div class="body">{{ texts.cfd40bc }}</div>
-                <div class="margin-vertical margin-xxsmall">
-                  <div class="pricing__wrap-price-cta">
-                    <div class="pricing__range">
-                      <div class="pricing21_top-row-price"><span class="from">{{ texts.30ea11 }}</span><span class="pricing__euro">{{ texts.10481 }}</span>{{ texts.2c83317 }}</div>
-                      <div class="vat">{{ texts.60792c31 }}</div>
-                    </div>
-                    <a href="{{ links.-63d1499d }}" class="btn-cta w-button">{{ texts.-48bda494 }}</a>
-                    <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e49658" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="/assets/documents/animation-1702998863222.json" data-loop="1" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.2" data-duration="0"></div>
-                  </div>
-                </div>
-                <div class="pricing__list">
-                  <div id="w-node-a442e7e9-3f50-8dee-caf3-649432e4965a-32e49637" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div class="wrap-text-pill">
-                        <div class="text-pricing">{{ texts.-6eb73086 }}</div>
-                        <div class="pill-mini margin-left">{{ texts.1a9a0 }}</div>
-                      </div>
-                      <div class="tooltip-helper">{{ texts.4b294267 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-4abaf153 }}</div>
-                      <div class="tooltip-helper">{{ texts.-779bf0db }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-7d4c40e4 }}</div>
-                      <div class="tooltip-helper">{{ texts.-6b53c191 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-50cf6b2b }}</div>
-                      <div class="tooltip-helper">{{ texts.-790f366b }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-1ab05004 }}</div>
-                      <div class="tooltip-helper">{{ texts.1813ce23 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.2b7c6afe }}</div>
-                      <div class="tooltip-helper">{{ texts.3a21f06e }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.47323b2b }}</div>
-                      <div class="tooltip-helper">{{ texts.-19907cb7 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e4966b" class="pricing25_plan highlight">
-              <div class="pricing25_content">
-                <div class="margin-bottom margin-tiny">
-                  <div class="heading-style-h6">{{ texts.-4080dc20 }}</div>
-                </div>
-                <div class="body">{{ texts.-45623165 }}</div>
-                <div class="margin-vertical margin-xxsmall">
-                  <div class="pricing__wrap-price-cta">
-                    <div class="pricing__range">
-                      <div class="pricing21_top-row-price"><span class="from">{{ texts.1f3da31 }}</span><span class="pricing__euro">{{ texts.10481 }}</span>{{ texts.2f2889e }}</div>
-                      <div class="vat">{{ texts.60792c31 }}</div>
-                    </div>
-                    <a href="{{ links.-63d1499d }}" class="btn-cta filled w-button">{{ texts.-48bda494 }}</a>
-                  </div>
-                </div>
-                <div class="pricing__list">
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-5101c479 }}</div>
-                      <div class="tooltip-helper">{{ texts.6dab2c5e }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.38234223 }}</div>
-                      <div class="tooltip-helper">{{ texts.-1eb64ce4 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.5da417d }}</div>
-                      <div class="tooltip-helper">{{ texts.-f21d528 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-5c2f7898 }}</div>
-                      <div class="tooltip-helper">{{ texts.650ffc38 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-383d144a }}</div>
-                      <div class="tooltip-helper">{{ texts.2da62001 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.3d02e963 }}</div>
-                      <div class="tooltip-helper">{{ texts.58fdc7b6 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-361c709f }}</div>
-                      <div class="tooltip-helper">{{ texts.-1634c0e8 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                </div>
-              </div>
-              <div class="div-block-7">
-                <div class="text-block-6">{{ texts.5285ace3 }}</div>
-              </div>
-            </div>
-            <div data-w-id="a442e7e9-3f50-8dee-caf3-649432e4968a" class="pricing25_plan">
-              <div class="pricing25_content">
-                <div class="margin-bottom margin-tiny">
-                  <div class="heading-style-h6"><strong>{{ texts.13a8d }}</strong></div>
-                </div>
-                <div class="body">{{ texts.-348a8a67 }}</div>
-                <div class="margin-vertical margin-xxsmall">
-                  <div class="pricing__wrap-price-cta">
-                    <div class="pricing__range">
-                      <div class="pricing21_top-row-price"><span class="from">{{ texts.200d }}</span>{{ texts.708c6ee0 }}</div>
-                    </div>
-                    <a href="{{ links.-63d1499d }}" class="btn-cta w-button">{{ texts.-48bda494 }}</a>
-                  </div>
-                </div>
-                <div class="pricing__list">
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-52abf031 }}</div>
-                      <div class="tooltip-helper">{{ texts.5c549b13 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.70127d89 }}</div>
-                      <div class="tooltip-helper">{{ texts.459280f0 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-a442e7e9-3f50-8dee-caf3-649432e4969f-32e49637" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div class="wrap-text-pill">
-                        <div class="text-pricing">{{ texts.-2d179d7f }}</div>
-                        <div class="pill-mini margin-left">{{ texts.1a9a0 }}</div>
-                        <div class="tooltip-helper">{{ texts.6e776331 }}</div>
-                      </div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-7746cbcb }}</div>
-                      <div class="tooltip-helper">{{ texts.161af6f0 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.-30f039e3 }}</div>
-                      <div class="tooltip-helper">{{ texts.3c620b4f }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.68f1c84e }}</div>
-                      <div class="tooltip-helper">{{ texts.2058446c }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                  <div id="w-node-_721a0fca-0129-7ff4-48b6-d0e2d0b492b4-d0b492b4" data-w-id="721a0fca-0129-7ff4-48b6-d0e2d0b492b4" class="pricing__feature">
-                    <div class="pricing__info-wrap">
-                      <div class="icon-embed-xsmall-2 w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12L10.5 13.5V13.5C10.7761 13.7761 11.2239 13.7761 11.5 13.5V13.5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                      <div>{{ texts.5dad3235 }}</div>
-                      <div class="tooltip-helper">{{ texts.-79118fe8 }}</div>
-                    </div>
-                    <div class="icon-info w-embed"><svg data-id="tippy" title="tooltip" width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 12v4M12 8h0"></path>
-                        </g>
-                      </svg></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="align-center-v3 light">
-            <div class="punchline-subline-wrap justify-center nomarg">
-              <p class="h1">{{ texts.4f5382fe }}</p>
-              <a href="{{ links.-63d1499d }}" class="cta w-inline-block">
-                <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
-                <div class="cta__text">{{ texts.-48bda494 }}</div>
-              </a>
             </div>
           </div>
         </div>
@@ -896,7 +405,7 @@ main:focus-visible {
                   </div>
                   <p class="subline quote">{{ texts.750f8b2c }}</p>
                   <div class="testimonial-author-wrap">
-                    <div class="avatar__bg"><img src="{{ images.1117e5d3.url }}" loading="lazy" alt="{{ images.1117e5d3.alt | trim | escape }}" class="avatar__img">
+                    <div class="avatar__bg"><img src="{{ images.1117e5d3.url }}" loading="lazy" alt="{{ images.1117e5d3.alt | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                           <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                           <g fill="#fff">
@@ -933,7 +442,7 @@ main:focus-visible {
                   </div>
                   <p class="subline quote">{{ texts.1e709c04 }}</p>
                   <div class="testimonial-author-wrap">
-                    <div class="avatar__bg"><img src="{{ images.13484f20.url }}" loading="lazy" alt="{{ images.13484f20.alt | trim | escape }}" class="avatar__img">
+                    <div class="avatar__bg"><img src="{{ images.13484f20.url }}" loading="lazy" alt="{{ images.13484f20.alt | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                           <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                           <g fill="#fff">
@@ -970,7 +479,7 @@ main:focus-visible {
                   </div>
                   <p class="subline quote">{{ texts.-6aff7abc }}</p>
                   <div class="testimonial-author-wrap">
-                    <div class="avatar__bg"><img src="{{ images.6615ca4d.url }}" loading="lazy" alt="{{ images.6615ca4d.alt | trim | escape }}" class="avatar__img">
+                    <div class="avatar__bg"><img src="{{ images.6615ca4d.url }}" loading="lazy" alt="{{ images.6615ca4d.alt | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                           <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                           <g fill="#fff">
@@ -1009,7 +518,7 @@ main:focus-visible {
                   </div>
                   <p class="subline quote">{{ texts.2285c7b7 }}</p>
                   <div class="testimonial-author-wrap">
-                    <div class="avatar__bg"><img src="{{ images.5fc3bff6.url }}" loading="lazy" alt="{{ images.5fc3bff6.alt | trim | escape }}" class="avatar__img">
+                    <div class="avatar__bg"><img src="{{ images.5fc3bff6.url }}" loading="lazy" alt="{{ images.5fc3bff6.alt | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                           <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                           <g fill="#fff">
@@ -1046,7 +555,7 @@ main:focus-visible {
                   </div>
                   <p class="subline quote">{{ texts.1e749f3c }}</p>
                   <div class="testimonial-author-wrap">
-                    <div class="avatar__bg"><img src="{{ images.-251b202.url }}" loading="lazy" alt="{{ images.-251b202.alt | trim | escape }}" class="avatar__img">
+                    <div class="avatar__bg"><img src="{{ images.-251b202.url }}" loading="lazy" alt="{{ images.-251b202.alt | escape }}" class="avatar__img">
                       <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                           <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                           <g fill="#fff">
@@ -1076,7 +585,7 @@ main:focus-visible {
                   <h2 class="subline">{{ texts.207f4f6a }}</h2>
                   <div class="cta-wrap">
                     <a href="{{ links.-63d1499d }}" class="cta w-inline-block">
-                      <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
+                      <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
                       <div class="cta__text">{{ texts.-48bda494 }}</div>
                     </a>
                     <a href="{{ links.-7d8551c4 }}" class="cta secondary w-inline-block">
@@ -1263,7 +772,7 @@ main:focus-visible {
             <div class="punchline-subline-wrap justify-center nomarg">
               <p class="h1">{{ texts.4f5382fe }}</p>
               <a href="{{ links.-63d1499d }}" class="cta w-inline-block">
-                <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
+                <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
                 <div class="cta__text">{{ texts.-48bda494 }}</div>
               </a>
             </div>
@@ -1315,13 +824,13 @@ main:focus-visible {
                 <div class="marquee-cover-horizontal"></div>
                 <div class="track-horizontal">
                   <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-7bf7e289.url }}" alt="{{ images.-7bf7e289.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-7bf7e289.url }}" alt="{{ images.-7bf7e289.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.7714cfce.url }}" alt="{{ images.7714cfce.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.7714cfce.url }}" alt="{{ images.7714cfce.alt | escape }}" class="icon"></div>
                   </div>
                 </div>
               </div>
@@ -1329,13 +838,13 @@ main:focus-visible {
                 <div class="marquee-cover-horizontal"></div>
                 <div class="track-horizontal-alt">
                   <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.1cdf1f78.url }}" alt="{{ images.1cdf1f78.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.1cdf1f78.url }}" alt="{{ images.1cdf1f78.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-3038975b.url }}" alt="{{ images.-3038975b.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-3038975b.url }}" alt="{{ images.-3038975b.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.1797de4e.url }}" alt="{{ images.1797de4e.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.1797de4e.url }}" alt="{{ images.1797de4e.alt | escape }}" class="icon"></div>
                   </div>
                 </div>
               </div>
@@ -1343,13 +852,13 @@ main:focus-visible {
                 <div class="marquee-cover-horizontal"></div>
                 <div class="track-horizontal">
                   <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-abdda85.url }}" alt="{{ images.-abdda85.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-abdda85.url }}" alt="{{ images.-abdda85.alt | escape }}" class="icon"></div>
                     <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | trim | escape }}" class="icon"></div>
+                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | escape }}" class="icon"></div>
                   </div>
                 </div>
               </div>
@@ -1500,7 +1009,9 @@ main:focus-visible {
     </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
-  <script src="/assets/js/anthonysalamin.js" type="text/javascript"></script><!--  lenis smooth scroll  -->
+  <script src="/assets/js/anthonysalamin.js" type="text/javascript"></script><!--  PATCH  -->
+  <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/rat@main/patch.js"></script>
+  <!--  lenis smooth scroll  -->
   <script data-id-scroll="" data-autoinit="true" data-duration="1" data-orientation="vertical" data-smoothwheel="true" data-smoothtouch="false" data-touchmultiplier="1.5" data-easing="(t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t))" data-useoverscroll="true" data-usecontrols="true" data-useanchor="true" data-useraf="true" data-infinite="false" defer="" src="https://assets.website-files.com/645e0e1ff7fdb6dc8c85f3a2/64a5544a813c7253b90f2f50_lenis-offbrand.txt">
 </script>
   <!--  GSAP 3.12.4  -->
@@ -2003,7 +1514,7 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 document.addEventListener("DOMContentLoaded", () => {
   const production = false;
-  addCheckedOnLoad();
+  // addCheckedOnLoad();
   setDataAttribute();
   filterChecked();
   featToClass();
@@ -2073,19 +1584,16 @@ function filterChecked() {
 } // end checked()
 // 🍅 convert wf switch "featuring" into CSS comboclass v.2
 function featToClass() {
-  const mixes = document.getElementsByClassName("mixitup__collection-item");
+  const mixes = document.querySelectorAll(".mixitup__collection-item");
   Array.from(mixes).forEach((mix) => {
-    const featured = mix.querySelector(".mixitup__featuring");
-    if (!featured) return;
-    const stringFeat = featured.textContent,
-      classNameFeat = stringFeat.split(" ").join("");
-    // if wf switch is on, then add classNameFeat as combo class
-    const feat = mix.querySelector(".mixitup__featuring");
+    const featuringElement = mix.querySelector(".mixitup__featuring");
     if (
-      mix.querySelector(".mixitup__featuring").classList !=
-      "mixitup__featuring w-condition-invisible"
+      featuringElement &&
+      !featuringElement.classList.contains("w-condition-invisible")
     ) {
-      mix.classList.add(classNameFeat.toLowerCase().trim());
+      const stringFeat = featuringElement.textContent;
+      const classNameFeat = stringFeat.replace(/\s+/g, "").toLowerCase();
+      mix.classList.add(classNameFeat);
     }
   });
 }
@@ -2136,7 +1644,7 @@ function mixItUp(production) {
   // mixer options
   const mixer = mixitup(container, {
     load: {
-      filter: ".web" // "*" or ".mixitup__featuring"
+      filter: ".featuring" // "*" or ".featuring" or ".web"
     },
     selectors: {
       target: ".mixitup__collection-item"

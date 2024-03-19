@@ -20,10 +20,10 @@ seo:
     🔥 Vom Logodesign bis zur Firmenwebsite, bringe ich Ihre Vision zu
     erschwinglichen Preisen zum Leben. Ich bin der Digital Designer, den Sie
     nicht wussten, dass Sie brauchen." property="twitter:description"><meta
-    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9bf73fbd9a7a57f3b9730_opengraph%20de.jpg"
+    content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd640a5453d9cbeb8ef0_opengraph%20de.jpg"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
-    https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9bf73fbd9a7a57f3b9730_opengraph%20de.jpg
+    https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd640a5453d9cbeb8ef0_opengraph%20de.jpg
   twitter:title: Anthony Salamin | Digitaler Designer und Webentwickler
 ---
 

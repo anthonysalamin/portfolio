@@ -2,7 +2,7 @@
 f_has-gallery-images: true
 f_is-graphic-design: true
 f_hero-video: false
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_is-photography: false
 f_has-big-image: true
@@ -46,9 +46,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/maison-noee.md
   - cms/projects/perversion.md
-updated-on: '2023-12-19T11:59:16.512Z'
+updated-on: '2024-03-12T17:25:22.319Z'
 created-on: '2023-12-19T11:59:16.512Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_is-web: false
 layout: '[projects].html'
 tags: projects

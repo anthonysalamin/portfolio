@@ -57,9 +57,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/eagle-cup.md
   - cms/projects/perversion.md
-updated-on: '2023-12-30T04:51:32.825Z'
+updated-on: '2024-03-12T17:27:42.176Z'
 created-on: '2023-12-19T11:37:10.890Z'
-published-on: '2023-12-30T04:56:08.890Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_is-graphic-design: true
 f_client: SCHMITZ&WIESNER GmbH
 f_is-web: false

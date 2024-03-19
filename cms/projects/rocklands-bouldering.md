@@ -1,6 +1,6 @@
 ---
 f_has-gallery-images: true
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_has-big-image: true
 f_hero-video: false
@@ -54,9 +54,9 @@ f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589fa5113138f3362029_img_south-africa_04.jpg
     alt: null
-updated-on: '2024-01-03T03:14:17.873Z'
+updated-on: '2024-03-12T17:24:13.044Z'
 created-on: '2023-12-19T08:47:37.528Z'
-published-on: '2024-01-03T03:33:23.939Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_hero-image-static:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581576b11e4fef2ecfff978_higlight.jpg

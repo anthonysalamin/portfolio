@@ -1,6 +1,6 @@
 ---
 f_has-gallery-images: true
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_has-big-image: true
 f_hero-video: false
@@ -27,9 +27,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/haute-route-chamonix-zermatt.md
   - cms/projects/rocklands-bouldering.md
-updated-on: '2023-12-19T09:34:08.340Z'
+updated-on: '2024-03-12T17:24:20.323Z'
 created-on: '2023-12-19T09:20:27.518Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_gallery:
   - url: >-
       https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.jpg

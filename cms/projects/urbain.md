@@ -14,9 +14,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/wventures.md
   - cms/projects/quatreaplus.md
-updated-on: '2024-02-08T03:47:47.611Z'
+updated-on: '2024-03-12T17:38:26.139Z'
 created-on: '2023-12-14T03:45:51.938Z'
-published-on: '2024-02-08T03:52:46.528Z'
+published-on: '2024-03-12T17:38:59.022Z'
 f_big-image:
   url: >-
     https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7cf3bffc0c253268e629_urbain-05.jpg
@@ -40,8 +40,8 @@ f_gallery:
 f_testimony-2: cms/testimonies/harry-lionel-salamin.md
 f_tag-1: Web Design
 f_tag-2: Web Development
-f_highlight: true
-f_on-display: true
+f_highlight: false
+f_on-display: false
 f_order: 3
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true

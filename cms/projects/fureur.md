@@ -1,12 +1,12 @@
 ---
 f_on-display: true
-f_highlight: true
+f_highlight: false
 f_hero-video: false
 title: Fureur de Lire
 slug: fureur
-updated-on: '2024-02-08T03:49:45.660Z'
+updated-on: '2024-03-12T17:23:44.704Z'
 created-on: '2023-12-18T07:39:42.205Z'
-published-on: '2024-02-08T03:52:46.528Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_order: 7
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true

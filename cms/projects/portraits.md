@@ -1,7 +1,7 @@
 ---
 f_has-gallery-images: true
 f_hero-video: false
-f_highlight: true
+f_highlight: false
 f_on-display: true
 f_is-photography: true
 f_has-big-image: true
@@ -47,9 +47,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/rocklands-bouldering.md
   - cms/projects/south-africa-namibia.md
-updated-on: '2023-12-19T09:58:14.757Z'
+updated-on: '2024-03-12T17:26:50.793Z'
 created-on: '2023-12-19T09:56:52.784Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-03-12T17:29:16.671Z'
 f_is-graphic-design: false
 f_is-web: false
 layout: '[projects].html'
