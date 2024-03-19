@@ -1721,7 +1721,7 @@ body {
 }
 
 .embed-linkedin-icon {
-  height: 20px;
+  height: 16px;
 }
 
 .filter__collection-list {
@@ -3053,6 +3053,31 @@ body {
   right: 0%;
 }
 
+.heart__wrap {
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 44px;
+  display: flex;
+  position: relative;
+}
+
+.heart {
+  width: 12px;
+  height: 12px;
+  color: #ff0004;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .nav__container {
     grid-template-columns: 1fr 1fr;
@@ -3362,6 +3387,10 @@ body {
 
   .card-2 {
     height: 10rem;
+  }
+
+  .heart__wrap {
+    padding-bottom: 32px;
   }
 }
 
@@ -4148,6 +4177,11 @@ body {
 
   .card-2 {
     height: 100%;
+  }
+
+  .heart__wrap {
+    text-align: center;
+    line-height: 22px;
   }
 }
 

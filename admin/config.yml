@@ -696,9 +696,9 @@ collections:
             label: Text
             name: 47d6ebb4
             widget: string
-          - hint: 'Original text: Free Audit, key: -185fced9'
+          - hint: 'Original text: Free Audit 🎅🏻, key: 23d3ef21'
             label: Text
-            name: '-185fced9'
+            name: 23d3ef21
             widget: string
           - hint: 'Original text: The only Digital, key: -5827d70d'
             label: Text
@@ -1989,9 +1989,9 @@ collections:
             label: Text
             name: '-941cdc1'
             widget: string
-          - hint: 'Original text: Audit Gratuit, key: e02a9bd'
+          - hint: 'Original text: Audit Gratuit 🎅🏻, key: 7033644b'
             label: Text
-            name: e02a9bd
+            name: 7033644b
             widget: string
           - hint: >-
               Original text: A la recherche d'un nouveau site web ou d'une
@@ -2633,10 +2633,6 @@ collections:
             label: Text
             name: 773490a3
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
           - hint: 'Original text: Mentions légales, key: -68d80214'
             label: Text
             name: '-68d80214'
@@ -2653,9 +2649,9 @@ collections:
             label: Text
             name: 322e0e83
             widget: string
-          - hint: 'Original text: Gratis-Audit, key: -21b09a2a'
+          - hint: 'Original text: Gratis-Audit 🎅🏻, key: -16dab02e'
             label: Text
-            name: '-21b09a2a'
+            name: '-16dab02e'
             widget: string
           - hint: >-
               Original text: Suchen Sie eine neue Website oder eine neue
@@ -3050,10 +3046,6 @@ collections:
           - hint: 'Original text: Inhalt, der verbindet, key: -52bef6fa'
             label: Text
             name: '-52bef6fa'
-            widget: string
-          - hint: 'Original text: Kontakt, key: 43219700'
-            label: Text
-            name: '43219700'
             widget: string
           - hint: 'Original text: Impessum, key: -15dee94f'
             label: Text
