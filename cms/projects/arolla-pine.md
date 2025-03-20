@@ -17,40 +17,40 @@ f_introduction: >-
 slug: arolla-pine
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816afd3a5087c1f39c6cc6_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816afd3a5087c1f39c6cc6_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816b37f3348f27577292ac_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816b37f3348f27577292ac_hero.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a983ec93457d09f4a7a_img_racine_01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a983ec93457d09f4a7a_img_racine_01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da4561f8f93c3f34f7b_026.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da4561f8f93c3f34f7b_026.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da3c1d57744f805180a_063.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da3c1d57744f805180a_063.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da312ef38140336851f_128-28.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da312ef38140336851f_128-28.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da3ce6df7cee506da48_144-02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da3ce6df7cee506da48_144-02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da30e13f32fb4efa3d7_173.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da30e13f32fb4efa3d7_173.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da2ca178471546dbb0f_212.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da2ca178471546dbb0f_212.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.webp
     alt: null
 f_category-ies:
   - cms/categories/photography.md

@@ -21,14 +21,14 @@ f_thumbnail-title: Travel film
 f_has-gallery-images: false
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658006181e4456cfd6ee0f28_21.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658006181e4456cfd6ee0f28_21.webp
   alt: null
 f_similar-projects:
   - cms/projects/touno.md
   - cms/projects/dahab.md
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801da02736ba720e4f6494_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801da02736ba720e4f6494_thumbnail.webp
   alt: null
 f_has-big-image: false
 f_is-photography: false

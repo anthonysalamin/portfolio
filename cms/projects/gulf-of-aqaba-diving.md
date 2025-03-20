@@ -15,49 +15,49 @@ f_introduction: >-
 slug: gulf-of-aqaba-diving
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163733ec93457d0989449_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163733ec93457d0989449_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816316d3b258d33be93d09_img_egypt_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816316d3b258d33be93d09_img_egypt_03.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163178bced97cfeb20c43_img_egypt_04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163178bced97cfeb20c43_img_egypt_04.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163166a28387a230afacc_img_egypt_05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163166a28387a230afacc_img_egypt_05.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581631513835057a094606a_img_egypt_06.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581631513835057a094606a_img_egypt_06.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163142b404f4f37cc641c_img_egypt_08.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163142b404f4f37cc641c_img_egypt_08.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163136dd9ffc5d4b0912b_img_egypt_10.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163136dd9ffc5d4b0912b_img_egypt_10.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163139d2ea44f23014f71_img_egypt_12.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163139d2ea44f23014f71_img_egypt_12.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163137cd2777813dcae90_img_egypt_01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163137cd2777813dcae90_img_egypt_01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163130e13f32fb4e52d3b_img_egypt_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658163130e13f32fb4e52d3b_img_egypt_02.webp
     alt: null
 f_category-ies:
   - cms/categories/photography.md

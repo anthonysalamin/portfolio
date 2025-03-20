@@ -16,28 +16,28 @@ f_introduction: >-
 slug: eagle-cup
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6595313f0e8cfa09950ff2d9_thumbnail_animated.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6595313f0e8cfa09950ff2d9_thumbnail_animated.svg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd0e13f32fb4f7e6bf_img_eaglecup_03.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd0e13f32fb4f7e6bf_img_eaglecup_03.svg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817beca045a6e103fbf2d9_full-logo-animated.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817beca045a6e103fbf2d9_full-logo-animated.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd555f4fef9cb6732b_img_eaglecup_08.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd555f4fef9cb6732b_img_eaglecup_08.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd22f8c5cabeea3336_img_eaglecup_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd22f8c5cabeea3336_img_eaglecup_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.webp
     alt: null
 f_category-ies:
   - cms/categories/design.md

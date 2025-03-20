@@ -12,15 +12,15 @@ f_introduction: >-
 slug: south-africa-namibia
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658160524d341b8e9958c107_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658160524d341b8e9958c107_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816027a9915a2548544998_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816027a9915a2548544998_hero.webp
   alt: null
 f_category-ies:
   - cms/categories/photography.md
@@ -32,40 +32,40 @@ created-on: '2023-12-19T09:20:27.518Z'
 published-on: '2024-03-12T17:29:16.671Z'
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816027a9915a2548544998_hero.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816027a9915a2548544998_hero.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606aa6a83cd184cd7d9e_img_namibia_14.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606aa6a83cd184cd7d9e_img_namibia_14.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606a6576707c72f0ff6b_img_namibia_15.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606a6576707c72f0ff6b_img_namibia_15.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606c23f87c32769264c5_img_namibia_07.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606c23f87c32769264c5_img_namibia_07.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606e8bced97cfeb01540_img_namibia_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606e8bced97cfeb01540_img_namibia_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606c7e0be1ad800838ca_img_namibia_08.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606c7e0be1ad800838ca_img_namibia_08.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606b22f8c5cabed70da3_img_namibia_04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606b22f8c5cabed70da3_img_namibia_04.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606b864d9b8b827b3562_img_namibia_05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606b864d9b8b827b3562_img_namibia_05.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606d8bced97cfeb014e3_img_namibia_06.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606d8bced97cfeb014e3_img_namibia_06.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606aca17847154633f51_img_namibia_12.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606aca17847154633f51_img_namibia_12.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606b6ac54e407e7f8165_img_namibia_16.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606b6ac54e407e7f8165_img_namibia_16.webp
     alt: null
 f_horizontal-line-1: '#photography #editing #color #grading #lightroom'
 f_horizontal-line-2: '#southafrica #rocklands #cedeberg #sport #bouldering'

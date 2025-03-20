@@ -18,37 +18,37 @@ f_introduction: >-
 slug: mindsquare-ci-launch
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/659532771d646507b4ba1059_thumbnail_animated.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/659532771d646507b4ba1059_thumbnail_animated.svg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d64d341b8e99769f12_img_mindsquare_03.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d64d341b8e99769f12_img_mindsquare_03.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65818846206eb252fe66bef3_test.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65818846206eb252fe66bef3_test.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d46bbf7deaf2f4d461_img_mindsquare_06.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d46bbf7deaf2f4d461_img_mindsquare_06.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d3093aab6d4e5b74f4_img_mindsquare_09.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d3093aab6d4e5b74f4_img_mindsquare_09.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d40cdfe876cc9b004c_img_mindsquare_08.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d40cdfe876cc9b004c_img_mindsquare_08.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d581322879a8e57b90_img_mindsquare_05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d581322879a8e57b90_img_mindsquare_05.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d6a5113138f355cc6d_img_mindsquare_04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d6a5113138f355cc6d_img_mindsquare_04.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d44b431bddbc703e90_img_mindsquare_10.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d44b431bddbc703e90_img_mindsquare_10.webp
     alt: null
 f_category-ies:
   - cms/categories/design.md

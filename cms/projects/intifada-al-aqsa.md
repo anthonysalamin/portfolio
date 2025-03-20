@@ -18,28 +18,28 @@ f_introduction: >-
 slug: intifada-al-aqsa
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581858fc3d98d4615458f2e_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581858fc3d98d4615458f2e_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d77c74b957e785ac96_img_intifada_01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d77c74b957e785ac96_img_intifada_01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d83ec93457d0b240e1_img_intifada_04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658184d83ec93457d0b240e1_img_intifada_04.webp
     alt: null
 f_category-ies:
   - cms/categories/design.md

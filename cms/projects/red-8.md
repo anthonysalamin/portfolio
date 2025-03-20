@@ -26,11 +26,11 @@ created-on: '2023-12-18T14:34:30.365Z'
 published-on: '2023-12-19T10:25:26.290Z'
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658058a0e2b89e3034dddd1b_hero.gif
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658058a0e2b89e3034dddd1b_hero.gif
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6580589dc124fe326fe70fe6_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580589dc124fe326fe70fe6_thumbnail.webp
   alt: null
 f_has-big-image: false
 f_is-photography: false

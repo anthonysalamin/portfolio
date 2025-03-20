@@ -17,7 +17,7 @@ f_introduction: >-
 f_video-thumbnail-2: tlh-02
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a92c569fd531834f0a31b_tlh-03.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a92c569fd531834f0a31b_tlh-03.webp
   alt: null
 slug: tlh
 f_category-ies:
@@ -30,22 +30,22 @@ created-on: '2023-12-14T05:31:50.649Z'
 published-on: '2024-03-12T17:29:16.671Z'
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a93577e45f45e4bd40a6c_tlh-02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a93577e45f45e4bd40a6c_tlh-02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a955f96fd7e48e0b2e5c6_tlh-03-nobg.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a955f96fd7e48e0b2e5c6_tlh-03-nobg.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9358b11bb7f0639af2ad_tlh-04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9358b11bb7f0639af2ad_tlh-04.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a9358bbf0dcda52ff9ed6_tlh-05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9358bbf0dcda52ff9ed6_tlh-05.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a935779ebca1fed065ac4_tlh-06.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a935779ebca1fed065ac4_tlh-06.webp
     alt: null
 f_horizontal-line-1: '#UX/UI design #frontend #development #DNS setup #reservation #ticketing'
 f_horizontal-line-2: '#swiss #valais #theatre #performance #culture'
@@ -59,7 +59,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658022515b17e17950015e8c_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658022515b17e17950015e8c_thumbnail.webp
   alt: null
 f_has-big-image: true
 f_is-photography: false

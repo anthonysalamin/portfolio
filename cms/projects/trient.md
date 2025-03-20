@@ -16,40 +16,40 @@ f_introduction: >-
 slug: trient
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658165eca6a83cd184d18f62_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658165eca6a83cd184d18f62_thumbnail.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcf68a5aae238c3f7c_cabane_tryien_2017_096b.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dcf68a5aae238c3f7c_cabane_tryien_2017_096b.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc464f05ecb9d5c440_cabane_tryien_2017_164.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dc464f05ecb9d5c440_cabane_tryien_2017_164.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db82d0273366c207ad_cabane_tryien_2017_369.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166db82d0273366c207ad_cabane_tryien_2017_369.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcb4f818e36738d9ee_cabane_tryien_2017_377.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dcb4f818e36738d9ee_cabane_tryien_2017_377.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcf9077cee5c4d8b88_cabane_tryien_2017_383.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166dcf9077cee5c4d8b88_cabane_tryien_2017_383.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db2144d45074d45341_cabane_tryien_2017_423.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658166db2144d45074d45341_cabane_tryien_2017_423.webp
     alt: null
 f_category-ies:
   - cms/categories/photography.md

@@ -16,11 +16,11 @@ f_introduction: >-
 slug: cave-du-verseau
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6580446d28d0be36fc22bedb_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580446d28d0be36fc22bedb_thumbnail.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658044703384c3c33cd5f950_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658044703384c3c33cd5f950_hero.webp
   alt: null
 f_category-ies:
   - cms/categories/film.md

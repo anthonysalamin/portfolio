@@ -16,11 +16,11 @@ f_introduction: >-
 slug: code-of-silence
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658041e846fa2dba9cc99b67_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658041e846fa2dba9cc99b67_hero.webp
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658041de1e4456cfd61742ac_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658041de1e4456cfd61742ac_thumbnail.webp
   alt: null
 f_category-ies:
   - cms/categories/film.md

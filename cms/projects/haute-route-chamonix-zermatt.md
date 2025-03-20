@@ -3,31 +3,31 @@ f_has-gallery-images: true
 f_hero-video: false
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d4f38523e751248ae07_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d4f38523e751248ae07_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d759d2ea44f23fda6ea_img_haute-route_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d759d2ea44f23fda6ea_img_haute-route_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d75a05b751a6bc85174_img_haute-route_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d75a05b751a6bc85174_img_haute-route_03.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d74a11900005dca5ad3_img_haute-route_05.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d74a11900005dca5ad3_img_haute-route_05.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.webp
     alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.webp
   alt: null
 f_highlight: false
 f_on-display: true

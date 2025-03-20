@@ -16,11 +16,11 @@ f_introduction: >-
 slug: sapa-vietnam
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65804f8457b0fca4945ab5d9_thumbnail-v2.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65804f8457b0fca4945ab5d9_thumbnail-v2.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65805133e955ac0fb1b6d256_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65805133e955ac0fb1b6d256_hero.webp
   alt: null
 f_similar-projects:
   - cms/projects/otjandjupa.md

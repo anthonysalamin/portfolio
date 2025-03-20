@@ -16,11 +16,11 @@ f_introduction: >-
 slug: eternal-return
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658047e7c46facb7f9d2748d_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658047e7c46facb7f9d2748d_thumbnail.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658047eaf5a2024c9040bd82_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658047eaf5a2024c9040bd82_hero.webp
   alt: null
 f_category-ies:
   - cms/categories/film.md

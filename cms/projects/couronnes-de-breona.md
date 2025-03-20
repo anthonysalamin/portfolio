@@ -16,28 +16,28 @@ f_introduction: >-
 slug: couronnes-de-breona
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658164ec2144d45074d2b143_thumbnaiil.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658164ec2144d45074d2b143_thumbnaiil.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658164939cc4953e3fd3b114_img_breona_01.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658164939cc4953e3fd3b114_img_breona_01.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816494f66cbf66185c55f3_img_breona_04.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816494f66cbf66185c55f3_img_breona_04.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816494f66cbf66185c55f3_img_breona_04.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816494f66cbf66185c55f3_img_breona_04.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658164939cc4953e3fd3b114_img_breona_01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658164939cc4953e3fd3b114_img_breona_01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658164945c7a0752bc433daa_img_breona_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658164945c7a0752bc433daa_img_breona_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816493f66cbf66185c5592_img_breona_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816493f66cbf66185c5592_img_breona_03.webp
     alt: null
 f_category-ies:
   - cms/categories/photography.md

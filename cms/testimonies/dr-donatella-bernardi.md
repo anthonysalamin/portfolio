@@ -4,7 +4,7 @@ f_company: Maison Rousseau et Littérature
 title: Dr. Donatella Bernardi
 f_portrait:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6582a127429b54139e6e614d_donatela-transparent.png
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582a127429b54139e6e614d_donatela-transparent.webp
   alt: null
 slug: dr-donatella-bernardi
 updated-on: '2024-01-23T06:45:45.894Z'

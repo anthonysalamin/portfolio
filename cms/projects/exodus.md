@@ -3,11 +3,11 @@ f_has-gallery-images: false
 f_hero-video: false
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658056424751b18ff147425b_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658056424751b18ff147425b_thumbnail.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65805647de88efae9c537e8b_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65805647de88efae9c537e8b_hero.webp
   alt: null
 f_highlight: false
 f_on-display: true

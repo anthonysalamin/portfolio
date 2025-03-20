@@ -16,31 +16,31 @@ f_introduction: >-
 slug: portraits
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816885062834ab35c493b5_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816885062834ab35c493b5_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168e066fcfa4580e90eb3_highlight.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168e066fcfa4580e90eb3_highlight.webp
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168db6d3f9aec8af9a380_hero.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168db6d3f9aec8af9a380_hero.webp
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168159cc4953e3fd64e3e_img_portrait_02.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168159cc4953e3fd64e3e_img_portrait_02.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168150201cdf8b85a8219_img_portrait_01.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168150201cdf8b85a8219_img_portrait_01.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581681723f87c327697fe2b_img_portrait_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581681723f87c327697fe2b_img_portrait_03.webp
     alt: null
 f_category-ies:
   - cms/categories/photography.md

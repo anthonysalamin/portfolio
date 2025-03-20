@@ -17,40 +17,40 @@ f_introduction: >-
 slug: maison-noee
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658180616a28387a2321407c_thumbnail.jpg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658180616a28387a2321407c_thumbnail.webp
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581822b464f05ecb9eb9b0e_image.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581822b464f05ecb9eb9b0e_image.svg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd410027173fab00b5c_img_maisonnoee_06.svg
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd410027173fab00b5c_img_maisonnoee_06.svg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd27c74b957e782667f_img_maisonnoee_03.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd27c74b957e782667f_img_maisonnoee_03.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd3555f4fef9cba0f30_img_maisonnoee_04.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3555f4fef9cba0f30_img_maisonnoee_04.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd5d24d7e8627190d01_img_maisonnoee_02.gif
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd5d24d7e8627190d01_img_maisonnoee_02.gif
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd30201cdf8b86e8441_img_maisonnoee_08.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd30201cdf8b86e8441_img_maisonnoee_08.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd3926de9e066e6a8f7_img_maisonnoee_07.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3926de9e066e6a8f7_img_maisonnoee_07.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd3565d7ba6e090c604_img_maisonnoee_09.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3565d7ba6e090c604_img_maisonnoee_09.webp
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd32144d45074e8a85c_img_maisonnoee_05.svg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd32144d45074e8a85c_img_maisonnoee_05.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817fd391e45d0bbae1e613_img_maisonnoee_11.jpg
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd391e45d0bbae1e613_img_maisonnoee_11.webp
     alt: null
 f_category-ies:
   - cms/categories/design.md
