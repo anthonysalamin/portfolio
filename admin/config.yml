@@ -686,9 +686,9 @@ collections:
             label: Text
             name: 47d6ebb4
             widget: string
-          - hint: 'Original text: Free Audit 🎅🏻, key: 23d3ef21'
+          - hint: 'Original text: Free Audit, key: -185fced9'
             label: Text
-            name: 23d3ef21
+            name: '-185fced9'
             widget: string
           - hint: 'Original text: The only Digital, key: -5827d70d'
             label: Text
@@ -1643,9 +1643,9 @@ collections:
             label: Text
             name: 605db99e
             widget: string
-          - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
+          - hint: 'Original text: tony+ooops@tonytony.ch, key: -44d921ac'
             label: Text
-            name: 29ff8bcf
+            name: '-44d921ac'
             widget: string
           - hint: "Original text: Thank you, \_I will review your request ASAP., key: 68567b63"
             label: Text
@@ -1927,9 +1927,9 @@ collections:
             label: Text
             name: '-941cdc1'
             widget: string
-          - hint: 'Original text: Audit Gratuit 🎅🏻, key: 7033644b'
+          - hint: 'Original text: Audit Gratuit, key: e02a9bd'
             label: Text
-            name: 7033644b
+            name: e02a9bd
             widget: string
           - hint: >-
               Original text: A la recherche d'un nouveau site web ou d'une
@@ -2579,9 +2579,9 @@ collections:
             label: Text
             name: 322e0e83
             widget: string
-          - hint: 'Original text: Gratis-Audit 🎅🏻, key: -16dab02e'
+          - hint: 'Original text: Gratis-Audit, key: -21b09a2a'
             label: Text
-            name: '-16dab02e'
+            name: '-21b09a2a'
             widget: string
           - hint: >-
               Original text: Suchen Sie eine neue Website oder eine neue
@@ -3162,11 +3162,10 @@ collections:
             name: 6523b8f7
             widget: string
           - hint: >-
-              Original link:
-              mailto:hello@anthonysalamin.ch?subject=Contact%20alternative, key:
-              332ecf61
+              Original link: mailto:tony+ooops@tonytony.ch?subject=Ooops, key:
+              b3c083e
             label: Link
-            name: 332ecf61
+            name: b3c083e
             widget: string
           - hint: 'Original link: /fr/projets/, key: -7d8551c4'
             label: Link
