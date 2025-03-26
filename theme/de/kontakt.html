@@ -1002,29 +1002,7 @@ document.addEventListener("DOMContentLoaded",async()=>{await injectTooltip();ins
  * build 24.10.23 @ 11:22
  */
 document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
-</script><!-- 
-<script>
-/*
- * PORTFOLIO | udesly redirect v1
- * built 10.01.204 @16:23
-*/
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector('[data-basin-form="true"]');
-  const successURL = `https://tonytony.ch/de/erfolg/`;
-  observeFormDisplay(form, successURL);
-});
-function observeFormDisplay(form, successURL) {
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      if (mutation.attributeName === "style" && form.style.display === "none") {
-        window.open(successURL, "_self");
-      }
-    });
-  });
-  observer.observe(form, { attributes: true });
-} // end observeFormDisplay(form)
 </script>
- -->
   <script>
 /*
  * PORTFOLIO | scroll to onload
