@@ -279,14 +279,6 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
   <script>
 /*
- * UTILITY | word reveal on scroll
- * dependencies: gsap.js scrolltrigger.js split-type.js
- * build 10.04.24 @13:33
- */
-document.addEventListener("DOMContentLoaded",()=>{const target=`[data-id="reveal"]`;const trigger=`section`;initRevealOnScroll(target,trigger)});function initRevealOnScroll(target,trigger){gsap.registerPlugin(ScrollTrigger);let revealAnimations=[];const lenis=new Lenis({lerp:0.07});lenis.on("scroll",ScrollTrigger.update);gsap.ticker.add((time)=>{lenis.raf(time*1000)});document.querySelectorAll(target).forEach((text)=>{let splitText=new SplitType(text,{type:"words"});const section=text.closest(trigger);gsap.from(splitText.words,{opacity:0,ease:"none",stagger:1,duration:1,scrollTrigger:{trigger:section,start:"top bottom-=25%",end:()=>`+=${window.innerHeight/2}px`,scrub:true,}})})}
-</script>
-  <script>
-/*
  * PORTFOLIO | language redirect v1
  * build: 05.02.2024 @11:17
 */
