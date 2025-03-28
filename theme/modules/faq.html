@@ -65,7 +65,7 @@ body{overflow-x:hidden;overflow-y:auto}
                 <div class="faq__answer">
                   <div class="one-item-list-wrap">
                     <div class="one-item-list-image">
-                      <p class="faq__paragraph">{{ texts.-3f487f6f }}<br></p>
+                      <p class="faq__paragraph">{{ texts.381f45be }}<br></p>
                     </div>
                   </div>
                 </div>
@@ -133,15 +133,6 @@ body{overflow-x:hidden;overflow-y:auto}
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="faq__category second">
-          <div id="w-node-_70c81719-4f76-1ff5-123f-055cb85adfd0-b85adf91" class="faq__grid-item sticky">
-            <h1 class="h1 faq">{{ texts.-5367aa4f }}</h1>
-          </div>
-          <div id="w-node-_70c81719-4f76-1ff5-123f-055cb85adfd3-b85adf91" class="faq__grid-item">
-            <div class="faq__items">
               <div class="faq__item">
                 <div class="faq__question hover-x">
                   <div class="one-name">
@@ -207,15 +198,6 @@ body{overflow-x:hidden;overflow-y:auto}
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="align-center-v3">
-        <div class="punchline-subline-wrap justify-center nomarg">
-          <p class="h1">{{ texts.-36607e28 }}</p>
-          <a href="{{ links.16bdc13e }}" class="cta w-inline-block">
-            <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
-            <div class="cta__text">{{ texts.-5230a9d2 }}</div>
-          </a>
         </div>
       </div>
     </div>
@@ -290,6 +272,32 @@ document.addEventListener("DOMContentLoaded",()=>{const production=true;if(produ
  * build 18.01.24 @11:18
  */
 document.addEventListener("DOMContentLoaded",()=>{handleNavigation()});function handleNavigation(){let isOpen=false;const burger=document.querySelector(`[data-id="burger"]`);if(!burger){return}const menu=document.querySelector(`[data-id="menu"]`);const links=document.querySelectorAll(`[data-id="navbar-link"]`);const svgElement=document.querySelector(".burger-rotate");function openMenu(){gsap.to(menu,{x:"0%",duration:0.5})}function closeMenu(){gsap.to(menu,{x:"100%",duration:0.5})}function handleMenuAndLinks(){burger.addEventListener("click",()=>{svgElement.classList.toggle("active");if(!isOpen){openMenu()}else{closeMenu()}isOpen=!isOpen});links.forEach((navLink)=>{navLink.addEventListener("click",()=>{closeMenu();burger.click()})})}if(window.innerWidth<991){handleMenuAndLinks()}else{return}}
+</script>
+  <script>
+/*
+ * UTILITY | markees vericale v1.0
+ * build 17.03.25 @ 17:22
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  const OPTIONS = {
+    MARKEES_CONTAINER: `[data-markees="container"]`,
+    COLUMN_FORWARD: `[data-markees="column-forward"]`,
+    COLUMN_BACKWARD: `[data-markees="column-backward"]`,
+    DURATION: 8
+  };
+  // 🥭 on load
+  initVerticalMarquees(OPTIONS);
+  // 🥭 on resize
+  window.addEventListener(
+    "resize",
+    debounce(() => {
+      console.log("resized");
+      gsap.killTweensOf("[data-markees]");
+      initVerticalMarquees(OPTIONS);
+    }, 200)
+  );
+});
+function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function initVerticalMarquees(e){document.querySelectorAll(`${e.COLUMN_FORWARD}, ${e.COLUMN_BACKWARD}`).forEach(t=>{let n=t.querySelector(e.MARKEES_CONTAINER);if(!n)return;let r=n.cloneNode(!0);t.innerHTML="";let l=t.matches(e.COLUMN_BACKWARD);l?(t.prepend(r),t.prepend(n)):(t.appendChild(n),t.appendChild(r));let o=n.offsetHeight,i=e.DURATION*(.8+2*Math.random());gsap.set(t,{y:l?-o:0}),gsap.to(t,{y:l?0:-o,duration:i,repeat:-1,ease:"none"})})}
 </script>
   <script>
 /*

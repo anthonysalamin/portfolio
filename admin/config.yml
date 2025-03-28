@@ -127,6 +127,75 @@ collections:
     editor: *ref_0
     folder: cms/pages/de
     fields: *ref_1
+  - name: partnerships
+    label: Partnerships
+    folder: cms/partnerships
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_logo
+        label: logo
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_column
+        label: column
+        widget: select
+        required: false
+        options:
+          - label: '1'
+            value: '1'
+          - label: '2'
+            value: '2'
+          - label: '3'
+            value: '3'
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: partnerships
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[partnerships].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_2
   - name: testimonies
     label: Testimonies
     folder: cms/testimonies
@@ -682,6 +751,14 @@ collections:
             label: Text
             name: 560f747e
             widget: string
+          - hint: 'Original text: fr, key: ccc'
+            label: Text
+            name: ccc
+            widget: string
+          - hint: 'Original text: de, key: c81'
+            label: Text
+            name: c81
+            widget: string
           - hint: 'Original text: Book a call, key: 47d6ebb4'
             label: Text
             name: 47d6ebb4
@@ -933,12 +1010,12 @@ collections:
             name: e1e572b
             widget: string
           - hint: >-
-              Original text: Web Design, Web Development, Brand Strategy, Logo
+              Original text: Web Design, Web Development, Agentic AI flows, Logo
               Design, Corporate Identity Creation, Graphic Design, Generative AI
-              visuals, Content Creation, Advanced Web Analytics, Search Engine
-              Optimisation (SEO)., key: -3f487f6f
+              visuals, Content Creation, Advanced Web Analytics, SEO., key:
+              381f45be
             label: Text
-            name: '-3f487f6f'
+            name: 381f45be
             widget: text
           - hint: 'Original text: What is your pricing ?, key: c632e32'
             label: Text
@@ -983,12 +1060,6 @@ collections:
             label: Text
             name: '-694057e'
             widget: text
-          - hint: >-
-              Original text: Tech questions, all you need to know., key:
-              -5367aa4f
-            label: Text
-            name: '-5367aa4f'
-            widget: string
           - hint: >-
               Original text: Can you assist with domain, hosting, email ?, key:
               -4383a987
@@ -1035,15 +1106,11 @@ collections:
             label: Text
             name: '-7b8cbc82'
             widget: text
-          - hint: 'Original text: Any questions ?, key: -36607e28'
-            label: Text
-            name: '-36607e28'
-            widget: string
           - hint: >-
-              Original text: Clients I worked for as well as agencies I
-              partnered with., key: 40f0d5cd
+              Original text: Clients and agencies I’ve teamed up with, key:
+              -1bea69f4
             label: Text
-            name: 40f0d5cd
+            name: '-1bea69f4'
             widget: string
           - hint: >-
               Original text: Every new project is a chance to learn something
@@ -1300,9 +1367,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Discover transparency and compliance with
-              anthonysalamin.ch's imprint., key: 30da05cb
+              tonytony.ch's imprint., key: -2cd78eff
             label: Text
-            name: 30da05cb
+            name: '-2cd78eff'
             widget: string
           - hint: >-
               Original text: Discover transparency and compliance with
@@ -1343,6 +1410,12 @@ collections:
           - hint: 'Original text: Work with me, key: 3ac1ed43'
             label: Text
             name: 3ac1ed43
+            widget: string
+          - hint: >-
+              Original text: Clients I worked for as well as agencies I
+              partnered with., key: 40f0d5cd
+            label: Text
+            name: 40f0d5cd
             widget: string
           - hint: >-
               Original text: Looking for a new website or a refined brand
@@ -1799,9 +1872,17 @@ collections:
             label: Text
             name: 7175f382
             widget: string
+          - hint: 'Original text: Any questions ?, key: -36607e28'
+            label: Text
+            name: '-36607e28'
+            widget: string
           - hint: 'Original text: Projets, key: 50c8e507'
             label: Text
             name: 50c8e507
+            widget: string
+          - hint: 'Original text: en, key: ca9'
+            label: Text
+            name: ca9
             widget: string
           - hint: 'Original text: Réserver un call, key: -941cdc1'
             label: Text
@@ -2318,12 +2399,12 @@ collections:
             name: '-285d4b91'
             widget: string
           - hint: >-
-              Original text: Webdesign, développement web, création d' identité
-              d'entreprise, Stratégie de marque, développement de logo,
-              conception graphique, images et visuels généré par IA, création de
-              contenu, web analytics, référencement SEO., key: 63832321
+              Original text: Design Web, Développement Web, Flux d’IA agentique,
+              Conception de Logo, Création d’Identité Visuelle, Design
+              Graphique, Visuels d’IA Générative, Création de Contenu,
+              Analytique Web Avancée, SEO., key: -3176027b
             label: Text
-            name: '63832321'
+            name: '-3176027b'
             widget: text
           - hint: 'Original text: Quels sont vos tarifs ?, key: -4eb89a64'
             label: Text
@@ -2369,12 +2450,6 @@ collections:
             name: 404f140f
             widget: text
           - hint: >-
-              Original text: Questions techniques, tout ce qu'il faut savoir.,
-              key: -34c821ac
-            label: Text
-            name: '-34c821ac'
-            widget: string
-          - hint: >-
               Original text: Pouvez-vous m'aider avec la réservation de nom de
               domaine, l'hébergement et email professionnel ?, key: -c9a699b
             label: Text
@@ -2417,17 +2492,15 @@ collections:
               Web est adapté aux moteurs de recherche. Cela comprend
               l'optimisation de la vitesse des pages, l'utilisation d'URL
               adaptés aux moteurs de recherche et la mise en œuvre d'autres
-              éléments de référencement sur la page. Je fournis également une
-              large gamme d'outils pour vous aider à obtenir des informations
-              par le biais de l'analyse., key: e79223b
+              éléments de référencement sur la page., key: 288381fc
             label: Text
-            name: e79223b
+            name: 288381fc
             widget: text
           - hint: >-
-              Original text: Clients et agences avec lesquelles je me suis
-              associé., key: -229f43eb
+              Original text: Clients et agences avec lesquelles j’ai collaboré.,
+              key: 68562a69
             label: Text
-            name: '-229f43eb'
+            name: 68562a69
             widget: string
           - hint: >-
               Original text: Chaque nouveau projet est l'occasion d'apprendre
@@ -2712,13 +2785,12 @@ collections:
             name: 24c0dd8d
             widget: string
           - hint: >-
-              Original text: Webdesign, Webentwicklung, Markenstrategie,
-              Logodesign, Corporate-Identity-Erstellung, Grafikdesign,
-              generative KI-Visualisierungen, Inhaltserstellung,
-              fortgeschrittene Webanalyse, Suchmaschinenoptimierung (SEO)., key:
-              -77ab42cb
+              Original text: Webdesign, Webentwicklung, Agentische KI-Flows,
+              Logo-Design, Erstellung von Unternehmensidentitäten, Grafikdesign,
+              Generative KI-Visuals, Content-Erstellung, Erweiterte
+              Web-Analytik, SEO., key: 10f396ba
             label: Text
-            name: '-77ab42cb'
+            name: 10f396ba
             widget: text
           - hint: 'Original text: Wie sieht Ihre Preisgestaltung aus?, key: -2688e835'
             label: Text
@@ -2763,12 +2835,6 @@ collections:
             label: Text
             name: 6b451fc
             widget: text
-          - hint: >-
-              Original text: Technische Fragen, alles was Sie wissen müssen.,
-              key: 678ae81b
-            label: Text
-            name: 678ae81b
-            widget: string
           - hint: >-
               Original text: Können Sie bei Domain, Hosting und E-Mail helfen?,
               key: -26578b98
@@ -2817,15 +2883,11 @@ collections:
             label: Text
             name: '-19c55'
             widget: text
-          - hint: 'Original text: Noch eine Frage?, key: -5eeff6a9'
-            label: Text
-            name: '-5eeff6a9'
-            widget: string
           - hint: >-
-              Original text: Kunden und Agenturen, mit denen ich gearbeitet
-              habe., key: 4f5931b5
+              Original text: Kunden und Agenturen, mit denen ich tätig war.,
+              key: 1ea65f3b
             label: Text
-            name: 4f5931b5
+            name: 1ea65f3b
             widget: string
           - hint: >-
               Original text: Jedes neue Projekt ist eine Chance, etwas Neues zu
@@ -3119,32 +3181,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 64c32a1
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 22b4fd6
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-3aa60452'
             widget: object
             fields:
@@ -3327,6 +3363,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 317f733b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-6e662628'
             widget: object
             fields:
@@ -3340,85 +3389,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7bf7e289'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-178a483a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7714cfce
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 1cdf1f78
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-59244ca2'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3038975b'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 1797de4e
             widget: object
             fields:
               - name: url
@@ -3457,7 +3428,72 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 45efbfe
+            name: 1797de4e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-178a483a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7bf7e289'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1cdf1f78
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3038975b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7714cfce
             widget: object
             fields:
               - name: url

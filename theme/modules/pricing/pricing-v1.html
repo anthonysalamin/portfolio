@@ -423,6 +423,32 @@ document.addEventListener("DOMContentLoaded",()=>{handleNavigation()});function 
 </script>
   <script>
 /*
+ * UTILITY | markees vericale v1.0
+ * build 17.03.25 @ 17:22
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  const OPTIONS = {
+    MARKEES_CONTAINER: `[data-markees="container"]`,
+    COLUMN_FORWARD: `[data-markees="column-forward"]`,
+    COLUMN_BACKWARD: `[data-markees="column-backward"]`,
+    DURATION: 8
+  };
+  // 🥭 on load
+  initVerticalMarquees(OPTIONS);
+  // 🥭 on resize
+  window.addEventListener(
+    "resize",
+    debounce(() => {
+      console.log("resized");
+      gsap.killTweensOf("[data-markees]");
+      initVerticalMarquees(OPTIONS);
+    }, 200)
+  );
+});
+function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function initVerticalMarquees(e){document.querySelectorAll(`${e.COLUMN_FORWARD}, ${e.COLUMN_BACKWARD}`).forEach(t=>{let n=t.querySelector(e.MARKEES_CONTAINER);if(!n)return;let r=n.cloneNode(!0);t.innerHTML="";let l=t.matches(e.COLUMN_BACKWARD);l?(t.prepend(r),t.prepend(n)):(t.appendChild(n),t.appendChild(r));let o=n.offsetHeight,i=e.DURATION*(.8+2*Math.random());gsap.set(t,{y:l?-o:0}),gsap.to(t,{y:l?0:-o,duration:i,repeat:-1,ease:"none"})})}
+</script>
+  <script>
+/*
  * PORTFOLIO | FAQ expand/collapse v2
  * dependency: gsap/3.12.4/gsap.min.js
  * build 30.12.2023 @14:11
