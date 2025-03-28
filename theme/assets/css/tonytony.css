@@ -9,8 +9,8 @@
   --4px: 4px;
   --dark-light: #a9a9b4;
   --pricing-lines: #ebebeb;
-  --star: #ffe435;
   --8px: 8px;
+  --star: #ffe435;
   --dark-transparent: #17143b26;
   --color: #d7d7d7;
   --white-2: white;
@@ -24,6 +24,22 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+.w-form-formradioinput--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.w-form-formradioinput--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+.w-form-formradioinput--inputType-custom.w--redirected-checked {
+  border-width: 4px;
+  border-color: #3898ec;
 }
 
 .w-checkbox {
@@ -69,22 +85,6 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
   box-shadow: 0 0 3px 1px #3898ec;
-}
-
-.w-form-formradioinput--inputType-custom {
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-}
-
-.w-form-formradioinput--inputType-custom.w--redirected-focus {
-  box-shadow: 0 0 3px 1px #3898ec;
-}
-
-.w-form-formradioinput--inputType-custom.w--redirected-checked {
-  border-width: 4px;
-  border-color: #3898ec;
 }
 
 body {
@@ -603,10 +603,10 @@ body {
 }
 
 .cta {
+  border-radius: var(--16px);
   background-color: var(--accent);
   color: var(--white);
   text-align: center;
-  border-radius: 100px;
   justify-content: center;
   align-items: center;
   height: 56px;
@@ -670,9 +670,9 @@ body {
 }
 
 .card {
+  border-radius: var(--16px);
   background-color: var(--dark);
   color: var(--white);
-  border-radius: 20px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -1212,8 +1212,8 @@ body {
 }
 
 .testimonial-card {
+  border-radius: var(--8px);
   background-color: #fff;
-  border-radius: 16px;
   margin-bottom: 20px;
   padding: 48px 30px;
 }
@@ -1590,7 +1590,7 @@ body {
 }
 
 .similar__img-wrap {
-  border-radius: var(--16px);
+  border-radius: var(--8px);
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -1904,18 +1904,27 @@ body {
 
 .hero-static {
   aspect-ratio: 2.39;
-  border-radius: var(--16px);
+  border-radius: var(--8px);
   background-color: var(--grey-light);
   width: 100%;
   overflow: hidden;
 }
 
-.image, .lightbox-link, .collection-item-5 {
+.image {
+  width: 100%;
+}
+
+.lightbox-link {
+  border-radius: var(--8px);
+  width: 100%;
+  overflow: hidden;
+}
+
+.collection-item-5 {
   width: 100%;
 }
 
 .collection-list-wrapper {
-  border-radius: var(--16px);
   overflow: hidden;
 }
 
@@ -2879,6 +2888,13 @@ body {
   margin-bottom: 2px;
   margin-left: 4px;
   margin-right: 4px;
+  display: flex;
+}
+
+.collection-list-6 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: column;
   display: flex;
 }
 
