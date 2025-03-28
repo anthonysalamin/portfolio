@@ -1412,12 +1412,6 @@ collections:
             name: 3ac1ed43
             widget: string
           - hint: >-
-              Original text: Clients I worked for as well as agencies I
-              partnered with., key: 40f0d5cd
-            label: Text
-            name: 40f0d5cd
-            widget: string
-          - hint: >-
               Original text: Looking for a new website or a refined brand
               identity ?, key: -4c03ca3d
             label: Text

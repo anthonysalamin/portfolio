@@ -300,6 +300,10 @@ body {
   z-index: 2;
 }
 
+.section.is-partnerships {
+  background-color: var(--grey-light);
+}
+
 .container {
   flex-direction: column;
   justify-content: flex-start;
@@ -826,10 +830,6 @@ body {
   padding-bottom: 0%;
   padding-right: 80px;
   display: flex;
-}
-
-.footer-100vh {
-  height: 100vh;
 }
 
 .div-block {
@@ -2986,7 +2986,7 @@ body {
 
 .markees-overlay {
   z-index: 10;
-  background-image: linear-gradient(180deg, #fff0 70%, var(--background)), linear-gradient(180deg, var(--background), #fff0 30%);
+  background-image: linear-gradient(180deg, #fff0 70%, var(--grey-light)), linear-gradient(180deg, var(--grey-light), #fff0 30%);
   pointer-events: none;
   height: 100%;
   transition: all .4s cubic-bezier(.165, .84, .44, 1);

@@ -19,17 +19,13 @@
   <link href="{{ settings.site.favicon | default: "/assets/images/favicon.png" }}" rel="shortcut icon" type="image/x-icon">
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon"><!--  Fathom  -->
   <script src="https://cdn-eu.usefathom.com/script.js" data-site="BBNPSMHN" defer=""></script>
-  <!--  Hotjar  -->
-  <script>
-(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:856144,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  <style>
-/* 🦄 Scroll bar */
-::-webkit-scrollbar{width:12px;height:12px}::-webkit-scrollbar-track{background:#f5f5f5;border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc}::-webkit-scrollbar-thumb:hover{background:#999}scrollbar-width:thin;scrollbar-color:#ccc #f5f5f5;-ms-overflow-style:none;scrollbar-width:thin;scrollbar-color:#ccc #f5f5f5;
-</style>
   <style>
 /* 🦄 global overrides */
 .w-webflow-badge{display:none !important}.w-reset.w-editor-bem-EditorLogo{display:none !important}.svg-embed,a,a:focus,button:focus,input:focus,textarea:focus{outline:0 !important;outline-style:none !important;box-shadow:none !important;-webkit-tap-highlight-color:rgba(255, 255, 255, 0) !important;-webkit-touch-callout:none !important;-webkit-user-select:none !important;-moz-user-select:none !important;-ms-user-select:none !important}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-smooth:always}
+</style>
+  <style>
+/* 🦄 Scroll bar */
+::-webkit-scrollbar{width:12px;height:12px}::-webkit-scrollbar-track{background:#f5f5f5;border-radius:10px}::-webkit-scrollbar-thumb{border-radius:10px;background:#ccc}::-webkit-scrollbar-thumb:hover{background:#999}scrollbar-width:thin;scrollbar-color:#ccc #f5f5f5;-ms-overflow-style:none;scrollbar-width:thin;scrollbar-color:#ccc #f5f5f5;
 </style>
   <style>
 /* 🦄 recaptcha */
@@ -661,86 +657,54 @@ main:focus-visible {
           </div>
         </div>
       </section>
-      <section class="section clients">
-        <div class="container clients">
-          <div class="clients flip-svp">
-            <div class="css-markee-clients w-embed">
-              <style>
-/* horizontal clients markee */
-:root {
-  --marquee-speed: 20s; /* Adjust the speed as needed */
-}
-.track-horizontal {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee-horizontal var(--marquee-speed) linear infinite;
-}
-@keyframes marquee-horizontal {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-.track-horizontal-alt {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee-horizontal-alt var(--marquee-speed) linear infinite;
-}
-@keyframes marquee-horizontal-alt {
-  from { transform: translateX(-50%); }
-  to { transform: translateX(0%); }
-}
-</style>
-            </div>
-            <div class="col small">
+      <section data-section="partnerships" class="section is-partnerships">
+        <div class="container">
+          <div class="home-product_layout">
+            <div class="wrap-info-highlights">
               <div class="clients__infos">
-                <h1 data-id="reveal" class="h1 short">{{ texts.40f0d5cd }}</h1>
+                <h1 data-id="reveal" class="h1 short">{{ texts.-1bea69f4 }}</h1>
                 <div class="card-wrap-info">
                   <h2 data-id="reveal" class="subline">{{ texts.42fd376e }}</h2>
                 </div>
               </div>
             </div>
-            <div class="spacer-60 _60-width"></div>
-            <div class="flex-vertical">
-              <div class="marquee-horizontal-large">
-                <div class="marquee-cover-horizontal"></div>
-                <div class="track-horizontal">
-                  <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-7bf7e289.url }}" alt="{{ images.-7bf7e289.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.7714cfce.url }}" alt="{{ images.7714cfce.alt | escape }}" class="icon"></div>
+            <div class="flex-horizontal">
+              <div data-markee="overlay" class="markees-overlay"></div>
+              <div class="markees__module">
+                <div data-markees="column-forward" class="markees_column">
+                  <div data-markees="container" class="markees_container">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,1", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                      {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
+                        {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
+                      </div>{%- endunless -%}
+                      {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                        <div>{{ texts.3d503d2b }}</div>
+                      </div>{%- endif -%}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="marquee-horizontal-large">
-                <div class="marquee-cover-horizontal"></div>
-                <div class="track-horizontal-alt">
-                  <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.1cdf1f78.url }}" alt="{{ images.1cdf1f78.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-3038975b.url }}" alt="{{ images.-3038975b.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.1797de4e.url }}" alt="{{ images.1797de4e.alt | escape }}" class="icon"></div>
+                <div data-markees="column-backward" class="markees_column">
+                  <div data-markees="container" class="markees_container">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,2", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                      {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
+                        {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
+                      </div>{%- endunless -%}
+                      {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                        <div>{{ texts.3d503d2b }}</div>
+                      </div>{%- endif -%}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="marquee-horizontal-large">
-                <div class="marquee-cover-horizontal"></div>
-                <div class="track-horizontal">
-                  <div class="clients">
-                    <div class="icon-container-alt"><img src="{{ images.-59244ca2.url }}" alt="{{ images.-59244ca2.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-178a483a.url }}" alt="{{ images.-178a483a.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-abdda85.url }}" alt="{{ images.-abdda85.alt | escape }}" class="icon"></div>
-                    <div class="spacer-30 _15-xsvp"></div>
-                    <div class="icon-container-alt"><img src="{{ images.-6e662628.url }}" alt="{{ images.-6e662628.alt | escape }}" class="icon"></div>
+                <div data-markees="column-forward" class="markees_column">
+                  <div data-markees="container" class="markees_container">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,3", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                      {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
+                        {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
+                      </div>{%- endunless -%}
+                      {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                        <div>{{ texts.3d503d2b }}</div>
+                      </div>{%- endif -%}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -748,7 +712,6 @@ main:focus-visible {
           </div>
         </div>
       </section>
-      <section class="footer-100vh"></section>
     </main>
     <footer class="section footer">
       <div class="container">
