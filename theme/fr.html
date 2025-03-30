@@ -150,12 +150,12 @@ main:focus-visible {
       <div class="container">
         <div class="header">
           <div class="header__punchline fr">
-            <h1 class="h1">{{ texts.-468bd165 }}<br>{{ texts.-2e26b132 }}</h1>
+            <h1 class="h1">{{ texts.-468bd165 }}<br><span data-id="punchline">{{ texts.200d }}</span>{{ texts.-1d20845 }}</h1>
             <div class="avatar">
               <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
               <div class="flex-vertical-start-start">
                 <div class="subline semibold">{{ texts.7b0de148 }}</div>
-                <div class="subline">{{ texts.-5e9f8298 }}</div>
+                <div class="subline">{{ texts.12225 }}<span data-id="subline">{{ texts.12c6f87d }}</span></div>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ main:focus-visible {
               </video></div>
           </div>
           <div class="teaser__info-wrap">
-            <h2 class="subline">{{ texts.-1b5da4b6 }}</h2>
+            <h2 class="subline is-short">{{ texts.-1b5da4b6 }}</h2>
             <a href="{{ links.-7d8551c4 }}" class="link-block w-inline-block">
               <div class="text">{{ texts.-f559701 }}</div>
               <div class="lottie-arrow-right" data-w-id="33856fbb-d753-33ec-a119-7174ea7b8d74" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
@@ -622,7 +622,7 @@ main:focus-visible {
           </div>
         </div>
       </section>
-      <section data-section="partnerships" class="section">
+      <section data-section="partnerships" class="section is-partnerships">
         <div class="container">
           <div class="home-product_layout">
             <div class="wrap-info-highlights">
@@ -724,6 +724,8 @@ main:focus-visible {
 </script>
   <!--  https://docs.usebasin.com/guides/form-creation/basin-js/  -->
   <script src="https://js.usebasin.com/v2.4.0.min.js" async=""></script>
+  <!--  MixItUp 3 library v3.3.1  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <!--  gsap 3.12.7  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  ScrollTrigger 3.12.7  -->
@@ -732,49 +734,12 @@ main:focus-visible {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollToPlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  drawsvg 1.0.7  -->
   <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/utility@v1.0.7/drawsvg.js"></script>
-  <!--  tippy.js/2.5.4/themes/light.css  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/light.css" integrity="sha512-pHZ4Ml9vZuOvQQVXvt3xeLLfF5E+axs3BUAjoh7SuEvE45y92pxBIn7e3LYeOC9nyKXjY/NsOl2DscqRk6q/dA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!--  tippy.js/2.5.4/tippy.all.min.js  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/tippy.all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  split-type 0.3.4  -->
   <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
   <!--  typed.js  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  anime.min.js 3.2.2  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-/*
- * UTILITY | ascii v1.0.0
- * build: 02.10.21 23:32
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const ascii = ` 
-                     .#&&(                   
-       #&&&&&&&&&&&&&&&&&&&&%           
-   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&        
-   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&      
-     &&&&&&&            &&&&&&&&&&&&    
-                           &&&&&&&&&&   
-                            ,&&&&&&&&&  
-           .&&&&&&&&&&%      &&&&&&&&&  
-      &&&&&&&&&&&&&&&&&&&&&&& &&&&&&&&& 
-    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
-  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
- &&&&&&&&&&             %&&&&&&&&&&&&&& 
- &&&&&&&&                  &&&&&&&&&&&  
-#&&&&&&&&                   &&&&&&&&&&  
- &&&&&&&&&                &&&&&&&&&&&&& 
- (&&&&&&&&&&          &&&&&&&&&&&&&&&&&&
-   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    ,&&&&&&&&&&&&&&&&&&&&&&&&&, &&&&&&&&
-       *&&&&&&&&&&&&&&&&&&,     &&&&&&&
-       made with ❤️ by tonytony.ch
-       `;
-  const commentNode = document.createComment(ascii),
-    html = document.getElementsByTagName("html")[0];
-  html.insertBefore(commentNode, html.firstChild);
-});
-</script>
   <script>
 /*
  * PORTFOLIO | language redirect v1
@@ -832,14 +797,6 @@ document.addEventListener("DOMContentLoaded",()=>{if(!document.querySelector(`.s
 </script>
   <script>
 /*
- * PORTFOLIO | subline animation
- * dependency: none (redo with GSAP)
- * build 09.04.24 @14:37
-*/
-document.addEventListener("DOMContentLoaded",()=>{const shouldBlink=false;initTyping("[data-id='punchline']",shouldBlink,["Developer","Partner"]);initTyping("[data-id='subline']",shouldBlink,["push pixels around","get your MVP live in 24hrs","leverage AI technologies","design & develop websites","create corporate identities","am a problem solver"])});function addBlink(shouldBlink,selector){if(!shouldBlink){return}const styleElement=document.createElement("style");const cssRules=`${ selector }::after { content:"_"; animation: typingBlink linear 1.15s infinite; } @keyframes typingBlink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }`;styleElement.textContent=cssRules;document.head.appendChild(styleElement)}function initTyping(selector,shouldBlink,words){const toBeTyped=document.querySelector(selector);if(!toBeTyped){return}addBlink(shouldBlink,selector);const LETTER_TYPE_DELAY=20;const WORD_STAY_DELAY=1500;const DIRECTION_FORWARDS=0;const DIRECTION_BACKWARDS=1;let direction=DIRECTION_FORWARDS;let wordIndex=0;let letterIndex=0;let wordTypeInterval;function startTyping(){wordTypeInterval=setInterval(typeLetter,LETTER_TYPE_DELAY)}function typeLetter(){const word=words[wordIndex];if(direction===DIRECTION_FORWARDS){letterIndex+=1;if(letterIndex===word.length){direction=DIRECTION_BACKWARDS;clearInterval(wordTypeInterval);setTimeout(startTyping,WORD_STAY_DELAY)}}else if(direction===DIRECTION_BACKWARDS){letterIndex-=1;if(letterIndex===0){nextWord()}}const textToType=word.substring(0,letterIndex);toBeTyped.textContent=textToType}function nextWord(){letterIndex=0;direction=DIRECTION_FORWARDS;wordIndex+=1;if(wordIndex===words.length){wordIndex=0}}startTyping()}
-</script>
-  <script>
-/*
  * UTILITY | scroll progress v1.0.1
  * build 20.01.25 @17:07
  */
@@ -874,8 +831,33 @@ document.addEventListener("DOMContentLoaded",async()=>{await injectTooltip();ins
  * build 24.10.23 @ 11:22
  */
 document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
-</script><!--  MixItUp 3 library v3.3.1  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+</script>
+  <script>
+/*
+ * UTILITY | subline animation v2
+ * build 30.03.25 @21:49
+*/
+document.addEventListener("DOMContentLoaded", () => {
+  // 🥭 options
+  const shouldBlink = false;
+  // 🥭 on load
+  /*
+  initTyping("[data-id='punchline']", shouldBlink, [
+    "Designer",
+    "Developpeur",
+  ]);
+  */
+  // 🥭 on load
+  initTyping("[data-id='subline']", shouldBlink, [
+    "lance votre MVP en 24 h.",
+    "maîtrise les technologies IA",
+    "développe des websites",
+    "crée des identités visuelles",
+    "trouve des solutions"
+  ]);
+});
+function addBlink(e,t){if(!e)return;const n=document.createElement("style");n.textContent=`${t}::after{content:"_";animation:typingBlink 1.15s linear infinite}@keyframes typingBlink{0%,100%{opacity:0}50%{opacity:1}}`,document.head.appendChild(n)}function initTyping(e,t,n){const i=document.querySelector(e);if(!i)return;addBlink(t,e);const o=20,c=1500,d=0,a=1;let r=d,l=0,s=0,u;function f(){u=setInterval(m,o)}function m(){const e=n[l];r===d?(s++,s===e.length&&(r=a,clearInterval(u),setTimeout(f,c))):r===a&&(s--,0===s&&p()),i.textContent=e.substring(0,s)}function p(){s=0,r=d,l=(l+1)%n.length}f()}
+</script>
   <script>
 /*
  * PORTFOLIO | MixItUp v.1

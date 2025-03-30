@@ -1,7 +1,7 @@
 :root {
   --background: #fafafa;
   --font-primary: Swiza, Arial, sans-serif;
-  --dark: #17143b;
+  --dark: #101025;
   --16px: 16px;
   --white: white;
   --grey-light: #eee;
@@ -325,7 +325,6 @@ body {
 }
 
 .subline {
-  max-width: 400px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.3em;
@@ -345,6 +344,10 @@ body {
 .subline.quote {
   margin-bottom: 24px;
   font-weight: 400;
+}
+
+.subline.is-short {
+  max-width: 600px;
 }
 
 .h1 {
@@ -3765,10 +3768,6 @@ body {
     align-items: center;
   }
 
-  .markees-overlay {
-    background-image: linear-gradient(#fff0 70%, #fff), linear-gradient(#fff, #fff0 30%);
-  }
-
   .markees__module {
     height: 100vw;
   }
@@ -3820,10 +3819,6 @@ body {
 
   .avatar__bg {
     width: 60px;
-  }
-
-  .header__punchline {
-    max-width: 290px;
   }
 
   .header__punchline.fr {

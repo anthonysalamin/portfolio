@@ -791,9 +791,9 @@ collections:
             label: Text
             name: 8f7
             widget: string
-          - hint: 'Original text: push pixels around, key: 1c03b01a'
+          - hint: 'Original text: create your MVP in 24 h., key: 2ca81d8b'
             label: Text
-            name: 1c03b01a
+            name: 2ca81d8b
             widget: string
           - hint: >-
               Original text: Empowering online businesses with modern Web
@@ -1417,6 +1417,10 @@ collections:
             label: Text
             name: '-4c03ca3d'
             widget: string
+          - hint: 'Original text: push pixels around, key: 1c03b01a'
+            label: Text
+            name: 1c03b01a
+            widget: string
           - hint: >-
               Original text: It's a quick task, only a minute to fill out this
               form., key: 1aebc4df
@@ -1564,9 +1568,9 @@ collections:
             label: Text
             name: '-581715e2'
             widget: string
-          - hint: 'Original text:  on anthonysalamin.ch, key: -73535c24'
+          - hint: 'Original text:  on tonytony.ch, key: -7495471a'
             label: Text
-            name: '-73535c24'
+            name: '-7495471a'
             widget: string
           - hint: >-
               Original text: Each request will undergo evaluation, and a
@@ -1594,9 +1598,9 @@ collections:
             label: Text
             name: '-44d921ac'
             widget: string
-          - hint: "Original text: Thank you, \_I will review your request ASAP., key: 68567b63"
+          - hint: "Original text: Thank you — \_I will review your request as soon as possible., key: -55b361aa"
             label: Text
-            name: 68567b63
+            name: '-55b361aa'
             widget: string
           - hint: 'Original text: Go Live, key: 6b2b7124'
             label: Text
@@ -1887,14 +1891,18 @@ collections:
             name: e02a9bd
             widget: string
           - hint: >-
-              Original text: A la recherche d'un nouveau site web ou d'une
-              identité de marque raffinée ?, key: 752d78f7
+              Original text: À la recherche d’un nouveau website ou branding
+              efficace ?, key: -fb1ade2
             label: Text
-            name: 752d78f7
+            name: '-fb1ade2'
             widget: string
-          - hint: 'Original text: Dompteur de pixels, key: -5e9f8298'
+          - hint: 'Original text: Je , key: 12225'
             label: Text
-            name: '-5e9f8298'
+            name: '12225'
+            widget: string
+          - hint: 'Original text: lance votre MVP en 24 h., key: 12c6f87d'
+            label: Text
+            name: 12c6f87d
             widget: string
           - hint: >-
               Original text: Ce formulaire ne prend qu'une minute à remplir,
@@ -2027,9 +2035,9 @@ collections:
             label: Text
             name: 6ad7d527
             widget: string
-          - hint: 'Original text:  du site anthonysalamin.ch., key: -5f1638e5'
+          - hint: 'Original text:  du site tonytony.ch., key: -1f3e41ef'
             label: Text
-            name: '-5f1638e5'
+            name: '-1f3e41ef'
             widget: string
           - hint: >-
               Original text: Chaque demande fera l'objet d'une évaluation et une
@@ -2531,14 +2539,18 @@ collections:
             name: '-21b09a2a'
             widget: string
           - hint: >-
-              Original text: Suchen Sie eine neue Website oder eine neue
-              Markenidentität?, key: 58469582
+              Original text: Benötigen Sie eine neue Website oder ein neues
+              Branding?, key: -50534f8a
             label: Text
-            name: '58469582'
+            name: '-50534f8a'
             widget: string
-          - hint: 'Original text: Ich schiebe Pixel herum, key: -507572a8'
+          - hint: 'Original text: Ich , key: 22af72'
             label: Text
-            name: '-507572a8'
+            name: 22af72
+            widget: string
+          - hint: 'Original text: starte Ihr MVP in 24 Std., key: -73af28af'
+            label: Text
+            name: '-73af28af'
             widget: string
           - hint: >-
               Original text: Das Ausfüllen dieses Formulars dauert 1 Minute,
@@ -2662,10 +2674,10 @@ collections:
             name: '-25d20dab'
             widget: string
           - hint: >-
-              Original text:  auf anthonysalamin.ch gelesen habe und damit
-              einverstanden bin., key: -8bb8a8d
+              Original text:  auf tonytony.ch gelesen habe und damit
+              einverstanden bin., key: -695797c3
             label: Text
-            name: '-8bb8a8d'
+            name: '-695797c3'
             widget: string
           - hint: >-
               Original text: Jede Anfrage wird geprüft, und dem Kunden wird ein
@@ -2893,9 +2905,9 @@ collections:
             label: Text
             name: '-61e37d5d'
             widget: string
-          - hint: 'Original text: 1961 St-Luc, Schweiz, key: -42cdf188'
+          - hint: 'Original text: 3961 St-Luc, Schweiz, key: -738a44ca'
             label: Text
-            name: '-42cdf188'
+            name: '-738a44ca'
             widget: string
           - hint: 'Original text: tony@tonytony.ch, key: -2fceca33'
             label: Text
@@ -2910,32 +2922,24 @@ collections:
             name: '-33c4befd'
             widget: string
           - hint: >-
-              Original text: Merci, je m'engage à vous répondre dans les plus
-              brefs délais., key: -1462b462
+              Original text: Merci — je m'engage à vous répondre dans les plus
+              brefs délais., key: 614942a6
             label: Text
-            name: '-1462b462'
+            name: 614942a6
             widget: string
           - hint: >-
-              Original text: Danke, ich werde Ihre Anfrage so schnell wie
-              möglich beantworten., key: -341533d3
+              Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
+              key: 4179573d
             label: Text
-            name: '-341533d3'
+            name: 4179573d
             widget: string
           - hint: 'Original text: Le seul Designer, key: -468bd165'
             label: Text
             name: '-468bd165'
             widget: string
-          - hint: >-
-              Original text: Digital dont vous aurez réellement besoin., key:
-              -2e26b132
+          - hint: 'Original text: Digital dont vous aurez besoin., key: -1d20845'
             label: Text
-            name: '-2e26b132'
-            widget: string
-          - hint: >-
-              Original text: Der Designerdigital & Entwickler, den Sie wircklich
-              brauchen., key: -48240222
-            label: Text
-            name: '-48240222'
+            name: '-1d20845'
             widget: string
           - hint: >-
               Original text: Der digitale Designer und Entwickler, den Sie
@@ -2945,10 +2949,10 @@ collections:
             widget: string
           - hint: >-
               Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
-              Webdesign und -entwicklung, ich kreiere Ihre moderne und
-              einzigartige Markenidentität., key: -5f1a6056
+              Webdesign und -entwicklung, ich kreiere Ihre moderne
+              Markenidentität., key: -777f5a9f
             label: Text
-            name: '-5f1a6056'
+            name: '-777f5a9f'
             widget: text
           - hint: >-
               Original text: Ihre Online-Präsenz zusammen erstellen, key:

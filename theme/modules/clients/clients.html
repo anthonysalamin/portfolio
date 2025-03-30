@@ -70,6 +70,8 @@ body{overflow-x:hidden;overflow-y:auto}
 </script>
   <!--  https://docs.usebasin.com/guides/form-creation/basin-js/  -->
   <script src="https://js.usebasin.com/v2.4.0.min.js" async=""></script>
+  <!--  MixItUp 3 library v3.3.1  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <!--  gsap 3.12.7  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  ScrollTrigger 3.12.7  -->
@@ -78,49 +80,12 @@ body{overflow-x:hidden;overflow-y:auto}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollToPlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  drawsvg 1.0.7  -->
   <script src="https://cdn.jsdelivr.net/gh/anthonysalamin/utility@v1.0.7/drawsvg.js"></script>
-  <!--  tippy.js/2.5.4/themes/light.css  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/light.css" integrity="sha512-pHZ4Ml9vZuOvQQVXvt3xeLLfF5E+axs3BUAjoh7SuEvE45y92pxBIn7e3LYeOC9nyKXjY/NsOl2DscqRk6q/dA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!--  tippy.js/2.5.4/tippy.all.min.js  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/tippy.all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  split-type 0.3.4  -->
   <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
   <!--  typed.js  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--  anime.min.js 3.2.2  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-/*
- * UTILITY | ascii v1.0.0
- * build: 02.10.21 23:32
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const ascii = ` 
-                     .#&&(                   
-       #&&&&&&&&&&&&&&&&&&&&%           
-   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&        
-   /&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&      
-     &&&&&&&            &&&&&&&&&&&&    
-                           &&&&&&&&&&   
-                            ,&&&&&&&&&  
-           .&&&&&&&&&&%      &&&&&&&&&  
-      &&&&&&&&&&&&&&&&&&&&&&& &&&&&&&&& 
-    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
-  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
- &&&&&&&&&&             %&&&&&&&&&&&&&& 
- &&&&&&&&                  &&&&&&&&&&&  
-#&&&&&&&&                   &&&&&&&&&&  
- &&&&&&&&&                &&&&&&&&&&&&& 
- (&&&&&&&&&&          &&&&&&&&&&&&&&&&&&
-   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    ,&&&&&&&&&&&&&&&&&&&&&&&&&, &&&&&&&&
-       *&&&&&&&&&&&&&&&&&&,     &&&&&&&
-       made with ❤️ by tonytony.ch
-       `;
-  const commentNode = document.createComment(ascii),
-    html = document.getElementsByTagName("html")[0];
-  html.insertBefore(commentNode, html.firstChild);
-});
-</script>
   <script>
 /*
  * PORTFOLIO | language redirect v1
@@ -175,14 +140,6 @@ document.addEventListener("DOMContentLoaded",initFAQ);function initFAQ(){const q
  * build 02.02.2024 @17:12 Hong Kong
  */
 document.addEventListener("DOMContentLoaded",()=>{if(!document.querySelector(`.svg-check`)){return}drawSomeSVG()});function drawSomeSVG(){const options={repeat:-1,repeatDelay:0,yoyo:true};const timeline=gsap.timeline(options);gsap.set(".svg-check",{drawSVG:"0%"});function pauseBeforeYoyo(){timeline.pause();setTimeout(()=>{timeline.play()},2500)}function drawCheck(){timeline.to(".svg-check",{duration:1,drawSVG:"100%",ease:"power3.out",onComplete:pauseBeforeYoyo})}drawCheck()}
-</script>
-  <script>
-/*
- * PORTFOLIO | subline animation
- * dependency: none (redo with GSAP)
- * build 09.04.24 @14:37
-*/
-document.addEventListener("DOMContentLoaded",()=>{const shouldBlink=false;initTyping("[data-id='punchline']",shouldBlink,["Developer","Partner"]);initTyping("[data-id='subline']",shouldBlink,["push pixels around","get your MVP live in 24hrs","leverage AI technologies","design & develop websites","create corporate identities","am a problem solver"])});function addBlink(shouldBlink,selector){if(!shouldBlink){return}const styleElement=document.createElement("style");const cssRules=`${ selector }::after { content:"_"; animation: typingBlink linear 1.15s infinite; } @keyframes typingBlink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }`;styleElement.textContent=cssRules;document.head.appendChild(styleElement)}function initTyping(selector,shouldBlink,words){const toBeTyped=document.querySelector(selector);if(!toBeTyped){return}addBlink(shouldBlink,selector);const LETTER_TYPE_DELAY=20;const WORD_STAY_DELAY=1500;const DIRECTION_FORWARDS=0;const DIRECTION_BACKWARDS=1;let direction=DIRECTION_FORWARDS;let wordIndex=0;let letterIndex=0;let wordTypeInterval;function startTyping(){wordTypeInterval=setInterval(typeLetter,LETTER_TYPE_DELAY)}function typeLetter(){const word=words[wordIndex];if(direction===DIRECTION_FORWARDS){letterIndex+=1;if(letterIndex===word.length){direction=DIRECTION_BACKWARDS;clearInterval(wordTypeInterval);setTimeout(startTyping,WORD_STAY_DELAY)}}else if(direction===DIRECTION_BACKWARDS){letterIndex-=1;if(letterIndex===0){nextWord()}}const textToType=word.substring(0,letterIndex);toBeTyped.textContent=textToType}function nextWord(){letterIndex=0;direction=DIRECTION_FORWARDS;wordIndex+=1;if(wordIndex===words.length){wordIndex=0}}startTyping()}
 </script>
   <script>
 /*
