@@ -16,7 +16,7 @@ f_introduction: >-
 slug: dahab
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580178ada303a85acdf3d67_cover.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580178ada303a85acdf3d67_cover.avif
   alt: null
 f_category-ies:
   - cms/categories/film.md

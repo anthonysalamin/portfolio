@@ -17,7 +17,8 @@
   <link href="/assets/css/tonytony.css" rel="stylesheet" type="text/css">
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="{{ settings.site.favicon | default: "/assets/images/favicon.png" }}" rel="shortcut icon" type="image/x-icon">
-  <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon"><!--  Fathom  -->
+  <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
+  <link href="https://tonytony.ch/fr/projets/" rel="canonical"><!--  Fathom  -->
   <script src="https://cdn-eu.usefathom.com/script.js" data-site="BBNPSMHN" defer=""></script>
   <style>
 /* 🦄 global overrides */
@@ -234,12 +235,6 @@ main:focus-visible {
               <div class="punchline-subline-wrap">
                 <h1 class="h1">{{ texts.4ed7b85d }}</h1>
                 <h2 class="subline">{{ texts.2ea66487 }}</h2>
-              </div>
-              <div class="rewiews-wrap">
-                <div class="wrap-stars">
-                  <div class="lottie-stars" data-w-id="30ba6480-2bbb-c38e-e889-3195a24999e2" data-animation-type="lottie" data-src="/assets/documents/animation-1702997817251.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1.8333333333333333" data-duration="0"></div>
-                </div>
-                <p class="paragraph"><strong>{{ texts.ccdb }}</strong></p>
               </div>
             </div>
             <div class="testimonials__quotes">
@@ -615,8 +610,8 @@ main:focus-visible {
             </div>
             <div class="wrap-btn-audit"></div>
             <div class="footer__links-wrap">
-              <a href="{{ links.-6bce3a35 }}" data-id="navbar-link" class="footer__link">{{ texts.-29f92c17 }}</a>
-              <a href="{{ links.78d8cfd3 }}" data-id="navbar-link" class="footer__link">{{ texts.-68d80214 }}</a>
+              <a href="{{ links.-14f0e268 }}" data-id="navbar-link" class="footer__link">{{ texts.-68d80214 }}</a>
+              <a href="{{ links.-66d37108 }}" data-id="navbar-link" class="footer__link">{{ texts.1549a127 }}</a>
             </div>
           </div>
         </div>
@@ -643,8 +638,6 @@ main:focus-visible {
   <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
   <!--  typed.js  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--  anime.min.js 3.2.2  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
 /*
  * PORTFOLIO | language redirect v1
@@ -714,21 +707,6 @@ document.addEventListener("DOMContentLoaded", () => {
   progress__injectHTML(hideAtPercentage);
 });
 function progress__showOnScroll(){let r=document.querySelector(".progress-wrap");if(!r)return;let o=r.querySelector("path"),e=o.getTotalLength();gsap.set(o,{strokeDasharray:e,strokeDashoffset:e}),gsap.to(o,{strokeDashoffset:0,scrollTrigger:{trigger:document.body,start:"top top",end:"bottom bottom",scrub:!0}}),gsap.to(r,{autoAlpha:1,scrollTrigger:{trigger:document.body,start:"top+=50px top",toggleClass:{targets:r,className:"active-progress"},once:!1}}),r.addEventListener("click",r=>{r.preventDefault(),gsap.to(window,{scrollTo:0,duration:.55,ease:"power2.out"})})}function progress__isMobileDevice(r){return window.innerWidth<r}function progress__injectCSS(r){let o=`.progress-wrap{--indicator-progress-color:rgba(255, 255, 255, 1);--indicator-slide-color:rgba(255, 255, 255, .1);--indicator-font:"Unicons";--indicator-content:"\\e84b";--indicator-hover:white --indicator-position:1.25rem}@font-face{font-family:"Unicons";src:url("https://uploads-ssl.webflow.com/61a0f086f2b1f289503a4957/6329d8e0a1790e3283ae2504_unicons.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}.progress-wrap{position:fixed;mix-blend-mode:difference;${r}:1.5rem;bottom:1.5rem;height:46px;width:46px;cursor:pointer;display:none;border-radius:50px;box-shadow:inset 0 0 0 2px var(--indicator-slide-color);z-index:10000;opacity:0;visibility:hidden;transform:translateY(15px);transition:all 200ms linear}.progress-wrap.active-progress{display:block;transition:1s;opacity:1;visibility:visible;transform:translateY(0)}.progress-wrap::after,.progress-wrap::before{position:absolute;font-family:var(--indicator-font);content:var(--indicator-content);text-align:center;line-height:46px;font-size:24px;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;transition:all 200ms linear}.progress-wrap::after{color:var(--indicator-progress-color);z-index:1}.progress-wrap:hover::before{color:var(--indicator-hover);transform:scale(1.0);transform-origin:center}.progress-wrap:hover::after{transform:scale(1.15);transform-origin:center}.progress-wrap svg path{fill:none}.progress-wrap svg.progress-circle path{stroke:var(--indicator-progress-color);stroke-width:4;box-sizing:border-box;transition:all 200ms linear}`,e=document.createElement("style");e.innerHTML=o,document.head.appendChild(e)}function progress__injectHTML(r){document.body.insertAdjacentHTML("afterbegin",'<div class="progress-wrap"><svg class="progress-circle" height="100%" viewBox="-1 -1 102 102" width="100%"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div>'),progress__showOnScroll(),progress__hideOnFooter(r)}function progress__hideOnFooter(r){let o=document.querySelector(".progress-wrap");o&&window.addEventListener("scroll",()=>{let e=window.scrollY,t=document.documentElement.scrollHeight,s=window.innerHeight;gsap.to(o,{opacity:e/(t-s)>=r?0:1,duration:.5,ease:"power2.out"})})}
-</script>
-  <script>
-/*
- * PORTFOLIO | footer headline animation v.1
- * build 13.12.2023 @ 19:39
- */
-document.addEventListener("DOMContentLoaded",()=>{const words=document.getElementsByClassName("headline_text");if(words.length===0){return};injectCSS(customCSS);wrapWordsWithSpan("tricks");wrapLettersWithSpan("tricksword");wrapLettersWithSpan("letter");createAnimation()});function injectCSS(css){const styleElement=document.createElement("style");styleElement.type="text/css";styleElement.textContent=css;document.head.appendChild(styleElement)}const customCSS=`.letter{display:inline-block}.headline_text.tricks{display:none}.headline_text.tricks.active{display:block}.tricksword{white-space:nowrap}`;function wrapWordsWithSpan(className){const words=document.getElementsByClassName(className);Array.from(words).forEach((wordWrap)=>{wordWrap.innerHTML=wordWrap.innerHTML.replace(/(^|<\/?[^>]+>|\s+)([^\s<]+)/g,'$1<span class="tricksword">$2</span>')})}function wrapLettersWithSpan(className){const letters=document.getElementsByClassName(className);Array.from(letters).forEach((letterWrap)=>{letterWrap.innerHTML=letterWrap.textContent.replace(/\S/g,"<span class='letter'>$&</span>")})}function switchHeadlines(){let activeHeadline=document.querySelector(".headline_text.tricks.active");if(activeHeadline.nextElementSibling){activeHeadline.nextElementSibling.classList.add("active")}else{document.querySelector(".headline_text.tricks").classList.add("active")}activeHeadline.classList.remove("active")}function createAnimation(){var tl=anime.timeline({loop:false,autoplay:true});tl.add({targets:".headline_text.active .letter",translateY:[100,0],translateZ:0,opacity:[0,1],easing:"easeOutExpo",duration:1400,delay:(el,i)=>300+25*i}).add({targets:".headline_text.active .letter",translateY:[0,-100],opacity:[1,0],easing:"easeInExpo",duration:600,delay:(el,i)=>50+30*i,complete:function(anim){switchHeadlines();createAnimation()}})}
-</script>
-  <script>
-/*
- * PORTFOLIO | Webflow Tooltip v2
- * doc: https://atomiks.github.io/tippyjs/
- * build: 02.02.2024 @16:51
- */
-document.addEventListener("DOMContentLoaded",async()=>{await injectTooltip();instanciateTippy()});function injectTooltip(){return new Promise((resolve,reject)=>{const pricingFeatures=document.querySelectorAll(".pricing__feature");if(!pricingFeatures.length){return}Array.from(pricingFeatures).forEach((pricingFeature,index,array)=>{const tooltipHelper=pricingFeature.querySelector(".tooltip-helper");const tooltipInfo=tooltipHelper.textContent;const infoSVG=pricingFeature.querySelector('[data-id="tippy"]');infoSVG.setAttribute("title",tooltipInfo);if(index===array.length-1){resolve();}})})}function instanciateTippy(){tippy(`[data-id="tippy"]`,{animation:"scale",arrow:false,inertia:true,placement:"top",theme:"light"})}
 </script>
   <script>
 /*

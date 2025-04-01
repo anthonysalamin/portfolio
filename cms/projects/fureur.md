@@ -15,29 +15,29 @@ f_is-photography: false
 f_is-graphic-design: false
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.avif
   alt: null
 f_category-ies:
   - cms/categories/web.md
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d623c2687b35a6a2013_fureur-02.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d623c2687b35a6a2013_fureur-02.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62348e5c81ca4869fd_fureur-03.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d622e88def35a5bfb67_fureur-04.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d622e88def35a5bfb67_fureur-04.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62da9a589612462e2a_fureur-05.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d62da9a589612462e2a_fureur-05.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d637316609209ac16f2_fureur-01.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829d637316609209ac16f2_fureur-01.avif
     alt: null
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582a4165f786667d7382d5e_hero.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582a4165f786667d7382d5e_hero.avif
   alt: null
 f_horizontal-line-1: '#UX/UI #design #web #development #frontend #backend'
 f_horizontal-line-2: '#switzerland #geneva #culture #local'
@@ -50,7 +50,7 @@ f_similar-projects:
   - cms/projects/quatreaplus.md
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829e0d3c2687b35a6a9736_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65829e0d3c2687b35a6a9736_thumbnail.avif
   alt: null
 f_testimony-2: cms/testimonies/dr-donatella-bernardi.md
 f_website: https://fureurdelire-dev.webflow.io/

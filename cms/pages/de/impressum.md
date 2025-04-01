@@ -1,18 +1,18 @@
 ---
-title: Imprint
-permalink: legal/{{ page.fileSlug }}/index.html
-layout: legal/imprint.html
-slug: imprint
+title: Impressum
+permalink: de/{{ page.fileSlug }}/index.html
+layout: de/impressum.html
+slug: impressum
 tags: pages
 seo:
   noindex: false
-  title: Imprint
+  title: Impressum
   description: >-
     Go live within 4 weeks 🔥 From logo design to business website, I bring your
     vision to life at affordable prices. I am the only digital designer you will
     will ever need. Headquartered in Switzerland, with a global operational
     reach.
-  og:title: Imprint
+  og:title: Impressum
   additional_tags: >-
     <meta content="Go live within 4 weeks 🔥 From logo design to business
     website, I bring your vision to life at affordable prices. I am the only
@@ -26,7 +26,7 @@ seo:
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
     https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg
-  twitter:title: Imprint
+  twitter:title: Impressum
 ---
 
 

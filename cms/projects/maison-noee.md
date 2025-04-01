@@ -17,7 +17,7 @@ f_introduction: >-
 slug: maison-noee
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658180616a28387a2321407c_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658180616a28387a2321407c_thumbnail.avif
   alt: null
 f_big-image:
   url: >-
@@ -29,7 +29,7 @@ f_hero-image-static:
   alt: null
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd27c74b957e782667f_img_maisonnoee_03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd27c74b957e782667f_img_maisonnoee_03.avif
     alt: null
   - url: >-
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3555f4fef9cba0f30_img_maisonnoee_04.svg
@@ -41,16 +41,16 @@ f_gallery:
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd30201cdf8b86e8441_img_maisonnoee_08.svg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3926de9e066e6a8f7_img_maisonnoee_07.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3926de9e066e6a8f7_img_maisonnoee_07.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3565d7ba6e090c604_img_maisonnoee_09.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd3565d7ba6e090c604_img_maisonnoee_09.avif
     alt: null
   - url: >-
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd32144d45074e8a85c_img_maisonnoee_05.svg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd391e45d0bbae1e613_img_maisonnoee_11.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817fd391e45d0bbae1e613_img_maisonnoee_11.avif
     alt: null
 f_category-ies:
   - cms/categories/design.md

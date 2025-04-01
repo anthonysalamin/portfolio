@@ -985,10 +985,6 @@ body {
   position: relative;
 }
 
-.faq__category.second {
-  margin-top: 80px;
-}
-
 .faq__question {
   width: 100%;
   padding-top: 25px;
@@ -1272,7 +1268,6 @@ body {
 }
 
 .mini {
-  color: var(--dark-light);
   margin-bottom: 0;
 }
 
@@ -2524,12 +2519,6 @@ body {
   height: 1.25rem;
 }
 
-.fs-cc-manager_component {
-  z-index: 999;
-  cursor: pointer;
-  display: flex;
-}
-
 .fs-cc-prefs_button {
   background-color: var(--dark);
   border-style: none;
@@ -2731,10 +2720,6 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.language__icon {
-  width: 12px;
 }
 
 .glowing-wrapper-animations {
@@ -3063,10 +3048,6 @@ body {
     margin-left: 0;
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .nav__link.accent.footer-link, .nav__link.accent.footer-link.w--current {
-    margin-top: 0;
   }
 
   .nav__burger {
@@ -3539,10 +3520,6 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .faq__category.second {
-    margin-top: 48px;
-  }
-
   .faq__question.hover-x {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -3780,10 +3757,6 @@ body {
 @media screen and (max-width: 479px) {
   .nav__menu-container {
     padding-left: 16vw;
-  }
-
-  .nav__link.accent.footer-link {
-    flex: none;
   }
 
   .section {
@@ -4196,6 +4169,10 @@ body {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
+#w-node-_1c11dfba-1106-a792-db9b-952e39230961-be2249fb, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-ebd3e3a2, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-cc5d70a9, #w-node-_1c11dfba-1106-a792-db9b-952e39230961-567675b6 {
+  align-self: start;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-7235d08c {
     justify-self: start;
@@ -4207,6 +4184,10 @@ body {
 
   #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-eb386038, #w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-eb387636 {
     justify-self: start;
+  }
+
+  #w-node-_1c11dfba-1106-a792-db9b-952e39230961-be2249fb, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-ebd3e3a2, #w-node-aaf45596-30ec-e451-a863-e64129beafa9-cc5d70a9, #w-node-_1c11dfba-1106-a792-db9b-952e39230961-567675b6 {
+    justify-self: center;
   }
 }
 

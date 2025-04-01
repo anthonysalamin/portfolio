@@ -30,7 +30,7 @@ f_hero-image-static:
   alt: null
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580589dc124fe326fe70fe6_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580589dc124fe326fe70fe6_thumbnail.avif
   alt: null
 f_has-big-image: false
 f_is-photography: false

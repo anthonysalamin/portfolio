@@ -23,7 +23,7 @@ f_big-image:
   alt: null
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a7e11674a4d7e5042a4db_urbain-03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a7e11674a4d7e5042a4db_urbain-03.avif
     alt: null
   - url: >-
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a7e10cdde54e924eaa91f_urbain-01.webp
@@ -47,7 +47,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658021f99bd1697323507c6b_thumbnail-v2.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658021f99bd1697323507c6b_thumbnail-v2.avif
   alt: null
 f_has-big-image: true
 f_is-photography: false

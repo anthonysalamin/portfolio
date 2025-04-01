@@ -1,18 +1,18 @@
 ---
-title: Privacy Policy
-permalink: legal/{{ page.fileSlug }}/index.html
-layout: legal/privacy-policy.html
-slug: privacy-policy
+title: Imprint
+permalink: '{{ page.fileSlug }}/index.html'
+layout: imprint.html
+slug: imprint
 tags: pages
 seo:
   noindex: false
-  title: Privacy Policy
+  title: Imprint
   description: >-
     Go live within 4 weeks 🔥 From logo design to business website, I bring your
     vision to life at affordable prices. I am the only digital designer you will
     will ever need. Headquartered in Switzerland, with a global operational
     reach.
-  og:title: Privacy Policy
+  og:title: Imprint
   additional_tags: >-
     <meta content="Go live within 4 weeks 🔥 From logo design to business
     website, I bring your vision to life at affordable prices. I am the only
@@ -26,7 +26,7 @@ seo:
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
     https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg
-  twitter:title: Privacy Policy
+  twitter:title: Imprint
 ---
 
 

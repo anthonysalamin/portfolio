@@ -89,7 +89,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801fbbd8ff614c0165ddbc_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801fbbd8ff614c0165ddbc_thumbnail.avif
   alt: null
 f_has-big-image: true
 f_is-photography: false

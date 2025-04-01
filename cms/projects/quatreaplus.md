@@ -14,7 +14,7 @@ f_introduction: >-
 slug: quatreaplus
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.avif
   alt: null
 updated-on: '2024-02-08T03:50:53.342Z'
 created-on: '2023-12-13T09:13:34.184Z'
@@ -47,16 +47,16 @@ f_gallery:
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a56f96fa8facc96e95_quatreaplus-07.webp
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a47f3dfd2268bd864e_quatreaplus-08.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a47f3dfd2268bd864e_quatreaplus-08.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40e8144ca445d8ef4_quatreaplus-09.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40e8144ca445d8ef4_quatreaplus-09.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a474ca6f8a3469e1ae_quatreaplus-10.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a474ca6f8a3469e1ae_quatreaplus-10.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40de9a423b67a20b3_quatreaplus-11.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40de9a423b67a20b3_quatreaplus-11.avif
     alt: null
   - url: >-
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a4f3bf5bf2b73ddfe2_quatreaplus-12.webp

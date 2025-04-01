@@ -15,7 +15,7 @@ f_is-photography: false
 f_is-graphic-design: false
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa702e1d4067ddbc1ed_highlight.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa702e1d4067ddbc1ed_highlight.avif
   alt: null
 f_category-ies:
   - cms/categories/web.md
@@ -24,16 +24,16 @@ f_gallery:
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa25cd5dbefa8d482b0_helge-02.jpg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa1f09fb2fa10f353d3_helge-03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa1f09fb2fa10f353d3_helge-03.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa173456d9677770ffe_helge-04.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa173456d9677770ffe_helge-04.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa1ae352b6872d995b7_helge-05.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa1ae352b6872d995b7_helge-05.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa12b9de16f31385baa_helge-06.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bfa12b9de16f31385baa_helge-06.avif
     alt: null
 f_hero-image-static:
   url: >-
@@ -47,7 +47,7 @@ f_introduction: >-
 f_testimony-2: cms/testimonies/helge-von-giese.md
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bf928b5f8cbec3171ea0_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6582bf928b5f8cbec3171ea0_thumbnail.avif
   alt: null
 f_website: https://helgevongiese.de/
 f_similar-projects:

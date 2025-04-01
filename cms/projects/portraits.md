@@ -16,31 +16,31 @@ f_introduction: >-
 slug: portraits
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816885062834ab35c493b5_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816885062834ab35c493b5_thumbnail.avif
   alt: null
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168e066fcfa4580e90eb3_highlight.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168e066fcfa4580e90eb3_highlight.avif
   alt: null
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168db6d3f9aec8af9a380_hero.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168db6d3f9aec8af9a380_hero.avif
   alt: null
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168159cc4953e3fd64e3e_img_portrait_02.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168159cc4953e3fd64e3e_img_portrait_02.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168150201cdf8b85a8219_img_portrait_01.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658168150201cdf8b85a8219_img_portrait_01.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581681723f87c327697fe2b_img_portrait_03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6581681723f87c327697fe2b_img_portrait_03.avif
     alt: null
 f_category-ies:
   - cms/categories/photography.md

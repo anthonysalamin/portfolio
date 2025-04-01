@@ -28,38 +28,38 @@ f_horizontal-line-1: '#frontend #backend #development #DNS setup #SEO #analytics
 f_horizontal-line-2: '#berlin #hospitality #designhotel #experimental'
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3128f52cc80dc97cb48_further-03.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3128f52cc80dc97cb48_further-03.avif
   alt: null
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3211feb143898cc7e92_further-01.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3211feb143898cc7e92_further-01.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3212b6814727d8e0de4_further-02.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3212b6814727d8e0de4_further-02.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac320ce42bd0bd7730c38_further-05.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac320ce42bd0bd7730c38_further-05.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac32016010f43a8c54942_further-06.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac32016010f43a8c54942_further-06.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fa5ef8a71e4a8a096_further-07.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fa5ef8a71e4a8a096_further-07.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31f68f7103e8c3ad2e9_further-08.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31f68f7103e8c3ad2e9_further-08.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3209d7ecad9cb310d49_further-09.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac3209d7ecad9cb310d49_further-09.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31f52ed28112fff5eb1_further-11.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31f52ed28112fff5eb1_further-11.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fc754f6c57411a154_further-12.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fc754f6c57411a154_further-12.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fcc146e421aff87ad_further-13.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac31fcc146e421aff87ad_further-13.avif
     alt: null
 f_tag-1: Web Development
 f_tag-2: Micro-interractions
@@ -70,7 +70,7 @@ f_thumbnail-title: Web development only
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580232fb353ea5201a2b2f0_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580232fb353ea5201a2b2f0_thumbnail.avif
   alt: null
 f_has-big-image: true
 f_is-photography: false

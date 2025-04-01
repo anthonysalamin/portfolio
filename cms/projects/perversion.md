@@ -16,40 +16,40 @@ f_introduction: >-
 slug: perversion
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817e2ce103950e58134cc4_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817e2ce103950e58134cc4_thumbnail.avif
   alt: null
 f_big-image:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.avif
   alt: null
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.avif
   alt: null
 f_gallery:
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d843a5087c1f3ae53b4_img_perversion_01.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d843a5087c1f3ae53b4_img_perversion_01.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d8481322879a8de9836_img_perversion_02.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d8481322879a8de9836_img_perversion_02.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d835f11a0fdf5f2ac0e_img_perversion_04.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d835f11a0fdf5f2ac0e_img_perversion_04.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83a70717a189f413e3_img_perversion_06.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83a70717a189f413e3_img_perversion_06.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d8311e4fef2ec1a3e95_img_perversion_07.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d8311e4fef2ec1a3e95_img_perversion_07.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83d6fa664b7de215d1_img_perversion_08.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65817d83d6fa664b7de215d1_img_perversion_08.avif
     alt: null
 f_category-ies:
   - cms/categories/design.md

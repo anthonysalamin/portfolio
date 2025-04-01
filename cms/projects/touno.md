@@ -20,7 +20,7 @@ created-on: '2023-12-18T08:57:28.937Z'
 published-on: '2023-12-19T10:25:26.290Z'
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65800bcc6df9d43070eecd77_cover-v2.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65800bcc6df9d43070eecd77_cover-v2.avif
   alt: null
 f_thumbnail-title: Timelapse Film
 f_similar-projects:
@@ -28,7 +28,7 @@ f_similar-projects:
   - cms/projects/dahab.md
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801df69b0c3dd1575c71c2_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801df69b0c3dd1575c71c2_thumbnail.avif
   alt: null
 f_has-big-image: false
 f_is-photography: false

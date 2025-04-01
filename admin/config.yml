@@ -87,16 +87,6 @@ collections:
             name: additional_tags
             widget: text
             required: false
-  - name: pages-legal
-    label: Pages legal
-    identifier_field: title
-    extension: md
-    create: false
-    delete: false
-    slug: '{{slug}}'
-    editor: *ref_0
-    folder: cms/pages/legal
-    fields: *ref_1
   - name: pages-modules
     label: Pages modules
     identifier_field: title
@@ -817,10 +807,10 @@ collections:
             name: 359c97f3
             widget: string
           - hint: >-
-              Original text: Affordable pricing meets impactful design – get
-              your website today., key: -2565d23d
+              Original text: Affordable pricing meets impactful design — get
+              your website today., key: 5eca7ac4
             label: Text
-            name: '-2565d23d'
+            name: 5eca7ac4
             widget: string
           - hint: >-
               Original text: I help businesses shine online. Focus on what you
@@ -886,10 +876,6 @@ collections:
             label: Text
             name: '-75d665ef'
             widget: text
-          - hint: 'Original text: 5/5, key: ccdb'
-            label: Text
-            name: ccdb
-            widget: string
           - hint: >-
               Original text: “ Anthony is an exceptionally universally gifted
               creative. In his exploration of various means, methods, and tools,
@@ -1372,11 +1358,12 @@ collections:
             name: '-2cd78eff'
             widget: string
           - hint: >-
-              Original text: Discover transparency and compliance with
-              tonytony.ch's privacy policy., key: d0d2168
+              Original text: At tonytony.ch, we are committed to protecting the
+              privacy and personal information of our website visitors., key:
+              7a82beef
             label: Text
-            name: d0d2168
-            widget: string
+            name: 7a82beef
+            widget: text
           - hint: 'Original text: See images, key: 4c81705'
             label: Text
             name: 4c81705
@@ -1422,10 +1409,10 @@ collections:
             name: 1c03b01a
             widget: string
           - hint: >-
-              Original text: It's a quick task, only a minute to fill out this
-              form., key: 1aebc4df
+              Original text: It only takes a minute to fill out this form, or
+              shoot me an email at tony@tonytony.ch., key: 37e73f0b
             label: Text
-            name: 1aebc4df
+            name: 37e73f0b
             widget: string
           - hint: 'Original text: What is the age of your business ?, key: 21edf76d'
             label: Text
@@ -1905,10 +1892,10 @@ collections:
             name: 12c6f87d
             widget: string
           - hint: >-
-              Original text: Ce formulaire ne prend qu'une minute à remplir,
-              promis., key: 47df03aa
+              Original text: Remplissez ce formulaire en une minute ou
+              écrivez-moi à tony@tonytony.ch., key: -311695c0
             label: Text
-            name: 47df03aa
+            name: '-311695c0'
             widget: string
           - hint: 'Original text: Quel est l''âge de votre entreprise ?, key: 6ae95601'
             label: Text
@@ -2522,6 +2509,10 @@ collections:
             label: Text
             name: '-68d80214'
             widget: string
+          - hint: 'Original text: Politique de Confidentialité, key: 1549a127'
+            label: Text
+            name: 1549a127
+            widget: string
           - hint: 'Original text: Projekte, key: -37ac656c'
             label: Text
             name: '-37ac656c'
@@ -2553,10 +2544,10 @@ collections:
             name: '-73af28af'
             widget: string
           - hint: >-
-              Original text: Das Ausfüllen dieses Formulars dauert 1 Minute,
-              versprochen., key: -28638f41
+              Original text: Füllen Sie das Formular aus oder schreiben Sie mir
+              eine E-Mail: tony@tonytony.ch., key: 1d0ffc6a
             label: Text
-            name: '-28638f41'
+            name: 1d0ffc6a
             widget: string
           - hint: 'Original text: Wie alt ist Ihr Unternehmen?, key: 186e3919'
             label: Text
@@ -2669,9 +2660,9 @@ collections:
             label: Text
             name: 3ce9fda0
             widget: string
-          - hint: 'Original text: Datenschutzbestimmungen, key: -25d20dab'
+          - hint: 'Original text: Datenschutzerklärung, key: -14b75991'
             label: Text
-            name: '-25d20dab'
+            name: '-14b75991'
             widget: string
           - hint: >-
               Original text:  auf tonytony.ch gelesen habe und damit
@@ -2917,10 +2908,6 @@ collections:
             label: Text
             name: '-15dee94f'
             widget: string
-          - hint: 'Original text: Datenschutz, key: -33c4befd'
-            label: Text
-            name: '-33c4befd'
-            widget: string
           - hint: >-
               Original text: Merci — je m'engage à vous répondre dans les plus
               brefs délais., key: 614942a6
@@ -2998,10 +2985,10 @@ collections:
             name: 45faaa3a
             widget: string
           - hint: >-
-              Original text: Prix compétitifs pour un design percutant - votre
-              site web dès aujourd'hui., key: 201bd77d
+              Original text: Prix compétitifs pour un design percutant — votre
+              site web dès aujourd'hui., key: -3275649c
             label: Text
-            name: 201bd77d
+            name: '-3275649c'
             widget: string
           - hint: >-
               Original text: Concentrez-vous sur ce que vous faites de mieux,
@@ -3020,6 +3007,16 @@ collections:
             label: Text
             name: 7d7349f0
             widget: text
+          - hint: >-
+              Original text: Discover transparency and compliance with
+              tonytony.ch's privacy policy., key: d0d2168
+            label: Text
+            name: d0d2168
+            widget: string
+          - hint: "Original text: Vertrauen und Verantwortlichkeit \_gewährleisten, key: -7a3f9f17"
+            label: Text
+            name: '-7a3f9f17'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3075,13 +3072,13 @@ collections:
             label: Link
             name: 663eed27
             widget: string
-          - hint: 'Original link: /legal/imprint/, key: -6bce3a35'
+          - hint: 'Original link: /imprint/, key: 1f89a675'
             label: Link
-            name: '-6bce3a35'
+            name: 1f89a675
             widget: string
-          - hint: 'Original link: /legal/privacy-policy/, key: 78d8cfd3'
+          - hint: 'Original link: /privacy-policy/, key: -2f934417'
             label: Link
-            name: 78d8cfd3
+            name: '-2f934417'
             widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
@@ -3119,6 +3116,14 @@ collections:
             label: Link
             name: '-63d1499d'
             widget: string
+          - hint: 'Original link: /fr/politique-de-confidentialite/, key: -66d37108'
+            label: Link
+            name: '-66d37108'
+            widget: string
+          - hint: 'Original link: /fr/mentions-legales/, key: -14f0e268'
+            label: Link
+            name: '-14f0e268'
+            widget: string
           - hint: 'Original link: /de/projekte/, key: 2dd6addc'
             label: Link
             name: 2dd6addc
@@ -3130,6 +3135,14 @@ collections:
           - hint: 'Original link: /de/kontakt/, key: 49b4174e'
             label: Link
             name: 49b4174e
+            widget: string
+          - hint: 'Original link: /de/datenschutzerklarung/, key: -2107557c'
+            label: Link
+            name: '-2107557c'
+            widget: string
+          - hint: 'Original link: /de/impressum/, key: 92a5d17'
+            label: Link
+            name: 92a5d17
             widget: string
       - label: Images
         name: images

@@ -37,13 +37,13 @@ f_gallery:
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583beacefe94c745761133b_moto-03.jpg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c741a163a020d70747_moto-08.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c741a163a020d70747_moto-08.avif
     alt: null
   - url: >-
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c7058da26d60dd4356_moto-05.jpg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c7c0c50a8ad413755a_moto-09.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c7c0c50a8ad413755a_moto-09.avif
     alt: null
 f_hero-image-static:
   url: >-

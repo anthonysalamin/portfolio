@@ -24,7 +24,7 @@ f_big-image:
   alt: null
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.avif
   alt: null
 f_gallery:
   - url: >-
@@ -34,10 +34,10 @@ f_gallery:
       https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd555f4fef9cb6732b_img_eaglecup_08.svg
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd22f8c5cabeea3336_img_eaglecup_02.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd22f8c5cabeea3336_img_eaglecup_02.avif
     alt: null
   - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.webp
+      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.avif
     alt: null
 f_category-ies:
   - cms/categories/design.md

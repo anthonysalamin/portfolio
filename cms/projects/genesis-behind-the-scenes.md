@@ -24,11 +24,11 @@ created-on: '2023-12-18T09:49:54.518Z'
 published-on: '2023-12-19T10:25:26.290Z'
 f_hero-image-static:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801abd2687d9c67f2df6d2_hero.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801abd2687d9c67f2df6d2_hero.avif
   alt: null
 f_thumbnail:
   url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801cbc54838aafd29c8a03_thumbnail.webp
+    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65801cbc54838aafd29c8a03_thumbnail.avif
   alt: null
 f_has-big-image: false
 f_is-photography: false
