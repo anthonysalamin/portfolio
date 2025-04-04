@@ -1451,9 +1451,9 @@ collections:
             label: Text
             name: 3c28afbb
             widget: string
-          - hint: 'Original text: NEW Website 🔥, key: 1a47b0ed'
+          - hint: 'Original text: NEW Website , key: -1e9b865b'
             label: Text
-            name: 1a47b0ed
+            name: '-1e9b865b'
             widget: string
           - hint: 'Original text: LP, key: 984'
             label: Text
@@ -1507,9 +1507,9 @@ collections:
             label: Text
             name: '-31946f69'
             widget: string
-          - hint: 'Original text: ASAP 😏, key: -14ddef'
+          - hint: 'Original text: ASAP , key: 3bab05f'
             label: Text
-            name: '-14ddef'
+            name: 3bab05f
             widget: string
           - hint: 'Original text: 1 — 2 months, key: -76e81084'
             label: Text
@@ -1518,10 +1518,6 @@ collections:
           - hint: 'Original text: 2 — 4 months, key: 608bee99'
             label: Text
             name: 608bee99
-            widget: string
-          - hint: 'Original text: Not sure yet, key: -3f58a0d6'
-            label: Text
-            name: '-3f58a0d6'
             widget: string
           - hint: 'Original text: How shall we start a conversation ?, key: 608faf2d'
             label: Text
@@ -1973,6 +1969,10 @@ collections:
           - hint: 'Original text: Quel est votre deadline ?, key: 5aef15f8'
             label: Text
             name: 5aef15f8
+            widget: string
+          - hint: 'Original text: ASAP 😏, key: -14ddef'
+            label: Text
+            name: '-14ddef'
             widget: string
           - hint: 'Original text: 1 — 2 mois, key: -7e2035eb'
             label: Text
@@ -2891,6 +2891,10 @@ collections:
               lernen und zu wachsen., key: 271a2022
             label: Text
             name: 271a2022
+            widget: string
+          - hint: 'Original text: TONYTONY GmbH, key: 5ae27340'
+            label: Text
+            name: 5ae27340
             widget: string
           - hint: 'Original text: Chemin de la Monta 24, key: -61e37d5d'
             label: Text

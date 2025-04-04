@@ -6,27 +6,25 @@ slug: impressum
 tags: pages
 seo:
   noindex: false
-  title: Impressum
+  title: TONYTONY Sàrl | Impressum
   description: >-
-    Go live within 4 weeks 🔥 From logo design to business website, I bring your
-    vision to life at affordable prices. I am the only digital designer you will
-    will ever need. Headquartered in Switzerland, with a global operational
-    reach.
-  og:title: Impressum
+    TONYTONY Sàrl – Kreative Webentwicklung von Design bis Launch. Lassen Sie
+    Ihre maßgeschneiderte Unternehmenswebsite in 4 Wochen erstellen. Sitz in der
+    Schweiz, weltweit verfügbar.
+  og:title: TONYTONY Sàrl | Impressum
   additional_tags: >-
-    <meta content="Go live within 4 weeks 🔥 From logo design to business
-    website, I bring your vision to life at affordable prices. I am the only
-    digital designer you will will ever need. Headquartered in Switzerland, with
-    a global operational reach." property="og:description"><meta content="Go
-    live within 4 weeks 🔥 From logo design to business website, I bring your
-    vision to life at affordable prices. I am the only digital designer you will
-    will ever need. Headquartered in Switzerland, with a global operational
-    reach." property="twitter:description"><meta
+    <meta content="TONYTONY Sàrl – Kreative Webentwicklung von Design bis
+    Launch. Lassen Sie Ihre maßgeschneiderte Unternehmenswebsite in 4 Wochen
+    erstellen. Sitz in der Schweiz, weltweit verfügbar."
+    property="og:description"><meta content="TONYTONY Sàrl – Kreative
+    Webentwicklung von Design bis Launch. Lassen Sie Ihre maßgeschneiderte
+    Unternehmenswebsite in 4 Wochen erstellen. Sitz in der Schweiz, weltweit
+    verfügbar." property="twitter:description"><meta
     content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
     https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg
-  twitter:title: Impressum
+  twitter:title: TONYTONY Sàrl | Impressum
 ---
 
 

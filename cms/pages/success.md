@@ -8,20 +8,17 @@ seo:
   noindex: false
   title: TONYTONY Sàrl | Creative Web Development | Success
   description: >-
-    Go live within 4 weeks 🔥 From logo design to business website, I bring your
-    vision to life at affordable prices. I am the only digital designer you will
-    will ever need. Headquartered in Switzerland, with a global operational
-    reach.
+    TONYTONY Sàrl – Creative web development from design to launch. Get a custom
+    business website in 4 weeks. Based in Switzerland, serving clients
+    worldwide.
   og:title: TONYTONY Sàrl | Creative Web Development | Success
   additional_tags: >-
-    <meta content="Go live within 4 weeks 🔥 From logo design to business
-    website, I bring your vision to life at affordable prices. I am the only
-    digital designer you will will ever need. Headquartered in Switzerland, with
-    a global operational reach." property="og:description"><meta content="Go
-    live within 4 weeks 🔥 From logo design to business website, I bring your
-    vision to life at affordable prices. I am the only digital designer you will
-    will ever need. Headquartered in Switzerland, with a global operational
-    reach." property="twitter:description"><meta
+    <meta content="TONYTONY Sàrl – Creative web development from design to
+    launch. Get a custom business website in 4 weeks. Based in Switzerland,
+    serving clients worldwide." property="og:description"><meta
+    content="TONYTONY Sàrl – Creative web development from design to launch. Get
+    a custom business website in 4 weeks. Based in Switzerland, serving clients
+    worldwide." property="twitter:description"><meta
     content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-

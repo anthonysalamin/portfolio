@@ -43,7 +43,7 @@ body{overflow-x:hidden;overflow-y:auto}
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
-<body>
+{%- assign ref = f_testimony-2 | resolveReference -%}<body>
   <div class="page-wrap">
     <div class="css w-embed">
       <style>
@@ -303,9 +303,9 @@ main:focus-visible {
                     </svg></div>
                 </div>
               </div>
-              {%- assign ref = f_testimony-2 | resolveReference -%}<p class="subline quote">{{ ref.data.f_testimony-text }}</p>
+              <p class="subline quote">{{ ref.data.f_testimony-text }}</p>
               <div class="testimonial-author-wrap">
-                <div class="avatar__bg darker">{%- assign testimoniesOfProjects = f_testimony-2 | resolveReference -%}<img loading="lazy" alt="{{ images.0.alt | escape }}" src="{{ testimoniesOfProjects.data.f_portrait.url }}" class="avatar__img">
+                <div class="avatar__bg darker"><img loading="lazy" alt="{{ images.0.alt | escape }}" src="{{ testimoniesOfProjects_f_testimony-2.data.f_portrait.url }}" class="avatar__img">
                   <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
                       <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
                       <g fill="#fff">
@@ -314,7 +314,7 @@ main:focus-visible {
                     </svg></div>
                 </div>
                 <div class="testimonial-author">
-                  {%- assign ref = f_testimony-2 | resolveReference -%}<p class="bold">{{ ref.data.title }}</p>
+                  <p class="bold">{{ ref.data.title }}</p>
                   <p class="mini">{{ ref.data.f_occupation }}</p>
                   <p class="mini">{{ ref.data.f_company }}</p>
                 </div>
