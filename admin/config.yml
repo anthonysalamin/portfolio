@@ -1345,25 +1345,35 @@ collections:
             label: Text
             name: '-419d223c'
             widget: string
-          - hint: >-
-              Original text: Ensuring trust and accountability on
-              anthonysalamin.ch, key: 60144c49
+          - hint: 'Original text: 3961 St-Luc, key: 6754b7ed'
             label: Text
-            name: 60144c49
+            name: 6754b7ed
+            widget: string
+          - hint: 'Original text: SWITZERLAND, key: -4427f07d'
+            label: Text
+            name: '-4427f07d'
+            widget: string
+          - hint: 'Original text: E-Mail: tony@tonytony.ch, key: 670df592'
+            label: Text
+            name: 670df592
+            widget: string
+          - hint: 'Original text: Privacy policy, key: -922d316'
+            label: Text
+            name: '-922d316'
             widget: string
           - hint: >-
-              Original text: Discover transparency and compliance with
-              tonytony.ch's imprint., key: -2cd78eff
+              Original text: THIS PRIVACY POLICY OUTLINES HOW WE COLLECT, USE,
+              AND SAFEGUARD YOUR INFORMATION WHEN YOU VISIT OUR WEBSITE
+              TONYTONY.CH. BY ACCESSING AND USING OUR WEBSITE, YOU CONSENT TO
+              THE TERMS AND PRACTICES DESCRIBED IN THIS PRIVACY POLICY., key:
+              -59b73ee6
             label: Text
-            name: '-2cd78eff'
-            widget: string
-          - hint: >-
-              Original text: At tonytony.ch, we are committed to protecting the
-              privacy and personal information of our website visitors., key:
-              7a82beef
-            label: Text
-            name: 7a82beef
+            name: '-59b73ee6'
             widget: text
+          - hint: 'Original text: Last updated: June 4, 2023, key: -689d0a60'
+            label: Text
+            name: '-689d0a60'
+            widget: string
           - hint: 'Original text: See images, key: 4c81705'
             label: Text
             name: 4c81705
@@ -3011,16 +3021,6 @@ collections:
             label: Text
             name: 7d7349f0
             widget: text
-          - hint: >-
-              Original text: Discover transparency and compliance with
-              tonytony.ch's privacy policy., key: d0d2168
-            label: Text
-            name: d0d2168
-            widget: string
-          - hint: "Original text: Vertrauen und Verantwortlichkeit \_gewährleisten, key: -7a3f9f17"
-            label: Text
-            name: '-7a3f9f17'
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
