@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- en test -->
+  <!-- en -->
   <url>
     <loc>https://tonytony.ch/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
@@ -132,7 +132,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/success/" />
   </url>
   <!-- Projects -->
-  <url><loc>https://tonytony.ch/projects/quatreaplus</loc><lastmod>2025-04-05T18:58:39.252Z</lastmod></url>
+  <url><loc>https://tonytony.ch/projects/quatreaplus/</loc><lastmod>2025-04-05T18:58:39.252Z</lastmod></url>
   <url><loc>https://tonytony.ch/projects/arolla-pine/</loc><lastmod>2025-04-05T18:58:39.252Z</lastmod></url>
   <url><loc>https://tonytony.ch/projects/cave-du-verseau/</loc><lastmod>2025-04-05T18:58:39.252Z</lastmod></url>
   <url><loc>https://tonytony.ch/projects/code-of-silence/</loc><lastmod>2025-04-05T18:58:39.252Z</lastmod></url>
