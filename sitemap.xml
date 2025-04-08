@@ -5,6 +5,8 @@
   <url>
     <loc>https://tonytony.ch/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/" />
@@ -13,6 +15,8 @@
   <url>
     <loc>https://tonytony.ch/portfolio/</loc>
     <lastmod>2025-04-05T18:58:39.252Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/portfolio/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/projekte/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/projets/" />
@@ -20,6 +24,8 @@
   <url>
     <loc>https://tonytony.ch/contact/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/contact/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/kontakt/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/contact/" />
@@ -27,6 +33,8 @@
   <url>
     <loc>https://tonytony.ch/imprint/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/imprint/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/impressum/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/mentions-legales/" />
@@ -34,6 +42,8 @@
   <url>
     <loc>https://tonytony.ch/privacy-policy/</loc>
     <lastmod>2025-04-05T18:58:39.252Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/privacy-policy/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/datenschutzerklarung/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/politique-de-confidentialite/" />
@@ -41,6 +51,8 @@
   <url>
     <loc>https://tonytony.ch/success/</loc>
     <lastmod>2025-04-05T18:58:39.252Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/success/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/success/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/succes/" />
@@ -49,6 +61,8 @@
   <url>
     <loc>https://tonytony.ch/de/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/" />
@@ -56,6 +70,8 @@
   <url>
     <loc>https://tonytony.ch/de/datenschutzerklarung/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/datenschutzerklarung/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/privacy-policy/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/politique-de-confidentialite/" />
@@ -63,6 +79,8 @@
   <url>
     <loc>https://tonytony.ch/de/impressum/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/impressum/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/imprint/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/mentions-legales/" />
@@ -70,6 +88,8 @@
   <url>
     <loc>https://tonytony.ch/de/kontakt/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/kontakt/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/contact/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/contact/" />
@@ -77,6 +97,8 @@
   <url>
     <loc>https://tonytony.ch/de/projekte/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/projekte/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/portfolio/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/projets/" />
@@ -84,6 +106,8 @@
   <url>
     <loc>https://tonytony.ch/de/success/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/success/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/success/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/succes/" />
@@ -92,6 +116,8 @@
   <url>
     <loc>https://tonytony.ch/fr/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/" />
@@ -99,6 +125,8 @@
   <url>
     <loc>https://tonytony.ch/fr/contact/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/contact/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/kontakt/" />
@@ -106,6 +134,8 @@
   <url>
     <loc>https://tonytony.ch/fr/mentions-legales/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/mentions-legales/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/imprint/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/impressum/" />
@@ -113,6 +143,8 @@
   <url>
     <loc>https://tonytony.ch/fr/politique-de-confidentialite/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/politique-de-confidentialite/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/privacy-policy/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/datenschutzerklarung/" />
@@ -120,6 +152,8 @@
   <url>
     <loc>https://tonytony.ch/fr/projets/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/projets/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/portfolio/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/projekte/" />
@@ -127,6 +161,8 @@
   <url>
     <loc>https://tonytony.ch/fr/succes/</loc>
     <lastmod>2025-04-05T18:58:39.248Z</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://tonytony.ch/fr/succes/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tonytony.ch/success/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://tonytony.ch/de/success/" />
