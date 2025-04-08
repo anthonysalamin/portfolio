@@ -12,6 +12,7 @@
     "node-fetch": "^2.6.1"
   },
   "scripts": {
+    "build": "npx @11ty/eleventy && cp theme/robots.txt public/robots.txt && cp theme/sitemap.xml public/sitemap.xml",
     "optimize": "node ./_utils/scripts/optimize-assets.js",
     "preserve": "npm run optimize",
     "prebuild": "npm run optimize",
