@@ -12,12 +12,11 @@
     "node-fetch": "^2.6.1"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy && cp /robots.txt public/robots.txt && cp /sitemap.xml public/sitemap.xml",
     "optimize": "node ./_utils/scripts/optimize-assets.js",
     "preserve": "npm run optimize",
     "prebuild": "npm run optimize",
     "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy && mkdir -p public && cp robots.txt public/robots.txt && cp sitemap.xml public/sitemap.xml",
     "local-backend": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
