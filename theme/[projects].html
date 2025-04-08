@@ -668,7 +668,7 @@ main:focus-visible {
               <div class="markees__module">
                 <div data-markees="column-forward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | filter: "f_column,eq,1", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}
@@ -680,7 +680,7 @@ main:focus-visible {
                 </div>
                 <div data-markees="column-backward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | filter: "f_column,eq,2", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}
@@ -692,7 +692,7 @@ main:focus-visible {
                 </div>
                 <div data-markees="column-forward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | filter: "f_column,eq,3", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img src="{{ item.data.f_logo.url }}" loading="lazy" alt="{{ images.317f733b.alt | escape }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}

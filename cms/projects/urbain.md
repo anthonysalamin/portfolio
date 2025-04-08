@@ -12,7 +12,6 @@ slug: urbain
 f_category-ies:
   - cms/categories/web.md
 f_similar-projects:
-  - cms/projects/wventures.md
   - cms/projects/quatreaplus.md
 updated-on: '2024-03-12T17:38:26.139Z'
 created-on: '2023-12-14T03:45:51.938Z'

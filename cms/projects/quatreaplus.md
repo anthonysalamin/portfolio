@@ -63,7 +63,6 @@ f_gallery:
     alt: null
 f_testimony-2: cms/testimonies/camil-amos.md
 f_similar-projects:
-  - cms/projects/wventures.md
   - cms/projects/urbain.md
 f_category-ies:
   - cms/categories/web.md

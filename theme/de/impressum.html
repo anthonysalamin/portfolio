@@ -147,7 +147,7 @@ main:focus-visible {
               </div>
             </div>
             <div class="testimonials__quotes">
-              {%- assign collection = collections.legal-text | filter: "title,eq,Imprint", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
+              {%- assign collection = collections.legal-text | sort: "-created-on" -%}<div class="w-dyn-list">
                 {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
                   {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
                     <div class="legal-text w-richtext">{{ item.templateContent | markdown }}</div>
