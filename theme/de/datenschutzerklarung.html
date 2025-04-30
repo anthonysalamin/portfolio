@@ -139,23 +139,42 @@ main:focus-visible {
     <main class="main">
       <div class="section legal">
         <div class="container">
-          <div class="w-layout-grid testimonials">
-            <div id="w-node-aaf45596-30ec-e451-a863-e64129beafa9-cc5d70a9" class="testimonials__intro">
-              <div class="punchline-subline-wrap">
-                <p class="h1">{{ texts.-922d316 }}</p>
-                <p class="subline is-small">{{ texts.-59b73ee6 }}<br><br><em>{{ texts.-689d0a60 }}</em></p>
+          <div class="w-layout-grid legal__grid">
+            <div id="w-node-_21835ff9-0fa6-9737-3dc0-85ee6104ead0-6104eacd" class="legal__intro">
+              <div class="legal__intro-wrap">
+                <p class="h1">{{ texts.-33c4befd }}</p>
+                <div class="paragraph">{{ texts.5ae27340 }}<br>{{ texts.6cabd653 }}<br>{{ texts.6754b7ed }}<br>{{ texts.-62e6e389 }}<br><br>{{ texts.552a19ed }}<br>{{ texts.-1a749246 }}<br>{{ texts.-7c8232bc }}<br><br>{{ texts.670df592 }}<br>{{ texts.3d189caf }}<br><br>{{ texts.-178b33f7 }}<br>{{ texts.-23d93a15 }}</div>
               </div>
             </div>
-            <div class="testimonials__quotes">
-              {%- assign collection = collections.legal-text | sort: "-created-on" -%}<div class="w-dyn-list">
-                {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
-                  {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
-                    <div class="legal-text w-richtext">{{ item.templateContent | markdown }}</div>
-                  </div>{%- endfor -%}
-                </div>{%- endunless -%}
-                {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-                  <div>{{ texts.3d503d2b }}</div>
-                </div>{%- endif -%}
+            <div class="legal__detail">
+              <h2 class="h2">{{ texts.-14c20806 }}</h2>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.6c9a5c8c }}</h3>
+                <p class="paragraph">{{ texts.-6821a16 }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.-4c88dde6 }}</h3>
+                <p class="paragraph">{{ texts.-2b8aeb65 }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.684d3cf3 }}</h3>
+                <p class="paragraph">{{ texts.-394c0953 }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.1a465172 }}</h3>
+                <p class="paragraph">{{ texts.6a80bbb4 }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.1550db4c }}</h3>
+                <p class="paragraph">{{ texts.134847be }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.-7eb66385 }}</h3>
+                <p class="paragraph">{{ texts.67eca986 }}</p>
+              </div>
+              <div class="legal__block">
+                <h3 class="h3">{{ texts.3d5c824c }}</h3>
+                <p class="paragraph">{{ texts.-14baa2f9 }}</p>
               </div>
             </div>
           </div>
@@ -166,7 +185,7 @@ main:focus-visible {
       <div class="container">
         <div class="footer">
           <div class="footer__links-wraps">
-            <p class="footer__address"><strong>{{ texts.5ae9997b }}<br>{{ texts.200d }}</strong>{{ texts.-71549c20 }}<br>{{ texts.5a483ec2 }}<br></p>
+            <p class="footer__address"><strong>{{ texts.5ae27340 }}<br></strong>{{ texts.6cabd653 }}<br>{{ texts.-738a44ca }}<br></p>
           </div>
           <div class="footer__links-wraps mobile">
             <div class="footer__links-wrap">
@@ -181,7 +200,7 @@ main:focus-visible {
                     <path d="M2 9.137C2 14 6.02 16.591 8.962 18.911 10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138c0-4.863-5.5-8.312-10-3.636C7.5.825 2 4.274 2 9.137Z" fill="currentColor"></path>
                   </svg>
                 </div>
-                <div class="legend">{{ texts.-293dc233 }}</div>
+                <div class="legend">{{ texts.-2fceca33 }}</div>
               </a>
               <a href="{{ links.663eed27 }}" target="_blank" class="link-embed w-inline-block">
                 <div class="embed-linkedin-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 76.98 18">
@@ -194,8 +213,9 @@ main:focus-visible {
             </div>
             <div class="wrap-btn-audit"></div>
             <div class="footer__links-wrap">
-              <a href="{{ links.1f89a675 }}" data-id="navbar-link" class="footer__link">{{ texts.-29f92c17 }}</a>
-              <a href="{{ links.-2f934417 }}" data-id="navbar-link" class="footer__link">{{ texts.-3fbde6f6 }}</a>
+              <a href="{{ links.92a5d17 }}" data-id="navbar-link" class="footer__link">{{ texts.-15dee94f }}</a>
+              <a href="{{ links.-2107557c }}" data-id="navbar-link" aria-current="page" class="footer__link w--current">{{ texts.-14b75991 }}</a>
+              <a href="{{ links.-65f6e7fb }}" data-id="navbar-link" class="footer__link">{{ texts.1497 }}<span data-id="year">{{ texts.295600 }}</span>{{ texts.52d18574 }}<span class="is-normal-text">{{ texts.21ebac }}</span></a>
             </div>
           </div>
         </div>
@@ -246,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
     MARKEES_CONTAINER: `[data-markees="container"]`,
     COLUMN_FORWARD: `[data-markees="column-forward"]`,
     COLUMN_BACKWARD: `[data-markees="column-backward"]`,
-    DURATION: 8
+    DURATION: 16
   };
   // 🥭 on load
   initVerticalMarquees(OPTIONS);
@@ -294,10 +314,10 @@ function progress__showOnScroll(){let r=document.querySelector(".progress-wrap")
 </script>
   <script>
 /*
- * inject current year in footer
- * build 24.10.23 @ 11:22
- */
-document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
+ * UTILITY | current year
+ * build 25.10.24 @18:02
+*/
+document.addEventListener("DOMContentLoaded",()=>{injectCurrentYear()});function injectCurrentYear(){let e=new Date().getFullYear(),t=document.querySelector('[data-id="year"]');t&&(t.textContent=e)}
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

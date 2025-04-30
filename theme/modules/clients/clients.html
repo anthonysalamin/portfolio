@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
     MARKEES_CONTAINER: `[data-markees="container"]`,
     COLUMN_FORWARD: `[data-markees="column-forward"]`,
     COLUMN_BACKWARD: `[data-markees="column-backward"]`,
-    DURATION: 8
+    DURATION: 16
   };
   // 🥭 on load
   initVerticalMarquees(OPTIONS);
@@ -157,10 +157,10 @@ function progress__showOnScroll(){let r=document.querySelector(".progress-wrap")
 </script>
   <script>
 /*
- * inject current year in footer
- * build 24.10.23 @ 11:22
- */
-document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
+ * UTILITY | current year
+ * build 25.10.24 @18:02
+*/
+document.addEventListener("DOMContentLoaded",()=>{injectCurrentYear()});function injectCurrentYear(){let e=new Date().getFullYear(),t=document.querySelector('[data-id="year"]');t&&(t.textContent=e)}
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

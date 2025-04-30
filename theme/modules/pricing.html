@@ -40,7 +40,7 @@ body{overflow-x:hidden;overflow-y:auto}
   <section id="pricing" class="section dark">
     <div class="container">
       <div class="align-center-v2 light">
-        <div data-w-id="b55fa6bb-67e5-e4ff-4572-f31f697698b6" class="punchline-subline-wrap">
+        <div data-w-id="b55fa6bb-67e5-e4ff-4572-f31f697698b6" class="legal__intro-wrap">
           <h1 class="h1"><span class="punchline-striked">{{ texts.6b2b7124 }}</span>{{ texts.26f68cfa }}</h1>
           <h2 class="subline">{{ texts.-701b685c }}</h2>
         </div>
@@ -429,10 +429,10 @@ body{overflow-x:hidden;overflow-y:auto}
         </div>
       </div>
       <div class="align-center-v3 light">
-        <div data-w-id="53ea9e3b-1c64-2229-0891-d953f0693799" class="punchline-subline-wrap justify-center nomarg">
+        <div data-w-id="53ea9e3b-1c64-2229-0891-d953f0693799" class="legal__intro-wrap justify-center nomarg">
           <p class="h1">{{ texts.-36607e28 }}</p>
           <a href="{{ links.16bdc13e }}" class="cta w-inline-block">
-            <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
+            <div class="avatar__bg btn"><img src="{{ images.-1a2138d3.url }}" loading="lazy" alt="{{ images.-1a2138d3.alt | escape }}" class="avatar__img"></div>
             <div class="cta__text">{{ texts.-5230a9d2 }}</div>
           </a>
         </div>
@@ -483,7 +483,7 @@ document.addEventListener("DOMContentLoaded", () => {
     MARKEES_CONTAINER: `[data-markees="container"]`,
     COLUMN_FORWARD: `[data-markees="column-forward"]`,
     COLUMN_BACKWARD: `[data-markees="column-backward"]`,
-    DURATION: 8
+    DURATION: 16
   };
   // 🥭 on load
   initVerticalMarquees(OPTIONS);
@@ -531,10 +531,10 @@ function progress__showOnScroll(){let r=document.querySelector(".progress-wrap")
 </script>
   <script>
 /*
- * inject current year in footer
- * build 24.10.23 @ 11:22
- */
-document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
+ * UTILITY | current year
+ * build 25.10.24 @18:02
+*/
+document.addEventListener("DOMContentLoaded",()=>{injectCurrentYear()});function injectCurrentYear(){let e=new Date().getFullYear(),t=document.querySelector('[data-id="year"]');t&&(t.textContent=e)}
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

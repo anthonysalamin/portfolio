@@ -8,16 +8,16 @@ seo:
   noindex: false
   title: TONYTONY Sàrl | Politique de Confidentialité
   description: >-
-    TONYTONY Sàrl – Création de sites web sur mesure, de la conception au
-    lancement. Obtenez votre site professionnel en 4 semaines. Basé en Suisse,
+    Création de sites web sur mesure, de la conception au lancement. Obtenez
+    votre site professionnel en 4 semaines. TONYTONY Sàrl est basé en Suisse,
     actif dans le monde entier.
   og:title: TONYTONY Sàrl | Politique de Confidentialité
   additional_tags: >-
-    <meta content="TONYTONY Sàrl – Création de sites web sur mesure, de la
-    conception au lancement. Obtenez votre site professionnel en 4 semaines.
-    Basé en Suisse, actif dans le monde entier." property="og:description"><meta
-    content="TONYTONY Sàrl – Création de sites web sur mesure, de la conception
-    au lancement. Obtenez votre site professionnel en 4 semaines. Basé en
+    <meta content="Création de sites web sur mesure, de la conception au
+    lancement. Obtenez votre site professionnel en 4 semaines. TONYTONY Sàrl est
+    basé en Suisse, actif dans le monde entier." property="og:description"><meta
+    content="Création de sites web sur mesure, de la conception au lancement.
+    Obtenez votre site professionnel en 4 semaines. TONYTONY Sàrl est basé en
     Suisse, actif dans le monde entier." property="twitter:description"><meta
     content="https://uploads-ssl.webflow.com/6565594186e587567235d089/65c9fd66d2e95d7d83b0cbd3_opengraph%20en.jpg"
     property="twitter:image"><meta property="og:type" content="website">

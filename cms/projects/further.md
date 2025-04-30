@@ -18,6 +18,7 @@ f_video-thumbnail-2: further-02
 slug: further
 f_similar-projects:
   - cms/projects/quatreaplus.md
+  - cms/projects/wventures.md
 f_category-ies:
   - cms/categories/web.md
 updated-on: '2024-03-12T17:36:57.315Z'

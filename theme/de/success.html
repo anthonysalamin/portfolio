@@ -142,7 +142,7 @@ main:focus-visible {
           <div class="header__punchline nomargin">
             <p class="h1">{{ texts.4179573d }}</p>
             <div class="avatar">
-              <div class="avatar__bg"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | escape }}" class="avatar__img"></div>
+              <div class="avatar__bg"><img src="{{ images.-1a2138d3.url }}" loading="lazy" alt="{{ images.-1a2138d3.alt | escape }}" class="avatar__img"></div>
               <div class="flex-vertical-start-start">
                 <div class="subline semibold">{{ texts.7b0de148 }}</div>
                 <div class="subline">{{ texts.22af72 }}<span data-id="subline">{{ texts.-73af28af }}</span></div>
@@ -169,7 +169,7 @@ main:focus-visible {
               <div class="markees__module">
                 <div data-markees="column-forward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,1", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img loading="lazy" alt="{{ images.317f733b.alt | escape }}" src="{{ item.data.f_logo.url }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}
@@ -181,7 +181,7 @@ main:focus-visible {
                 </div>
                 <div data-markees="column-backward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,2", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img loading="lazy" alt="{{ images.317f733b.alt | escape }}" src="{{ item.data.f_logo.url }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}
@@ -193,7 +193,7 @@ main:focus-visible {
                 </div>
                 <div data-markees="column-forward" class="markees_column">
                   <div data-markees="container" class="markees_container">
-                    {%- assign collection = collections.partnerships | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
+                    {%- assign collection = collections.partnerships | filter: "f_column,eq,3", "ALL", page.inputPath | sort: "-created-on" -%}<div class="markees__cl-wrapper w-dyn-list">
                       {%- unless collection.length == 0 -%}<div role="list" class="markees__list w-dyn-items">
                         {%- for item in collection -%}<div role="listitem" class="markees__item w-dyn-item"><img loading="lazy" alt="{{ images.317f733b.alt | escape }}" src="{{ item.data.f_logo.url }}" class="markees__logo"></div>{%- endfor -%}
                       </div>{%- endunless -%}
@@ -213,7 +213,7 @@ main:focus-visible {
       <div class="container">
         <div class="footer">
           <div class="footer__links-wraps">
-            <p class="footer__address"><strong>{{ texts.5ae27340 }}<br>{{ texts.200d }}</strong>{{ texts.-61e37d5d }}<br>{{ texts.-738a44ca }}<br></p>
+            <p class="footer__address"><strong>{{ texts.5ae27340 }}<br></strong>{{ texts.6cabd653 }}<br>{{ texts.-738a44ca }}<br></p>
           </div>
           <div class="footer__links-wraps mobile">
             <div class="footer__links-wrap">
@@ -243,6 +243,7 @@ main:focus-visible {
             <div class="footer__links-wrap">
               <a href="{{ links.92a5d17 }}" data-id="navbar-link" class="footer__link">{{ texts.-15dee94f }}</a>
               <a href="{{ links.-2107557c }}" data-id="navbar-link" class="footer__link">{{ texts.-14b75991 }}</a>
+              <a href="{{ links.-65f6e7fb }}" data-id="navbar-link" class="footer__link">{{ texts.1497 }}<span data-id="year">{{ texts.295600 }}</span>{{ texts.52d18574 }}<span class="is-normal-text">{{ texts.21ebac }}</span></a>
             </div>
           </div>
         </div>
@@ -293,7 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
     MARKEES_CONTAINER: `[data-markees="container"]`,
     COLUMN_FORWARD: `[data-markees="column-forward"]`,
     COLUMN_BACKWARD: `[data-markees="column-backward"]`,
-    DURATION: 8
+    DURATION: 16
   };
   // 🥭 on load
   initVerticalMarquees(OPTIONS);
@@ -341,10 +342,10 @@ function progress__showOnScroll(){let r=document.querySelector(".progress-wrap")
 </script>
   <script>
 /*
- * inject current year in footer
- * build 24.10.23 @ 11:22
- */
-document.addEventListener("DOMContentLoaded",()=>{const copyrightYear=document.querySelector(`[data-date="year"]`);if(!copyrightYear){return}copyrightYear.textContent=new Date().getFullYear()});
+ * UTILITY | current year
+ * build 25.10.24 @18:02
+*/
+document.addEventListener("DOMContentLoaded",()=>{injectCurrentYear()});function injectCurrentYear(){let e=new Date().getFullYear(),t=document.querySelector('[data-id="year"]');t&&(t.textContent=e)}
 </script>
   <script>
 /*
