@@ -346,6 +346,32 @@ function progress__showOnScroll(){let r=document.querySelector(".progress-wrap")
 </script>
   <script>
 /*
+ * UTILITY | cursor v1.0.8
+ * build 09.02.25 @18:29
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  const OPTIONS_CURSOR = {
+    BREAKPOINT: 768,
+    TARGETS: document.querySelectorAll("[data-cursor]"),
+    SIZE: "90px",
+    RADIUS: "50%",
+    FONT_SIZE: "18px",
+    COLOR: {
+      BACKGROUND: `#635df6`,
+      TEXT: `white`
+    },
+    MIX_BLEND_MODE: "normal"
+  };
+  if (!checkTargets(OPTIONS_CURSOR)) return;
+  const cursorInstance = { current: null };
+  cursorInstance.current = initCursor(OPTIONS_CURSOR);
+  handleResize(cursorInstance, OPTIONS_CURSOR);
+  checkInitialHover(OPTIONS_CURSOR, cursorInstance.current);
+});
+function checkTargets(e){return!!e.TARGETS.length||(console.log("Skipping custom cursor - No targets found."),!1)}function handleResize(e,t){window.addEventListener("resize",debounce(()=>{window.innerWidth<=t.BREAKPOINT?e.current&&(cleanupCursor(e.current),e.current=null):e.current||(e.current=initCursor(t))},200))}function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function cleanupCursor(e){if(!e)return;let{cursor:t,eventListeners:n,targets:r}=e;r.forEach((e,t)=>{let r=n[t];e.removeEventListener("mousemove",r.mousemove),e.removeEventListener("mouseenter",r.mouseenter),e.removeEventListener("mouseleave",r.mouseleave)}),t?.parentNode&&t.parentNode.removeChild(t)}function initCursor(e){if(window.innerWidth<=e.BREAKPOINT)return console.log("Skipping custom cursor on mobile."),null;let t=document.createElement("div");Object.assign(t.style,{width:e.SIZE,height:e.SIZE,borderRadius:e.RADIUS,mixBlendMode:e.MIX_BLEND_MODE,position:"fixed",display:"flex",alignItems:"center",justifyContent:"center",background:e.COLOR.BACKGROUND,color:e.COLOR.TEXT,pointerEvents:"none",zIndex:"9999",opacity:"0",left:"-9999px",top:"-9999px"}),document.body.appendChild(t);let n=[];return e.TARGETS.forEach(r=>{let o={mousemove(e){let n=e.clientX+10,r=e.clientY+10;gsap.to(t,{duration:.65,left:n,top:r,ease:"power2.out"})},mouseenter(){t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${r.dataset.cursor}</b></p>`,gsap.to(t,{opacity:1,duration:.3,ease:"power2.out"})},mouseleave(n){let r=n.relatedTarget,o=null;e.TARGETS.forEach(e=>{e.contains(r)&&(o=e.dataset.cursor)}),o?t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${o}</b></p>`:gsap.to(t,{opacity:0,duration:.3,ease:"power2.out"})}};r.addEventListener("mousemove",o.mousemove),r.addEventListener("mouseenter",o.mouseenter),r.addEventListener("mouseleave",o.mouseleave),n.push(o)}),{cursor:t,eventListeners:n,targets:e.TARGETS}}function checkInitialHover(e,t){t&&e.TARGETS.forEach(n=>{let r=n.getBoundingClientRect(),o=window.innerWidth/2,i=window.innerHeight/2;o>=r.left&&o<=r.right&&i>=r.top&&i<=r.bottom&&(t.cursor.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${n.dataset.cursor}</b></p>`,gsap.to(t.cursor,{opacity:1,duration:.3,ease:"power2.out"}))})}
+</script>
+  <script>
+/*
  * UTILITY | current year
  * build 25.10.24 @18:02
 */

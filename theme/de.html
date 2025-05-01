@@ -469,7 +469,7 @@ main:focus-visible {
               </div>
               <div id="w-node-d0e2f561-5357-6a16-dac3-054aac0bad1f-ac0bad18" class="faq__grid-item">
                 <div class="faq__items">
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.24c0dd8d }}</div>
@@ -490,7 +490,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.-2688e835 }}</div>
@@ -511,7 +511,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.43d41407 }}</div>
@@ -532,7 +532,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.79eeb6b3 }}</div>
@@ -553,7 +553,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.-26578b98 }}</div>
@@ -574,7 +574,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.-3c8291e4 }}</div>
@@ -595,7 +595,7 @@ main:focus-visible {
                       </div>
                     </div>
                   </div>
-                  <div class="faq__item">
+                  <div data-cursor="click" class="faq__item">
                     <div class="faq__question hover-x">
                       <div class="one-name">
                         <div class="h2 faq">{{ texts.44f99627 }}</div>
@@ -842,6 +842,32 @@ document.addEventListener("DOMContentLoaded", () => {
   progress__injectHTML(hideAtPercentage);
 });
 function progress__showOnScroll(){let r=document.querySelector(".progress-wrap");if(!r)return;let o=r.querySelector("path"),e=o.getTotalLength();gsap.set(o,{strokeDasharray:e,strokeDashoffset:e}),gsap.to(o,{strokeDashoffset:0,scrollTrigger:{trigger:document.body,start:"top top",end:"bottom bottom",scrub:!0}}),gsap.to(r,{autoAlpha:1,scrollTrigger:{trigger:document.body,start:"top+=50px top",toggleClass:{targets:r,className:"active-progress"},once:!1}}),r.addEventListener("click",r=>{r.preventDefault(),gsap.to(window,{scrollTo:0,duration:.55,ease:"power2.out"})})}function progress__isMobileDevice(r){return window.innerWidth<r}function progress__injectCSS(r){let o=`.progress-wrap{--indicator-progress-color:rgba(255, 255, 255, 1);--indicator-slide-color:rgba(255, 255, 255, .1);--indicator-font:"Unicons";--indicator-content:"\\e84b";--indicator-hover:white --indicator-position:1.25rem}@font-face{font-family:"Unicons";src:url("https://uploads-ssl.webflow.com/61a0f086f2b1f289503a4957/6329d8e0a1790e3283ae2504_unicons.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}.progress-wrap{position:fixed;mix-blend-mode:difference;${r}:1.5rem;bottom:1.5rem;height:46px;width:46px;cursor:pointer;display:none;border-radius:50px;box-shadow:inset 0 0 0 2px var(--indicator-slide-color);z-index:10000;opacity:0;visibility:hidden;transform:translateY(15px);transition:all 200ms linear}.progress-wrap.active-progress{display:block;transition:1s;opacity:1;visibility:visible;transform:translateY(0)}.progress-wrap::after,.progress-wrap::before{position:absolute;font-family:var(--indicator-font);content:var(--indicator-content);text-align:center;line-height:46px;font-size:24px;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;transition:all 200ms linear}.progress-wrap::after{color:var(--indicator-progress-color);z-index:1}.progress-wrap:hover::before{color:var(--indicator-hover);transform:scale(1.0);transform-origin:center}.progress-wrap:hover::after{transform:scale(1.15);transform-origin:center}.progress-wrap svg path{fill:none}.progress-wrap svg.progress-circle path{stroke:var(--indicator-progress-color);stroke-width:4;box-sizing:border-box;transition:all 200ms linear}`,e=document.createElement("style");e.innerHTML=o,document.head.appendChild(e)}function progress__injectHTML(r){document.body.insertAdjacentHTML("afterbegin",'<div class="progress-wrap"><svg class="progress-circle" height="100%" viewBox="-1 -1 102 102" width="100%"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div>'),progress__showOnScroll(),progress__hideOnFooter(r)}function progress__hideOnFooter(r){let o=document.querySelector(".progress-wrap");o&&window.addEventListener("scroll",()=>{let e=window.scrollY,t=document.documentElement.scrollHeight,s=window.innerHeight;gsap.to(o,{opacity:e/(t-s)>=r?0:1,duration:.5,ease:"power2.out"})})}
+</script>
+  <script>
+/*
+ * UTILITY | cursor v1.0.8
+ * build 09.02.25 @18:29
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  const OPTIONS_CURSOR = {
+    BREAKPOINT: 768,
+    TARGETS: document.querySelectorAll("[data-cursor]"),
+    SIZE: "90px",
+    RADIUS: "50%",
+    FONT_SIZE: "18px",
+    COLOR: {
+      BACKGROUND: `#635df6`,
+      TEXT: `white`
+    },
+    MIX_BLEND_MODE: "normal"
+  };
+  if (!checkTargets(OPTIONS_CURSOR)) return;
+  const cursorInstance = { current: null };
+  cursorInstance.current = initCursor(OPTIONS_CURSOR);
+  handleResize(cursorInstance, OPTIONS_CURSOR);
+  checkInitialHover(OPTIONS_CURSOR, cursorInstance.current);
+});
+function checkTargets(e){return!!e.TARGETS.length||(console.log("Skipping custom cursor - No targets found."),!1)}function handleResize(e,t){window.addEventListener("resize",debounce(()=>{window.innerWidth<=t.BREAKPOINT?e.current&&(cleanupCursor(e.current),e.current=null):e.current||(e.current=initCursor(t))},200))}function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function cleanupCursor(e){if(!e)return;let{cursor:t,eventListeners:n,targets:r}=e;r.forEach((e,t)=>{let r=n[t];e.removeEventListener("mousemove",r.mousemove),e.removeEventListener("mouseenter",r.mouseenter),e.removeEventListener("mouseleave",r.mouseleave)}),t?.parentNode&&t.parentNode.removeChild(t)}function initCursor(e){if(window.innerWidth<=e.BREAKPOINT)return console.log("Skipping custom cursor on mobile."),null;let t=document.createElement("div");Object.assign(t.style,{width:e.SIZE,height:e.SIZE,borderRadius:e.RADIUS,mixBlendMode:e.MIX_BLEND_MODE,position:"fixed",display:"flex",alignItems:"center",justifyContent:"center",background:e.COLOR.BACKGROUND,color:e.COLOR.TEXT,pointerEvents:"none",zIndex:"9999",opacity:"0",left:"-9999px",top:"-9999px"}),document.body.appendChild(t);let n=[];return e.TARGETS.forEach(r=>{let o={mousemove(e){let n=e.clientX+10,r=e.clientY+10;gsap.to(t,{duration:.65,left:n,top:r,ease:"power2.out"})},mouseenter(){t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${r.dataset.cursor}</b></p>`,gsap.to(t,{opacity:1,duration:.3,ease:"power2.out"})},mouseleave(n){let r=n.relatedTarget,o=null;e.TARGETS.forEach(e=>{e.contains(r)&&(o=e.dataset.cursor)}),o?t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${o}</b></p>`:gsap.to(t,{opacity:0,duration:.3,ease:"power2.out"})}};r.addEventListener("mousemove",o.mousemove),r.addEventListener("mouseenter",o.mouseenter),r.addEventListener("mouseleave",o.mouseleave),n.push(o)}),{cursor:t,eventListeners:n,targets:e.TARGETS}}function checkInitialHover(e,t){t&&e.TARGETS.forEach(n=>{let r=n.getBoundingClientRect(),o=window.innerWidth/2,i=window.innerHeight/2;o>=r.left&&o<=r.right&&i>=r.top&&i<=r.bottom&&(t.cursor.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${n.dataset.cursor}</b></p>`,gsap.to(t.cursor,{opacity:1,duration:.3,ease:"power2.out"}))})}
 </script>
   <script>
 /*

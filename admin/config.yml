@@ -3121,12 +3121,6 @@ collections:
             label: Text
             name: 614942a6
             widget: string
-          - hint: >-
-              Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
-              key: 4179573d
-            label: Text
-            name: 4179573d
-            widget: string
           - hint: 'Original text: Le seul Designer, key: -468bd165'
             label: Text
             name: '-468bd165'
@@ -3134,6 +3128,12 @@ collections:
           - hint: 'Original text: Digital dont vous aurez besoin., key: -1d20845'
             label: Text
             name: '-1d20845'
+            widget: string
+          - hint: >-
+              Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
+              key: 4179573d
+            label: Text
+            name: 4179573d
             widget: string
           - hint: >-
               Original text: Der digitale Designer und Entwickler, den Sie
