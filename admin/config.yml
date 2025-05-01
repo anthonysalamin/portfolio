@@ -932,17 +932,18 @@ collections:
             name: '-773faf87'
             widget: string
           - hint: >-
-              Original text: I solve online brand identity issues, so you don't
-              have to., key: -60ede2b2
+              Original text: Life’s too short to wrestle with technical
+              headaches., key: 6db333d0
             label: Text
-            name: '-60ede2b2'
+            name: 6db333d0
             widget: string
           - hint: >-
-              Original text: I help businesses shine online. I am the Digital
-              Designer you didn't know you needed., key: 21e91b01
+              Original text: Let me handle the tech stuff — you focus on growing
+              your business (or throwing your dog 🐶 a bday party)., key:
+              -50768e35
             label: Text
-            name: 21e91b01
-            widget: string
+            name: '-50768e35'
+            widget: text
           - hint: 'Original text: FAQ, key: 10ef6'
             label: Text
             name: 10ef6
@@ -1048,11 +1049,9 @@ collections:
             label: Text
             name: '-7b8cbc82'
             widget: text
-          - hint: >-
-              Original text: Clients and agencies I’ve teamed up with, key:
-              -1bea69f4
+          - hint: 'Original text: Clients I’ve teamed up with, key: 5399a730'
             label: Text
-            name: '-1bea69f4'
+            name: 5399a730
             widget: string
           - hint: >-
               Original text: Every new project is a chance to learn something
@@ -1072,9 +1071,21 @@ collections:
             label: Text
             name: 5a483ec2
             widget: string
-          - hint: 'Original text: TONY@TONYTONY.ch, key: -293dc233'
+          - hint: 'Original text: TONYTONY.ch, key: 6ea59d87'
             label: Text
-            name: '-293dc233'
+            name: 6ea59d87
+            widget: string
+          - hint: 'Original text: DE, key: 881'
+            label: Text
+            name: '881'
+            widget: string
+          - hint: 'Original text: FR, key: 8cc'
+            label: Text
+            name: 8cc
+            widget: string
+          - hint: 'Original text: EN, key: 8a9'
+            label: Text
+            name: 8a9
             widget: string
           - hint: 'Original text: Imprint, key: -29f92c17'
             label: Text
@@ -1591,6 +1602,12 @@ collections:
             name: '20991839'
             widget: string
           - hint: >-
+              Original text: I solve online brand identity issues, so you don't
+              have to., key: -60ede2b2
+            label: Text
+            name: '-60ede2b2'
+            widget: string
+          - hint: >-
               Original text: Focus on what you do best, simply let me handle the
               rest for you., key: -5a9fb6e3
             label: Text
@@ -1705,47 +1722,9 @@ collections:
             label: Text
             name: 3e5b85cc
             widget: string
-          - hint: 'Original text: What is your estimated timeline ?, key: -31946f69'
-            label: Text
-            name: '-31946f69'
-            widget: string
-          - hint: 'Original text: ASAP , key: 3bab05f'
-            label: Text
-            name: 3bab05f
-            widget: string
-          - hint: 'Original text: 1 — 2 months, key: -76e81084'
-            label: Text
-            name: '-76e81084'
-            widget: string
-          - hint: 'Original text: 2 — 4 months, key: 608bee99'
-            label: Text
-            name: 608bee99
-            widget: string
           - hint: 'Original text: How shall we start a conversation ?, key: 608faf2d'
             label: Text
             name: 608faf2d
-            widget: string
-          - hint: 'Original text: How did you hear about me ?, key: -3fb1d936'
-            label: Text
-            name: '-3fb1d936'
-            widget: string
-          - hint: 'Original text: Referral, key: -27372043'
-            label: Text
-            name: '-27372043'
-            widget: string
-          - hint: 'Original text: Organic search, key: -389e5363'
-            label: Text
-            name: '-389e5363'
-            widget: string
-          - hint: 'Original text: Other, key: 48f8ef0'
-            label: Text
-            name: 48f8ef0
-            widget: string
-          - hint: >-
-              Original text: Ready to submit your request and kick off a new
-              project with me !, key: -42bab57
-            label: Text
-            name: '-42bab57'
             widget: string
           - hint: >-
               Original text: I acknowledge that I have read and consent to the ,
@@ -2242,18 +2221,15 @@ collections:
             label: Text
             name: '-71e3024c'
             widget: text
-          - hint: >-
-              Original text: Éloges chaleureux de clients comblés., key:
-              4ed7b85d
+          - hint: 'Original text: Éloges de clients comblés., key: -37a94ea7'
             label: Text
-            name: 4ed7b85d
+            name: '-37a94ea7'
             widget: string
           - hint: >-
-              Original text: Fier et reconnaissant de l'opportunité de
-              travailler avec des clients dans un large éventail d'industries.,
-              key: 2ea66487
+              Original text: Reconnaissant de l'opportunité de travailler avec
+              des clients dans un large éventail d'industries., key: -13586d1a
             label: Text
-            name: 2ea66487
+            name: '-13586d1a'
             widget: text
           - hint: "Original text: “ Anthony est un créatif exceptionnellement doué et universel. Dans son exploration des différents moyens, méthodes et outils, il fait preuve d'une intuition admirable.\_\_”, key: 750f8b2c"
             label: Text
@@ -2310,17 +2286,18 @@ collections:
             name: '3e124865'
             widget: string
           - hint: >-
-              Original text: Je résous vos problèmes d'identité de marque en
-              ligne., key: -20093843
+              Original text: La vie est trop courte pour se battre avec les
+              tracas techniques., key: -160e529c
             label: Text
-            name: '-20093843'
+            name: '-160e529c'
             widget: string
           - hint: >-
-              Original text: Je suis le concepteur numérique dont vous ne
-              soupçonniez pas le besoin., key: 207f4f6a
+              Original text: Laisse-moi gérer la technique — concentrez-vous sur
+              votre business (ou l’anniversaire de votre chien 🐶)., key:
+              108665ca
             label: Text
-            name: 207f4f6a
-            widget: string
+            name: 108665ca
+            widget: text
           - hint: 'Original text: Prendre contact, key: -48bda494'
             label: Text
             name: '-48bda494'
@@ -2692,10 +2669,10 @@ collections:
             name: 288381fc
             widget: text
           - hint: >-
-              Original text: Clients et agences avec lesquelles j’ai collaboré.,
-              key: 68562a69
+              Original text: Clients avec lesquels j’ai collaboré., key:
+              -1c5ab0bf
             label: Text
-            name: 68562a69
+            name: '-1c5ab0bf'
             widget: string
           - hint: >-
               Original text: Chaque nouveau projet est l'occasion d'apprendre
@@ -2711,9 +2688,9 @@ collections:
             label: Text
             name: dc80bdf
             widget: string
-          - hint: 'Original text: TONY@TONYTONY.CH, key: -293dc633'
+          - hint: 'Original text: TONYTONY.CH, key: 6ea59987'
             label: Text
-            name: '-293dc633'
+            name: 6ea59987
             widget: string
           - hint: 'Original text: Mentions légales, key: -68d80214'
             label: Text
@@ -2864,6 +2841,14 @@ collections:
             label: Text
             name: 762f34bb
             widget: string
+          - hint: 'Original text: Referral, key: -27372043'
+            label: Text
+            name: '-27372043'
+            widget: string
+          - hint: 'Original text: Organic search, key: -389e5363'
+            label: Text
+            name: '-389e5363'
+            widget: string
           - hint: 'Original text: Sonstiges, key: -5d6ed7e1'
             label: Text
             name: '-5d6ed7e1'
@@ -2973,17 +2958,17 @@ collections:
             name: '-6e23b137'
             widget: string
           - hint: >-
-              Original text: Ich löse Online-Markenidentität Probleme., key:
-              -4ae60bab
+              Original text: Das Leben ist zu kurz für Technikstress., key:
+              -4d0c7005
             label: Text
-            name: '-4ae60bab'
+            name: '-4d0c7005'
             widget: string
           - hint: >-
-              Original text: Ich helfe Unternehmen, online zu glänzen. Ich bin
-              der Digital Designer, von dem Sie nicht wussten, dass Sie ihn
-              brauchen., key: -3a9d5424
+              Original text: Ich übernehme die Technik – Sie fokussieren sich
+              auf Ihr Business (oder die Geburtstagsparty Ihres Hund 🐶)., key:
+              -105a5f2d
             label: Text
-            name: '-3a9d5424'
+            name: '-105a5f2d'
             widget: text
           - hint: 'Original text: Kontakt aufnehmen, key: 79876eb7'
             label: Text
@@ -3118,9 +3103,9 @@ collections:
             label: Text
             name: '-738a44ca'
             widget: string
-          - hint: 'Original text: tony@tonytony.ch, key: -2fceca33'
+          - hint: 'Original text: tonytony.ch, key: -11ae7279'
             label: Text
-            name: '-2fceca33'
+            name: '-11ae7279'
             widget: string
           - hint: 'Original text: Impessum, key: -15dee94f'
             label: Text
@@ -3902,19 +3887,6 @@ collections:
             name: title
             widget: hidden
             default: Images
-          - label: Image
-            name: i113240e4
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
           - label: Image
             name: i46796a01
             widget: object
