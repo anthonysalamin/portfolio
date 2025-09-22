@@ -1031,4 +1031,4 @@ document.addEventListener("DOMContentLoaded", () => {
 function addBlink(e,t){if(!e)return;const n=document.createElement("style");n.textContent=`${t}::after{content:"_";animation:typingBlink 1.15s linear infinite}@keyframes typingBlink{0%,100%{opacity:0}50%{opacity:1}}`,document.head.appendChild(n)}function initTyping(e,t,n){const i=document.querySelector(e);if(!i)return;addBlink(t,e);const o=20,c=1500,d=0,a=1;let r=d,l=0,s=0,u;function f(){u=setInterval(m,o)}function m(){const e=n[l];r===d?(s++,s===e.length&&(r=a,clearInterval(u),setTimeout(f,c))):r===a&&(s--,0===s&&p()),i.textContent=e.substring(0,s)}function p(){s=0,r=d,l=(l+1)%n.length}f()}
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }} </body></html>
