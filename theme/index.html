@@ -741,6 +741,27 @@ main:focus-visible {
   <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
   <!--  typed.js  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script>
+    /**
+     * UTILITY | link Lenis with GSAP ScrollTrigger
+     * @build 05.02.2024 @updated 11:17
+    */
+      
+    // after initializing Lenis
+    const lenis = new Lenis();
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+    // integrate with ScrollTrigger
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000);
+    });
+    </script>
+  
   <script>
 /*
  * PORTFOLIO | language redirect v1
@@ -1266,6 +1287,12 @@ function mixItUp(production) {
       ? (randomSortApplied = false)
       : (mixer.sort("random"), (randomSortApplied = true));
     */
+
+   // Tell GSAP to recalc positions after filtering
+    requestAnimationFrame(() => {
+      ScrollTrigger.refresh();
+    });
+
     const totalItems = document.querySelectorAll(`.mixitup__collection-item`)
       .length;
     const filteredItems = mixer.getState().totalShow;
