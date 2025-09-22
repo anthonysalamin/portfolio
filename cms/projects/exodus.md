@@ -2,12 +2,10 @@
 f_has-gallery-images: false
 f_hero-video: false
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658056424751b18ff147425b_thumbnail.avif
+  url: /assets/external/658056424751b18ff147425b_thumbnail.avif
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65805647de88efae9c537e8b_hero.avif
+  url: /assets/external/65805647de88efae9c537e8b_hero.avif
   alt: null
 f_highlight: false
 f_on-display: true

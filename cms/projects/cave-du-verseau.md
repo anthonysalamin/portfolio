@@ -15,12 +15,10 @@ f_introduction: >-
   and a love for wine converged harmoniously.
 slug: cave-du-verseau
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6580446d28d0be36fc22bedb_thumbnail.avif
+  url: /assets/external/6580446d28d0be36fc22bedb_thumbnail.avif
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658044703384c3c33cd5f950_hero.avif
+  url: /assets/external/658044703384c3c33cd5f950_hero.avif
   alt: null
 f_category-ies:
   - cms/categories/film.md

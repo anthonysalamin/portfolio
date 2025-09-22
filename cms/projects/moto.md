@@ -14,40 +14,30 @@ f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583beacefe94c745761133b_moto-03.jpg
+  url: /assets/external/6583beacefe94c745761133b_moto-03.jpg
   alt: null
 f_category-ies:
   - cms/categories/web.md
 f_client: cherrycherry UG
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c94bf436898727a244_moto-02.webp
+  - url: /assets/external/6583b6c94bf436898727a244_moto-02.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c890180e4e0677554a_moto-06.webp
+  - url: /assets/external/6583b6c890180e4e0677554a_moto-06.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6a9af21ee3aa843039a_moto-01.webp
+  - url: /assets/external/6583b6a9af21ee3aa843039a_moto-01.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c75e1ccb9abd213756_moto-07.webp
+  - url: /assets/external/6583b6c75e1ccb9abd213756_moto-07.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583beacefe94c745761133b_moto-03.jpg
+  - url: /assets/external/6583beacefe94c745761133b_moto-03.jpg
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c741a163a020d70747_moto-08.avif
+  - url: /assets/external/6583b6c741a163a020d70747_moto-08.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c7058da26d60dd4356_moto-05.jpg
+  - url: /assets/external/6583b6c7058da26d60dd4356_moto-05.jpg
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583b6c7c0c50a8ad413755a_moto-09.avif
+  - url: /assets/external/6583b6c7c0c50a8ad413755a_moto-09.avif
     alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583bc72009441a51630d6e0_hero-v2.webp
+  url: /assets/external/6583bc72009441a51630d6e0_hero-v2.webp
   alt: null
 f_horizontal-line-1: '#UX/UI #design #frontend #backend #development #DNS #setup'
 f_horizontal-line-2: '#germany #münich #architecture #construction #corporate'
@@ -59,8 +49,7 @@ f_similar-projects:
   - cms/projects/quatreaplus.md
   - cms/projects/tlh.md
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583bf6541a163a020dbe0ec_thumbnail-v2.webp
+  url: /assets/external/6583bf6541a163a020dbe0ec_thumbnail-v2.webp
   alt: null
 f_website: https://www.moto-pm.de/
 f_is-web: true

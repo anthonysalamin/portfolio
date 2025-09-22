@@ -3,8 +3,7 @@ f_occupation: Tech Investor/Chairman
 f_company: W Ventures GmbH
 title: Jochen M. Wilms
 f_portrait:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a762f0de9a423b684bc63_jochen.webp
+  url: /assets/external/657a762f0de9a423b684bc63_jochen.webp
   alt: null
 slug: jochen-m-wilms
 updated-on: '2024-01-23T06:46:39.557Z'

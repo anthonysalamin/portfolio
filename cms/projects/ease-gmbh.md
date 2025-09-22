@@ -18,35 +18,26 @@ f_introduction: >-
   with love. Still work in Progress.
 slug: ease-gmbh
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e95e946a2dae0520fc991_thumbnail.webp
+  url: /assets/external/658e95e946a2dae0520fc991_thumbnail.webp
   alt: null
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8e494e87fa2085326954_highlight.webp
+  url: /assets/external/658e8e494e87fa2085326954_highlight.webp
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e96a71c31c1ee98a4fd4e_hero.webp
+  url: /assets/external/658e96a71c31c1ee98a4fd4e_hero.webp
   alt: null
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebc39b8ba9d61863fd9_ease-01.webp
+  - url: /assets/external/658e8ebc39b8ba9d61863fd9_ease-01.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebc0f2f680e3ee344df_ease-02.webp
+  - url: /assets/external/658e8ebc0f2f680e3ee344df_ease-02.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebb4205f28754d4f8a8_ease-03.jpg
+  - url: /assets/external/658e8ebb4205f28754d4f8a8_ease-03.jpg
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebc3b23dfb66e57a978_ease-07.webp
+  - url: /assets/external/658e8ebc3b23dfb66e57a978_ease-07.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebc93829cd0bf6cd624_ease-05.webp
+  - url: /assets/external/658e8ebc93829cd0bf6cd624_ease-05.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658e8ebbb3102c387dc9b5f3_ease-06.webp
+  - url: /assets/external/658e8ebbb3102c387dc9b5f3_ease-06.webp
     alt: null
 f_category-ies:
   - cms/categories/web.md

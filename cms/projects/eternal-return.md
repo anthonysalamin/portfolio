@@ -15,12 +15,10 @@ f_introduction: >-
   present duty. Presented through a short film.
 slug: eternal-return
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658047e7c46facb7f9d2748d_thumbnail.avif
+  url: /assets/external/658047e7c46facb7f9d2748d_thumbnail.avif
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658047eaf5a2024c9040bd82_hero.avif
+  url: /assets/external/658047eaf5a2024c9040bd82_hero.avif
   alt: null
 f_category-ies:
   - cms/categories/film.md

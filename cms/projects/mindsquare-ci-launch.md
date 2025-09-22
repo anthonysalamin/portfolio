@@ -17,38 +17,28 @@ f_introduction: >-
   environments.
 slug: mindsquare-ci-launch
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/659532771d646507b4ba1059_thumbnail_animated.svg
+  url: /assets/external/659532771d646507b4ba1059_thumbnail_animated.svg
   alt: null
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d64d341b8e99769f12_img_mindsquare_03.avif
+  url: /assets/external/658186d64d341b8e99769f12_img_mindsquare_03.avif
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
+  url: /assets/external/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
   alt: null
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65818846206eb252fe66bef3_test.svg
+  - url: /assets/external/65818846206eb252fe66bef3_test.svg
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d46bbf7deaf2f4d461_img_mindsquare_06.avif
+  - url: /assets/external/658186d46bbf7deaf2f4d461_img_mindsquare_06.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d3093aab6d4e5b74f4_img_mindsquare_09.avif
+  - url: /assets/external/658186d3093aab6d4e5b74f4_img_mindsquare_09.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d40cdfe876cc9b004c_img_mindsquare_08.avif
+  - url: /assets/external/658186d40cdfe876cc9b004c_img_mindsquare_08.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d581322879a8e57b90_img_mindsquare_05.avif
+  - url: /assets/external/658186d581322879a8e57b90_img_mindsquare_05.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d6a5113138f355cc6d_img_mindsquare_04.avif
+  - url: /assets/external/658186d6a5113138f355cc6d_img_mindsquare_04.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658186d44b431bddbc703e90_img_mindsquare_10.avif
+  - url: /assets/external/658186d44b431bddbc703e90_img_mindsquare_10.avif
     alt: null
 f_category-ies:
   - cms/categories/design.md

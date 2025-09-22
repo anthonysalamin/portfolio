@@ -3,8 +3,7 @@ f_occupation: Business Development
 f_company: Coffe TONYA PH
 title: Kristina Ay-ay
 f_portrait:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a764b9d88a6ed87df1368_kristina.webp
+  url: /assets/external/657a764b9d88a6ed87df1368_kristina.webp
   alt: null
 slug: kristina-ay-ay
 updated-on: '2024-01-23T06:46:28.626Z'

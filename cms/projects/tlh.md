@@ -16,8 +16,7 @@ f_introduction: >-
   reservation module, a search component and an archive section.
 f_video-thumbnail-2: tlh-02
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a92c569fd531834f0a31b_tlh-03.avif
+  url: /assets/external/657a92c569fd531834f0a31b_tlh-03.avif
   alt: null
 slug: tlh
 f_category-ies:
@@ -29,23 +28,17 @@ updated-on: '2024-03-12T17:23:32.540Z'
 created-on: '2023-12-14T05:31:50.649Z'
 published-on: '2024-03-12T17:29:16.671Z'
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9359fb8e873a8db84107_tlh-01.avif
+  - url: /assets/external/657a9359fb8e873a8db84107_tlh-01.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a93577e45f45e4bd40a6c_tlh-02.avif
+  - url: /assets/external/657a93577e45f45e4bd40a6c_tlh-02.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a955f96fd7e48e0b2e5c6_tlh-03-nobg.avif
+  - url: /assets/external/657a955f96fd7e48e0b2e5c6_tlh-03-nobg.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9358b11bb7f0639af2ad_tlh-04.avif
+  - url: /assets/external/657a9358b11bb7f0639af2ad_tlh-04.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a9358bbf0dcda52ff9ed6_tlh-05.avif
+  - url: /assets/external/657a9358bbf0dcda52ff9ed6_tlh-05.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a935779ebca1fed065ac4_tlh-06.avif
+  - url: /assets/external/657a935779ebca1fed065ac4_tlh-06.avif
     alt: null
 f_horizontal-line-1: '#UX/UI design #frontend #development #DNS setup #reservation #ticketing'
 f_horizontal-line-2: '#swiss #valais #theatre #performance #culture'
@@ -58,8 +51,7 @@ f_order: 5
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/658022515b17e17950015e8c_thumbnail.avif
+  url: /assets/external/658022515b17e17950015e8c_thumbnail.avif
   alt: null
 f_has-big-image: true
 f_is-photography: false

@@ -1155,6 +1155,159 @@ collections:
             label: Text
             name: '-562f9faf'
             widget: text
+          - hint: 'Original text: 3961 St-Luc, key: 6754b7ed'
+            label: Text
+            name: 6754b7ed
+            widget: string
+          - hint: 'Original text: SWITZERLAND, key: -4427f07d'
+            label: Text
+            name: '-4427f07d'
+            widget: string
+          - hint: 'Original text: Status: Limited Liability Company, key: -1f79bcb4'
+            label: Text
+            name: '-1f79bcb4'
+            widget: string
+          - hint: 'Original text: Managing Director: Anthony Salamin, key: -6d836268'
+            label: Text
+            name: '-6d836268'
+            widget: string
+          - hint: 'Original text: IDE: CHE-444.867.578‍, key: -636e54dd'
+            label: Text
+            name: '-636e54dd'
+            widget: string
+          - hint: 'Original text: Email: tony@tonytony.ch, key: 4000256f'
+            label: Text
+            name: 4000256f
+            widget: string
+          - hint: 'Original text: Website: www.tonytony.ch, key: 3d189caf'
+            label: Text
+            name: 3d189caf
+            widget: string
+          - hint: 'Original text: © TONYTONY LLC, key: 51d246c6'
+            label: Text
+            name: 51d246c6
+            widget: string
+          - hint: 'Original text: All rights reserved, key: -3972594e'
+            label: Text
+            name: '-3972594e'
+            widget: string
+          - hint: 'Original text: Disclaimer – Legal Notices, key: 6f6cb042'
+            label: Text
+            name: 6f6cb042
+            widget: string
+          - hint: 'Original text: § 1 Warning about Content, key: -7466de06'
+            label: Text
+            name: '-7466de06'
+            widget: string
+          - hint: >-
+              Original text: The free and freely accessible content of this
+              website has been created with the greatest possible care. However,
+              the provider of this website does not guarantee the accuracy and
+              timeliness of the provided free and freely accessible journalistic
+              guides and news. Contributions identified by name reflect the
+              opinion of the respective author and not always the opinion of the
+              provider. Merely accessing the free and freely accessible content
+              does not establish any contractual relationship between the user
+              and the provider, as there is a lack of the provider's intent to
+              be legally bound., key: 17cc8696
+            label: Text
+            name: 17cc8696
+            widget: text
+          - hint: 'Original text: § 2 External Links, key: -1638c0d5'
+            label: Text
+            name: '-1638c0d5'
+            widget: string
+          - hint: >-
+              Original text: This website contains links to third-party websites
+              ("external links"). These websites are the responsibility of the
+              respective operators. The provider checked the external content
+              for possible legal violations when first linking the external
+              links. At that time, no legal violations were apparent. The
+              provider has no influence on the current and future design and
+              content of the linked pages. Setting external links does not mean
+              that the provider adopts the content behind the reference or link
+              as its own. Continuous monitoring of external links by the
+              provider, without specific indications of legal violations, is not
+              reasonable. However, if legal violations become known, such
+              external links will be deleted immediately., key: -700d3639
+            label: Text
+            name: '-700d3639'
+            widget: text
+          - hint: 'Original text: § 3 Copyright and Performance Rights, key: 2c08cdef'
+            label: Text
+            name: 2c08cdef
+            widget: string
+          - hint: >-
+              Original text: The content published on this website is protected
+              by Swiss copyright law. Any use that is not explicitly permitted
+              by applicable copyright legislation requires the prior written
+              consent of the website operator or the respective rights holder.
+              This includes, in particular, reproduction, modification,
+              translation, storage, processing, or transmission of content in
+              databases or other electronic systems and media. Content belonging
+              to third parties is marked accordingly. Unauthorized reproduction
+              or distribution of content, in whole or in part, is prohibited and
+              may be subject to legal action. Copies and downloads are permitted
+              solely for personal, private, and non-commercial use. Displaying
+              this website within external frames is only allowed with written
+              permission., key: 425b097b
+            label: Text
+            name: 425b097b
+            widget: text
+          - hint: 'Original text: § 4 Special Terms of Use, key: 480d8ca3'
+            label: Text
+            name: 480d8ca3
+            widget: string
+          - hint: >-
+              Original text: In cases where special conditions for individual
+              uses of this website deviate from the aforementioned paragraphs,
+              explicit reference will be made to this at the respective
+              location. In such cases, the special terms of use apply in the
+              respective individual case., key: -111664cc
+            label: Text
+            name: '-111664cc'
+            widget: text
+          - hint: >-
+              Original text: § 5 Pricing Information and Terms of Service
+              disclaimer, key: -73c52f85
+            label: Text
+            name: '-73c52f85'
+            widget: string
+          - hint: >-
+              Original text: The prices indicated on this platform or in any
+              communication are provided for informational purposes only and are
+              subject to change. The information serves as a general guide and
+              is not a definitive offer. A comprehensive cost calculation
+              tailored to your specific requirements must be conducted to
+              validate any contractual agreement between the operator of this
+              website and the client. The final contract will outline all fixed
+              costs, recurring charges, and any other relevant financial
+              details. It is essential for clients to carefully review and agree
+              to these terms before entering into any formal agreement. The
+              operator of this website reserves the right to modify the pricing
+              policy and terms of service at its discretion and without prior
+              notice. Such changes may be implemented to reflect market
+              conditions, operational requirements, or any other factors deemed
+              relevant by the operator of this website. Clients will be informed
+              of any modifications, and continued use of our services implies
+              acceptance of the updated terms., key: -6d08cbc8
+            label: Text
+            name: '-6d08cbc8'
+            widget: text
+          - hint: 'Original text: § 6 Jurisdiction and Applicable Law, key: -49e7db3a'
+            label: Text
+            name: '-49e7db3a'
+            widget: string
+          - hint: >-
+              Original text: This website is operated by a company based in
+              Switzerland. Any disputes arising from or in connection with the
+              use of this website shall be subject exclusively to Swiss law,
+              excluding its conflict of law provisions. The place of
+              jurisdiction is Anniviers, Switzerland, unless mandatory legal
+              provisions stipulate otherwise., key: d9aa8
+            label: Text
+            name: d9aa8
+            widget: text
           - hint: >-
               Original text: An impactful digital presence for a simple
               transparent pricing. , key: -633a982d
@@ -1357,159 +1510,6 @@ collections:
             label: Text
             name: '-419d223c'
             widget: string
-          - hint: 'Original text: 3961 St-Luc, key: 6754b7ed'
-            label: Text
-            name: 6754b7ed
-            widget: string
-          - hint: 'Original text: SWITZERLAND, key: -4427f07d'
-            label: Text
-            name: '-4427f07d'
-            widget: string
-          - hint: 'Original text: Status: Limited Liability Company, key: -1f79bcb4'
-            label: Text
-            name: '-1f79bcb4'
-            widget: string
-          - hint: 'Original text: Managing Director: Anthony Salamin, key: -6d836268'
-            label: Text
-            name: '-6d836268'
-            widget: string
-          - hint: 'Original text: IDE: CHE-444.867.578‍, key: -636e54dd'
-            label: Text
-            name: '-636e54dd'
-            widget: string
-          - hint: 'Original text: Email: tony@tonytony.ch, key: 4000256f'
-            label: Text
-            name: 4000256f
-            widget: string
-          - hint: 'Original text: Website: www.tonytony.ch, key: 3d189caf'
-            label: Text
-            name: 3d189caf
-            widget: string
-          - hint: 'Original text: © TONYTONY LLC, key: 51d246c6'
-            label: Text
-            name: 51d246c6
-            widget: string
-          - hint: 'Original text: All rights reserved, key: -3972594e'
-            label: Text
-            name: '-3972594e'
-            widget: string
-          - hint: 'Original text: Disclaimer – Legal Notices, key: 6f6cb042'
-            label: Text
-            name: 6f6cb042
-            widget: string
-          - hint: 'Original text: § 1 Warning about Content, key: -7466de06'
-            label: Text
-            name: '-7466de06'
-            widget: string
-          - hint: >-
-              Original text: The free and freely accessible content of this
-              website has been created with the greatest possible care. However,
-              the provider of this website does not guarantee the accuracy and
-              timeliness of the provided free and freely accessible journalistic
-              guides and news. Contributions identified by name reflect the
-              opinion of the respective author and not always the opinion of the
-              provider. Merely accessing the free and freely accessible content
-              does not establish any contractual relationship between the user
-              and the provider, as there is a lack of the provider's intent to
-              be legally bound., key: 17cc8696
-            label: Text
-            name: 17cc8696
-            widget: text
-          - hint: 'Original text: § 2 External Links, key: -1638c0d5'
-            label: Text
-            name: '-1638c0d5'
-            widget: string
-          - hint: >-
-              Original text: This website contains links to third-party websites
-              ("external links"). These websites are the responsibility of the
-              respective operators. The provider checked the external content
-              for possible legal violations when first linking the external
-              links. At that time, no legal violations were apparent. The
-              provider has no influence on the current and future design and
-              content of the linked pages. Setting external links does not mean
-              that the provider adopts the content behind the reference or link
-              as its own. Continuous monitoring of external links by the
-              provider, without specific indications of legal violations, is not
-              reasonable. However, if legal violations become known, such
-              external links will be deleted immediately., key: -700d3639
-            label: Text
-            name: '-700d3639'
-            widget: text
-          - hint: 'Original text: § 3 Copyright and Performance Rights, key: 2c08cdef'
-            label: Text
-            name: 2c08cdef
-            widget: string
-          - hint: >-
-              Original text: The content published on this website is protected
-              by Swiss copyright law. Any use that is not explicitly permitted
-              by applicable copyright legislation requires the prior written
-              consent of the website operator or the respective rights holder.
-              This includes, in particular, reproduction, modification,
-              translation, storage, processing, or transmission of content in
-              databases or other electronic systems and media. Content belonging
-              to third parties is marked accordingly. Unauthorized reproduction
-              or distribution of content, in whole or in part, is prohibited and
-              may be subject to legal action. Copies and downloads are permitted
-              solely for personal, private, and non-commercial use. Displaying
-              this website within external frames is only allowed with written
-              permission., key: 425b097b
-            label: Text
-            name: 425b097b
-            widget: text
-          - hint: 'Original text: § 4 Special Terms of Use, key: 480d8ca3'
-            label: Text
-            name: 480d8ca3
-            widget: string
-          - hint: >-
-              Original text: In cases where special conditions for individual
-              uses of this website deviate from the aforementioned paragraphs,
-              explicit reference will be made to this at the respective
-              location. In such cases, the special terms of use apply in the
-              respective individual case., key: -111664cc
-            label: Text
-            name: '-111664cc'
-            widget: text
-          - hint: >-
-              Original text: § 5 Pricing Information and Terms of Service
-              disclaimer, key: -73c52f85
-            label: Text
-            name: '-73c52f85'
-            widget: string
-          - hint: >-
-              Original text: The prices indicated on this platform or in any
-              communication are provided for informational purposes only and are
-              subject to change. The information serves as a general guide and
-              is not a definitive offer. A comprehensive cost calculation
-              tailored to your specific requirements must be conducted to
-              validate any contractual agreement between the operator of this
-              website and the client. The final contract will outline all fixed
-              costs, recurring charges, and any other relevant financial
-              details. It is essential for clients to carefully review and agree
-              to these terms before entering into any formal agreement. The
-              operator of this website reserves the right to modify the pricing
-              policy and terms of service at its discretion and without prior
-              notice. Such changes may be implemented to reflect market
-              conditions, operational requirements, or any other factors deemed
-              relevant by the operator of this website. Clients will be informed
-              of any modifications, and continued use of our services implies
-              acceptance of the updated terms., key: -6d08cbc8
-            label: Text
-            name: '-6d08cbc8'
-            widget: text
-          - hint: 'Original text: § 6 Jurisdiction and Applicable Law, key: -49e7db3a'
-            label: Text
-            name: '-49e7db3a'
-            widget: string
-          - hint: >-
-              Original text: This website is operated by a company based in
-              Switzerland. Any disputes arising from or in connection with the
-              use of this website shall be subject exclusively to Swiss law,
-              excluding its conflict of law provisions. The place of
-              jurisdiction is Anniviers, Switzerland, unless mandatory legal
-              provisions stipulate otherwise., key: d9aa8
-            label: Text
-            name: d9aa8
-            widget: text
           - hint: 'Original text: Privacy policy, key: -922d316'
             label: Text
             name: '-922d316'
@@ -2753,6 +2753,20 @@ collections:
             label: Text
             name: '2911e7'
             widget: string
+          - hint: 'Original text: Le seul Designer, key: -468bd165'
+            label: Text
+            name: '-468bd165'
+            widget: string
+          - hint: 'Original text: Digital dont vous aurez besoin., key: -1d20845'
+            label: Text
+            name: '-1d20845'
+            widget: string
+          - hint: >-
+              Original text: Merci — je m'engage à vous répondre dans les plus
+              brefs délais., key: 614942a6
+            label: Text
+            name: 614942a6
+            widget: string
           - hint: 'Original text: Projekte, key: -37ac656c'
             label: Text
             name: '-37ac656c'
@@ -3157,106 +3171,14 @@ collections:
             name: 21ebac
             widget: string
           - hint: >-
-              Original text: Merci — je m'engage à vous répondre dans les plus
-              brefs délais., key: 614942a6
-            label: Text
-            name: 614942a6
-            widget: string
-          - hint: >-
               Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
               key: 4179573d
             label: Text
             name: 4179573d
             widget: string
-          - hint: 'Original text: Le seul Designer, key: -468bd165'
+          - hint: 'Original text: Datenschutz, key: -33c4befd'
             label: Text
-            name: '-468bd165'
-            widget: string
-          - hint: 'Original text: Digital dont vous aurez besoin., key: -1d20845'
-            label: Text
-            name: '-1d20845'
-            widget: string
-          - hint: >-
-              Original text: Der digitale Designer und Entwickler, den Sie
-              wirklich brauchen., key: -40c48625
-            label: Text
-            name: '-40c48625'
-            widget: string
-          - hint: >-
-              Original text: Der digitale Designer und Entwickler, den Sie
-              wirklich brauchen, key: 79c81cb3
-            label: Text
-            name: 79c81cb3
-            widget: string
-          - hint: >-
-              Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
-              Webdesign und -entwicklung, ich kreiere Ihre moderne
-              Markenidentität., key: -777f5a9f
-            label: Text
-            name: '-777f5a9f'
-            widget: text
-          - hint: >-
-              Original text: Ihre Online-Präsenz zusammen erstellen, key:
-              4fbb981e
-            label: Text
-            name: 4fbb981e
-            widget: string
-          - hint: >-
-              Original text: Webdesign, Markenidentität, Startup, LP,
-              E-Commerce, MVP, key: 9431f6a
-            label: Text
-            name: 9431f6a
-            widget: string
-          - hint: >-
-              Original text: Effektives Design zum fairen Preis — Website heute
-              erhalten, key: 269636b1
-            label: Text
-            name: 269636b1
-            widget: string
-          - hint: >-
-              Original text: Konzentrieren Sie sich auf das, was Sie am besten
-              können, und überlassen Sie mir den Rest., key: 5fc554a1
-            label: Text
-            name: 5fc554a1
-            widget: string
-          - hint: 'Original text: Digital dont vous aurez besoin, key: -4a619d2d'
-            label: Text
-            name: '-4a619d2d'
-            widget: string
-          - hint: >-
-              Original text: Je renforce votre entreprise avec un design et un
-              développement Web complet, je crée votre identité de marque
-              moderne et unique., key: -1b5da4b6
-            label: Text
-            name: '-1b5da4b6'
-            widget: text
-          - hint: >-
-              Original text: Construisons votre présence en ligne., key:
-              -6d34c257
-            label: Text
-            name: '-6d34c257'
-            widget: string
-          - hint: >-
-              Original text: Web design, Identité de marque, Startup, LP,
-              ecommerce, MVP, key: 45faaa3a
-            label: Text
-            name: 45faaa3a
-            widget: string
-          - hint: >-
-              Original text: Prix compétitifs pour un design percutant — votre
-              site web dès aujourd'hui, key: 69ba260a
-            label: Text
-            name: 69ba260a
-            widget: string
-          - hint: >-
-              Original text: Concentrez-vous sur ce que vous faites de mieux,
-              laissez-moi m'occuper du reste., key: a2aab74
-            label: Text
-            name: a2aab74
-            widget: string
-          - hint: 'Original text: Impressum, key: 6f6b7057'
-            label: Text
-            name: 6f6b7057
+            name: '-33c4befd'
             widget: string
           - hint: 'Original text: SCHWEIZ, key: -62e6e389'
             label: Text
@@ -3294,133 +3216,127 @@ collections:
             label: Text
             name: '-14c20806'
             widget: string
-          - hint: 'Original text: § 1 Warnhinweis zu Inhalten, key: -28a1e235'
+          - hint: 'Original text: § 1 Überblick, key: 6c9a5c8c'
             label: Text
-            name: '-28a1e235'
+            name: 6c9a5c8c
             widget: string
           - hint: >-
-              Original text: Die kostenlosen und frei zugänglichen Inhalte
-              dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Der
-              Anbieter dieser Website übernimmt jedoch keine Gewähr für die
-              Richtigkeit und Aktualität der bereitgestellten kostenlosen und
-              frei zugänglichen journalistischen Ratgeber und Nachrichten.
-              Namentlich gekennzeichnete Beiträge geben die Meinung des
-              jeweiligen Autors und nicht immer die Meinung des Anbieters
-              wieder. Allein durch den Aufruf der kostenlosen und frei
-              zugänglichen Inhalte kommt keinerlei Vertragsverhältnis zwischen
-              dem Nutzer und dem Anbieter zustande, da es insoweit am
-              Rechtsbindungswillen des Anbieters fehlt., key: 4c82ae71
+              Original text: DIESE DATENSCHUTZERKLÄRUNG BESCHREIBT, WIE WIR IHRE
+              PERSONENBEZOGENEN DATEN ERHEBEN, VERARBEITEN UND SCHÜTZEN, WENN
+              SIE UNSERE WEBSITE BESUCHEN UND NUTZEN. DURCH DIE WEITERE NUTZUNG
+              DIESER WEBSITE BESTÄTIGEN SIE, DASS SIE DIE HIER DARGELEGTEN
+              BEDINGUNGEN GELESEN, VERSTANDEN UND AKZEPTIERT HABEN., key:
+              -6821a16
             label: Text
-            name: 4c82ae71
+            name: '-6821a16'
             widget: text
-          - hint: 'Original text: § 2 Externe Links, key: 19dbf377'
+          - hint: 'Original text: § 2 ‍Von uns erhobene Informationen, key: -4c88dde6'
             label: Text
-            name: 19dbf377
+            name: '-4c88dde6'
             widget: string
           - hint: >-
-              Original text: Diese Website enthält Verknüpfungen zu Websites
-              Dritter („externe Links“). Diese Websites unterliegen der Haftung
-              der jeweiligen Betreiber. Der Anbieter hat die externen Inhalte
-              bei der erstmaligen Verknüpfung der externen Links daraufhin
-              überprüft, ob etwaige Rechtsverstöße bestehen. Zu diesem Zeitpunkt
-              waren keine Rechtsverstöße ersichtlich. Der Anbieter hat keinerlei
-              Einfluss auf die aktuelle und zukünftige Gestaltung und auf die
-              Inhalte der verknüpften Seiten. Das Setzen von externen Links
-              bedeutet nicht, dass sich der Anbieter die hinter dem Verweis oder
-              Link liegenden Inhalte zu eigen macht. Eine ständige Kontrolle der
-              externen Links ist für den Anbieter ohne konkrete Hinweise auf
-              Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen
-              werden jedoch derartige externe Links unverzüglich gelöscht., key:
-              -7a909dd2
+              Original text: Beim Besuch unserer Website können bestimmte
+              Kategorien von Informationen erfasst werden. Personenbezogene
+              Daten wie Ihr Name, Ihre E-Mail-Adresse und Ihre Kontaktdaten
+              werden nur erhoben, wenn Sie diese freiwillig über
+              Kontaktformulare oder Abonnementfunktionen bereitstellen. Darüber
+              hinaus können wir automatisch nicht-personenbezogene Daten zu
+              Ihrer Interaktion mit der Website erfassen – wie Ihre IP-Adresse,
+              den Browsertyp, Geräteinformationen, besuchte Seiten und die
+              verweisende URL – durch den Einsatz von Cookies und ähnlichen
+              Technologien. Diese Nutzungsdaten dienen der Analyse der
+              Website-Performance, der Verbesserung der Benutzererfahrung und
+              der Optimierung unserer Dienste., key: -2b8aeb65
             label: Text
-            name: '-7a909dd2'
+            name: '-2b8aeb65'
             widget: text
-          - hint: >-
-              Original text: § 3 Copyright- und Leistungsschutzrechte, key:
-              6668f879
+          - hint: 'Original text: § 3 Verwendung der Informationen, key: 684d3cf3'
             label: Text
-            name: 6668f879
+            name: 684d3cf3
             widget: string
           - hint: >-
-              Original text: Die auf dieser Website veröffentlichten Inhalte
-              sind durch das schweizerische Urheberrecht geschützt. Jede
-              Nutzung, die nicht ausdrücklich durch das geltende Urheberrecht
-              erlaubt ist, bedarf der vorherigen schriftlichen Zustimmung des
-              Website-Betreibers oder des jeweiligen Rechteinhabers. Dies gilt
-              insbesondere für Vervielfältigung, Bearbeitung, Übersetzung,
-              Speicherung, Verarbeitung oder Wiedergabe von Inhalten in
-              Datenbanken oder anderen elektronischen Systemen und Medien.
-              Inhalte Dritter sind entsprechend gekennzeichnet. Eine unerlaubte
-              Vervielfältigung oder Weitergabe von Inhalten, ganz oder
-              teilweise, ist nicht gestattet und kann rechtlich verfolgt werden.
-              Kopien und Downloads sind ausschließlich für den persönlichen,
-              privaten und nicht kommerziellen Gebrauch erlaubt. Die Darstellung
-              dieser Website in externen Frames ist nur mit schriftlicher
-              Genehmigung zulässig., key: 17d98841
+              Original text: Die erhobenen Informationen können für verschiedene
+              Zwecke verwendet werden, einschließlich der Bereitstellung und
+              Verbesserung unserer Dienstleistungen durch die Beantwortung von
+              Nutzeranfragen, die Übermittlung angeforderter Informationen sowie
+              die Weitergabe von Inhalten und Aktualisierungen im Zusammenhang
+              mit unserem Angebot. Nutzungsdaten können zudem analysiert werden,
+              um die Leistung der Website zu bewerten, Nutzerpräferenzen zu
+              verstehen und die Funktionalität, Sicherheit und das
+              Nutzererlebnis der Website insgesamt zu verbessern. Darüber hinaus
+              können Kontaktdaten verwendet werden, um administrative
+              Mitteilungen, Service-Updates, Newsletter, Marketingmaterialien
+              und weitere websitebezogene Informationen zu versenden, wobei
+              Nutzer jederzeit das Recht haben, sich von solchen Mitteilungen
+              abzumelden., key: -394c0953
             label: Text
-            name: 17d98841
+            name: '-394c0953'
             widget: text
-          - hint: 'Original text: § 4 Besondere Nutzungsbedingungen, key: 6e849182'
+          - hint: 'Original text: § 4 Weitergabe von Informationen, key: 1a465172'
             label: Text
-            name: '6e849182'
+            name: 1a465172
             widget: string
           - hint: >-
-              Original text: Sofern besondere Bedingungen für einzelne Nutzungen
-              dieser Website von den vorgenannten Paragraphen abweichen, wird an
-              entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem
-              Fall gelten im jeweiligen Einzelfall die besonderen
-              Nutzungsbedingungen., key: -7f95b5b1
+              Original text: Wir verpflichten uns, Ihre Privatsphäre zu
+              respektieren und geben Ihre personenbezogenen Daten nicht an
+              Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben
+              oder erfolgt mit Ihrer ausdrücklichen Zustimmung. Ungeachtet
+              dessen können wir aggregierte oder nicht-personenbezogene
+              Informationen mit vertrauenswürdigen Drittanbietern zu Analyse-,
+              Statistik- oder Marketingzwecken teilen., key: 6a80bbb4
             label: Text
-            name: '-7f95b5b1'
+            name: 6a80bbb4
             widget: text
-          - hint: >-
-              Original text: § 5 Haftungsausschluss für Preisangaben und
-              Leistungsbeschreibungen, key: 54642040
+          - hint: 'Original text: § 5 Datensicherheit, key: 1550db4c'
             label: Text
-            name: '54642040'
+            name: 1550db4c
             widget: string
           - hint: >-
-              Original text: Die auf dieser Plattform oder in sonstiger
-              Kommunikation angegebenen Preise dienen ausschließlich
-              Informationszwecken und können sich jederzeit ändern. Die Angaben
-              verstehen sich als allgemeine Orientierung und stellen kein
-              verbindliches Angebot dar. Eine umfassende Kostenkalkulation, die
-              auf Ihre spezifischen Anforderungen zugeschnitten ist, muss
-              durchgeführt werden, um eine vertragliche Vereinbarung zwischen
-              dem Betreiber dieser Website und dem Kunden zu validieren. Der
-              endgültige Vertrag wird alle festen Kosten, wiederkehrenden
-              Gebühren sowie sonstige relevante finanzielle Details enthalten.
-              Es ist für die Kunden unerlässlich, diese Bedingungen sorgfältig
-              zu prüfen und ihnen zuzustimmen, bevor ein formaler Vertrag
-              abgeschlossen wird. Der Betreiber dieser Website behält sich das
-              Recht vor, die Preisgestaltung und die Nutzungsbedingungen nach
-              eigenem Ermessen und ohne vorherige Ankündigung zu ändern. Solche
-              Änderungen können vorgenommen werden, um Marktbedingungen,
-              betriebliche Erfordernisse oder andere vom Betreiber als relevant
-              erachtete Faktoren widerzuspiegeln. Kunden werden über etwaige
-              Änderungen informiert, und die fortgesetzte Nutzung unserer
-              Dienstleistungen gilt als Zustimmung zu den aktualisierten
-              Bedingungen., key: e759261
+              Original text: Wir setzen branchenübliche Sicherheitsmaßnahmen
+              ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff,
+              Offenlegung, Veränderung oder Zerstörung zu schützen. Dennoch ist
+              zu beachten, dass keine Methode der Datenübertragung über das
+              Internet oder der elektronischen Speicherung vollkommen sicher
+              ist. Daher können wir keine Gewähr oder Garantie für die absolute
+              Sicherheit der an unsere Systeme übermittelten oder dort
+              gespeicherten Informationen übernehmen., key: 134847be
             label: Text
-            name: e759261
+            name: 134847be
+            widget: text
+          - hint: 'Original text: § 6 Externe Links, key: -7eb66385'
+            label: Text
+            name: '-7eb66385'
+            widget: string
+          - hint: >-
+              Original text: Zu Ihrer Bequemlichkeit und zu Informationszwecken
+              kann unsere Website Links zu Websites Dritter enthalten, die
+              unabhängig betrieben werden und eigenen Datenschutzrichtlinien
+              unterliegen. Da wir weder Einfluss auf den Inhalt noch auf die
+              Praktiken dieser externen Websites haben, übernehmen wir keine
+              Verantwortung oder Haftung für deren Datenschutzpraktiken, Inhalte
+              oder Handlungen. Wir empfehlen den Nutzern, die
+              Datenschutzrichtlinien aller externen Websites, die sie besuchen,
+              sorgfältig zu prüfen., key: 67eca986
+            label: Text
+            name: 67eca986
             widget: text
           - hint: >-
-              Original text: § 6 Gerichtsstand und anwendbares Recht, key:
-              22df9671
+              Original text: § 7 Änderungen der Datenschutzerklärung, key:
+              3d5c824c
             label: Text
-            name: 22df9671
+            name: 3d5c824c
             widget: string
           - hint: >-
-              Original text: Diese Website wird von einem Unternehmen mit Sitz
-              in der Schweiz betrieben. Alle Streitigkeiten, die sich aus der
-              Nutzung dieser Website ergeben oder damit in Zusammenhang stehen,
-              unterliegen ausschließlich dem schweizerischen Recht unter
-              Ausschluss seiner kollisionsrechtlichen Bestimmungen.
-              Gerichtsstand ist Anniviers, Schweiz, sofern nicht zwingende
-              gesetzliche Bestimmungen etwas anderes vorschreiben., key:
-              -622eb30d
+              Original text: Wir behalten uns das Recht vor, diese
+              Datenschutzerklärung jederzeit und nach eigenem Ermessen zu ändern
+              oder zu aktualisieren. Änderungen treten unmittelbar mit der
+              Veröffentlichung der überarbeiteten Version auf dieser Website in
+              Kraft. Den Nutzern wird empfohlen, diese Datenschutzerklärung
+              regelmäßig zu überprüfen, um über unsere Praktiken zur Erhebung,
+              Nutzung und zum Schutz personenbezogener Daten informiert zu
+              bleiben., key: -14baa2f9
             label: Text
-            name: '-622eb30d'
+            name: '-14baa2f9'
             widget: text
           - hint: 'Original text: Politique de confidentialité, key: 50b6e947'
             label: Text
@@ -3561,132 +3477,220 @@ collections:
             label: Text
             name: '-50af1397'
             widget: text
-          - hint: 'Original text: Datenschutz, key: -33c4befd'
+          - hint: >-
+              Original text: Der digitale Designer und Entwickler, den Sie
+              wirklich brauchen, key: 79c81cb3
             label: Text
-            name: '-33c4befd'
-            widget: string
-          - hint: 'Original text: § 1 Überblick, key: 6c9a5c8c'
-            label: Text
-            name: 6c9a5c8c
+            name: 79c81cb3
             widget: string
           - hint: >-
-              Original text: DIESE DATENSCHUTZERKLÄRUNG BESCHREIBT, WIE WIR IHRE
-              PERSONENBEZOGENEN DATEN ERHEBEN, VERARBEITEN UND SCHÜTZEN, WENN
-              SIE UNSERE WEBSITE BESUCHEN UND NUTZEN. DURCH DIE WEITERE NUTZUNG
-              DIESER WEBSITE BESTÄTIGEN SIE, DASS SIE DIE HIER DARGELEGTEN
-              BEDINGUNGEN GELESEN, VERSTANDEN UND AKZEPTIERT HABEN., key:
-              -6821a16
+              Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
+              Webdesign und -entwicklung, ich kreiere Ihre moderne
+              Markenidentität., key: -777f5a9f
             label: Text
-            name: '-6821a16'
-            widget: text
-          - hint: 'Original text: § 2 ‍Von uns erhobene Informationen, key: -4c88dde6'
-            label: Text
-            name: '-4c88dde6'
-            widget: string
-          - hint: >-
-              Original text: Beim Besuch unserer Website können bestimmte
-              Kategorien von Informationen erfasst werden. Personenbezogene
-              Daten wie Ihr Name, Ihre E-Mail-Adresse und Ihre Kontaktdaten
-              werden nur erhoben, wenn Sie diese freiwillig über
-              Kontaktformulare oder Abonnementfunktionen bereitstellen. Darüber
-              hinaus können wir automatisch nicht-personenbezogene Daten zu
-              Ihrer Interaktion mit der Website erfassen – wie Ihre IP-Adresse,
-              den Browsertyp, Geräteinformationen, besuchte Seiten und die
-              verweisende URL – durch den Einsatz von Cookies und ähnlichen
-              Technologien. Diese Nutzungsdaten dienen der Analyse der
-              Website-Performance, der Verbesserung der Benutzererfahrung und
-              der Optimierung unserer Dienste., key: -2b8aeb65
-            label: Text
-            name: '-2b8aeb65'
-            widget: text
-          - hint: 'Original text: § 3 Verwendung der Informationen, key: 684d3cf3'
-            label: Text
-            name: 684d3cf3
-            widget: string
-          - hint: >-
-              Original text: Die erhobenen Informationen können für verschiedene
-              Zwecke verwendet werden, einschließlich der Bereitstellung und
-              Verbesserung unserer Dienstleistungen durch die Beantwortung von
-              Nutzeranfragen, die Übermittlung angeforderter Informationen sowie
-              die Weitergabe von Inhalten und Aktualisierungen im Zusammenhang
-              mit unserem Angebot. Nutzungsdaten können zudem analysiert werden,
-              um die Leistung der Website zu bewerten, Nutzerpräferenzen zu
-              verstehen und die Funktionalität, Sicherheit und das
-              Nutzererlebnis der Website insgesamt zu verbessern. Darüber hinaus
-              können Kontaktdaten verwendet werden, um administrative
-              Mitteilungen, Service-Updates, Newsletter, Marketingmaterialien
-              und weitere websitebezogene Informationen zu versenden, wobei
-              Nutzer jederzeit das Recht haben, sich von solchen Mitteilungen
-              abzumelden., key: -394c0953
-            label: Text
-            name: '-394c0953'
-            widget: text
-          - hint: 'Original text: § 4 Weitergabe von Informationen, key: 1a465172'
-            label: Text
-            name: 1a465172
-            widget: string
-          - hint: >-
-              Original text: Wir verpflichten uns, Ihre Privatsphäre zu
-              respektieren und geben Ihre personenbezogenen Daten nicht an
-              Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben
-              oder erfolgt mit Ihrer ausdrücklichen Zustimmung. Ungeachtet
-              dessen können wir aggregierte oder nicht-personenbezogene
-              Informationen mit vertrauenswürdigen Drittanbietern zu Analyse-,
-              Statistik- oder Marketingzwecken teilen., key: 6a80bbb4
-            label: Text
-            name: 6a80bbb4
-            widget: text
-          - hint: 'Original text: § 5 Datensicherheit, key: 1550db4c'
-            label: Text
-            name: 1550db4c
-            widget: string
-          - hint: >-
-              Original text: Wir setzen branchenübliche Sicherheitsmaßnahmen
-              ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff,
-              Offenlegung, Veränderung oder Zerstörung zu schützen. Dennoch ist
-              zu beachten, dass keine Methode der Datenübertragung über das
-              Internet oder der elektronischen Speicherung vollkommen sicher
-              ist. Daher können wir keine Gewähr oder Garantie für die absolute
-              Sicherheit der an unsere Systeme übermittelten oder dort
-              gespeicherten Informationen übernehmen., key: 134847be
-            label: Text
-            name: 134847be
-            widget: text
-          - hint: 'Original text: § 6 Externe Links, key: -7eb66385'
-            label: Text
-            name: '-7eb66385'
-            widget: string
-          - hint: >-
-              Original text: Zu Ihrer Bequemlichkeit und zu Informationszwecken
-              kann unsere Website Links zu Websites Dritter enthalten, die
-              unabhängig betrieben werden und eigenen Datenschutzrichtlinien
-              unterliegen. Da wir weder Einfluss auf den Inhalt noch auf die
-              Praktiken dieser externen Websites haben, übernehmen wir keine
-              Verantwortung oder Haftung für deren Datenschutzpraktiken, Inhalte
-              oder Handlungen. Wir empfehlen den Nutzern, die
-              Datenschutzrichtlinien aller externen Websites, die sie besuchen,
-              sorgfältig zu prüfen., key: 67eca986
-            label: Text
-            name: 67eca986
+            name: '-777f5a9f'
             widget: text
           - hint: >-
-              Original text: § 7 Änderungen der Datenschutzerklärung, key:
-              3d5c824c
+              Original text: Ihre Online-Präsenz zusammen erstellen, key:
+              4fbb981e
             label: Text
-            name: 3d5c824c
+            name: 4fbb981e
             widget: string
           - hint: >-
-              Original text: Wir behalten uns das Recht vor, diese
-              Datenschutzerklärung jederzeit und nach eigenem Ermessen zu ändern
-              oder zu aktualisieren. Änderungen treten unmittelbar mit der
-              Veröffentlichung der überarbeiteten Version auf dieser Website in
-              Kraft. Den Nutzern wird empfohlen, diese Datenschutzerklärung
-              regelmäßig zu überprüfen, um über unsere Praktiken zur Erhebung,
-              Nutzung und zum Schutz personenbezogener Daten informiert zu
-              bleiben., key: -14baa2f9
+              Original text: Webdesign, Markenidentität, Startup, LP,
+              E-Commerce, MVP, key: 9431f6a
             label: Text
-            name: '-14baa2f9'
+            name: 9431f6a
+            widget: string
+          - hint: >-
+              Original text: Effektives Design zum fairen Preis — Website heute
+              erhalten, key: 269636b1
+            label: Text
+            name: 269636b1
+            widget: string
+          - hint: >-
+              Original text: Konzentrieren Sie sich auf das, was Sie am besten
+              können, und überlassen Sie mir den Rest., key: 5fc554a1
+            label: Text
+            name: 5fc554a1
+            widget: string
+          - hint: 'Original text: Oopsi, key: 48d68c6'
+            label: Text
+            name: 48d68c6
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for doesn't exist or has
+              been moved, key: 556d64d8
+            label: Text
+            name: 556d64d8
+            widget: string
+          - hint: 'Original text: Impressum, key: 6f6b7057'
+            label: Text
+            name: 6f6b7057
+            widget: string
+          - hint: 'Original text: § 1 Warnhinweis zu Inhalten, key: -28a1e235'
+            label: Text
+            name: '-28a1e235'
+            widget: string
+          - hint: >-
+              Original text: Die kostenlosen und frei zugänglichen Inhalte
+              dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Der
+              Anbieter dieser Website übernimmt jedoch keine Gewähr für die
+              Richtigkeit und Aktualität der bereitgestellten kostenlosen und
+              frei zugänglichen journalistischen Ratgeber und Nachrichten.
+              Namentlich gekennzeichnete Beiträge geben die Meinung des
+              jeweiligen Autors und nicht immer die Meinung des Anbieters
+              wieder. Allein durch den Aufruf der kostenlosen und frei
+              zugänglichen Inhalte kommt keinerlei Vertragsverhältnis zwischen
+              dem Nutzer und dem Anbieter zustande, da es insoweit am
+              Rechtsbindungswillen des Anbieters fehlt., key: 4c82ae71
+            label: Text
+            name: 4c82ae71
             widget: text
+          - hint: 'Original text: § 2 Externe Links, key: 19dbf377'
+            label: Text
+            name: 19dbf377
+            widget: string
+          - hint: >-
+              Original text: Diese Website enthält Verknüpfungen zu Websites
+              Dritter („externe Links“). Diese Websites unterliegen der Haftung
+              der jeweiligen Betreiber. Der Anbieter hat die externen Inhalte
+              bei der erstmaligen Verknüpfung der externen Links daraufhin
+              überprüft, ob etwaige Rechtsverstöße bestehen. Zu diesem Zeitpunkt
+              waren keine Rechtsverstöße ersichtlich. Der Anbieter hat keinerlei
+              Einfluss auf die aktuelle und zukünftige Gestaltung und auf die
+              Inhalte der verknüpften Seiten. Das Setzen von externen Links
+              bedeutet nicht, dass sich der Anbieter die hinter dem Verweis oder
+              Link liegenden Inhalte zu eigen macht. Eine ständige Kontrolle der
+              externen Links ist für den Anbieter ohne konkrete Hinweise auf
+              Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen
+              werden jedoch derartige externe Links unverzüglich gelöscht., key:
+              -7a909dd2
+            label: Text
+            name: '-7a909dd2'
+            widget: text
+          - hint: >-
+              Original text: § 3 Copyright- und Leistungsschutzrechte, key:
+              6668f879
+            label: Text
+            name: 6668f879
+            widget: string
+          - hint: >-
+              Original text: Die auf dieser Website veröffentlichten Inhalte
+              sind durch das schweizerische Urheberrecht geschützt. Jede
+              Nutzung, die nicht ausdrücklich durch das geltende Urheberrecht
+              erlaubt ist, bedarf der vorherigen schriftlichen Zustimmung des
+              Website-Betreibers oder des jeweiligen Rechteinhabers. Dies gilt
+              insbesondere für Vervielfältigung, Bearbeitung, Übersetzung,
+              Speicherung, Verarbeitung oder Wiedergabe von Inhalten in
+              Datenbanken oder anderen elektronischen Systemen und Medien.
+              Inhalte Dritter sind entsprechend gekennzeichnet. Eine unerlaubte
+              Vervielfältigung oder Weitergabe von Inhalten, ganz oder
+              teilweise, ist nicht gestattet und kann rechtlich verfolgt werden.
+              Kopien und Downloads sind ausschließlich für den persönlichen,
+              privaten und nicht kommerziellen Gebrauch erlaubt. Die Darstellung
+              dieser Website in externen Frames ist nur mit schriftlicher
+              Genehmigung zulässig., key: 17d98841
+            label: Text
+            name: 17d98841
+            widget: text
+          - hint: 'Original text: § 4 Besondere Nutzungsbedingungen, key: 6e849182'
+            label: Text
+            name: '6e849182'
+            widget: string
+          - hint: >-
+              Original text: Sofern besondere Bedingungen für einzelne Nutzungen
+              dieser Website von den vorgenannten Paragraphen abweichen, wird an
+              entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem
+              Fall gelten im jeweiligen Einzelfall die besonderen
+              Nutzungsbedingungen., key: -7f95b5b1
+            label: Text
+            name: '-7f95b5b1'
+            widget: text
+          - hint: >-
+              Original text: § 5 Haftungsausschluss für Preisangaben und
+              Leistungsbeschreibungen, key: 54642040
+            label: Text
+            name: '54642040'
+            widget: string
+          - hint: >-
+              Original text: Die auf dieser Plattform oder in sonstiger
+              Kommunikation angegebenen Preise dienen ausschließlich
+              Informationszwecken und können sich jederzeit ändern. Die Angaben
+              verstehen sich als allgemeine Orientierung und stellen kein
+              verbindliches Angebot dar. Eine umfassende Kostenkalkulation, die
+              auf Ihre spezifischen Anforderungen zugeschnitten ist, muss
+              durchgeführt werden, um eine vertragliche Vereinbarung zwischen
+              dem Betreiber dieser Website und dem Kunden zu validieren. Der
+              endgültige Vertrag wird alle festen Kosten, wiederkehrenden
+              Gebühren sowie sonstige relevante finanzielle Details enthalten.
+              Es ist für die Kunden unerlässlich, diese Bedingungen sorgfältig
+              zu prüfen und ihnen zuzustimmen, bevor ein formaler Vertrag
+              abgeschlossen wird. Der Betreiber dieser Website behält sich das
+              Recht vor, die Preisgestaltung und die Nutzungsbedingungen nach
+              eigenem Ermessen und ohne vorherige Ankündigung zu ändern. Solche
+              Änderungen können vorgenommen werden, um Marktbedingungen,
+              betriebliche Erfordernisse oder andere vom Betreiber als relevant
+              erachtete Faktoren widerzuspiegeln. Kunden werden über etwaige
+              Änderungen informiert, und die fortgesetzte Nutzung unserer
+              Dienstleistungen gilt als Zustimmung zu den aktualisierten
+              Bedingungen., key: e759261
+            label: Text
+            name: e759261
+            widget: text
+          - hint: >-
+              Original text: § 6 Gerichtsstand und anwendbares Recht, key:
+              22df9671
+            label: Text
+            name: 22df9671
+            widget: string
+          - hint: >-
+              Original text: Diese Website wird von einem Unternehmen mit Sitz
+              in der Schweiz betrieben. Alle Streitigkeiten, die sich aus der
+              Nutzung dieser Website ergeben oder damit in Zusammenhang stehen,
+              unterliegen ausschließlich dem schweizerischen Recht unter
+              Ausschluss seiner kollisionsrechtlichen Bestimmungen.
+              Gerichtsstand ist Anniviers, Schweiz, sofern nicht zwingende
+              gesetzliche Bestimmungen etwas anderes vorschreiben., key:
+              -622eb30d
+            label: Text
+            name: '-622eb30d'
+            widget: text
+          - hint: 'Original text: Digital dont vous aurez besoin, key: -4a619d2d'
+            label: Text
+            name: '-4a619d2d'
+            widget: string
+          - hint: >-
+              Original text: Je renforce votre entreprise avec un design et un
+              développement Web complet, je crée votre identité de marque
+              moderne et unique., key: -1b5da4b6
+            label: Text
+            name: '-1b5da4b6'
+            widget: text
+          - hint: >-
+              Original text: Construisons votre présence en ligne., key:
+              -6d34c257
+            label: Text
+            name: '-6d34c257'
+            widget: string
+          - hint: >-
+              Original text: Web design, Identité de marque, Startup, LP,
+              ecommerce, MVP, key: 45faaa3a
+            label: Text
+            name: 45faaa3a
+            widget: string
+          - hint: >-
+              Original text: Prix compétitifs pour un design percutant — votre
+              site web dès aujourd'hui, key: 69ba260a
+            label: Text
+            name: 69ba260a
+            widget: string
+          - hint: >-
+              Original text: Concentrez-vous sur ce que vous faites de mieux,
+              laissez-moi m'occuper du reste., key: a2aab74
+            label: Text
+            name: a2aab74
+            widget: string
           - hint: 'Original text: Avertissement – Informations légales, key: 28167a2b'
             label: Text
             name: 28167a2b
@@ -3818,15 +3822,11 @@ collections:
             label: Text
             name: 5fd57f9f
             widget: text
-          - hint: 'Original text: Oopsi, key: 48d68c6'
-            label: Text
-            name: 48d68c6
-            widget: string
           - hint: >-
-              Original text: The page you are looking for doesn't exist or has
-              been moved, key: 556d64d8
+              Original text: Der digitale Designer und Entwickler, den Sie
+              wirklich brauchen., key: -40c48625
             label: Text
-            name: 556d64d8
+            name: '-40c48625'
             widget: string
       - label: Links
         name: links
@@ -4172,7 +4172,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 317f733b
+            name: '-3cbca8bd'
             widget: object
             fields:
               - name: url

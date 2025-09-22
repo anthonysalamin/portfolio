@@ -3,8 +3,7 @@ f_occupation: Position Occupation
 f_company: Company GmbH
 title: John Doe
 f_portrait:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657ac4a7b51e438a254ed380_john.avif
+  url: /assets/external/657ac4a7b51e438a254ed380_john.avif
   alt: null
 slug: john-doe
 updated-on: '2024-01-23T06:45:55.434Z'

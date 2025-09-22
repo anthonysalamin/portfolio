@@ -16,41 +16,30 @@ f_introduction: >-
   stone pine.
 slug: arolla-pine
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816afd3a5087c1f39c6cc6_thumbnail.avif
+  url: /assets/external/65816afd3a5087c1f39c6cc6_thumbnail.avif
   alt: null
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.avif
+  url: /assets/external/65816a985c7a0752bc473a7d_img_racine_02.avif
   alt: null
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816b37f3348f27577292ac_hero.avif
+  url: /assets/external/65816b37f3348f27577292ac_hero.avif
   alt: null
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a983ec93457d09f4a7a_img_racine_01.avif
+  - url: /assets/external/65816a983ec93457d09f4a7a_img_racine_01.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da4561f8f93c3f34f7b_026.avif
+  - url: /assets/external/65816da4561f8f93c3f34f7b_026.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da3c1d57744f805180a_063.avif
+  - url: /assets/external/65816da3c1d57744f805180a_063.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da312ef38140336851f_128-28.avif
+  - url: /assets/external/65816da312ef38140336851f_128-28.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da3ce6df7cee506da48_144-02.avif
+  - url: /assets/external/65816da3ce6df7cee506da48_144-02.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da30e13f32fb4efa3d7_173.avif
+  - url: /assets/external/65816da30e13f32fb4efa3d7_173.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816da2ca178471546dbb0f_212.avif
+  - url: /assets/external/65816da2ca178471546dbb0f_212.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.avif
+  - url: /assets/external/65816a985c7a0752bc473a7d_img_racine_02.avif
     alt: null
 f_category-ies:
   - cms/categories/photography.md

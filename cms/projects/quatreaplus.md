@@ -13,8 +13,7 @@ f_introduction: >-
   the complete UI/UX Design & Development.
 slug: quatreaplus
 f_big-image:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.avif
+  url: /assets/external/6579723e011ccde8af574b4c_big-image.avif
   alt: null
 updated-on: '2024-02-08T03:50:53.342Z'
 created-on: '2023-12-13T09:13:34.184Z'
@@ -25,41 +24,29 @@ f_video-thumnail-1: quatreaplus
 f_website: https://quatreaplus.ch/
 f_hero-video: false
 f_gallery:
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a6f1b0fa6087968b83_quatreaplus-01.webp
+  - url: /assets/external/657a66a6f1b0fa6087968b83_quatreaplus-01.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a68f1de2d12e32b8ba_quatreaplus-02.webp
+  - url: /assets/external/657a66a68f1de2d12e32b8ba_quatreaplus-02.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a5bffc0c25325ac44c_quatreaplus-03.webp
+  - url: /assets/external/657a66a5bffc0c25325ac44c_quatreaplus-03.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a574ca6f8a3469e205_quatreaplus-04.webp
+  - url: /assets/external/657a66a574ca6f8a3469e205_quatreaplus-04.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a60047bf74b4b30637_quatreaplus-05.webp
+  - url: /assets/external/657a66a60047bf74b4b30637_quatreaplus-05.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a6e890c76cc5b6c948_quatreaplus-06.webp
+  - url: /assets/external/657a66a6e890c76cc5b6c948_quatreaplus-06.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a56f96fa8facc96e95_quatreaplus-07.webp
+  - url: /assets/external/657a66a56f96fa8facc96e95_quatreaplus-07.webp
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a47f3dfd2268bd864e_quatreaplus-08.avif
+  - url: /assets/external/657a66a47f3dfd2268bd864e_quatreaplus-08.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40e8144ca445d8ef4_quatreaplus-09.avif
+  - url: /assets/external/657a66a40e8144ca445d8ef4_quatreaplus-09.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a474ca6f8a3469e1ae_quatreaplus-10.avif
+  - url: /assets/external/657a66a474ca6f8a3469e1ae_quatreaplus-10.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a40de9a423b67a20b3_quatreaplus-11.avif
+  - url: /assets/external/657a66a40de9a423b67a20b3_quatreaplus-11.avif
     alt: null
-  - url: >-
-      https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/657a66a4f3bf5bf2b73ddfe2_quatreaplus-12.webp
+  - url: /assets/external/657a66a4f3bf5bf2b73ddfe2_quatreaplus-12.webp
     alt: null
 f_testimony-2: cms/testimonies/camil-amos.md
 f_similar-projects:
@@ -75,16 +62,14 @@ f_order: 2
 f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/6583c3060c010c5de09bdd73_thumbnail-v2.webp
+  url: /assets/external/6583c3060c010c5de09bdd73_thumbnail-v2.webp
   alt: null
 f_has-big-image: true
 f_is-photography: false
 f_is-graphic-design: false
 f_client: Atelier d'architecture alpine actuelle Sàrl
 f_hero-image-static:
-  url: >-
-    https://cdn.prod.website-files.com/657840207424d689b5f9b7d8/65a4ed15d2017a84ea4c20c8_hero.webp
+  url: /assets/external/65a4ed15d2017a84ea4c20c8_hero.webp
   alt: null
 f_is-web: true
 layout: '[projects].html'
