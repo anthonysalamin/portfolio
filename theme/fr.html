@@ -744,6 +744,24 @@ main:focus-visible {
   <!--  typed.js  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
+/**
+ * UTILITY | link Lenis with GSAP ScrollTrigger
+ * @build 05.02.2024 @updated 11:17
+*/
+// after initializing Lenis
+const lenis = new Lenis();
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+// integrate with ScrollTrigger
+lenis.on('scroll', ScrollTrigger.update);
+gsap.ticker.add((time) => {
+  lenis.raf(time * 1000);
+});
+</script>
+  <script>
 /*
  * PORTFOLIO | language redirect v1
  * build: 05.02.2024 @11:17
@@ -798,48 +816,6 @@ document.addEventListener("DOMContentLoaded",initFAQ);function initFAQ(){const q
  */
 document.addEventListener("DOMContentLoaded",()=>{if(!document.querySelector(`.svg-check`)){return}drawSomeSVG()});function drawSomeSVG(){const options={repeat:-1,repeatDelay:0,yoyo:true};const timeline=gsap.timeline(options);gsap.set(".svg-check",{drawSVG:"0%"});function pauseBeforeYoyo(){timeline.pause();setTimeout(()=>{timeline.play()},2500)}function drawCheck(){timeline.to(".svg-check",{duration:1,drawSVG:"100%",ease:"power3.out",onComplete:pauseBeforeYoyo})}drawCheck()}
 </script>
-  <!-- 
-<script>
-/*
- * UTILITY | reveal text + claim v1.3
- * dependencies: gsap, ScrollTrigger, split-type
- * build: 27.04.25 @15:32
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const OPTIONS = {
-    PRODUCTION: true,
-    COMMON: {
-      TYPE: "words, chars",
-      DURATION: 0.3,
-      STAGGER: 0.02
-    },
-    TARGETS: [
-      {
-        SELECTOR: '[data-reveal="text"]',
-        START: { ELEMENT: "top", VIEWPORT: "95%" },
-        END: { VIEWPORT: "85%" }
-      },
-      {
-        SELECTOR: '[data-reveal="claim"]',
-        START: { ELEMENT: "top", VIEWPORT: "80%" },
-        END: { VIEWPORT: "center" }
-      }
-    ]
-  };
-  // 🥭 fail safe
-  const validTargets = OPTIONS.TARGETS.filter(t => document.querySelector(t.SELECTOR));
-  if (!validTargets.length) {
-    console.log("skipping reveal: no matching targets");
-    return;
-  }
-  // 🥭 on load
-  validTargets.forEach((targetOptions) => {
-    init_RevealText(targetOptions, OPTIONS.COMMON, OPTIONS.PRODUCTION);
-  });
-});
-function setAlphaChannel(color,alpha){const match=color.match(/rgba?\((\d+), (\d+), (\d+),? ?([\d\.]*)?\)/);if(match){const[_,r,g,b]=match;return `rgba(${ r }, ${ g }, ${ b }, ${ alpha })`}return color}function getRealComputedHeight(el){return el.offsetHeight}function init_RevealText(CONFIG,COMMON,PRODUCTION){const elements=document.querySelectorAll(CONFIG.SELECTOR);elements.forEach((el)=>{const originalColor=window.getComputedStyle(el).color;const fadedColor=setAlphaChannel(originalColor,0.1);const split=new SplitType(el,{types:COMMON.TYPE});gsap.fromTo(split.chars,{color:fadedColor},{color:originalColor,duration:COMMON.DURATION,stagger:COMMON.STAGGER,scrollTrigger:{trigger:el,start:`${CONFIG.START.ELEMENT } ${CONFIG.START.VIEWPORT }`,end:`${getRealComputedHeight(el)} ${CONFIG.END.VIEWPORT }`,scrub:true,markers:!PRODUCTION,toggleActions:"play play reverse reverse"}})})}
-</script>
- -->
   <script>
 /**
  * UTILITY | initRevealTextClaim
@@ -1195,6 +1171,10 @@ function mixItUp(production) {
       ? (randomSortApplied = false)
       : (mixer.sort("random"), (randomSortApplied = true));
     */
+    // Tell GSAP to recalc positions after filtering
+    requestAnimationFrame(() => {
+      ScrollTrigger.refresh();
+    });
     const totalItems = document.querySelectorAll(`.mixitup__collection-item`)
       .length;
     const filteredItems = mixer.getState().totalShow;
@@ -1299,4 +1279,4 @@ function mixItUp(production) {
 }
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }} </body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
