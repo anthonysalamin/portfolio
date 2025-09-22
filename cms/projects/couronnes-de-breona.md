@@ -44,9 +44,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/rocklands-bouldering.md
   - cms/projects/south-africa-namibia.md
-updated-on: '2025-04-27T12:53:47.515Z'
+updated-on: '2025-05-27T20:33:22.675Z'
 created-on: '2023-12-19T09:40:01.086Z'
-published-on: '2025-04-27T12:54:19.458Z'
+published-on: '2025-09-22T02:52:45.129Z'
 f_is-graphic-design: false
 f_is-web: false
 layout: '[projects].html'
@@ -63,6 +63,6 @@ The Couronne de Bréona is a mountain of the Pennine Alps, located east of Les H
 ‍
 
 **Role:** Adventure Photography  
-**Climberes:** Christian Affolter, Marc Affolter  
+**Climbers:** Christian Affolter, Marc Affolter 🕊️  
 **Client:** Self Initiated  
 **Location:** Grimentz - Switzerland

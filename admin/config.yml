@@ -174,6 +174,12 @@ collections:
             value: '2'
           - label: '3'
             value: '3'
+      - hint: ''
+        name: f__noSearch
+        label: No Search
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -246,6 +252,12 @@ collections:
         label: Company
         widget: string
         required: false
+      - hint: ''
+        name: f__noSearch
+        label: No Search
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -298,6 +310,12 @@ collections:
         required: false
         enableAlpha: true
         allowInput: true
+      - hint: ''
+        name: f__noSearch
+        label: No Search
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -583,6 +601,12 @@ collections:
             label: Url
             widget: string
             required: false
+      - hint: ''
+        name: f__noSearch
+        label: No Search
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -725,9 +749,9 @@ collections:
             label: Text
             name: 72a307aa
             widget: string
-          - hint: 'Original text: you''ll ever need., key: 6323c48e'
+          - hint: 'Original text: you''ll ever need, key: -3eddd060'
             label: Text
-            name: 6323c48e
+            name: '-3eddd060'
             widget: string
           - hint: 'Original text: Anthony Salamin, key: 7b0de148'
             label: Text
@@ -764,9 +788,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Affordable pricing meets impactful design — get
-              your website today., key: 5eca7ac4
+              your website today, key: b50daaa
             label: Text
-            name: 5eca7ac4
+            name: b50daaa
             widget: string
           - hint: >-
               Original text: I help businesses shine online. Focus on what you
@@ -822,15 +846,15 @@ collections:
             label: Text
             name: 1cb54
             widget: string
-          - hint: 'Original text: Kind words from satisfied clients., key: -3329c859'
+          - hint: 'Original text: Kind words, key: -145db8c3'
             label: Text
-            name: '-3329c859'
+            name: '-145db8c3'
             widget: string
           - hint: >-
-              Original text: I am grateful for the opportunity to be working
-              with clients across a diverse range of industries., key: -75d665ef
+              Original text: Grateful for the opportunity to be working with
+              clients across a diverse range of industries., key: -1dc1b612
             label: Text
-            name: '-75d665ef'
+            name: '-1dc1b612'
             widget: text
           - hint: >-
               Original text: “ Anthony is an exceptionally universally gifted
@@ -933,20 +957,33 @@ collections:
             widget: string
           - hint: >-
               Original text: Life’s too short to wrestle with technical
-              headaches., key: 6db333d0
+              headaches, key: 7726d01e
             label: Text
-            name: 6db333d0
+            name: 7726d01e
             widget: string
           - hint: >-
               Original text: Let me handle the tech stuff — you focus on growing
-              your business (or throwing your dog 🐶 a bday party)., key:
-              -50768e35
+              your business (or throwing your dog 🐶 a bday pa, key: -22776d4f
             label: Text
-            name: '-50768e35'
+            name: '-22776d4f'
             widget: text
+          - hint: 'Original text: rty, key: 1ba77'
+            label: Text
+            name: 1ba77
+            widget: string
+          - hint: 'Original text: )., key: 525'
+            label: Text
+            name: '525'
+            widget: string
           - hint: 'Original text: FAQ, key: 10ef6'
             label: Text
             name: 10ef6
+            widget: string
+          - hint: >-
+              Original text: Answers to some of life's greatest questions., key:
+              4811a627
+            label: Text
+            name: 4811a627
             widget: string
           - hint: 'Original text: What services do you offer ?, key: e1e572b'
             label: Text
@@ -1049,9 +1086,9 @@ collections:
             label: Text
             name: '-7b8cbc82'
             widget: text
-          - hint: 'Original text: Clients I’ve teamed up with, key: 5399a730'
+          - hint: 'Original text: Clients, key: -697be218'
             label: Text
-            name: 5399a730
+            name: '-697be218'
             widget: string
           - hint: >-
               Original text: Every new project is a chance to learn something
@@ -1403,21 +1440,21 @@ collections:
             name: 2c08cdef
             widget: string
           - hint: >-
-              Original text: The content published on this website is subject to
-              German copyright and performance protection law. Any use not
-              permitted by German copyright and performance protection law
-              requires the prior written consent of the provider or respective
-              rights holder. This applies especially to reproduction, editing,
-              translation, storage, processing, or playback of content in
-              databases or other electronic media and systems. Content and
-              rights of third parties are identified as such. Unauthorized
-              reproduction or distribution of individual content or entire pages
-              is not permitted and is punishable by law. Only the making of
-              copies and downloads for personal, private, and non-commercial use
-              is allowed. The presentation of this website in external frames is
-              only permissible with written permission., key: 2f082344
+              Original text: The content published on this website is protected
+              by Swiss copyright law. Any use that is not explicitly permitted
+              by applicable copyright legislation requires the prior written
+              consent of the website operator or the respective rights holder.
+              This includes, in particular, reproduction, modification,
+              translation, storage, processing, or transmission of content in
+              databases or other electronic systems and media. Content belonging
+              to third parties is marked accordingly. Unauthorized reproduction
+              or distribution of content, in whole or in part, is prohibited and
+              may be subject to legal action. Copies and downloads are permitted
+              solely for personal, private, and non-commercial use. Displaying
+              this website within external frames is only allowed with written
+              permission., key: 425b097b
             label: Text
-            name: 2f082344
+            name: 425b097b
             widget: text
           - hint: 'Original text: § 4 Special Terms of Use, key: 480d8ca3'
             label: Text
@@ -1444,20 +1481,34 @@ collections:
               subject to change. The information serves as a general guide and
               is not a definitive offer. A comprehensive cost calculation
               tailored to your specific requirements must be conducted to
-              validate any contractual agreement between anthonysalamin.ch and
-              the client. The final contract will outline all fixed costs,
-              recurring charges, and any other relevant financial details. It is
-              essential for clients to carefully review and agree to these terms
-              before entering into any formal agreement. anthonysalamin.ch
-              reserves the right to modify the pricing policy and terms of
-              service at its discretion and without prior notice. Such changes
-              may be implemented to reflect market conditions, operational
-              requirements, or any other factors deemed relevant by the operator
-              of this website. Clients will be informed of any modifications,
-              and continued use of our services implies acceptance of the
-              updated terms., key: 19572cba
+              validate any contractual agreement between the operator of this
+              website and the client. The final contract will outline all fixed
+              costs, recurring charges, and any other relevant financial
+              details. It is essential for clients to carefully review and agree
+              to these terms before entering into any formal agreement. The
+              operator of this website reserves the right to modify the pricing
+              policy and terms of service at its discretion and without prior
+              notice. Such changes may be implemented to reflect market
+              conditions, operational requirements, or any other factors deemed
+              relevant by the operator of this website. Clients will be informed
+              of any modifications, and continued use of our services implies
+              acceptance of the updated terms., key: -6d08cbc8
             label: Text
-            name: 19572cba
+            name: '-6d08cbc8'
+            widget: text
+          - hint: 'Original text: § 6 Jurisdiction and Applicable Law, key: -49e7db3a'
+            label: Text
+            name: '-49e7db3a'
+            widget: string
+          - hint: >-
+              Original text: This website is operated by a company based in
+              Switzerland. Any disputes arising from or in connection with the
+              use of this website shall be subject exclusively to Swiss law,
+              excluding its conflict of law provisions. The place of
+              jurisdiction is Anniviers, Switzerland, unless mandatory legal
+              provisions stipulate otherwise., key: d9aa8
+            label: Text
+            name: d9aa8
             widget: text
           - hint: 'Original text: Privacy policy, key: -922d316'
             label: Text
@@ -2221,9 +2272,9 @@ collections:
             label: Text
             name: '-71e3024c'
             widget: text
-          - hint: 'Original text: Éloges de clients comblés., key: -37a94ea7'
+          - hint: 'Original text: Avis de clients, key: -12ccac16'
             label: Text
-            name: '-37a94ea7'
+            name: '-12ccac16'
             widget: string
           - hint: >-
               Original text: Reconnaissant de l'opportunité de travailler avec
@@ -2287,9 +2338,9 @@ collections:
             widget: string
           - hint: >-
               Original text: La vie est trop courte pour se battre avec les
-              tracas techniques., key: -160e529c
+              tracas techniques, key: 7b28d40a
             label: Text
-            name: '-160e529c'
+            name: 7b28d40a
             widget: string
           - hint: >-
               Original text: Laisse-moi gérer la technique — concentrez-vous sur
@@ -2669,12 +2720,6 @@ collections:
             name: 288381fc
             widget: text
           - hint: >-
-              Original text: Clients avec lesquels j’ai collaboré., key:
-              -1c5ab0bf
-            label: Text
-            name: '-1c5ab0bf'
-            widget: string
-          - hint: >-
               Original text: Chaque nouveau projet est l'occasion d'apprendre
               quelque chose de nouveau et de se développer., key: -59cf7a36
             label: Text
@@ -2884,11 +2929,9 @@ collections:
             label: Text
             name: '-5f93039d'
             widget: text
-          - hint: >-
-              Original text: Freundliche Worte von zufriedenen Kunden., key:
-              -12e24f7
+          - hint: 'Original text: Freundliche Worte, key: 54018f7c'
             label: Text
-            name: '-12e24f7'
+            name: 54018f7c
             widget: string
           - hint: >-
               Original text: Ich bin dankbar für die Möglichkeit, mit Kunden aus
@@ -2958,10 +3001,10 @@ collections:
             name: '-6e23b137'
             widget: string
           - hint: >-
-              Original text: Das Leben ist zu kurz für Technikstress., key:
-              -4d0c7005
+              Original text: Das Leben ist zu kurz für Technikstress, key:
+              -7e5b3d6d
             label: Text
-            name: '-4d0c7005'
+            name: '-7e5b3d6d'
             widget: string
           - hint: >-
               Original text: Ich übernehme die Technik – Sie fokussieren sich
@@ -3083,11 +3126,9 @@ collections:
             label: Text
             name: '-19c55'
             widget: text
-          - hint: >-
-              Original text: Kunden und Agenturen, mit denen ich tätig war.,
-              key: 1ea65f3b
+          - hint: 'Original text: Kunden, key: -79604697'
             label: Text
-            name: 1ea65f3b
+            name: '-79604697'
             widget: string
           - hint: >-
               Original text: Jedes neue Projekt ist eine Chance, etwas Neues zu
@@ -3121,6 +3162,12 @@ collections:
             label: Text
             name: 614942a6
             widget: string
+          - hint: >-
+              Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
+              key: 4179573d
+            label: Text
+            name: 4179573d
+            widget: string
           - hint: 'Original text: Le seul Designer, key: -468bd165'
             label: Text
             name: '-468bd165'
@@ -3130,16 +3177,16 @@ collections:
             name: '-1d20845'
             widget: string
           - hint: >-
-              Original text: Danke — ich werde mich sehr bald bei Ihnen melden.,
-              key: 4179573d
-            label: Text
-            name: 4179573d
-            widget: string
-          - hint: >-
               Original text: Der digitale Designer und Entwickler, den Sie
               wirklich brauchen., key: -40c48625
             label: Text
             name: '-40c48625'
+            widget: string
+          - hint: >-
+              Original text: Der digitale Designer und Entwickler, den Sie
+              wirklich brauchen, key: 79c81cb3
+            label: Text
+            name: 79c81cb3
             widget: string
           - hint: >-
               Original text: Ich stärke Ihr Unternehmen mit einem umfassenden
@@ -3162,15 +3209,19 @@ collections:
             widget: string
           - hint: >-
               Original text: Effektives Design zum fairen Preis — Website heute
-              erhalten., key: -53cf6063
+              erhalten, key: 269636b1
             label: Text
-            name: '-53cf6063'
+            name: 269636b1
             widget: string
           - hint: >-
               Original text: Konzentrieren Sie sich auf das, was Sie am besten
               können, und überlassen Sie mir den Rest., key: 5fc554a1
             label: Text
             name: 5fc554a1
+            widget: string
+          - hint: 'Original text: Digital dont vous aurez besoin, key: -4a619d2d'
+            label: Text
+            name: '-4a619d2d'
             widget: string
           - hint: >-
               Original text: Je renforce votre entreprise avec un design et un
@@ -3193,9 +3244,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Prix compétitifs pour un design percutant — votre
-              site web dès aujourd'hui., key: -3275649c
+              site web dès aujourd'hui, key: 69ba260a
             label: Text
-            name: '-3275649c'
+            name: 69ba260a
             widget: string
           - hint: >-
               Original text: Concentrez-vous sur ce que vous faites de mieux,
@@ -3203,17 +3254,6 @@ collections:
             label: Text
             name: a2aab74
             widget: string
-          - hint: 'Original text: Glowing card, key: -2d9aa2c5'
-            label: Text
-            name: '-2d9aa2c5'
-            widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              ullamcorper malesuada, key: 7d7349f0
-            label: Text
-            name: 7d7349f0
-            widget: text
           - hint: 'Original text: Impressum, key: 6f6b7057'
             label: Text
             name: 6f6b7057
@@ -3303,22 +3343,22 @@ collections:
             widget: string
           - hint: >-
               Original text: Die auf dieser Website veröffentlichten Inhalte
-              unterliegen dem deutschen Urheber- und Leistungsschutzrecht. Jede
-              vom deutschen Urheber- und Leistungsschutzrecht nicht zugelassene
-              Verwertung bedarf der vorherigen schriftlichen Zustimmung des
-              Anbieters oder jeweiligen Rechteinhabers. Dies gilt insbesondere
-              für Vervielfältigung, Bearbeitung, Übersetzung, Speicherung,
-              Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder
-              anderen elektronischen Medien und Systemen. Inhalte und Rechte
-              Dritter sind dabei als solche gekennzeichnet. Die unerlaubte
-              Vervielfältigung oder Weitergabe einzelner Inhalte oder kompletter
-              Seiten ist nicht gestattet und strafbar. Lediglich die Herstellung
-              von Kopien und Downloads für den persönlichen, privaten und nicht
-              kommerziellen Gebrauch ist erlaubt. Die Darstellung dieser Website
-              in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.,
-              key: -64dce22b
+              sind durch das schweizerische Urheberrecht geschützt. Jede
+              Nutzung, die nicht ausdrücklich durch das geltende Urheberrecht
+              erlaubt ist, bedarf der vorherigen schriftlichen Zustimmung des
+              Website-Betreibers oder des jeweiligen Rechteinhabers. Dies gilt
+              insbesondere für Vervielfältigung, Bearbeitung, Übersetzung,
+              Speicherung, Verarbeitung oder Wiedergabe von Inhalten in
+              Datenbanken oder anderen elektronischen Systemen und Medien.
+              Inhalte Dritter sind entsprechend gekennzeichnet. Eine unerlaubte
+              Vervielfältigung oder Weitergabe von Inhalten, ganz oder
+              teilweise, ist nicht gestattet und kann rechtlich verfolgt werden.
+              Kopien und Downloads sind ausschließlich für den persönlichen,
+              privaten und nicht kommerziellen Gebrauch erlaubt. Die Darstellung
+              dieser Website in externen Frames ist nur mit schriftlicher
+              Genehmigung zulässig., key: 17d98841
             label: Text
-            name: '-64dce22b'
+            name: 17d98841
             widget: text
           - hint: 'Original text: § 4 Besondere Nutzungsbedingungen, key: 6e849182'
             label: Text
@@ -3341,27 +3381,46 @@ collections:
             widget: string
           - hint: >-
               Original text: Die auf dieser Plattform oder in sonstiger
-              Kommunikation angegebenen Preise dienen ausschließlich zu
-              Informationszwecken und können sich jederzeit ändern. Die
-              Informationen stellen lediglich eine allgemeine Orientierung dar
-              und kein verbindliches Angebot. Eine umfassende Kostenkalkulation,
-              abgestimmt auf Ihre individuellen Anforderungen, ist erforderlich,
-              um eine vertragliche Vereinbarung zwischen anthonysalamin.ch und
-              dem Kunden zu validieren. Der endgültige Vertrag wird alle festen
-              Kosten, wiederkehrenden Gebühren sowie sonstige relevante
-              finanzielle Einzelheiten enthalten. Es liegt in der Verantwortung
-              des Kunden, diese Bedingungen sorgfältig zu prüfen und ihnen
-              zuzustimmen, bevor ein formaler Vertrag abgeschlossen wird.
-              anthonysalamin.ch behält sich das Recht vor, die Preisgestaltung
-              und die Nutzungsbedingungen jederzeit und ohne vorherige
-              Ankündigung zu ändern. Solche Änderungen können vorgenommen
-              werden, um auf Marktbedingungen, betriebliche Erfordernisse oder
-              andere vom Betreiber der Website als relevant erachtete Faktoren
-              zu reagieren. Kunden werden über etwaige Änderungen informiert;
-              die fortgesetzte Nutzung unserer Dienstleistungen gilt als
-              Zustimmung zu den aktualisierten Bedingungen., key: -7a94e261
+              Kommunikation angegebenen Preise dienen ausschließlich
+              Informationszwecken und können sich jederzeit ändern. Die Angaben
+              verstehen sich als allgemeine Orientierung und stellen kein
+              verbindliches Angebot dar. Eine umfassende Kostenkalkulation, die
+              auf Ihre spezifischen Anforderungen zugeschnitten ist, muss
+              durchgeführt werden, um eine vertragliche Vereinbarung zwischen
+              dem Betreiber dieser Website und dem Kunden zu validieren. Der
+              endgültige Vertrag wird alle festen Kosten, wiederkehrenden
+              Gebühren sowie sonstige relevante finanzielle Details enthalten.
+              Es ist für die Kunden unerlässlich, diese Bedingungen sorgfältig
+              zu prüfen und ihnen zuzustimmen, bevor ein formaler Vertrag
+              abgeschlossen wird. Der Betreiber dieser Website behält sich das
+              Recht vor, die Preisgestaltung und die Nutzungsbedingungen nach
+              eigenem Ermessen und ohne vorherige Ankündigung zu ändern. Solche
+              Änderungen können vorgenommen werden, um Marktbedingungen,
+              betriebliche Erfordernisse oder andere vom Betreiber als relevant
+              erachtete Faktoren widerzuspiegeln. Kunden werden über etwaige
+              Änderungen informiert, und die fortgesetzte Nutzung unserer
+              Dienstleistungen gilt als Zustimmung zu den aktualisierten
+              Bedingungen., key: e759261
             label: Text
-            name: '-7a94e261'
+            name: e759261
+            widget: text
+          - hint: >-
+              Original text: § 6 Gerichtsstand und anwendbares Recht, key:
+              22df9671
+            label: Text
+            name: 22df9671
+            widget: string
+          - hint: >-
+              Original text: Diese Website wird von einem Unternehmen mit Sitz
+              in der Schweiz betrieben. Alle Streitigkeiten, die sich aus der
+              Nutzung dieser Website ergeben oder damit in Zusammenhang stehen,
+              unterliegen ausschließlich dem schweizerischen Recht unter
+              Ausschluss seiner kollisionsrechtlichen Bestimmungen.
+              Gerichtsstand ist Anniviers, Schweiz, sofern nicht zwingende
+              gesetzliche Bestimmungen etwas anderes vorschreiben., key:
+              -622eb30d
+            label: Text
+            name: '-622eb30d'
             widget: text
           - hint: 'Original text: Politique de confidentialité, key: 50b6e947'
             label: Text
@@ -3681,22 +3740,23 @@ collections:
             name: '-7c21ac93'
             widget: string
           - hint: >-
-              Original text: Les contenus publiés sur ce site web sont soumis au
-              droit d’auteur et aux droits voisins allemands. Toute utilisation
-              non autorisée par ces lois requiert l’accord préalable écrit du
-              fournisseur ou du titulaire des droits concerné. Cela s’applique
-              notamment à la reproduction, la modification, la traduction,
-              l’enregistrement, le traitement ou la diffusion des contenus dans
-              des bases de données ou d’autres systèmes électroniques ou
-              numériques. Les contenus et droits de tiers sont signalés comme
-              tels. La reproduction ou la diffusion non autorisée de contenus,
-              qu’il s’agisse d’extraits ou de pages entières, est interdite et
-              passible de sanctions. Seules les copies et téléchargements à
-              usage personnel, privé et non commercial sont autorisés.
-              L’affichage de ce site web dans des cadres externes n’est autorisé
-              qu’avec une autorisation écrite., key: 44b496d
+              Original text: Les contenus publiés sur ce site sont protégés par
+              le droit d’auteur suisse. Toute utilisation non expressément
+              autorisée par la législation applicable sur le droit d’auteur
+              nécessite l’accord préalable écrit de l’exploitant du site ou du
+              titulaire des droits concernés. Cela s’applique en particulier à
+              la reproduction, à la modification, à la traduction, au stockage,
+              au traitement ou à la transmission de contenus dans des bases de
+              données ou d’autres systèmes et supports électroniques. Les
+              contenus appartenant à des tiers sont signalés comme tels. La
+              reproduction ou la diffusion non autorisée de tout ou partie des
+              contenus est interdite et peut donner lieu à des poursuites
+              judiciaires. Les copies et téléchargements ne sont autorisés que
+              pour un usage personnel, privé et non commercial. L’affichage de
+              ce site dans des cadres externes n’est permis qu’avec une
+              autorisation écrite., key: -7c62c695
             label: Text
-            name: 44b496d
+            name: '-7c62c695'
             widget: text
           - hint: >-
               Original text: § 4 Conditions d’utilisation particulières, key:
@@ -3721,26 +3781,42 @@ collections:
             widget: string
           - hint: >-
               Original text: Les prix indiqués sur cette plateforme ou dans
-              toute communication sont fournis à titre purement informatif et
+              toute communication sont fournis à titre informatif uniquement et
               sont susceptibles d’être modifiés. Ces informations servent de
-              guide général et ne constituent pas une offre définitive. Une
-              estimation complète des coûts, adaptée à vos besoins spécifiques,
-              est nécessaire pour valider tout accord contractuel entre
-              anthonysalamin.ch et le client. Le contrat final précisera tous
-              les coûts fixes, les frais récurrents ainsi que toute autre
-              information financière pertinente. Il est essentiel que les
-              clients examinent attentivement ces conditions et les acceptent
-              avant de conclure tout accord formel. anthonysalamin.ch se réserve
-              le droit de modifier sa politique tarifaire et ses conditions de
-              service à sa seule discrétion et sans préavis. De telles
-              modifications peuvent être mises en œuvre pour refléter
-              l’évolution du marché, les exigences opérationnelles ou tout autre
-              facteur jugé pertinent par l’exploitant de ce site web. Les
-              clients seront informés de toute modification, et l’utilisation
-              continue de nos services vaut acceptation des conditions mises à
-              jour., key: 20bb4eca
+              guide général et ne constituent pas une offre contractuelle
+              définitive. Un calcul de coûts détaillé et adapté à vos besoins
+              spécifiques doit être réalisé afin de valider toute entente
+              contractuelle entre l’exploitant de ce site et le client. Le
+              contrat final précisera tous les coûts fixes, les frais récurrents
+              ainsi que les autres éléments financiers pertinents. Il est
+              essentiel que les clients lisent attentivement ces conditions et y
+              adhèrent avant de conclure tout accord formel. L’exploitant de ce
+              site se réserve le droit de modifier à tout moment sa politique
+              tarifaire et ses conditions de service, à sa seule discrétion et
+              sans préavis. Ces modifications peuvent être apportées pour
+              refléter les conditions du marché, les besoins opérationnels ou
+              tout autre facteur jugé pertinent par l’exploitant. Les clients
+              seront informés de toute modification, et la poursuite de
+              l’utilisation de nos services vaudra acceptation des conditions
+              mises à jour., key: -4a0bacc1
             label: Text
-            name: 20bb4eca
+            name: '-4a0bacc1'
+            widget: text
+          - hint: >-
+              Original text: § 6 For juridique et droit applicable, key:
+              579f3ae4
+            label: Text
+            name: 579f3ae4
+            widget: string
+          - hint: >-
+              Original text: Ce site est exploité par une entreprise basée en
+              Suisse. Tout litige découlant de l’utilisation de ce site ou en
+              lien avec celle-ci est exclusivement régi par le droit suisse, à
+              l’exclusion des règles de conflit de lois. Le for juridique est
+              Anniviers, Suisse, sauf disposition légale impérative contraire.,
+              key: 5fd57f9f
+            label: Text
+            name: 5fd57f9f
             widget: text
           - hint: 'Original text: Oopsi, key: 48d68c6'
             label: Text
