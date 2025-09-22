@@ -8,7 +8,7 @@ f_has-big-image: true
 f_order: 31
 f_horizontal-line-1: '#logo #design #graphic #design #identity'
 f_horizontal-line-2: '#germany #berlin #fashion #corporate '
-title: Maison Noée
+title: Maison Noée GmbH
 f_thumbnail-title: Logo Design
 f_introduction: >-
   Berlin's Maisonnoée, founded by designer Sophie Böhmert, epitomizes
@@ -46,9 +46,9 @@ f_category-ies:
 f_similar-projects:
   - cms/projects/eagle-cup.md
   - cms/projects/perversion.md
-updated-on: '2024-03-12T17:27:42.176Z'
+updated-on: '2025-09-22T15:26:10.195Z'
 created-on: '2023-12-19T11:37:10.890Z'
-published-on: '2024-03-12T17:29:16.671Z'
+published-on: '2025-09-22T15:28:25.403Z'
 f_is-graphic-design: true
 f_client: SCHMITZ&WIESNER GmbH
 f_is-web: false

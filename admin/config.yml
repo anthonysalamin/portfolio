@@ -956,6 +956,26 @@ collections:
             name: '-773faf87'
             widget: string
           - hint: >-
+              Original text: “ I’m beyond impressed with the website Anthony
+              built for my solar panel business! It’s modern, professional, and
+              already bringing in new leads. He made the whole process simple
+              and stress-free — truly outstanding work! ”, key: 6527252e
+            label: Text
+            name: 6527252e
+            widget: text
+          - hint: 'Original text: Milton Carvalho, key: -259d74ef'
+            label: Text
+            name: '-259d74ef'
+            widget: string
+          - hint: 'Original text: Founder, key: 3b02638f'
+            label: Text
+            name: 3b02638f
+            widget: string
+          - hint: 'Original text: Baobab Energy SA, key: 248f9cf9'
+            label: Text
+            name: 248f9cf9
+            widget: string
+          - hint: >-
               Original text: Life’s too short to wrestle with technical
               headaches, key: 7726d01e
             label: Text
@@ -2314,6 +2334,15 @@ collections:
             name: '3e124865'
             widget: string
           - hint: >-
+              Original text: “ Je suis impressionné par le site web qu’Anthony a
+              réalisé pour mon entreprise de panneaux solaires ! Il est moderne,
+              professionnel et génère déjà de nouvelles demandes de clients.
+              Anthony a rendu tout le processus simple et sans stress – un
+              travail remarquable ! ”, key: 59ac339c
+            label: Text
+            name: 59ac339c
+            widget: text
+          - hint: >-
               Original text: La vie est trop courte pour se battre avec les
               tracas techniques, key: 7b28d40a
             label: Text
@@ -2975,6 +3004,15 @@ collections:
             label: Text
             name: '-6e23b137'
             widget: string
+          - hint: >-
+              Original text: “ Ich bin absolut beeindruckt von der Website, die
+              Anthony für mein Solaranlagen-Unternehmen erstellt hat! Sie ist
+              modern, professionell und bringt bereits neue Kundenanfragen. Er
+              hat den gesamten Prozess einfach und stressfrei gestaltet –
+              wirklich hervorragende Arbeit! ”, key: 7e241746
+            label: Text
+            name: '7e241746'
+            widget: text
           - hint: >-
               Original text: Das Leben ist zu kurz für Technikstress, key:
               -7e5b3d6d
@@ -4135,6 +4173,19 @@ collections:
                 required: false
           - label: Image
             name: '-47eb4123'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-449cb79e'
             widget: object
             fields:
               - name: url
