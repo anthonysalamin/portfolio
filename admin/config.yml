@@ -1671,12 +1671,6 @@ collections:
             label: Text
             name: 1c03b01a
             widget: string
-          - hint: >-
-              Original text: It only takes a minute to fill out this form, or
-              shoot me an email at tony@tonytony.ch., key: 37e73f0b
-            label: Text
-            name: 37e73f0b
-            widget: string
           - hint: 'Original text: What is the age of your business ?, key: 21edf76d'
             label: Text
             name: 21edf76d
@@ -1706,17 +1700,17 @@ collections:
             label: Text
             name: 6f621d36
             widget: text
-          - hint: 'Original text: FREE, key: 210e6c'
+          - hint: 'Original text: A, key: 41'
             label: Text
-            name: 210e6c
+            name: '41'
             widget: string
-          - hint: 'Original text:  audit, key: 3c28afbb'
+          - hint: 'Original text: udit, key: 36b3fa'
             label: Text
-            name: 3c28afbb
+            name: 36b3fa
             widget: string
-          - hint: 'Original text: NEW Website , key: -1e9b865b'
+          - hint: 'Original text: free, key: 30166c'
             label: Text
-            name: '-1e9b865b'
+            name: 30166c
             widget: string
           - hint: 'Original text: LP, key: 984'
             label: Text
@@ -1738,10 +1732,6 @@ collections:
             label: Text
             name: '-db3efcb'
             widget: string
-          - hint: 'Original text: Content Creation, key: -3278451a'
-            label: Text
-            name: '-3278451a'
-            widget: string
           - hint: 'Original text: Logo Design, key: -1781ae2d'
             label: Text
             name: '-1781ae2d'
@@ -1750,9 +1740,9 @@ collections:
             label: Text
             name: '-6478f5a7'
             widget: string
-          - hint: 'Original text: Generative AI visuals, key: -767065ad'
+          - hint: 'Original text: Generative AI, key: -605c22c0'
             label: Text
-            name: '-767065ad'
+            name: '-605c22c0'
             widget: string
           - hint: 'Original text: Web Analytics, key: -4d1f3e86'
             label: Text
@@ -2116,12 +2106,6 @@ collections:
             label: Text
             name: 12c6f87d
             widget: string
-          - hint: >-
-              Original text: Remplissez ce formulaire en une minute ou
-              écrivez-moi à tony@tonytony.ch., key: -311695c0
-            label: Text
-            name: '-311695c0'
-            widget: string
           - hint: 'Original text: Quel est l''âge de votre entreprise ?, key: 6ae95601'
             label: Text
             name: 6ae95601
@@ -2155,9 +2139,9 @@ collections:
             label: Text
             name: '-2a6a6243'
             widget: string
-          - hint: 'Original text: Nouveau site web 🔥, key: 6a1ea904'
+          - hint: 'Original text: Nouveau site web, key: -5aa566dc'
             label: Text
-            name: 6a1ea904
+            name: '-5aa566dc'
             widget: string
           - hint: 'Original text: Relaunch de Website, key: -65e6738a'
             label: Text
@@ -2776,12 +2760,6 @@ collections:
             label: Text
             name: '-73af28af'
             widget: string
-          - hint: >-
-              Original text: Füllen Sie das Formular aus oder schreiben Sie mir
-              eine E-Mail: tony@tonytony.ch., key: 1d0ffc6a
-            label: Text
-            name: 1d0ffc6a
-            widget: string
           - hint: 'Original text: Wie alt ist Ihr Unternehmen?, key: 186e3919'
             label: Text
             name: '186e3919'
@@ -2811,9 +2789,9 @@ collections:
             label: Text
             name: 279d460b
             widget: string
-          - hint: 'Original text: NEUE Website 🔥, key: -17f73e7a'
+          - hint: 'Original text: NEUE Website, key: 34f11fe2'
             label: Text
-            name: '-17f73e7a'
+            name: 34f11fe2
             widget: string
           - hint: 'Original text: Web-Design, key: e6f8297'
             label: Text
@@ -2826,6 +2804,10 @@ collections:
           - hint: 'Original text: Domäne & pro E-Mail, key: 6b3fd2f3'
             label: Text
             name: 6b3fd2f3
+            widget: string
+          - hint: 'Original text: Content Creation, key: -3278451a'
+            label: Text
+            name: '-3278451a'
             widget: string
           - hint: 'Original text: Logo-Design, key: -67d0abe0'
             label: Text

@@ -39,14 +39,14 @@
 }
 
 :root {
-  --background: #fafafa;
+  --background: #f7f7f4;
   --font-primary: Swiza, Arial, sans-serif;
-  --dark: #101025;
+  --dark: #13120a;
   --16px: 16px;
   --white: white;
-  --grey-light: #eee;
+  --grey-light: #f2f1ee;
   --accent: #635df6;
-  --grey-client-bg: #f2f2f2;
+  --grey-ctas: #e6e5e1;
   --4px: 4px;
   --dark-light: #a9a9b4;
   --pricing-lines: #ebebeb;
@@ -286,7 +286,7 @@ body {
 }
 
 .section.clients {
-  background-color: var(--grey-client-bg);
+  background-color: var(--grey-ctas);
 }
 
 .section.footer {
@@ -490,7 +490,6 @@ body {
 }
 
 .teaser__cloudinary {
-  border: 1px solid var(--grey-light);
   border-radius: 1.5vw 1.5vw 0 0;
   width: 100%;
   max-width: 390px;
@@ -779,7 +778,7 @@ body {
 
 .marquee-cover-horizontal {
   z-index: 1;
-  background-image: linear-gradient(270deg, #fff0 70%, var(--grey-client-bg)), linear-gradient(270deg, var(--grey-client-bg), #fff0 30%);
+  background-image: linear-gradient(270deg, #fff0 70%, var(--grey-ctas)), linear-gradient(270deg, var(--grey-ctas), #fff0 30%);
   display: block;
   position: absolute;
   inset: 0%;
@@ -1079,13 +1078,12 @@ body {
 .h2 {
   margin-bottom: 24px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
 }
 
 .h2.faq {
   margin-bottom: 0;
-  font-weight: 600;
 }
 
 .faq__paragraph {
@@ -1705,7 +1703,7 @@ body {
 
 .thumb__hover-desktop {
   z-index: 1;
-  background-color: var(--accent);
+  background-color: var(--dark);
   color: #fff;
   flex-direction: column;
   justify-content: flex-start;
@@ -1802,7 +1800,7 @@ body {
 .filter {
   float: left;
   border-radius: var(--16px);
-  background-color: var(--grey-client-bg);
+  background-color: var(--grey-ctas);
   text-align: center;
   cursor: pointer;
   flex-direction: row;
@@ -1922,6 +1920,10 @@ body {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.thumb__wrap-no-overflow.ratio-a {
+  aspect-ratio: 1;
 }
 
 .empty-state {
@@ -2345,7 +2347,7 @@ body {
 }
 
 .pitch__input {
-  border: 2px solid var(--grey-client-bg);
+  border: 2px solid var(--grey-ctas);
   border-radius: var(--8px);
   height: 60px;
   margin-bottom: 16px;
@@ -2808,7 +2810,7 @@ body {
 }
 
 .markees__item {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 8px;
   flex-flow: column;
   justify-content: center;
