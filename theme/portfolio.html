@@ -325,7 +325,7 @@ main:focus-visible {
               <div class="header_content-left big">
                 <h1 data-reveal="claim" class="h1 short">{{ texts.7726d01e }}</h1>
                 <div class="card-wrap-info">
-                  <h2 data-id="reveal" class="subline">{{ texts.-22776d4f }}<span data-typed="pawty">{{ texts.1ba77 }}</span>{{ texts.525 }}</h2>
+                  <h2 data-id="reveal" class="subline">{{ texts.-503018b0 }}</h2>
                   <div class="cta-wrap">
                     <a data-cursor="click" href="{{ links.16bdc13e }}" class="cta w-inline-block">
                       <div class="avatar__bg btn"><img src="{{ images.-1a2138d3.url }}" loading="lazy" alt="{{ images.-1a2138d3.alt | escape }}" class="avatar__img"></div>
@@ -618,133 +618,17 @@ main:focus-visible {
   <script src="https://cdn.prod.website-files.com/gsap/3.13.0/ScrollToPlugin.min.js" type="text/javascript"></script>
   <script type="text/javascript">gsap.registerPlugin(ScrollTrigger,SplitText,DrawSVGPlugin,ScrollToPlugin);</script><!--  Lenis 1.3.8  -->
   <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
-  <!--  MixItUp 3.3.1  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <!--  Typed 2.1.0  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <!--  MixItUp 3.3.1  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <!--  Usebasin 2.4.0  -->
   <script src="https://js.usebasin.com/v2.4.0.min.js" async=""></script>
   <!--  TONYTONY (modules) 1.0.0  -->
-  <script type="module" src="https://tonytony-modules.netlify.app/js/main.js?v=1.0.0"></script>
-  <script>
-/*
- * PORTFOLIO | language redirect v1
- * build: 05.02.2024 @11:17
-*/
-document.addEventListener("DOMContentLoaded",()=>{const production=true;if(production){console.log("production");performCheck(urls);}else{console.log("development");redirectBasedOnLanguage(urls)}});function performCheck(urls){const currentUrl=window.location.href;const targetUrls=["https://anthonysalamin.webflow.io/","https://anthonysalamin.ch/"];if(targetUrls.includes(currentUrl)){console.log("Current URL is equal to one of the target URLs.");redirectBasedOnLanguage(urls)}else{console.log("Current URL is not equal to any of the target URLs.");return}}function getBrowserLanguage(){return navigator.language||navigator.userLanguage}function log(userLanguage,languageStatus){console.log(`language is ${ userLanguage }`)}function getCurrentURL(){return window.location.href}const urls={en:``,fr:`fr`,de:`de`};function redirectBasedOnLanguage(urls){const currentURL=getCurrentURL();console.log(currentURL);const languageStatus=document.querySelector(`#language`);const userLanguage=getBrowserLanguage();if(userLanguage.startsWith("fr")){log(userLanguage,languageStatus);window.location.href=`${ currentURL }${urls.fr }`}else if(userLanguage.startsWith("de")){log(userLanguage,languageStatus);window.location.href=`${ currentURL }${urls.de }`}else{log(userLanguage,languageStatus);return}}
-</script>
-  <script>
-/*
- * UTILITY | markees vericale v1.0
- * build 17.03.25 @ 17:22
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const OPTIONS = {
-    MARKEES_CONTAINER: `[data-markees="container"]`,
-    COLUMN_FORWARD: `[data-markees="column-forward"]`,
-    COLUMN_BACKWARD: `[data-markees="column-backward"]`,
-    DURATION: 16
-  };
-  // 🥭 on load
-  initVerticalMarquees(OPTIONS);
-  // 🥭 on resize
-  window.addEventListener(
-    "resize",
-    debounce(() => {
-      console.log("resized");
-      gsap.killTweensOf("[data-markees]");
-      initVerticalMarquees(OPTIONS);
-    }, 200)
-  );
-});
-function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function initVerticalMarquees(e){document.querySelectorAll(`${e.COLUMN_FORWARD}, ${e.COLUMN_BACKWARD}`).forEach(t=>{let n=t.querySelector(e.MARKEES_CONTAINER);if(!n)return;let r=n.cloneNode(!0);t.innerHTML="";let l=t.matches(e.COLUMN_BACKWARD);l?(t.prepend(r),t.prepend(n)):(t.appendChild(n),t.appendChild(r));let o=n.offsetHeight,i=e.DURATION*(.8+2*Math.random());gsap.set(t,{y:l?-o:0}),gsap.to(t,{y:l?0:-o,duration:i,repeat:-1,ease:"none"})})}
-</script>
-  <script>
-/*
- * PORTFOLIO | FAQ expand/collapse v2
- * dependency: gsap/3.12.4/gsap.min.js
- * build 30.12.2023 @14:11
- */
-document.addEventListener("DOMContentLoaded",initFAQ);function initFAQ(){const questions=document.querySelectorAll(".faq__question");if(questions.length===0){return;}gsap.set(".faq__answer",{height:0,overflow:"hidden",duration:0});function openFirstFAQ(){questions[0].click()}setTimeout(openFirstFAQ,250);questions.forEach((question)=>{let isOpen=false;question.addEventListener("click",()=>{const icon=question.querySelector(`.icon-plus`);const answer=question.nextElementSibling;isOpen?collapseAnswer(answer,icon):expandAnswer(answer,icon);isOpen=!isOpen})})}function expandAnswer(answer,icon){gsap.set(answer,{height:"auto"});const height=answer.clientHeight;gsap.from(answer,{height:0,duration:0.3,ease:"ease-in"});gsap.to(icon,{rotationZ:45,duration:0.3,ease:"ease-out"})}function collapseAnswer(answer,icon){gsap.to(answer,{height:0,duration:0.3,ease:"ease-out"});gsap.to(icon,{rotationZ:0,duration:0.3,ease:"ease-in"})}
-</script>
-  <script>
-/*
- * PORTFOLIO | draw check icon
- * build 02.02.2024 @17:12 Hong Kong
- */
-document.addEventListener("DOMContentLoaded",()=>{if(!document.querySelector(`.svg-check`)){return}drawSomeSVG()});function drawSomeSVG(){const options={repeat:-1,repeatDelay:0,yoyo:true};const timeline=gsap.timeline(options);gsap.set(".svg-check",{drawSVG:"0%"});function pauseBeforeYoyo(){timeline.pause();setTimeout(()=>{timeline.play()},2500)}function drawCheck(){timeline.to(".svg-check",{duration:1,drawSVG:"100%",ease:"power3.out",onComplete:pauseBeforeYoyo})}drawCheck()}
-</script>
-  <script>
-/*
- * UTILITY | scroll progress v1.0.1
- * build 20.01.25 @17:07
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const position = "left";
-  const breakpoint = 768; // 768
-  const hideAtPercentage = 0.9;
-  if (progress__isMobileDevice(breakpoint)) return;
-  progress__injectCSS(position);
-  progress__injectHTML(hideAtPercentage);
-});
-function progress__showOnScroll(){let r=document.querySelector(".progress-wrap");if(!r)return;let o=r.querySelector("path"),e=o.getTotalLength();gsap.set(o,{strokeDasharray:e,strokeDashoffset:e}),gsap.to(o,{strokeDashoffset:0,scrollTrigger:{trigger:document.body,start:"top top",end:"bottom bottom",scrub:!0}}),gsap.to(r,{autoAlpha:1,scrollTrigger:{trigger:document.body,start:"top+=50px top",toggleClass:{targets:r,className:"active-progress"},once:!1}}),r.addEventListener("click",r=>{r.preventDefault(),gsap.to(window,{scrollTo:0,duration:.55,ease:"power2.out"})})}function progress__isMobileDevice(r){return window.innerWidth<r}function progress__injectCSS(r){let o=`.progress-wrap{--indicator-progress-color:rgba(255, 255, 255, 1);--indicator-slide-color:rgba(255, 255, 255, .1);--indicator-font:"Unicons";--indicator-content:"\\e84b";--indicator-hover:white --indicator-position:1.25rem}@font-face{font-family:"Unicons";src:url("https://uploads-ssl.webflow.com/61a0f086f2b1f289503a4957/6329d8e0a1790e3283ae2504_unicons.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}.progress-wrap{position:fixed;mix-blend-mode:difference;${r}:1.5rem;bottom:1.5rem;height:46px;width:46px;cursor:pointer;display:none;border-radius:50px;box-shadow:inset 0 0 0 2px var(--indicator-slide-color);z-index:10000;opacity:0;visibility:hidden;transform:translateY(15px);transition:all 200ms linear}.progress-wrap.active-progress{display:block;transition:1s;opacity:1;visibility:visible;transform:translateY(0)}.progress-wrap::after,.progress-wrap::before{position:absolute;font-family:var(--indicator-font);content:var(--indicator-content);text-align:center;line-height:46px;font-size:24px;left:0;top:0;height:46px;width:46px;cursor:pointer;display:block;transition:all 200ms linear}.progress-wrap::after{color:var(--indicator-progress-color);z-index:1}.progress-wrap:hover::before{color:var(--indicator-hover);transform:scale(1.0);transform-origin:center}.progress-wrap:hover::after{transform:scale(1.15);transform-origin:center}.progress-wrap svg path{fill:none}.progress-wrap svg.progress-circle path{stroke:var(--indicator-progress-color);stroke-width:4;box-sizing:border-box;transition:all 200ms linear}`,e=document.createElement("style");e.innerHTML=o,document.head.appendChild(e)}function progress__injectHTML(r){document.body.insertAdjacentHTML("afterbegin",'<div class="progress-wrap"><svg class="progress-circle" height="100%" viewBox="-1 -1 102 102" width="100%"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/></svg></div>'),progress__showOnScroll(),progress__hideOnFooter(r)}function progress__hideOnFooter(r){let o=document.querySelector(".progress-wrap");o&&window.addEventListener("scroll",()=>{let e=window.scrollY,t=document.documentElement.scrollHeight,s=window.innerHeight;gsap.to(o,{opacity:e/(t-s)>=r?0:1,duration:.5,ease:"power2.out"})})}
-</script>
-  <script>
-/*
- * UTILITY | cursor v1.0.8
- * build 09.02.25 @18:29
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const OPTIONS_CURSOR = {
-    BREAKPOINT: 768,
-    TARGETS: document.querySelectorAll("[data-cursor]"),
-    SIZE: "90px",
-    RADIUS: "50%",
-    FONT_SIZE: "18px",
-    COLOR: {
-      BACKGROUND: `#635df6`,
-      TEXT: `white`
-    },
-    MIX_BLEND_MODE: "normal"
-  };
-  if (!checkTargets(OPTIONS_CURSOR)) return;
-  const cursorInstance = { current: null };
-  cursorInstance.current = initCursor(OPTIONS_CURSOR);
-  handleResize(cursorInstance, OPTIONS_CURSOR);
-  checkInitialHover(OPTIONS_CURSOR, cursorInstance.current);
-});
-function checkTargets(e){return!!e.TARGETS.length||(console.log("Skipping custom cursor - No targets found."),!1)}function handleResize(e,t){window.addEventListener("resize",debounce(()=>{window.innerWidth<=t.BREAKPOINT?e.current&&(cleanupCursor(e.current),e.current=null):e.current||(e.current=initCursor(t))},200))}function debounce(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>e.apply(this,r),t)}}function cleanupCursor(e){if(!e)return;let{cursor:t,eventListeners:n,targets:r}=e;r.forEach((e,t)=>{let r=n[t];e.removeEventListener("mousemove",r.mousemove),e.removeEventListener("mouseenter",r.mouseenter),e.removeEventListener("mouseleave",r.mouseleave)}),t?.parentNode&&t.parentNode.removeChild(t)}function initCursor(e){if(window.innerWidth<=e.BREAKPOINT)return console.log("Skipping custom cursor on mobile."),null;let t=document.createElement("div");Object.assign(t.style,{width:e.SIZE,height:e.SIZE,borderRadius:e.RADIUS,mixBlendMode:e.MIX_BLEND_MODE,position:"fixed",display:"flex",alignItems:"center",justifyContent:"center",background:e.COLOR.BACKGROUND,color:e.COLOR.TEXT,pointerEvents:"none",zIndex:"9999",opacity:"0",left:"-9999px",top:"-9999px"}),document.body.appendChild(t);let n=[];return e.TARGETS.forEach(r=>{let o={mousemove(e){let n=e.clientX+10,r=e.clientY+10;gsap.to(t,{duration:.65,left:n,top:r,ease:"power2.out"})},mouseenter(){t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${r.dataset.cursor}</b></p>`,gsap.to(t,{opacity:1,duration:.3,ease:"power2.out"})},mouseleave(n){let r=n.relatedTarget,o=null;e.TARGETS.forEach(e=>{e.contains(r)&&(o=e.dataset.cursor)}),o?t.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${o}</b></p>`:gsap.to(t,{opacity:0,duration:.3,ease:"power2.out"})}};r.addEventListener("mousemove",o.mousemove),r.addEventListener("mouseenter",o.mouseenter),r.addEventListener("mouseleave",o.mouseleave),n.push(o)}),{cursor:t,eventListeners:n,targets:e.TARGETS}}function checkInitialHover(e,t){t&&e.TARGETS.forEach(n=>{let r=n.getBoundingClientRect(),o=window.innerWidth/2,i=window.innerHeight/2;o>=r.left&&o<=r.right&&i>=r.top&&i<=r.bottom&&(t.cursor.innerHTML=`<p style="margin: 0; padding: 0; font-size: ${e.FONT_SIZE}; font-weight: 500; letter-spacing: 0.2px; text-align: center; line-height: 1;"><b>${n.dataset.cursor}</b></p>`,gsap.to(t.cursor,{opacity:1,duration:.3,ease:"power2.out"}))})}
-</script>
-  <script>
-/*
- * UTILITY | current year
- * build 25.10.24 @18:02
-*/
-document.addEventListener("DOMContentLoaded",()=>{injectCurrentYear()});function injectCurrentYear(){let e=new Date().getFullYear(),t=document.querySelector('[data-id="year"]');t&&(t.textContent=e)}
-</script>
-  <script>
-/*
- * UTILITY | subline animation v2
- * build 30.03.25 @21:49
-*/
-document.addEventListener("DOMContentLoaded", () => {
-  // 🥭 options
-  const shouldBlink = false;
-  // 🥭 on load
-  initTyping("[data-id='punchline']", shouldBlink, [
-    "Developer",
-    "Partner"
-  ]);
-  // 🥭 on load
-  initTyping("[data-id='subline']", shouldBlink, [
-    "create your MVP in 24 h.",
-    "master AI technologies",
-    "design & develop websites",
-    "develop corporate identities",
-    "am a problem solver",
-  ]);
-});
-function addBlink(e,t){if(!e)return;const n=document.createElement("style");n.textContent=`${t}::after{content:"_";animation:typingBlink 1.15s linear infinite}@keyframes typingBlink{0%,100%{opacity:0}50%{opacity:1}}`,document.head.appendChild(n)}function initTyping(e,t,n){const i=document.querySelector(e);if(!i)return;addBlink(t,e);const o=20,c=1500,d=0,a=1;let r=d,l=0,s=0,u;function f(){u=setInterval(m,o)}function m(){const e=n[l];r===d?(s++,s===e.length&&(r=a,clearInterval(u),setTimeout(f,c))):r===a&&(s--,0===s&&p()),i.textContent=e.substring(0,s)}function p(){s=0,r=d,l=(l+1)%n.length}f()}
+  <script type="module" src="https://tonytony-modules.netlify.app/js/main.js?v=1.0.0"></script><!--  TONYTONY (header/en modules) 1.0.0  -->
+  <script type="module">
+  import { initSublineAnimation } from 'https://tonytony-modules.netlify.app/js/header/en/initSublineAnimation.js?v=1.0.0';
+  document.addEventListener("DOMContentLoaded", initSublineAnimation);
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }} </body></html>

@@ -963,18 +963,11 @@ collections:
             widget: string
           - hint: >-
               Original text: Let me handle the tech stuff — you focus on growing
-              your business (or throwing your dog 🐶 a bday pa, key: -22776d4f
+              your business (or throwing your dog 🐶 a bday pawty)., key:
+              -503018b0
             label: Text
-            name: '-22776d4f'
+            name: '-503018b0'
             widget: text
-          - hint: 'Original text: rty, key: 1ba77'
-            label: Text
-            name: 1ba77
-            widget: string
-          - hint: 'Original text: )., key: 525'
-            label: Text
-            name: '525'
-            widget: string
           - hint: 'Original text: FAQ, key: 10ef6'
             label: Text
             name: 10ef6
