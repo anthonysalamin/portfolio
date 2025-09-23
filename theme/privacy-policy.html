@@ -20,8 +20,8 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
   <link href="https://tonytony.ch/privacy-policy/" rel="canonical"><!--  TONYTONY 1.0.0  -->
   <link rel="stylesheet" href="https://cdn.tonytony.ch/css/main.css?v=1.0.0">
-  <!--  Fathom  -->
-  <script src="https://cdn-eu.usefathom.com/script.js" data-site="BBNPSMHN" defer=""></script>
+  <!--  Lenis 1.3.11  -->
+  <link href="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.css" rel="stylesheet">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -124,7 +124,7 @@ main:focus-visible {
                 </div>
                 <div class="nav__link-text">{{ texts.47d6ebb4 }}</div>
               </a>
-              <a aria-label="audit" data-id="navbar-link" href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
+              <a data-mesh-gradient="rainbow" data-id="navbar-link" aria-label="audit" href="{{ links.16bdc13e }}" class="nav__link accent w-inline-block">
                 <div class="div-block">
                   <div class="embed-approve w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 603.28 597.32">
                       <style>.svg-check{fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:114px}</style>
@@ -152,7 +152,7 @@ main:focus-visible {
             <div id="w-node-_21835ff9-0fa6-9737-3dc0-85ee6104ead0-6104eacd" class="legal__intro">
               <div class="legal__intro-wrap">
                 <p class="h1">{{ texts.-922d316 }}</p>
-                <div class="paragraph">{{ texts.66075caf }}<br>{{ texts.6cabd653 }}<br>{{ texts.6754b7ed }}<br>{{ texts.-4427f07d }}<br><br>{{ texts.-1f79bcb4 }}<br>{{ texts.-6d836268 }}<br>{{ texts.-636e54dd }}<br><br>{{ texts.4000256f }}<br>{{ texts.3d189caf }}<br><br>{{ texts.51d246c6 }}<br>{{ texts.-3972594e }}</div>
+                <div class="paragraph">{{ texts.66075caf }}<br>{{ texts.49b4e453 }}<br>{{ texts.-4427f07d }}<br><br>{{ texts.-1f79bcb4 }}<br>{{ texts.-6d836268 }}<br>{{ texts.-636e54dd }}<br><br>{{ texts.4000256f }}<br>{{ texts.3d189caf }}<br><br>{{ texts.51d246c6 }}<br>{{ texts.-3972594e }}</div>
               </div>
             </div>
             <div class="legal__detail">
@@ -194,12 +194,12 @@ main:focus-visible {
       <div class="container">
         <div class="footer">
           <div class="footer__links-wraps">
-            <p class="footer__address"><strong>{{ texts.66075caf }}<br></strong>{{ texts.6cabd653 }}<br>{{ texts.5a483ec2 }}<br></p>
+            <p class="footer__address"><strong>{{ texts.66075caf }}<br></strong>{{ texts.7ba6d366 }}<br>{{ texts.5a483ec2 }}<br></p>
           </div>
           <div class="footer__links-wraps mobile">
             <div class="footer__links-wrap">
               <a aria-label="email" href="{{ links.-65f6e7fb }}" class="heart__wrap w-inline-block">
-                <div class="legend">{{ texts.79ceadde }}</div>
+                <div class="legend">{{ texts.-52eb594a }}</div>
                 <div class="heart w-embed">
                   <style>
 /* breathing heart animation */
@@ -209,7 +209,7 @@ main:focus-visible {
                     <path d="M2 9.137C2 14 6.02 16.591 8.962 18.911 10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138c0-4.863-5.5-8.312-10-3.636C7.5.825 2 4.274 2 9.137Z" fill="currentColor"></path>
                   </svg>
                 </div>
-                <div class="legend">{{ texts.6ea59d87 }}</div>
+                <div class="legend">{{ texts.4b03610b }}<span class="text-span">{{ texts.126c3 }}</span></div>
               </a>
               <a aria-label="linkedin" href="{{ links.663eed27 }}" target="_blank" class="link-embed w-inline-block">
                 <div class="embed-linkedin-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 76.98 18">
@@ -219,10 +219,18 @@ main:focus-visible {
                     </g>
                   </svg></div>
               </a>
-              <div class="footer__language-wrap">
-                <a href="{{ links.16e13f }}" data-id="navbar-link" class="footer__link">{{ texts.881 }}</a>
-                <a href="{{ links.16ea54 }}" data-id="navbar-link" class="footer__link">{{ texts.8cc }}</a>
-                <a href="{{ links.2f }}" data-id="navbar-link" class="footer__link">{{ texts.8a9 }}</a>
+              <div class="language">
+                <div class="language__trigger w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.58 19.37-2.99-8.36c-.21-.55-.68-.89-1.22-.89-.54 0-1 .34-1.23.91l-2.98 8.34a.75.75 0 1 0 1.41.51l.62-1.73h4.35l.62 1.73c.11.31.4.5.71.5.08 0 .17-.01.25-.04a.75.75 0 0 0 .45-.96l.01-.01Zm-5.84-2.73 1.64-4.59 1.64 4.59h-3.28Zm-2.55-8.79c-2.26 3.57-4.3 5.73-6.78 7.17a.746.746 0 0 1-1.02-.27.738.738 0 0 1 .27-1.02c2.1-1.22 3.82-2.97 5.75-5.87H4.12c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.75V4.38c0-.41.34-.75.75-.75s.75.34.75.75v1.98h3.75c.41 0 .75.34.75.75s-.34.75-.75.75h-.94l.01-.01Zm.04 7.27c-.13 0-.26-.03-.38-.1-.65-.38-1.28-.8-1.87-1.24a.75.75 0 0 1 .9-1.2c.54.41 1.13.79 1.73 1.14a.752.752 0 0 1-.38 1.4Z" fill="currentColor"></path>
+                  </svg></div>
+                <div class="language__wrap">
+                  <a href="{{ links.16ea54 }}" class="language__link w-inline-block">
+                    <div class="abreviation">{{ texts.ccc }}</div>
+                  </a>
+                  <a href="{{ links.16e13f }}" class="language__link w-inline-block">
+                    <div class="abreviation">{{ texts.c81 }}</div>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="footer__links-wrap">
@@ -242,8 +250,8 @@ main:focus-visible {
   <script src="https://cdn.prod.website-files.com/gsap/3.13.0/SplitText.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.13.0/DrawSVGPlugin.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.13.0/ScrollToPlugin.min.js" type="text/javascript"></script>
-  <script type="text/javascript">gsap.registerPlugin(ScrollTrigger,SplitText,DrawSVGPlugin,ScrollToPlugin);</script><!--  Lenis 1.3.8  -->
-  <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+  <script type="text/javascript">gsap.registerPlugin(ScrollTrigger,SplitText,DrawSVGPlugin,ScrollToPlugin);</script><!--  Lenis 1.3.11  -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
   <!--  Typed 2.1.0  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
   <!--  MixItUp 3.3.1  -->
@@ -252,5 +260,7 @@ main:focus-visible {
   <script src="https://js.usebasin.com/v2.4.0.min.js" async=""></script>
   <!--  TONYTONY 1.0.0  -->
   <script type="module" src="https://cdn.tonytony.ch/js/main.js?v=1.0.0"></script>
+  <!--  Fathom  -->
+  <script src="https://cdn-eu.usefathom.com/script.js" data-site="BBNPSMHN" defer=""></script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }} </body></html>

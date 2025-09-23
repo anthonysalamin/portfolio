@@ -1113,29 +1113,25 @@ collections:
             label: Text
             name: 66075caf
             widget: string
-          - hint: 'Original text: B. Funiculaire 826, key: 6cabd653'
+          - hint: 'Original text: PO Box 826, key: 7ba6d366'
             label: Text
-            name: 6cabd653
+            name: 7ba6d366
             widget: string
           - hint: 'Original text: 3961 St-Luc, Switzerland, key: 5a483ec2'
             label: Text
             name: 5a483ec2
             widget: string
-          - hint: 'Original text: TONYTONY.ch, key: 6ea59d87'
+          - hint: 'Original text: developed with , key: -52eb594a'
             label: Text
-            name: 6ea59d87
+            name: '-52eb594a'
             widget: string
-          - hint: 'Original text: DE, key: 881'
+          - hint: 'Original text: by TONYTONY , key: 4b03610b'
             label: Text
-            name: '881'
+            name: 4b03610b
             widget: string
-          - hint: 'Original text: FR, key: 8cc'
+          - hint: 'Original text: LLC, key: 126c3'
             label: Text
-            name: 8cc
-            widget: string
-          - hint: 'Original text: EN, key: 8a9'
-            label: Text
-            name: 8a9
+            name: 126c3
             widget: string
           - hint: 'Original text: Imprint, key: -29f92c17'
             label: Text
@@ -1370,9 +1366,9 @@ collections:
             label: Text
             name: '-419d223c'
             widget: string
-          - hint: 'Original text: 3961 St-Luc, key: 6754b7ed'
+          - hint: 'Original text: PO Box 826, 3961 St-Luc, key: 49b4e453'
             label: Text
-            name: 6754b7ed
+            name: 49b4e453
             widget: string
           - hint: 'Original text: SWITZERLAND, key: -4427f07d'
             label: Text
@@ -1720,13 +1716,9 @@ collections:
             label: Text
             name: 6f621d36
             widget: text
-          - hint: 'Original text: A, key: 41'
+          - hint: 'Original text: Audit, key: 3caabbb'
             label: Text
-            name: '41'
-            widget: string
-          - hint: 'Original text: udit, key: 36b3fa'
-            label: Text
-            name: 36b3fa
+            name: 3caabbb
             widget: string
           - hint: 'Original text: free, key: 30166c'
             label: Text
@@ -1786,9 +1778,9 @@ collections:
             label: Text
             name: '-581715e2'
             widget: string
-          - hint: 'Original text:  on tonytony.ch, key: -7495471a'
+          - hint: 'Original text:  of tonytony.ch, key: 175284de'
             label: Text
-            name: '-7495471a'
+            name: 175284de
             widget: string
           - hint: >-
               Original text: Each request will undergo evaluation, and a
@@ -2735,13 +2727,25 @@ collections:
             label: Text
             name: 5ae9997b
             widget: string
+          - hint: 'Original text: Case postale 826, key: 21ab1786'
+            label: Text
+            name: 21ab1786
+            widget: string
           - hint: 'Original text: 3961 St-Luc, Suisse, key: dc80bdf'
             label: Text
             name: dc80bdf
             widget: string
-          - hint: 'Original text: TONYTONY.CH, key: 6ea59987'
+          - hint: 'Original text: Développé avec, key: -2249657f'
             label: Text
-            name: 6ea59987
+            name: '-2249657f'
+            widget: string
+          - hint: 'Original text: par TONYTONY , key: -759c4f2b'
+            label: Text
+            name: '-759c4f2b'
+            widget: string
+          - hint: 'Original text: sàrl, key: 379dc7'
+            label: Text
+            name: 379dc7
             widget: string
           - hint: 'Original text: Mentions légales, key: -68d80214'
             label: Text
@@ -3153,21 +3157,29 @@ collections:
             label: Text
             name: 5ae27340
             widget: string
+          - hint: 'Original text: Postfach 826, key: 5a577c'
+            label: Text
+            name: 5a577c
+            widget: string
           - hint: 'Original text: 3961 St-Luc, Schweiz, key: -738a44ca'
             label: Text
             name: '-738a44ca'
             widget: string
-          - hint: 'Original text: tonytony.ch, key: -11ae7279'
+          - hint: 'Original text:  mit, key: 103238'
             label: Text
-            name: '-11ae7279'
+            name: '103238'
             widget: string
-          - hint: 'Original text: Impessum, key: -15dee94f'
+          - hint: 'Original text: entwickelt von tonytony , key: 5413b651'
             label: Text
-            name: '-15dee94f'
+            name: 5413b651
             widget: string
           - hint: 'Original text: GmbH, key: 21ebac'
             label: Text
             name: 21ebac
+            widget: string
+          - hint: 'Original text: Impessum, key: -15dee94f'
+            label: Text
+            name: '-15dee94f'
             widget: string
           - hint: >-
               Original text: Merci — je m'engage à vous répondre dans les plus
@@ -3270,6 +3282,10 @@ collections:
           - hint: 'Original text: Impressum, key: 6f6b7057'
             label: Text
             name: 6f6b7057
+            widget: string
+          - hint: 'Original text: Postfach 826, 3961 St-Luc, key: 4e733fd'
+            label: Text
+            name: 4e733fd
             widget: string
           - hint: 'Original text: SCHWEIZ, key: -62e6e389'
             label: Text
@@ -3438,6 +3454,14 @@ collections:
           - hint: 'Original text: Politique de confidentialité, key: 50b6e947'
             label: Text
             name: 50b6e947
+            widget: string
+          - hint: 'Original text: B. Funiculaire 826, key: 6cabd653'
+            label: Text
+            name: 6cabd653
+            widget: string
+          - hint: 'Original text: 3961 St-Luc, key: 6754b7ed'
+            label: Text
+            name: 6754b7ed
             widget: string
           - hint: 'Original text: SUISSE, key: -6d8d85a2'
             label: Text
@@ -3700,6 +3724,10 @@ collections:
             label: Text
             name: '-14baa2f9'
             widget: text
+          - hint: 'Original text: Case Postale 826, 3961 St-Luc, key: 2f467853'
+            label: Text
+            name: 2f467853
+            widget: string
           - hint: 'Original text: Avertissement – Informations légales, key: 28167a2b'
             label: Text
             name: 28167a2b
